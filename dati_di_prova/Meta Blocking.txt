@@ -1,0 +1,1 @@
+Il meta-blocking costruisce un grafo di blocking in cui i nodi sono i record e gli archi collegano record che condividono almeno un blocco. Gli archi vengono pesati, ad esempio con CBS o ARCS, e poi potati con WEP o CEP.

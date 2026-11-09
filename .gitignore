@@ -1,0 +1,5 @@
+# File generati automaticamente: non vanno su GitHub
+target/
+indice/
+.vscode/
+.github/modernize/

@@ -1,0 +1,1 @@
+Il record linkage individua i record che si riferiscono alla stessa entità. Confrontare tutte le coppie è troppo costoso, per questo si usa il blocking: i record vengono raggruppati in blocchi e si confrontano solo i record dello stesso blocco.

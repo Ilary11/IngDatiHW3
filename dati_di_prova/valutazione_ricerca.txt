@@ -1,0 +1,1 @@
+Per valutare un motore di ricerca si usano precision e recall. La precision at K considera solo i primi K risultati, mentre la MAP è la media delle average precision calcolate su più query.

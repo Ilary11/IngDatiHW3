@@ -1,0 +1,1 @@
+I large language model possono essere usati come estrattori diretti dei dati dalle pagine oppure per generare wrapper XPath, che poi vengono eseguiti a costo molto più basso sulle altre pagine del sito.

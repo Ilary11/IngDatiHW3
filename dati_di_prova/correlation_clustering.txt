@@ -1,0 +1,1 @@
+Il correlation clustering raggruppa i record in modo da minimizzare il numero di coppie in disaccordo con le decisioni del pairwise matching. È un problema difficile e si usano algoritmi approssimati.

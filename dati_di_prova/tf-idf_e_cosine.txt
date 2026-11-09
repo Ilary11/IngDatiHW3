@@ -1,0 +1,1 @@
+Il peso tf-idf di un termine cresce con la frequenza del termine nel documento e diminuisce con il numero di documenti che lo contengono. Documenti e query sono vettori e la cosine similarity misura quanto sono simili.

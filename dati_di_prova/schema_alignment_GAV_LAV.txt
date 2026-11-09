@@ -1,0 +1,1 @@
+Nello schema alignment si definisce uno schema mediato. Con l'approccio GAV lo schema mediato è definito come vista sulle sorgenti; con LAV ogni sorgente è descritta come vista sullo schema mediato. GLAV combina i due approcci.

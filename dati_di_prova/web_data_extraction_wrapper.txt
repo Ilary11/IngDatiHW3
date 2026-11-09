@@ -1,0 +1,1 @@
+Un wrapper estrae dati strutturati da pagine web generate da un template. Le regole di estrazione si scrivono spesso in XPath. Sistemi come Vertex e Alfred generano i wrapper in modo automatico o semi automatico.

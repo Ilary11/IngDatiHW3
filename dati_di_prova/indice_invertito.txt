@@ -1,0 +1,1 @@
+Un indice invertito associa a ogni termine la lista dei documenti che lo contengono, detta posting list. Le query booleane si risolvono con il merge delle posting list. L'indice invertito è la struttura alla base dei motori di ricerca.

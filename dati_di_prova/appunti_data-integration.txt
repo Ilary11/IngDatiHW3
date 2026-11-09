@@ -1,0 +1,1 @@
+La data integration combina dati provenienti da sorgenti diverse. Le tre sfide principali sono l'ambiguità semantica, l'ambiguità delle istanze e l'inconsistenza dei dati. La pipeline classica è composta da schema alignment, record linkage e data fusion.
