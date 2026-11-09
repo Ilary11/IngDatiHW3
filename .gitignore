@@ -3,3 +3,5 @@ target/
 indice/
 .vscode/
 .github/modernize/
+corpus_*/
+indice_*/

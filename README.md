@@ -25,6 +25,13 @@ query> contenuto "indice invertito"
 query> esci
 ```
 
+## Misurare i tempi su collezioni più grandi
+Lo script `genera_corpus.py` genera un corpus sintetico riproducibile (seed fisso), usando il vocabolario di `dati_di_prova`:
+```
+python genera_corpus.py corpus_1000 1000
+mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Indicizzatore -Dexec.args="corpus_1000 indice_1000"
+```
+
 ## Query di test (su `dati_di_prova`)
 | # | Query | Che cosa verifica |
 |---|-------|-------------------|
