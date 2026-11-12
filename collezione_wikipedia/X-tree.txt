@@ -1,0 +1,9 @@
+In informatica, un X-tree o X-Albero è una struttura dati che si basa sull'R-tree usata per l'archiviazione di dati multimediali.
+Differisce dagli R-tree, R+-tree e R*-tree perché enfatizza la prevenzione sulle sovrapposizioni nei box di confine (quelli che comunemente in inglese è chiamato overlapping).
+Essendo R-tree una generalizzazione dei B-tree anche gli R-tree devono soddisfare le seguenti proprietà:
+-Ogni nodo può avere al minimo n/2 valori
+-Ogni nodo può avere al massimo n valori
+-Ogni nodo (tranne la radice) può avere al massimo n+1 figli
+Quindi nel caso in cui il nodo è pieno bisogna effettuare lo split del nodo. Quello che si vuole evitare con l'X-tree è che lo split generi overlapping di regioni e così una stessa regione si può trovare in due nodi diversi, e in fase di ricerca questo è negativo perché si devono visitare due nodi dell'albero invece che uno.
+Se quindi l'overlapping non si può evitare si fa diventare il nodo nel quale la regione dovrebbe essere inserita un supernodo, cioè un nuovo nodo che può contenere non più solo n elementi (in questo caso regioni) ma bensì n+n (in fase di cancellazione quando i valori del nodo tornano ad essere n allora si ridimensiona nuovamente il supernodo facendolo tornare un nodo normale)
+Gli R-tree vengono usati anche nelle basi di dati multimediali.

@@ -1,0 +1,24 @@
+In crittografia, Optimal Asymmetric Encryption Padding (OAEP) è uno schema di padding spesso utilizzato assieme a RSA. OAEP è stato introdotto da Bellare e Rogaway, e successivamente standardizzato in PKCS #1 v2 e RFC 2437.
+L'algoritmo OAEP è una sorta di rete di Feistel che utilizza coppie di oracoli random 
+  
+    
+      
+        G
+      
+    
+    {\displaystyle G}
+  
+ e 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+  
+ per effettuare un preprocessing su un messaggio da cifrare asimmetricamente. Se usato in combinazione con una funzione botola sicura, questo metodo è considerato semanticamente sicuro all'interno del modello a oracolo random contro attacchi di tipo chosen plaintext. In casi particolari (ad esempio, con RSA), OAEP è stato provato essere sicuro anche contro attacchi di tipo chosen ciphertext. OAEP può essere utilizzato per costruire una trasformazione all-or-nothing ("tutto o niente"), come spiegato in seguito.
+OAEP soddisfa i due obiettivi seguenti:
+
+Aggiunge una componente di casualità che può essere usata per convertire uno schema di crittazione deterministico (come RSA) in uno probabilistico.
+Fa in modo che un possibile avversario non possa recuperare alcuna porzione del testo in chiaro, anche se fosse in grado di invertire la funzione botola su cui si basa l'algoritmo di crittazione.

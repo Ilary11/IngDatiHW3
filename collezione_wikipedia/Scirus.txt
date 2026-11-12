@@ -1,0 +1,3 @@
+Scirus è stato un motore di ricerca scientifico lanciato per la prima volta nel 2001, concorrente diretto di CiteSeerX e di Google Scholar. A differenza di CiteSeerX, Scirus non era dedicato soltanto alla letteratura informatica e del mondo IT, ma anche delle scienze della vita e delle scienze sociali, includendo risultati non visibili in modalità di testo integrale.
+Parte dei risultati era condivisa con Scopus, un database astratto e di citazioni che copre i risultati della ricerca scientifica a livello globale, e con PubMed, quando la proprietà passò alla casa editrice Elsevier.
+Quest'ultima annunciò nel 2013 che a febbraio dell'anno seguente avrebbe dismesso il servizio Web.

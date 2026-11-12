@@ -1,0 +1,5 @@
+MUMPS (Massachusetts General Hospital Utility Multi-Programming System), oppure M, è un linguaggio di programmazione creato nel 1960, originariamente per l'uso nella sanità/industrie farmaceutiche/sanitarie.
+È stato progettato per scrivere/amministrare facilmente applicazioni database mantenendo contemporaneamente un uso efficiente delle risorse del computer. 
+Anche se non ha mai avuto una larga diffusione, fu scelto come linguaggio adottato per molti database che gestivano informazioni sanitarie  o finanziarie (specialmente dal 1970 al 1980) e continua ad essere utilizzato dai medesimi clienti ancora oggi.
+Rispetto al C e molti linguaggi oggi di uso comune, ha una grande differenza di sintassi e terminologia. Offre un numero di funzionalità non disponibili negli altri linguaggi, includendo alcune raramente usate, concepite per la programmazione di database.
+Lo standard SQL::99 prevede la possibilità di usare MUMPS (oltre a diversi altri linguaggi) per la programmazione di routine esterne.

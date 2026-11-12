@@ -1,0 +1,5 @@
+Un riduttore è il componente di una tubazione e/o di una condotta che riduce la dimensione del tubo da un grande foro ad uno più piccolo (diametro interno).
+La lunghezza della riduzione è generalmente pari alla media dei diametri dei grandi e piccoli tubi. Ci sono due tipi principali di riduttore: Riduttori concentrici ed eccentrici.
+Un riduttore può essere utilizzato sia come ugello o come diffusore a seconda del numero di Mach del flusso.
+Un riduttore permette un cambiamento nella dimensione del tubo per soddisfare i requisiti di flusso idraulici del sistema, o di adattarsi a tubazioni esistenti di dimensioni diverse. I riduttori sono generalmente concentrici ma vengono utilizzati anche riduttori eccentrici quando necessario per mantenere lo stesso livello superiore o inferiore del tubo.
+Questi raccordi sono realizzati in pollici e in dimensioni metriche.

@@ -1,0 +1,5 @@
+Il sistema a serpentina è un metodo usato nell'organizzazione di una competizione sportiva in modo da assegnare le teste di serie agli specifici gruppi. Le n teste di serie che parteciperanno al torneo sono distribuite negli m gruppi secondo il seguente algoritmo:
+
+Per esempio, 12 squadre sarebbero organizzate in gruppi da 4 come segue:
+
+Per migliorare la competitività, talvolta questo metodo è usato insieme al sorteggio: la serpentina viene applicata solamente a un certo numero di partecipanti (testa di serie), per poi completare i gruppi mediante sorteggio.

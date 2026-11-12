@@ -1,0 +1,3 @@
+Giove orbita attorno al Sole ad una distanza media di 778 412 020 km, corrispondenti a 5,20 unità astronomiche, con un perielio di 740 762 600 km ed un afelio di 816 081 400 km; compie una rivoluzione in 11,8565 anni siderali, corrispondente a 4332,667 giorni.
+L'orbita del pianeta è inclinata di 1,305° rispetto all'eclittica e di 3,12° rispetto al suo equatore, ed è caratterizzata da un'eccentricità orbitale pari a 0,04839.
+La sua velocità orbitale media è di 13,07 km/s; la circonferenza orbitale misura complessivamente 4 774 000 000 km.

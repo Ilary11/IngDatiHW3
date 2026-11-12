@@ -1,0 +1,1 @@
+La visita in post-ordine (o visita post-order) è un algoritmo usato per l'esplorazione in profondità dei nodi di un albero. La visita dell'albero parte dalle foglie per poi risalire alla radice, che è l'ultimo nodo ad essere esplorato, al contrario di quanto avviene nella visita pre-order dove la radice è il primo nodo ad essere visitato, per poi finire alle foglie dell'albero.

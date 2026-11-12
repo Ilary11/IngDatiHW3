@@ -1,0 +1,2 @@
+Db4o (DataBase For Objects di 4 generazione) è un completo database orientato agli oggetti rilasciato con licenza libera GPL o commerciale. La sigla deriva da "DataBase 4 (for) Objects", che a sua volta è il nome della Società che lo sviluppò: db4objects, Inc.
+È una libreria software di tipo "embedded", incorporata in applicazioni Java o .NET Framework.

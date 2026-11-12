@@ -1,0 +1,2 @@
+Una rete di Hopfield è un tipo di rete neurale artificiale, nota per essere il modello di rete che simula le capacità del cervello umano di ricordare le cose o di ricostruire le immagini distorte.
+Nel campo delle reti neurali questo modello è classificato come apprendimento non supervisionato: la rete impara senza avere esempi, soltanto con l'uso del concetto di "energia". Questo modello fa uso delle funzioni di Ljapunov per provare la propria stabilità.

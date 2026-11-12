@@ -1,0 +1,7 @@
+L'Intelligent Tutoring System (ITS) è un sistema ICAI (Intelligent Computer Assisted Instruction) che utilizza la tecnologia dei sistemi esperti. 
+L'Intelligent Tutoring System, quindi, non è altro che un sistema di insegnamento attraverso il computer. Questo sistema ha lo stesso comportamento di un insegnante reale, dato che risponde in modo intelligente.
+L'ITS è composto da:
+
+modello dello studente;
+strategie di insegnamento;
+esperienza in un determinato campo.

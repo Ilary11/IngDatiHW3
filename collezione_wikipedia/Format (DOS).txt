@@ -1,0 +1,3 @@
+Il comando format è utilizzato in IBM OS/2, MS-DOS e in tutti i sistemi operativi Microsoft Windows per formattare, a seconda del file system scelto, un supporto di memoria tra dischi magnetici, dischi allo stato solido (USB e sata) e floppy disk.
+Il comando format non è utilizzabile per formattare invece, supporti di memoria ottici quali Compact Disc, DVD e Blu Ray.
+I parametri e le funzioni supportati, pur rimanendo sostanzialmente molto simili, variano in base alla versione del sistema operativo in uso.

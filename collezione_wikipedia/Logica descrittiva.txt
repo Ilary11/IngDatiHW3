@@ -1,0 +1,11 @@
+Le logiche descrittive (indicate anche con la sigla DL, dall'inglese, description logics) sono una famiglia di formalismi utilizzati per rappresentare la conoscenza in un dominio di applicazione detto mondo.
+In primo luogo sono definiti i concetti rilevanti per quel dominio e, di seguito, utilizzando questi concetti si specificano le proprietà degli oggetti e degli individui appartenenti al dominio.
+Gli studi riguardanti le logiche descrittive si focalizzano sulla ricerca di metodi che descrivano in modo sempre più specifico il dominio di interesse tale da essere utilizzato per costruire applicazioni intelligenti.
+In questo contesto il termine intelligente è riferito all'abilità di un sistema di trovare delle conseguenze implicite rispetto a quelle esplicite rappresentate dalla conoscenza. Sistemi così caratterizzati sono definiti sistemi basati sulla conoscenza (knowledge based system).
+Una delle caratteristiche dei linguaggi utilizzati per la rappresentazione della conoscenza è quella di essere forniti di semantiche basate sulla logica, con una enfasi particolare al cosiddetto ragionatore. Il ragionatore permette di rappresentare la conoscenza implicita ricavandola da quella esplicita presente in una ontologia. Dal punto di vista della conoscenza umana una logica descrittiva permette all'individuo uomo di strutturare e capire il mondo che lo circonda attraverso la classificazione degli individui e dei concetti.
+La classificazione dei concetti permette di determinare le relazioni tra i sottoconcetti e/o i superconcetti che a loro volta permettono di strutturare la tassonomia in modo gerarchico.
+La gerarchia è utile per ricavare informazioni circa le connessioni logiche tra concetti differenti. La classificazione degli individui e/o degli oggetti determina se uno specifico individuo è sempre una istanza di un determinato concetto.
+In generale, analogamente alla più generica logica del primo ordine, una logica descrittiva possiede le seguenti caratteristiche:
+
+non è prevista l'assunzione di unicità del nome (ovvero: nomi diversi possono riferirsi allo stesso concetto);
+non è prevista l'assunzione del mondo chiuso (si basa dunque sull'assunzione del mondo aperto, ovvero: gli unici fatti noti sono quelli dichiarati esplicitamente).

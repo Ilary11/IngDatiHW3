@@ -1,0 +1,3 @@
+GMail Drive è un'estensione libera di terzi per Microsoft Windows e non è supportata da Google. Permette l'accesso all'archivio virtuale del proprio account Gmail.
+Consente di utilizzare lo spazio, per l'archiviazione delle email, come disco rigido; come tutti i dischi interni al PC è possibile fare copia e incolla. I file vengono archiviati inviando una mail al proprio account con il file prescelto come allegato (questo viene fatto in automatico dal programma naturalmente).
+Per evitare l'intasamento della casella postale, si consiglia di creare un filtro per archiviare, segnare come già letti e non inviare mai a Spam tutti i messaggi con oggetto GMAILFS.

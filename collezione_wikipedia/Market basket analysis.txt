@@ -1,0 +1,10 @@
+Il market basket analysis (letteralmente "analisi del paniere" in inglese) è quel processo di analisi di affinità che analizza le abitudini di acquisto dei clienti nella vendita al dettaglio, trovando associazioni su diversi prodotti comprati, tale processo è utile per l'adozione di strategie di marketing ad hoc.
+Tecnicamente si pensa all'insieme degli oggetti che possono essere comprati al supermercato, ogni oggetto sarà rappresentato da una variabile booleana che starà ad indicare se è stato acquistato o meno, ogni carrello quindi sarà rappresentato da un vettore di booleani.
+È ora possibile scoprire pattern sotto forma di regole di associazione A=>B dove A e B sono sottoinsiemi dell'universo di oggetti che possono essere acquistati, la loro intersezione deve essere l'insieme vuoto. Un insieme di oggetti venduti è detto itemset, un itemset contenente k oggetti è denominato k-itemset. A corredo di ogni regola di associazione si utilizzano misure quali il supporto e la confidenza, regole che avranno tali indici inferiori rispetto a una predeterminata soglia (minimo supporto e minima confidenza) saranno scartate in quanto non interessanti, viceversa saranno dette regole forti, l'itemset dal quale la regola forte è stata generata è usualmente denominato frequent itemset.
+Il supporto è definito da 
+
+supporto(A => B) = Prob(A ∩ B)
+mentre la confidenza con
+
+confidenza(A => B) = Prob(B | A)
+Il processo è un processo a due fasi, prima saranno cercati i frequent itemset e successivamente saranno create le regole di associazione corrispondenti.

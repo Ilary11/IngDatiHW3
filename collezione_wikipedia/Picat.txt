@@ -1,0 +1,2 @@
+Picat è un linguaggio di programmazione multiparadigma basato sulla logica. Simile al Prolog, è stato sviluppato da Neng-Fa Zhou, professore di informatica del Brooklyn College.
+Il linguaggio è utilizzato per la programmazione a vincoli e per problemi relativi all'intelligenza artificiale.

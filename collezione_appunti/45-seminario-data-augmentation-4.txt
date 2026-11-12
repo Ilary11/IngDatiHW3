@@ -1,5 +1,0 @@
-Ogni coppia (a1, a2) viene scomposta nelle due entità, i cui campi vengono combinati uno per uno nello spazio latente; il risultato viene decodificato in linguaggio naturale, ottenendo una nuova entità a3.
-Poiché a1, a2 e a3 descrivono la stessa entità, si ottengono due nuove coppie di match: (a1, a3) e (a2, a3).
-Da una coppia di match (a1, a2) si genera a3 combinando i campi nello spazio latente, e si aggiungono le coppie a′ = (a1, a3) e a″ = (a2, a3).
-Esempio (originale e sintetico): dalle due descrizioni "sony bravia kdl-40ex500 40 inch lcd hdtv 1080p black" (categoria televisions, brand sony, modelno kdl-40ex500, prezzo 848.0) e "sony 40 bravia ex500 series full hd lcd tv kdl40ex500" (lcd tvs, sony electronics, kdl40ex500, 832.5) si genera l'entità mista "sony bravia kdl-40ex500 40 inch ex500 series
-lcd tv 1080p hd black", categoria "lcd televisions", brand "sony electronics", modelno "kdl40ex500", prezzo 840.25. Il prezzo è circa la media dei due, e il titolo prende pezzi da entrambi.

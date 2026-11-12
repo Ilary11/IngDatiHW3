@@ -1,0 +1,2 @@
+Dialect è un linguaggio di programmazione interpretato creato da George Harth. George and Greg DeLozier espansero l'interprete presso Aristar, Inc. Il linguaggio ha un'interfaccia grafica utente (GUI) e funzionalità per la gestione delle reti e orientate agli oggetti.
+Dialect è ora un software open source, disponibile presso SourceForge.

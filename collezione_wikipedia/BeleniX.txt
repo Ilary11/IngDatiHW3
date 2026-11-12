@@ -1,0 +1,2 @@
+BeleniX è stato un sistema operativo, attualmente non più sviluppato, creato partendo dai sorgenti di OpenSolaris. Poteva essere utilizzato sia come Live CD che installato su disco rigido. Inizialmente venne sviluppato come sistema Live CD, sulla falsariga di Knoppix, per consentire agli utenti di provare le funzionalità offerte da OpenSolaris. Belenix è stata la base di partenza dello sviluppo della distribuzione OpenSolaris di Sun.
+Molte delle tecnologie sperimentate in Belenix sono diventate dei veri e propri progetti a sé stanti dell'ecosistema OpenSolaris. CDDL

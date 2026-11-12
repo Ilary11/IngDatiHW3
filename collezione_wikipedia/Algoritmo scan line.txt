@@ -1,0 +1,7 @@
+Scan Line è un algoritmo per la rasterizzazione efficiente di poligoni.
+Dato un poligono, espresso sotto forma di segmenti (xmin,ymin,xmax,Ymax) , è possibile determinare i punti interni del poligono tracciando delle linee parallele all'asse x e calcolando le intersezioni con i segmenti del poligono. Ogni volta che una linea di scansione interseca un segmento del poligono, possiamo considerare i punti successivi, fino alla prossima intersezione, come interni. Tali gruppi di punti sono chiamati span, e rappresentano i pixel da colorare all'interno dell'immagine.
+I passi del processo per determinare gli span sono tre:
+
+Determinare le intersezioni tra la scan-line e i poligoni
+Ordinare tali intersezioni secondo l'asse x
+Determinare i punti interni sfruttando le intersezioni sulla linea calcolate precedentemente

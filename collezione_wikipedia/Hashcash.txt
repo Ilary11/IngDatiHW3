@@ -1,0 +1,1 @@
+Hashcash è un sistema proof-of-work usato per limitare email spam e attacchi di denial of service, e più recentemente è diventata famosa per il suo uso in bitcoin (e altre criptovalute) come parte dell'algoritmo di mining. L'hashcash è stato proposto nel marzo 1997 da Adam Back.

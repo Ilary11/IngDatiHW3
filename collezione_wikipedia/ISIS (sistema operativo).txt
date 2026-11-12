@@ -1,0 +1,1 @@
+ISIS, acronimo di Intel System Implementation Supervisor, è un sistema operativo sviluppato a partire dal 1975 dalla Intel e utilizzato storicamente per i microcomputer Intellec MDS. Venne sviluppato interamente in PL/M per il microprocessore Intel 8080. Ha molte somiglianze con UNIX.

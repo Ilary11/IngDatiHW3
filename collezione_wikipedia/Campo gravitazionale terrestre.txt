@@ -1,0 +1,15 @@
+Il campo gravitazionale terrestre è il campo gravitazionale generato dalla Terra, per il quale essa esercita un'attrazione sui corpi che si manifesta attraverso la forza peso. La forza attrattiva del nostro pianeta rispetto ad un altro corpo dipende dalla massa del corpo e dalla sua distanza, secondo la legge di gravitazione universale di Newton:
+
+F=Gmmd2r̂,
+dove G è la costante gravitazionale, m ed m sono le due masse prese in considerazione, d è la loro distanza ed r̂ è il versore che indica la congiungente dei due corpi che punta da uno in direzione dell'altro, essendo la forza gravitazionale attrattiva.
+Einstein, nella sua relatività generale, ha definito il campo gravitazionale secondo la seguente formulazione matematica: 
+
+Rμν−12gμνR+Λgμν=8πGc4Tμν
+dove:Rμν è il tensore di Ricci e indica la curvatura del vettore nello spazio
+R la curvatura scalare
+gμν è il tensore metrico
+Tμν è il tensore energetico o tensore energia impulso
+Λ è la costante cosmologica pensata per rendere statico l'universo
+c la velocità della luce e G la costante gravitazionale.
+Il vettore del campo, l'accelerazione di gravità, varia a seconda non solo della distanza dal centro della Terra (e quindi dall'altitudine), ma anche dalla latitudine, non essendo la terra perfettamente sferica. Questo determina disomogeneità del campo gravitazionale stesso, che risulta essere meno forte all'equatore e più forte ai poli.
+Il 17 marzo 2009 è stato lanciato in orbita bassa (circa 250 km dalla superficie terrestre) il satellite GOCE, realizzato dall'ESA in collaborazione con un consorzio di 45 aziende europee, allo scopo di ottenere una mappatura precisa del campo gravitazionale terrestre.

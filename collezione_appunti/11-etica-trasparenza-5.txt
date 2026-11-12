@@ -1,6 +1,0 @@
-Continua a scendere fino a circa 0,50 con un mask rate di circa 0,19, e lì resta.
-Random removals (linea rossa): l'accuracy non peggiora, anzi sale leggermente, da 0,86 fino a circa 0,90–0,92.
-Il motivo è che nascondendo a caso si coprono anche le aree rosse, cioè quelle che contribuivano in negativo (o confondevano), e il modello, senza di esse, sbaglia un po' meno.
-Conclusione: i pezzi che la saliency indica come importanti sono davvero quelli da cui il modello dipende, mentre togliere pezzi a caso non fa danno.
-La spiegazione è quindi fedele, perché descrive ciò che il modello usa davvero.
-Questo è il contrario del caso della birra, dove il modello usava una scorciatoia spuria che nessuna spiegazione aveva ancora smascherato.

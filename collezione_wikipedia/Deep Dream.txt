@@ -1,0 +1,1 @@
+Deep Dream è un programma di elaborazione delle immagini scritto da Google. Utilizza una rete neurale convoluzionale per trovare e potenziare degli schemi all'interno di immagini tramite una pareidolia algoritmica, creando effetti allucinogeni che richiamano le sembianze di un sogno.

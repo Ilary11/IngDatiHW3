@@ -1,0 +1,13 @@
+Nell'apprendimento automatico, il kernel della funzione di base radiale, o kernel RBF, è una funzione kernel popolare utilizzata in vari algoritmi di apprendimento kernelizzati. In particolare, essa è comunemente utilizzata nella classificazione tramite macchine a vettori di supporto.
+Date due istanze 𝐱∈ℝk e 𝐱′∈ℝk rappresentate come vettori di caratteristiche in uno spazio di input k-dimensionale, il kernel RBF è definito come segue:
+
+K(𝐱,𝐱′)=exp⁡(−‖𝐱−𝐱′‖22σ2)
+‖𝐱−𝐱′‖2 è riconoscibile come la distanza quadratica euclidea fra i due vettori. σ è un parametro libero. In una tipica definizione equivalente si usa un parametro γ=12σ2:
+Poiché il valore del kernel RBF diminuisce con la distanza e varia tra zero (caso-limite di distanza infinita) e uno (quando x = x'), esso ha una interpretazione immediata come misura di similarità. 
+Lo spazio delle caratteristiche del kernel ha un numero infinito di dimensioni; per σ=1, utilizzando il teorema multinomiale la sua espansione risulta:
+
+exp⁡(−12‖𝐱−𝐱′‖2)=exp⁡(22𝐱⊤𝐱′−12‖𝐱‖2−12‖𝐱′‖2)=exp⁡(𝐱⊤𝐱′)exp⁡(−12‖𝐱‖2)exp⁡(−12‖𝐱′‖2)=∑j=0∞(𝐱⊤𝐱′)jj!exp⁡(−12‖𝐱‖2)exp⁡(−12‖𝐱′‖2)=∑j=0∞∑n1+n2+⋯+nk=jexp⁡(−12‖𝐱‖2)x1n1⋯xknkn1!⋯nk!exp⁡(−12‖𝐱′‖2)x′1n1⋯x′knkn1!⋯nk!=⟨φ(𝐱),φ(𝐱′)⟩
+φ(𝐱)=exp⁡(−12‖𝐱‖2)(aℓ0(0),a1(1),…,aℓ1(1),…,a1(j),…,aℓj(j),…)
+dove ℓj=(k+j−1j) ,
+
+aℓ(j)=x1n1⋯xknkn1!⋯nk!|n1+n2+⋯+nk=j∧1≤ℓ≤ℓj

@@ -1,0 +1,1 @@
+In informatica il PL/SQL (Procedural Language/Structured Query Language) è un linguaggio di programmazione proprietario (per database di Oracle Corporation), procedurale, server-based, estensione dell'SQL. Linguaggi simili al PL/SQL sono inclusi in altri database management system SQL. La sintassi è fortemente simile a quella del linguaggio di programmazione Ada.

@@ -1,0 +1,2 @@
+Un robot Delta è un tipo di robot parallelo. Consiste in tre bracci collegati da giunti universali alla base. La caratteristica chiave del design è l'uso di parallelogramma nei bracci, che mantengono l'orientamento del dispositivo di estremità. Al contrario, una piattaforma di Stewart può cambiare l'orientamento del suo dispositivo di estremità.
+I robot Delta sono solitamente utilizzati nel picking e nell'imballaggio nelle fabbriche perché sono abbastanza veloci, alcuni eseguono più di 300 prese al minuto.

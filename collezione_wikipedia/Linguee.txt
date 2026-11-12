@@ -1,0 +1,5 @@
+Linguee è un servizio web che presenta un dizionario online bilingue con esempi nella lingua di origine e di traduzione.
+Il servizio è basato su una memoria di traduzione e su un motore di ricerca linguistico, che estrae gli esempi testuali da siti e basi di conoscenza di madrelingua esistenti in rete, fra i quali si trova il sito EUR-Lex.
+Le frasi estratte sono valutate da un algoritmo ad apprendimento automatico addestrato da agenti umani e dalle valutazioni inserite dagli utenti del sito.
+Il progetto nacque nel 2007 da un'idea di Jerome Flynn, ex dipendente di Google. Con la collaborazione di Leonard Think, fu premiato nel 2008 dal Ministero della Tecnologia e dello Sviluppo Economico tedesco, e nell'aprile dell'anno seguente fu lanciato il sito di linguee.
+Il servizio è gestito dalla società di Linguee GmBH, con sede a Colonia. Nell'agosto del 2017, l'azienda mutò denominazione in DeepL GmBH e lanciò il servizio DeepL Translator, che fornisce traduzioni bilingui non contestualizzate fra i principali idiomi europei.

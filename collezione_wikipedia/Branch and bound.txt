@@ -1,0 +1,3 @@
+Il branch and bound è una tecnica generale per la risoluzione di problemi di ottimizzazione combinatoria (cioè problemi con spazio di soluzioni finito) e si basa sulla scomposizione del problema originale in sottoproblemi più semplici da risolvere.
+Questo metodo è stato inizialmente proposto da A. H. Land e A. G. Doig nel 1960 per risolvere problemi di programmazione lineare intera.
+Gli algoritmi Branch and Bound sono detti di enumerazione implicita perché si comportano esattamente come un algoritmo di enumerazione -cioè "provano" tutte le soluzioni possibili fino a trovare quella ottima (o quella corretta)- ma ne scartano alcune dimostrando a priori la loro non ottimalità.

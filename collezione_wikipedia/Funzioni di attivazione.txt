@@ -1,0 +1,2 @@
+La funzione di attivazione di un nodo in una rete neurale artificiale è una funzione che calcola l'output di un nodo in base ai suoi singoli input e ai loro pesi.
+Tra le funzioni di attivazione moderne figurano la funzione logistica (anche detta sigmoide) utilizzata nel modello di riconoscimento vocale del 2012 sviluppato da Hinton et al; la ReLU utilizzata nel modello di visione artificiale AlexNet del 2012  e nel modello ResNet del 2015; e la versione derivabile della ReLU, la GELU, che è stata utilizzata nel modello BERT del 2018.

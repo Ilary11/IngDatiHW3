@@ -1,0 +1,12 @@
+Syllable era un sistema operativo open source per processori x86 Pentium Intel  o compatibili. Il proposito è di creare un sistema operativo desktop di semplice utilizzo studiato per l'utilizzo casalingo o per piccoli uffici. È un fork del sistema operativo AtheOS, il cui sviluppo è fermo a luglio 2002. Lo sviluppo di Syllable è stato sospeso alla versione 0.6.7, nel 2012, per cui il suo utilizzo non é consigliato in ambienti produttivi in quanto incompleto e obsoleto. risulta comunque interessante a fini storici e di studio del codice sorgente.
+È dotato nativamente di browser  (ABrowse), client email (Whisper), media player, IDE, e varie altre applicazioni.
+Tra le funzionalità:
+
+File system journaling e AtheOS File System
+API C++
+Ambiente desktop grafico
+Compatibile POSIX al 99%
+È stato fatto il porting di molti software: Emacs, Vim, Perl, Python, Apache etc.
+Preemptive multitasking con multithreading
+Supporto multiprocessore per il Multiprocessing simmetrico
+Drivers per diversi dispositivi hardware (video, audio, schede di rete)

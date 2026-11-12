@@ -1,0 +1,2 @@
+In informatica, una skip list è una struttura dati probabilistica per la memorizzazione di una lista ordinata di elementi. Essa utilizza una gerarchia di liste concatenate che connettono sottosequenze di elementi. Queste liste ausiliarie permettono di percorrere la lista con grande efficienza, paragonabile a quella di un albero di ricerca binario bilanciato.
+Il livello più basso rappresenta la lista concatenata.

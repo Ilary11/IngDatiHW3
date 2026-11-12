@@ -1,0 +1,3 @@
+BC, acronimo di Basic Calculator, è un linguaggio di programmazione usato per calcoli a precisione arbitraria. Il linguaggio presenta con una sintassi simile al linguaggio C.
+Esistono attualmente due dialetti base: il POSIX bc rigorosamente definito, e il suo discendente diretto, il GNU bc molto esteso (inoltre, GNU bc è disponibile per un numero elevato di piattaforme, come ad esempio Microsoft Windows). Una più recente variante, Plan 9 bc, è un sovrainsieme del primo e un sottoinsieme del secondo.
+Tutte le varianti supportano sia l'esecuzione interattiva, ossia da riga di comando, sia l'esecuzione dall'interno di script.

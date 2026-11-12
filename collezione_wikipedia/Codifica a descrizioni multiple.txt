@@ -1,0 +1,13 @@
+La Codifica a Descrizioni Multiple (Multiple Description Coding (MDC) è una tecnica di codifica che frammenta un singolo media stream in n stream indipendenti di uguale importanza (n>=2), chiamati descrizioni. I pacchetti di ogni descrizione sono instradati su cammini multipli e (parzialmente) disgiunti. Per decodificare il Media Stream basta ottenere una descrizione qualunque, tuttavia la qualità migliora se vengono ricevute più descrizioni in parallelo.
+L'idea del MDC è di fornire robustezza al media stream.
+Poiché un sottoinsieme del numero di descrizioni può essere usato per decodificare lo stream originale, gli intasamenti e le perdite di pacchetto (che sono comuni in reti come internet) non interromperebbero lo stream ma ne causerebbero solo una momentanea perdita di qualità.
+Si può stimare che la qualità di uno stream è circa proporzionale al data rate sostenuto al ricevitore. 
+MDC è una forma di partizionamento dei dati, paragonabile alla codifica a strati usata nel MPEG-2 e MPEG-4.
+Tuttavia, a differenza di MDC, il meccanismo della codifica a strati genera uno strato di base e n strati di miglioramento. Lo strato di base è necessario per decodificare il media stream, gli strati di miglioramento sono utilizzati per migliorare la qualità dello stream. Tuttavia, il primo strato di miglioramento dipende dallo strato di base e ogni strato di miglioramento n + 1 dipende dallo strato n, così l'n+1 può essere applicato solo se lo strato di miglioramento n è già costituito.
+Così, i media stream che usano l'approccio a strati sono interrotti ogni volta che manca lo strato di base e di conseguenza gli strati di miglioramento corrispondenti diventano inutili.
+Lo stesso succede per gli strati di miglioramento mancanti. In generale ciò significa che nelle reti con perdite, la qualità di un media stream non è proporzionale alla quantità di dati ricevuti.
+Oltre alla maggiore tolleranza all'errore, MDC permette lo streaming che si adatta al bit rate dell'utente:
+I fornitori di contenuti mandano tutte le descrizioni di un media stream senza badare alle limitazioni alla banda di download dei clienti.
+Gli utenti che non possono sostenere il data-rate totale, riceveranno un sottoinsieme delle descrizioni totali vedendo comunque il media stream, così i fornitori di contenuti non si dovranno preoccupare di mandare altri stream a bit-rate inferiori.
+La stragrande maggioranza dei codec utilizzati oggi (2006) utilizza una codifica a descrizione singola (SD). Questo approccio non fa nessuna partizione dello stream.
+A dispetto dei vantaggi sopra citati per MDC, i codec SD sono predominanti. Le ragioni sono la complessità dello sviluppo dei codec e la perdita di efficienza di compressione.

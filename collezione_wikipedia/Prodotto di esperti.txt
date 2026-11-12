@@ -1,0 +1,11 @@
+Il Prodotto di esperti (Product of experts, PoE) è una tecnica di apprendimento automatico che modella una distribuzione di probabilità combinando l'output di diverse distribuzioni più semplici. È stato proposto da Geoffrey Hinton nel 1999, insieme a un algoritmo per addestrare i parametri di tale sistema.
+L'idea di base è quella di combinare diverse distribuzioni di probabilità (gli "esperti") moltiplicando le loro funzioni di densità, rendendo la classificazione del PoE simile a un'operazione di "AND". Ciò consente a ciascun esperto di prendere decisioni sulla base di poche dimensioni senza dover considerare l'intera dimensionalità di un problema:
+P(y|{xk})=1Z∏j=1Mfj(y|{xk})
+dove le fj sono densità di esperti non normalizzate e
+Z=∫dy∏j=1Mfj(y|{xk})
+è una costante di normalizzazione (vedere funzione di partizione).
+Ciò è correlato (sebbene diverso) a un modello di mistura, in cui diverse distribuzioni di probabilità pj(y|{xj}) vengono combinate tramite un'operazione "OR", che è una somma ponderata delle loro funzioni di densità:
+P(y|{xk})=∑j=1Mαjpj(y|{xk}),
+con ∑jαj=1.
+Si può considerare ciascun esperti come responsabile dell'applicazione di un vincolo in uno spazio ad alta dimensionalità. Un punto è considerato probabile se e solo se nessuno degli esperti afferma che il punto viola un vincolo.
+Per ottimizzare il modello, è stato proposto l'algoritmo di minimizzazione della divergenza contrastiva. Tale algoritmo è più spesso utilizzato per l'apprendimento di macchine di Boltzmann ristrette.

@@ -1,0 +1,2 @@
+In informatica, con il termine unrepeateble read, o inconsistent analysis, si intende un errore nella gestione della concorrenza tra transazioni dovuta ad una dipendenza read -> write.
+L'unrepeateble read è un'analisi incoerente di dati di un database da parte di una transazione causata da aggiornamenti prodotti da un'altra.

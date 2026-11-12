@@ -1,0 +1,1 @@
+Open Database Connectivity (ODBC) è un'interfaccia di programmazione che permette la connessione ai sistemi di gestione delle basi di dati (DBMS). ODBC si basa sulle specifiche di Call Level Interface (CLI) di SQL, X/Open (ora parte di The Open Group) e ISO/IEC. È stata creata dall'SQL Access Group e la sua prima versione risale al settembre 1992.

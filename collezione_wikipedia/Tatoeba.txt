@@ -1,0 +1,4 @@
+Tatoeba.org è un database online gratuito di esempi di frasi, orientato verso gli studenti di lingue straniere.
+Il nome del progetto deriva dal termine giapponese 例えば tatoeba, che significa "per esempio". A differenza di altri dizionari online, che si concentrano sulle parole, Tatoeba si concentra su frasi complete, sulle loro proprietà grammaticali e sulle loro traduzioni in altre lingue.
+La registrazione è facoltativa per la consultazione ma obbligatoria per potere contribuire al progetto, aperto a tutti i contributi a prescindere dalle conoscenze linguistiche degli utenti.
+Il progetto Tatoeba è stato fondato da Trang Ho nel 2006 e fu inizialmente ospitato su Sourceforge sotto il nome del progetto "Multilangdict". Trang Ho mantiene e gestisce il progetto assieme ad Allan Simon, che si è unito al progetto nel 2009. Tatoeba è ospitato e sostenuto dalla Free Software Foundation francese.

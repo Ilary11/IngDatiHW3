@@ -1,0 +1,1 @@
+L'algoritmo SSTF (Shortest Seek Time First), come FCFS (First Come First Served) e SCAN (Algoritmo dell'ascensore), è un algoritmo di disk scheduling che consente di stabilire l'ordine in cui devono essere processate le richieste di lettura e scrittura su disco.

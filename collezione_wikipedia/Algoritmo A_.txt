@@ -1,0 +1,2 @@
+In informatica, A* (pronunciato /eɪ stɑːr/ in inglese) è un algoritmo di ricerca su grafi che individua un percorso da un dato nodo iniziale verso un dato nodo goal (o che passi un test di goal dato). Utilizza una "stima euristica" che classifica ogni nodo attraverso una stima della strada migliore che passa attraverso tale nodo. Visita il nodo in base a tale stima euristica. L'algoritmo A* è anche un esempio di ricerca best-first.
+L'algoritmo è stato descritto nel 1968 da Peter Hart, Nils Nilsson, e Bertram Raphael.

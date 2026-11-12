@@ -1,0 +1,9 @@
+Un modello log-lineare è un modello statistico lineare generalizzato  che prende la forma di una funzione il cui logaritmo sia pari a una combinazione lineare dei parametri del modello, il che rende possibile applicare regressione lineare (anche analisi multivariata). In altre parole ha la seguente forma generale
+
+exp⁡(c+∑iwifi(X)),
+dono fi(X) sono quantità ottenute in funzione della variabile X, in genere un vettore di valori, mentre c e i wi costituiscono i parametri del modello.
+Il termine può essere usato nello specifico per:
+
+un plot o grafico log-lineare, che è un tipo di plot semi-logaritmico;
+la regressione di Poisson per tabelle di contingenza, un tipo di modello lineare generalizzato.
+Le applicazioni specifiche dei modelli log-lineari sono quelle in cui la quantità di output ricade nell'intervallo da 0 a ∞, dati i valori delle variabili indipendenti X o, più precisamente, delle quantità trasformate fi(X) nell'intervallo da −∞ a +∞. Questi modelli possono essere messi in contrapposizione con i modelli logistici, simili alla funzione logistica, per i quali la quantità di output ricade nell'intervallo fra 0 e 1. Pertanto i contesti nei quali tali modelli sono utili o realistici spesso dipendono dall'intervallo di valori che si intende modellare.

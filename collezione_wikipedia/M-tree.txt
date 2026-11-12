@@ -1,0 +1,4 @@
+Un M-tree o albero M in informatica è una struttura dati ad albero simile agli alberi R-tree e B-albero.
+È costruito usando una metrica e si affida alla disuguaglianza triangolare per l'intervallo di efficienza e per le interrogazioni k-NN.
+Mentre gli alberi M-tree possono essere usati in tante situazioni, l'albero può avere grandi sovrapposizioni e non c'è una chiara strategia su quale sia il modo migliore per evitare le sovrapposizioni.
+Può essere usato solamente con funzioni di distanza che soddisfano la disuguaglianza triangolare, mentre altre funzioni di dissimilarità avanzate usate nel recupero di informazioni non possono essere usate.

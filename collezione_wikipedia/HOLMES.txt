@@ -1,0 +1,3 @@
+L'HOLMES (acronimo per Home Office Large Major Enquiry System) è un sistema informatico impiegato dalla polizia britannica nello svolgimento di indagini riguardanti omicidi, truffe o persone scomparse. HOLMES viene utilizzato anche dal Ministry of Defence Police (MDP), dal British Transport Police (BTP) e dall'Independent Police Complaints Commission (IPCC).
+Il sistema è stato sviluppato da Unisys per la National Policing Improvement Agency (NPIA) a partire dal 1986, mentre il successore HOLMES 2 fu pianificato dal 1994, giungendo alla versione 13 nell'agosto 2008. Il sistema verrà a sua volta sostituito con HOLMES 2020 nel settembre 2011.
+Il nome del sistema è un acronimo inverso del personaggio letterario creato da Arthur Conan Doyle, Sherlock Holmes.

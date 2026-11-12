@@ -1,0 +1,5 @@
+Un corpus è una raccolta di testi selezionati e organizzati per compiere analisi linguistiche.
+L'idea di selezione può anche mancare: il termine corpus può riferirsi anche ad una raccolta completa di testimonianze linguistiche riguardanti una certa materia, ad esempio: "corpus della lingua sannita". Infine, un corpus può essere inteso come una raccolta completa costituita secondo un particolare criterio.
+Il termine è noto fin dai tempi più antichi; a tal proposito può essere utile pensare al Corpus Iuris Civilis, al Corpus Inscriptionum Latinarum e a molti altri che sono andati sviluppandosi nel tempo.
+I corpora possono essere creati su carta oppure oralmente; oggi, tuttavia, il ruolo del computer nell'uso dei corpora è diventato così preponderante che ormai il termine stesso di corpus non di rado è sinonimo di corpus elettronico.
+Il settore della linguistica in cui vengono usati i corpora è noto pure come Linguistica dei corpora. Altri rami degni di menzione, in cui i corpora sono utilizzati, sono i seguenti: la Linguistica storico-comparativa in Italia, la Comparative grammar negli Stati Uniti, e la Comparative philology nel Regno Unito.

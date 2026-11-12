@@ -1,0 +1,10 @@
+Una rete neurale grafica ( GNN ) appartiene a una classe di reti neurali artificiali per l'elaborazione di dati che possono essere rappresentati come grafici.
+
+In queste strutture, i nodi rappresentano oggetti (come pixel o parole), e i collegamenti rappresentano le relazioni tra di essi.
+Ad esempio:
+
+Nel caso della visione artificiale, i pixel possono essere rappresentati come nodi collegati agli altri pixel a loro vicini. Questo è simile al funzionamento di uno strato di rete convoluzionale.
+Nel linguaggio naturale, le parole in una frase possono essere viste come nodi di un grafo, dove ciascuna parola è collegata a tutte le altre. Questo ricorda come lavora uno strato di trasformazione, come quelli usati nei modelli di linguaggio.
+Le reti GNN funzionano grazie a uno scambio di informazioni tra i nodi del grafo: ogni nodo modifica le informazioni che descrivono il suo stato o il suo contenuto, basandosi sui dati che riceve dai nodi vicini, in modo iterativo. Esistono molte varianti di GNN, che differiscono per il modo in cui avviene questo scambio di informazioni, che viene spesso riadattato basandosi su metodi ricorsivi o convoluzionali.
+I domini applicativi rilevanti per le GNN includono l'elaborazione del linguaggio naturale, reti sociali,  reti di citazione, biologia molecolare, chimica, fisica  e problemi di ottimizzazione combinatoria NP-hard.
+Le librerie open source che implementano GNN includono PyTorch Geometric  ( PyTorch ), TensorFlow GNN  ( TensorFlow ), Deep Graph Library (framework agnostico), jraph  ( Google JAX ) e GraphNeuralNetworks.jl  /GeometricFlux.jl ( Julia, Flux ).

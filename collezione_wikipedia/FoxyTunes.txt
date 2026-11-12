@@ -1,0 +1,3 @@
+FoxyTunes era un'estensione che consentiva agli utenti di controllare i lettori multimediali dalla finestra del browser. È stato acquisito da Yahoo! il 4 febbraio 2008. FoxyTunes ha lavorato con Mozilla Firefox, Internet Explorer, SeaMonkey, Mozilla Application Suite, Flock e Mozilla Thunderbird.
+L'estensione supportava le normali funzioni del lettore multimediale e visualizzava le informazioni del brano attualmente in riproduzione. Inoltre, l'estensione consentiva la ricerca di vari siti web per ottenere immagini, video, biografie, e altro relativi alla musica riprodotta.
+Il 28 giugno 2013, Yahoo! ha annunciato la chiusura di FoxyTunes, prevista per il 1º luglio 2013.

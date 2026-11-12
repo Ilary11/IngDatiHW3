@@ -1,0 +1,9 @@
+Il concetto di chiave di sessione rappresenta un compromesso tra la codificazione simmetrica e quella asimmetrica e permette di utilizzare le due tecniche in modo combinato, anche se la chiave di sessione appartiene sostanzialmente al metodo della codificazione simmetrica e viene chiamata conseguentemente chiave simmetrica.
+Rispetto al metodo di crittografica simmetrica puro, la chiave di sessione, come specificato nel nome stesso, è utilizzata in modo temporaneo perché sfruttata una sola ed unica volta all'interno di una determinata sessione di comunicazione, dopo di che verrà invalidata (gettata via).
+Se ne deduce in modo logico che nella successiva sessione di comunicazione verrà effettuata una rigenerazione in modo casuale della chiave di sessione stessa, creandone appositamente una ex-novo.
+Tale "neonata" chiave verrà poi criptata con la chiave pubblica del destinatario ed inviata a quest'ultimo.
+Il destinatario procederà a decriptare il messaggio contenente la chiave di sessione utilizzando la propria chiave privata, ottenendo infine la chiave di sessione creata dal mittente.
+Il mittente procederà quindi a spedire il messaggio criptandolo con la chiave di sessione appena creata e subito comunicata al destinatario, tale chiave è perciò conosciuta da questi due soli attori.
+Per ciò che riguarda la comunicazioni dei veri messaggi tra mittente e destinatario, non verrà assolutamente usato il meccanismo asimmetrico della chiave pubblica/privata il quale risulterebbe computazionalmente più pesante rispetto al metodo ibrido appena descritto, verrà bensì sfruttata la chiave di sessione appositamente creata e inviata al destinatario.
+Il metodo asimmetrico verrà usato solo per spedire la chiave di sessione mediante un messaggio criptata.
+Questo metodo permette di abbassare notevolmente l'alto tempo di calcolo necessario nella crittografia asimmetrica beneficiando al contempo di una comunicazione su canale sicuro.

@@ -1,0 +1,2 @@
+Una rete neurale a funzioni base radiali è una rete neurale artificiale che usa le funzioni di base radiali come funzioni di attivazione. Essa è una combinazione lineare delle funzioni di base radiale. 
+Esse sono usate nell'approssimazione di funzioni, nella predizione di serie temporali e nel controllo.

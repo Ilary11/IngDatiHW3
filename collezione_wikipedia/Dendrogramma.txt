@@ -1,0 +1,6 @@
+Il dendrogramma è un albero utilizzato per visualizzare la somiglianza nel processo di "raggruppamento". 
+Nelle tecniche di clustering, il dendrogramma viene utilizzato per fornire una rappresentazione grafica del processo di raggruppamento delle istanze (o unità statistiche, o record, o elementi dell'insieme), che esprime:
+
+nell'asse delle ascisse, la distanza logica dei cluster secondo la metrica definita;
+nell'asse delle ordinate, il livello gerarchico di aggregazione (valori interi positivi).
+La scelta del livello gerarchico (del valore dell'asse y) definisce la partizione rappresentativa del processo di aggregazione.

@@ -1,0 +1,4 @@
+Il problema dello zaino, o in inglese Knapsack problem, è un problema di ottimizzazione combinatoria posto nel modo seguente.
+
+Sia dato uno zaino che possa sopportare un determinato peso e siano dati N oggetti, ognuno dei quali caratterizzato da un peso e un valore. Il problema si propone di scegliere quali di questi oggetti mettere nello zaino per ottenere il maggiore valore senza eccedere il peso sostenibile dallo zaino stesso.
+Il problema rappresenta un classico esempio di programmazione dinamica e illustra perfettamente il concetto di sottostruttura ottimale, dove la soluzione ottimale del problema può essere costruita combinando soluzioni ottime dei sottoproblemi.

@@ -1,0 +1,2 @@
+Per indicizzazione si intende l'inserimento di un sito web o un blog nel database di un motore di ricerca. L'indicizzazione di un sito internet, in altre parole, è il modo in cui il sito viene acquisito e interpretato dai motori di ricerca e quindi compare nelle loro pagine di risposta alle interrogazioni degli utenti web.
+Diversa cosa è il posizionamento, che è invece un'azione volta a determinare che un sito compaia in una specifica posizione nelle pagine di risposta dei motori (cioè nelle prime posizioni).

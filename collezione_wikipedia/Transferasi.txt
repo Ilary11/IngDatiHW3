@@ -1,0 +1,4 @@
+Una transferasi, o trasferasi (numero EC 2), in biochimica, è un enzima che catalizza il trasferimento di un gruppo funzionale (come ad esempio un gruppo fosfato o un metile) da una molecola (detta donatrice) ad un'altra (detta accettore). Una tipica reazione catalizzata da una transferasi potrebbe essere la seguente.
+
+A–X + B → A + B–X
+In questo esempio, A è la specie donatrice, B l'accettore. La specie donatrice è, molto spesso, un coenzima.

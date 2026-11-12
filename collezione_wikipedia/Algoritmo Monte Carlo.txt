@@ -1,0 +1,3 @@
+Per algoritmo Monte Carlo si intende un algoritmo randomizzato il cui output può essere sbagliato in un certo numero - solitamente ridotto - di casi. Il nome deriva dal quartiere di Monaco noto per l'elevato numero di casinò ed è stato usato per la prima volta nel 1974 da Nicholas Metropolis.
+Un loro sottinsieme, detto algoritmi di Las Vegas, produce sempre un risultato corretto ma può impiegare un tempo variabile per la verifica del risultato.
+Esempi noti di tali algoritmi, solitamente di complessità ZPP, sono vari test di primalità come il test di primalità Solovay-Strassen, il test di primalità Baillie–PSW, il test di primalità Miller–Rabin e, nel campo della teoria computazionale dei gruppi, l'algoritmo di Schreier–Sims.

@@ -1,0 +1,2 @@
+Un motore di ricerca distribuito è un motore di ricerca i cui sistemi di analisi dei dati (data mining), di indicizzazione (indexing) o elaborazione delle interrogazioni (query processing) sono distribuiti su un insieme di elaboratori indipendenti e di pari livello (peer) relazionati tra loro in modo che non ci sia alcun computer centrale. 
+In un motore di ricerca distribuito, le informazioni di indicizzazione relative ai siti sono pertanto frazionate e residenti nel singoli elaboratori (o peer).

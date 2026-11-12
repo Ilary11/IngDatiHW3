@@ -1,0 +1,12 @@
+Google Friend Connect è un servizio Internet di Google che permette agli utenti di connettersi coi propri amici da siti Internet diversi. Il 1º marzo 2012 termina il supporto di Google Friend Connect per tutti i siti, ad eccezione di Blogger.
+Google Friend Connect è un'applicazione OpenSocial partita nel maggio 2008.
+Si focalizza sulla semplificazione della connessione tra siti di reti sociali e siti tradizionali e sulla standardizzazione sull'utilizzo e la presentazione di applicazioni e contenuti tipici di una rete sociale.
+Utilizza una miscela di standard aperti come OpenID per l'accesso, oAuth per il controllo dei dati e OpenSocial per le applicazioni.
+Google Friend Connect è libero ma richiede l'approvazione dei siti che lo usano. Non richiede nessuna conoscenza di programmazione web e abilità particolari per poter offrire applicazioni e contenuti sociali di Facebook, Hi5, Orkut, Plaxo, MySpace, Google Talk e altre reti sociali.
+Ora l'interfaccia è in sola lingua inglese e Google non ha annunciato alcun piano di traduzione.
+Esempi d'uso:
+
+Siti di commercio elettronico: permette agli utenti di controllare se amici hanno acquistato o visto il prodotto a cui si è interessati sulla pagina stessa del prodotto.
+Siti nuovi: permette agli utenti di inserire commenti e opinioni con il proprio profilo reale.
+Siti di organizzazioni: incremento del marketing e della comunicazione entro i membri dell'organizzazione.
+Blog e siti personali: aumento della comunicazione tra il proprietario del sito e gli amici.

@@ -1,0 +1,7 @@
+L'MFSet (Merge-Find Set), altrimenti conosciuto come struttura dati union-find, è una struttura dati derivante dal concetto di partizione, per cui dato un insieme finito di elementi a volte risulta utile partizionarli in insiemi disgiunti. 
+L'algoritmo di Merge-Find è quindi utile per le due operazioni possibili su questa struttura dati:
+
+Ricerca: determina in quale insieme si trova un particolare elemento, o se due elementi appartengono allo stesso insieme
+Unione: combina o fonde due insiemi in un unico insieme
+L'altra operazione su MFSet è Crea, tramite la quale è possibile dato un insieme crearne la partizione formata solo da singoletti. 
+Con l'utilizzo di questi tre operatori è possibile risolvere molti problemi pratici.

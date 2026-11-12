@@ -1,0 +1,17 @@
+L'algoritmo flood fill individua un punto all'interno dell'area e, a partire da quel punto, colora tutto quello che ha intorno fermandosi solo quando incontra un confine, ovvero un pixel di colore differente (alcuni programmi di grafica permettono di definire quanto/come differente).
+L'algoritmo richiede tre parametri: il pixel iniziale, il colore da sostituire e il colore di riempimento. La formulazione più semplice è ricorsiva. 
+Si individua un pixel qualsiasi appartenente all'area da colorare, si controllano i vicini e se hanno un colore uguale lo si cambia con quello scelto, altrimenti si prosegue.
+Immaginando i pixel come nodi, possiamo vedere l'algoritmo come una funzione ricorsiva che prende come parametri un nodo (il pixel all'interno dell'area), un colore_prima (il colore dell'area) e infine colore_nuovo, ovvero il colore con cui vogliamo riempire l'area.
+flood-fill(nodo, colore_prima, colore_nuovo):
+
+Se il colore di nodo è diverso da colore_prima, termina
+Imposta il colore di nodo a colore_nuovo
+Esegui flood-fill (nodo a ovest di nodo, colore_prima, colore_nuovo)
+Esegui flood-fill (nodo a nord di nodo, colore_prima, colore_nuovo)
+Esegui flood-fill (nodo a est di nodo, colore_prima, colore_nuovo)
+Esegui flood-fill (nodo a sud di nodo, colore_prima, colore_nuovo)
+Termina
+Il funzionamento può avvenire anche in modo non ricorsivo, inserendo i nodi da esaminare in un'apposita struttura dati e esaminando i nodi uno per volta.
+Ecco un esempio di sviluppo non ricorsivo in Pascal, in questo caso è possibile usare una coda LIFO per mantenere le coordinate dei pixel ancora da processare.
+
+Questo algoritmo non serve direttamente per riempire poligoni, intendendo poligoni come oggetti descritti come oggetti vettoriali cioè non come semplici insiemi di pixel. Ad esempio come elenco delle coordinate dei vertici. In questo caso si ricorre prima all'algoritmo di rasterizzazione di poligono.

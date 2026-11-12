@@ -1,0 +1,11 @@
+Un linguaggio di descrizione di pagina è, in informatica, un linguaggio nato per descrivere la composizione, l'impaginazione e il contenuto di una pagina da stampare. 
+La sua funzione è quella di consentire al computer di trasmettere alla stampante un file con la descrizione della pagina da stampare indipendente dal software o dalla piattaforma utilizzata. La stampante, una volta ricevuto il file, provvede ad elaborarlo e a generare la bitmap che verrà stampata. In sintesi, tale linguaggio descrive l'aspetto di una pagina stampata a un livello più alto della semplice bitmap, restituita in uscita alla stampante. 
+I linguaggi di descrizione di pagina sono flussi di dati binari o testuali. In teoria, lo stesso flusso di dati può essere renderizzato più volte per generare diverse copie della stessa immagine. Sono distinti dalle API grafiche (come GDI e OpenGL), che possono essere chiamate dai software per generare un output grafico. Sebbene siano spesso dei linguaggi completi e quindi in grado di essere utilizzati per produrre programmi, essi non vengono utilizzati a questo scopo dato che sono spesso interpretati e quindi lenti.
+L'adattamento a linguaggio di markup di un linguaggio di descrizione di pagina è il Page description markup language. 
+I più famosi linguaggi di descrizione di pagina sono:
+
+DVI (DeVice Independent)
+PCL (Printer Control Language)
+PDF (Portable Document Format)
+PostScript
+Alcuni di questi linguaggi sono stati resi standard aperti, mentre altri sono soluzioni proprietarie dei vari produttori di stampanti.

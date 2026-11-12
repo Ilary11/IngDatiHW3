@@ -1,0 +1,7 @@
+Googlebot è lo spider web (italianizzato in "agente mobile") di Google. Ha la funzione di cercare e indicizzare i nuovi siti e di aggiornare gli esistenti (cambiando titolo o testo).
+Googlebot effettua due tipi di scansione del web: la Deep-crawl (fatta una volta al mese circa) e la Fresh-crawl (quasi tutti i giorni).
+La prima come detto viene fatta una volta al mese e viene scansionato tutto il web pagina per pagina, aggiornando indici, pagerank e cache.
+Dopo una Deep-crawl Google impiega circa 6-8 giorni per aggiornare completamente i suoi indici e propagarli in tutti i datacenter. In questo periodo di tempo si parla della cosiddetta "Google dance" perché i risultati che escono possono essere diversi di volta in volta. Dopo qualche giorno invece si stabilizzano.
+La seconda invece viene fatta quasi tutti i giorni e in pratica aggiorna le pagine che già sono presenti nell'indice e aggiunge quelle eventualmente create dopo l'ultima Deep-crawl.
+Esistono altri strumenti e procedure che Googlebot utilizza per indirizzare (e limitare) le sue scansioni. Uno tra i più importanti è il file "robots.txt", che dovrebbe essere sempre presente sui web server attestati su internet, in quanto naturale oggetto di scansione da parte degli spider.
+I webmaster possono gestire le indicizzazioni relative al proprio sito tramite Google Search Console.

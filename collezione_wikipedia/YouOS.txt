@@ -1,0 +1,3 @@
+YouOs era un Web operating system ovvero un sistema operativo che veniva caricato direttamente in un browser.
+L'intero sistema è stato sviluppato utilizzando il linguaggio JavaScript mediante tecnologia AJAX. Per accedere ad YouOS è necessario creare un account gratuito, oppure è possibile provare una versione demo con alcune limitazioni.
+Dal 30 luglio 2008 il servizio è stato chiuso.

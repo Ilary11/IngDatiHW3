@@ -1,0 +1,2 @@
+Freewrap è un compilatore tcl/tk che permette di convertire gli script in detto linguaggio in eseguibili compatibili sia con Windows che con Linux, sviluppato dal 2005 da Dennis LaBelle e rilasciato con licenza BSD.
+Al suo interno contiene tutte le librerie necessarie, ed è quindi considerato un compilatore "Batteries Included", ossia pronto all'uso.

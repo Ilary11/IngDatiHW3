@@ -1,8 +1,0 @@
-8.
-Query di frase e indici posizionali Vogliamo rispondere a query come "Roma Tre" intesa come frase: la frase "a Roma ho preso tre autobus" non deve corrispondere.
-Le query di frase sono capite facilmente dagli utenti, e molte query sono frasi implicite.
-Per questo non basta memorizzare coppie <termine : documenti>.
-Primo tentativo: indici di biword Si indicizza come frase ogni coppia di termini consecutivi: "Friends, Romans, Countrymen" genera i biword friends romans e romans countrymen, che diventano voci del dizionario.
-Le query di due parole diventano immediate.
-Le frasi più lunghe si spezzano in un AND di biword: "Università degli Studi Roma Tre" → Università degli AND degli Studi AND Studi Roma AND Roma Tre.
-Ma senza guardare i documenti non si può verificare che contengano davvero la frase: possono esserci falsi positivi.

@@ -1,0 +1,8 @@
+Multimap (detta anche multihash oppure multidict), in informatica, è un contenitore associativo che contiene un elenco ordinato di coppie chiave-valore, consentendo al contempo più voci con la stessa chiave. L'ordinamento viene eseguito in base alla funzione di confronto, applicata sulle chiavi. Le operazioni di ricerca, inserimento e rimozione hanno complessità logaritmica.
+L'ordine delle coppie chiave-valore le cui chiavi confrontano l'equivalente è l'ordine di inserimento e non cambia.
+Il C++ presenta già all'interno del suo Standard Template Library una implementazione della struttura usando un albero binario auto-bilanciato oppure anche Java, in qualità di interfaccia.
+Alcuni esempi applicativi sono:
+
+In un sistema di iscrizione degli studenti, in cui gli studenti possono essere iscritti a più classi contemporaneamente, potrebbe esserci un'associazione per ogni iscrizione di uno studente in un corso, in cui la chiave è l'ID studente e il valore è l'ID del corso. Se uno studente è iscritto a tre corsi, ci saranno tre associazioni contenenti la stessa chiave.
+L'indice di un libro può riportare un numero qualsiasi di riferimenti per un determinato termine indice, e quindi può essere codificato come una multimappa dai termini dell'indice a qualsiasi numero di posizioni o pagine di riferimento.
+Le query possono avere più valori associati a un singolo campo. Questo viene comunemente generato quando un modulo Web consente di scegliere più caselle di controllo o selezioni in risposta a un singolo elemento del modulo.

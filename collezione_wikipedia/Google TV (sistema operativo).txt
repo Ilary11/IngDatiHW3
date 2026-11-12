@@ -1,0 +1,2 @@
+Google TV è stata una piattaforma di Google per Smart TV co-sviluppata da Intel, Sony e Logitech e lanciata nell'ottobre 2010 con i dispositivi inizialmente realizzati da Sony e Logitech. Google TV integrava il sistema operativo Android e il browser web Google Chrome al fine di creare una televisione interattiva basata su siti Internet di WebTV esistenti con l'aggiunta di un'avanzata interfaccia utente.
+Il sistema operativo Google TV (ormai un software legacy) non va confuso con Google TV, l'interfaccia di Android TV introdotta nel 2021.

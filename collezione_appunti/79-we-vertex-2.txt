@@ -1,7 +1,0 @@
-Esempio: per <html><div><span><b></b></span></div></html> con l = 3 gli shingle sono <html><div><span> , <div><span><b> , <span><b></b> , <b></b></span> , </b></span></div> , </span></div></html> .
-La similarità strutturale fra due pagine è il Jaccard fra i loro insiemi di shingle, |S ∩ S′| / |S ∪ S′|.
-Secondo gli autori, l = 10 dà buoni raggruppamenti.
-Efficienza: lo shingle vector.
-Gli insiemi di shingle possono essere grandi, quindi ognuno viene compresso in un vettore di 8 byte.
-Si prendono 8 funzioni hash indipendenti h1…h8, ciascuna da uno shingle a un byte; il byte i-esimo del vettore è il minimo di hi su tutti gli shingle della pagina: v[i] = minsh ∈ S hi(sh).
-Si può dimostrare che v[i] = v′[i] con probabilità pari al Jaccard |S ∩ S′| / |S ∪ S′|: più le pagine si somigliano, più byte coincidono.

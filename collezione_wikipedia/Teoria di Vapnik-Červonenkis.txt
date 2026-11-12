@@ -1,0 +1,1 @@
+Nell'ambito della teoria dell'apprendimento computazionale, la teoria di Vapnik-Červonenkis (nota anche come teoria VC) è stata sviluppata fra il 1960 e il 1990 da Vladimir Vapnik e Aleksej Červonenkis per spiegare il processo di apprendimento automatico da un punto di vista statistico.

@@ -1,0 +1,3 @@
+OpenIndexer è un motore di ricerca per file OpenDocument che permette di ritrovare in un istante documenti tramite il contenuto testuale o le meta-informazioni. La ricerca può essere eseguita in locale ed in rete.
+Oltre la ricerca, OpenIndexer permette di creare copie di sicurezza dei documenti ODF (backup) o di ripristinare i documenti (restore). Inoltre, OpenIndexer crea archivi mobili autoconsultabili su CD/DVD. Simile ad una encyclopedia professionale su CD/DVD è possibile ricercare i propri documenti tramite il motore di ricerca Ellipsis senza alcuna installazione.
+OpenIndexer è freeware e funziona sotto sistemi operativi Windows NT-based.

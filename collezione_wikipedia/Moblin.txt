@@ -1,0 +1,11 @@
+Moblin è un sistema operativo open source, abbandonato, che si focalizza sullo sviluppo di applicativi per Dispositivi internet portatili (MID, Mobile Internet Device) e altre nuove categorie di dispositivi come netbook e notbook.
+Intel lanciò il sito Moblin.org nel luglio 2007 e ha significativamente aggiornato il sito nell'aprile 2008 con il lancio della famiglia di processori Intel Atom all'Intel Developer Forum di Shanghai.
+A settembre 2009 è uscita la versione Moblin 2.0.
+Componenti essenziali per un sistema operativo Linux portatile:
+
+Moblin Image Creator
+Kernel
+UI Framework
+Browser
+Multimedia
+Linux Connection Manager

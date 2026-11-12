@@ -1,0 +1,2 @@
+In matematica i numeri naturali sono quei numeri usati per contare e ordinare. Nel linguaggio comune i "numeri cardinali" sono quelli usati per contare e i "numeri ordinali" sono quelli usati per ordinare.
+I numeri naturali corrispondono all'insieme {0, 1, 2, 3, 4, …}. Essi vengono fatti corrispondere biunivocamente all'insieme dei numeri interi non negativi {0, +1, +2, +3, +4, …}. Talvolta vengono usati anche per indicare l'insieme dei numeri interi positivi {1, 2, 3, 4, …}.

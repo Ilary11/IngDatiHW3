@@ -1,0 +1,1 @@
+AltaVista è stato un motore di ricerca ideato dalla Digital Equipment Corporation (DEC), uno dei primi motori di ricerca veloci della rete. Venne realizzato nei laboratori di ricerca a Palo Alto, in California che disponevano di elaboratori con CPU Alpha AXP con architettura hardware  a 64 bit. Dall'8 luglio 2003 è stato sostituito dal motore di ricerca Yahoo!.

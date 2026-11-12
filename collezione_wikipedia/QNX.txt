@@ -1,0 +1,2 @@
+QNX (si pronuncia Q-N-X o Q-nix) è un sistema operativo real-time Unix-like POSIX-compliant commerciale, basato su microkernel e mirato principalmente al mercato dei sistemi embedded. 
+Il 12 settembre 2007 i sorgenti dell'intero sistema operativo e della maggior parte dei componenti aggiuntivi sono stati resi disponibili per scopi non commerciali.

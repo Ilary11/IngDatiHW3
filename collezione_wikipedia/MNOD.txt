@@ -1,0 +1,3 @@
+Il Multi-Networks for Object Detection  (o MNOD) è un algoritmo di computer vision per l'identificazione di oggetti di interesse in immagini generiche. 
+L'idea di base consiste nell'utilizzare molti modelli neurali addestrati singolarmente ciascuno per risolvere una parte del problema. 
+Ogni modello neurale diventa un nodo interno di una struttura ad albero che, partendo dai nodi foglia verso il nodo root, raffina e ottimizza la mappa di segmentazione da associare ad ogni immagine di input.

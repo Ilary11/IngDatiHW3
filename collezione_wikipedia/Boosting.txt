@@ -1,0 +1,6 @@
+Il boosting  è una tecnica di apprendimento automatico che rientra nella categoria dell'apprendimento ensemble. Nel boosting più modelli (deboli) vengono generati consecutivamente dando un peso maggiore agli esempi di training sui quali errori i modelli precedenti commettono errori più grandi . In questo modo si creano modelli via via più "attenti" agli aspetti che hanno causato inesattezze nei modelli precedenti, ottenendo infine un modello aggregato avente migliore accuratezza di ciascun modello che lo costituisce.
+In algoritmi come Adaboost, l'output del modello aggregato è dato dalla somma pesata delle predizioni dei singoli modelli. Ogni volta che si addestra un modello, è prevista una fase di ri-pesatura delle istanze. L'algoritmo di boosting tenderà a dare un peso maggiore alle istanze misclassificate, nella speranza che il successivo modello sia più esperto su queste ultime.
+In generale si ha che l'errore di predizione in un problema di apprendimento supervisionato è dato da:
+
+errorepredizione=bias2+varianza
+Il boosting mira principalmente a ridurre il bias. Altre tecniche di ensemble learning, come il bagging, mirano invece a ridurre la varianza.

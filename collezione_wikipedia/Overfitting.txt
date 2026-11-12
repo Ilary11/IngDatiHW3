@@ -1,0 +1,3 @@
+In statistica e nell'apprendimento automatico, si parla di overfitting o sovradattamento (oppure adattamento eccessivo) quando un modello statistico molto complesso si adatta ai dati osservati (il campione) perché ha un numero eccessivo di parametri rispetto al numero di osservazioni.
+Un modello sufficientemente complesso può adattarsi perfettamente al campione di addestramento ma potrebbe apprendere regolarità spurie, specifiche del campione, ma in realtà assenti nella distribuzione dell'intera popolazione.
+L'overfitting comporta una violazione del principio del rasoio di Occam, che è molto correlato al compromesso fra bias e varianza e al principio della Minima Lunghezza di Descrizione.

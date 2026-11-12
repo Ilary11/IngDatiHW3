@@ -1,0 +1,1 @@
+Il CTSS (Compatible Time-Sharing System) è un sistema operativo sviluppato al MIT e presentato per la prima volta nel 1961. Uno dei primi sistemi operativi in time-sharing, pose le basi per il successivo sviluppo di questi sistemi. Fece anche da base per lo sviluppo di Multics, altra pietra miliare nella storia dell'informatica.

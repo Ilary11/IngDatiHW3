@@ -1,0 +1,5 @@
+Nell'informatica e nella statistica, la similarità di Jaro-Winkler è una metrica per stringhe che misura la distanza di modifica (edit distance) tra due sequenze. Si tratta di una variante della metrica di distanza di Jaro  proposta nel 1990 da William E. Winkler.
+La distanza di Jaro-Winkler utilizza un coefficiente di prefisso p che assegna valutazioni più favorevoli alle stringhe che trovano corrispondenza dall'inizio per una lunghezza di prefisso ℓ predeterminata.
+Testo in corsivo
+Maggiore è la distanza di Jaro-Winkler per due stringhe, minore è la loro similarità. Il valore della similarità viene normalizzato in modo tale che 0 indichi una corrispondenza esatta e 1 indichi l'assenza di similarità. L'articolo originale definiva infatti la metrica in termini di similarità, quindi la distanza è definita come l'inverso di tale valore (distanza = 1 − similarità).
+Sebbene venga spesso definita come tale, la distanza di Jaro-Winkler non è una metrica nel senso matematico del termine, poiché non soddisfa la disuguaglianza triangolare.

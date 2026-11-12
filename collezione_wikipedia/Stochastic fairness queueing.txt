@@ -1,0 +1,2 @@
+Lo Stochastic Fairness Queuing (SFQ) è un algoritmo usato per lo scheduling e risulta particolarmente adatto quando la natura dei task è varia.
+Considerando un generico sistema, cioè non dedicato ad una specifica applicazione, i task possono essere interattivi, batch o real-time hard, soft, periodici, pseudoperiodici o aperiodici.

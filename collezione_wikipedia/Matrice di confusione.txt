@@ -1,0 +1,4 @@
+Nell'ambito del Machine learning, la matrice di confusione, detta anche tabella di errata classificazione, restituisce una rappresentazione dell'accuratezza di classificazione statistica.
+Ogni colonna della matrice rappresenta i valori predetti, mentre ogni riga rappresenta i valori reali. L'elemento sulla riga i e sulla colonna j è il numero di casi in cui il classificatore ha classificato la classe "vera" i come classe j.
+Attraverso questa matrice è osservabile se vi è "confusione" nella classificazione di diverse classi.
+Attraverso l'uso della matrice di confusione è possibile calcolare il coefficiente kappa, anche conosciuto come coefficiente kappa di Cohen.

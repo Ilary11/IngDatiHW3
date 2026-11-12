@@ -1,5 +1,0 @@
-Il numero di byte uguali è quindi una stima della similarità, e Vertex considera simili due pagine se i vettori coincidono su almeno 6 degli 8 byte.
-Esempi (confrontati con [4, 2, 0, 1, 2, 6, 12, 6]): [4, 2, 11, 1, 2, 6, 1, 6] coincide su 6/8 → simili; [4, 2, 0, 1, 2, 6, 1, 6] su 7/8 → simili; [1, 6, 11, 1, 2, 6, 1, 6] su 4/8 → non simili.
-Masked shingle vector.
-Per raggruppare le pagine che coincidono su k byte su 8, si usano vettori "mascherati": un vettore k/8 ha k valori e 8−k jolly "∗" che corrispondono a qualsiasi valore.
-Un vettore mascherato v copre v′ se per ogni posizione v[i] = v′[i] oppure v[i] = ∗; ad esempio [1, 2, ∗, 4, 5, ∗, 7, 8] (6/8) copre [1, 2, 3, 4, 5, 6, 7, 8].

@@ -1,0 +1,3 @@
+Resilio Sync (precedentemente BitTorrent Sync) è un software di condivisione file prodotto da Resilio, Inc. disponibile per Linux (Ubuntu e altre distribuzioni anche per NAS), macOS, Microsoft Windows, Android, iOS, Windows Phone. È possibile sincronizzare i file tra i dispositivi su una rete locale, o tra dispositivi remoti tramite Internet con l'utilizzo di tecnologia P2P.
+Anche se non espressamente dichiarato dagli sviluppatori, viene comunemente inteso come uno strumento in concorrenza con gli strumenti di sincronizzazione file basati su cloud (come Dropbox).
+Ciò è dovuto principalmente alla capacità di Resilo Sync di affrontare molti dei problemi dei servizi esistenti in materia di limiti di archiviazione, privacy, costi e prestazioni.

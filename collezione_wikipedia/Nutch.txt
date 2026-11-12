@@ -1,0 +1,5 @@
+Nutch è un progetto finalizzato alla costruzione di un motore di ricerca open source basato sulla piattaforma Lucene.
+Il "robot" (o "web crawler") è stato scritto da zero appositamente per il progetto.
+Nutch ha un'architettura altamente modulare per consentire agli sviluppatori di creare propri plugin per la scansione di tipi di dato multimediali, il reperimento di dati, l'interrogazione e la condivisione.
+Nel giugno del 2005 Nutch è passato dallo stato di Apache Incubator a sottoprogetto di Lucene.
+È implementato completamente in Java, ma i dati sono conservati in un formato neutro. Nel giugno 2003 fu eseguito con successo un test per indicizzare 100 milioni di pagine. Per soddisfare la necessità di una elaborazione distribuita, per il progetto Nutch è stato anche realizzato una funzionalità di MapReduce ed un file system distribuito. Queste due componenti sono poi confluite in un progetto proprio chiamato Apache Hadoop.

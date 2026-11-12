@@ -1,6 +1,0 @@
-APPUNTI LEZIONE 16/10
-2 HOMEWORK Gli homework seguono la pipeline: schema matching → record linkage → data fusion. Il secondo homework sarà uguale al primo come tipologia (articolo da presentare), ma verterà sul record linkage. Il resto degli appunti della lezione (clustering, blocking, blocking multiplo, schema-agnostic blocking, metablocking) è inserito nella Parte B, nei riquadri blu " Appunti lezione 16/10" delle sezioni 14.2–14.5.
-🗣️
-APPUNTI LEZIONE 19/10
-🗣️
-Gli appunti della lezione del 19/10 (meta-blocking e valutazione del record linkage) sono nei riquadri blu " Appunti lezione 19/10" delle sezioni 14.5 e 14.7. Gli appunti della stessa lezione sulla source discovery sono nella parte "Source Discovery", sezioni 2–5.

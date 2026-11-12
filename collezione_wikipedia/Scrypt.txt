@@ -1,0 +1,3 @@
+In crittografia, scrypt è una funzione di derivazione di chiave basata su password creata da Colin Percival, in origine usata per il servizio di backup Tarsnap online backup service.
+L'algoritmo fu progettato specificatamente per eseguire attacchi su hardware personalizzati su grande scala che richiedevano una grande quantità di memoria. Nel 2012. L'algoritmo scrypt fu pubblicato da IETF come bozza e preparato per diventare una RFC, ma da allora la cosa non ebbe seguito.
+È usato come uno schema proof of work da alcune criptovalute come Litecoin, Dogecoin o Feathercoin.

@@ -1,0 +1,5 @@
+Quadratic pseudo-Boolean optimisation (QPBO) è un metodo di ottimizzazione discreta di funzioni pseudo-booleane quadratiche non submodulari nella forma
+
+f(𝐱)=w0+∑p∈Vwp(xp)+∑(p,q)∈Ewpq(xp,xq)
+nelle variabili binarie xp∈{0,1}∀p∈V={1,…,n}, con E⊆V×V. Se f è submodulare QPBO produce un ottimo globale in maniera equivalente a graph cut, mentre se f contiene termini non submodulari l'algoritmo produce una soluzione parziale con specifiche proprietà di ottimalità, in entrambi i casi in tempo polinomiale.
+QPBO è usato nell'inferenza su campi di Markov casuali (MRF) e campi condizionali casuali (CRF), e ha applicazioni in problemi di visione artificiale come segmentazione e stereo matching.

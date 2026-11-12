@@ -1,0 +1,1 @@
+Un linguaggio di programmazione ad alto livello, in informatica, è un linguaggio di programmazione caratterizzato da una significativa astrazione dai dettagli del funzionamento di un calcolatore e dalle caratteristiche del linguaggio macchina. Il livello di astrazione definisce quanto sia di "alto livello" un linguaggio di programmazione.

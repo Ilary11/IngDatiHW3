@@ -1,0 +1,1 @@
+Un albero 2-3 è un tipo di struttura dati ad albero di ricerca bilanciato che mantiene i dati ordinati e garantisce prestazioni logaritmiche per le operazioni fondamentali. Deve il suo nome al fatto che ogni nodo interno può avere esattamente 2 o 3 figli.

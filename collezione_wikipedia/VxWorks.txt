@@ -1,0 +1,3 @@
+VxWorks è un sistema operativo real-time di tipo Unix-like sviluppato e venduto dalla Wind River Systems di Alameda, California, USA.
+Come molti sistemi operativi real-time, VxWorks include un kernel multitasking con uno scheduler di tipo preemptive e una gestione rapida degli interrupt, estesi meccanismi di IPC e funzionalità di sincronizzazione dei processi, nonché un file system.
+VxWorks è generalmente usato su sistemi embedded. Riguardo al software, a differenza di numerosi concorrenti, lo sviluppo software è svolto su un computer "host" con sistema operativo Windows o Unix, e il codice viene cross compilato per l'architettura "target", tramite una toolchain. VxWorks supporta numerose architetture quali ARM, MIPS, Coldfire/68k, Hitachi H8, SH e altre.

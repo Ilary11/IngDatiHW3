@@ -1,0 +1,4 @@
+Il temporal difference (TD) learning, ovvero l'apprendimento mediante differenza temporale, indica una classe di metodi di reinforcement learning che basano il proprio apprendimento sul bootstrap dalla stima corrente della funzione obiettivo: questi metodi campionano dall'ambiente, così come il Metodo Monte Carlo, ma eseguono gli aggiornamenti della funzione di valore di stato basandosi sulle stime correnti, come avviene, invece, nella programmazione dinamica.
+A differenza dei metodi Monte Carlo che modificano le loro stime solo quando il risultato finale è noto, questi metodi di distanza temporale adattano le proprie previsioni in modo dinamico, così da avere previsioni sul futuro più accurate, prima ancora che il risultato finale sia a disposizione. Questa è, appunto, una forma di bootstrap, come si evince dal seguente esempio:
+
+I metodi di differenza temporale sono in stretta correlazione al modello di differenza temporale dell'apprendimento animale.

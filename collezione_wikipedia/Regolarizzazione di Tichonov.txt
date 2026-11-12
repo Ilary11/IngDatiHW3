@@ -1,0 +1,16 @@
+In matematica, la regolarizzazione di Tichonov, che prende nome da Andrej Tichonov, è il metodo più comunemente usato di regolarizzazione di problemi mal posti (ill-posed problems). In statistica il metodo è conosciuto come regressione ridge e, ripetutamente ed indipendentemente riscoperto, è anche variamente noto come il metodo di Tichonov-Miller, metodo di Phillips-Twomey, metodo dell'inversione lineare vincolata o anche metodo di regolarizzazione lineare. 
+Il risultato è collegato all'algoritmo di Levenberg-Marquardt per problemi di minimi quadrati non lineari.
+Quando il problema seguente non è ben posto (sia a causa della non esistenza, sia per la non unicità di x):
+
+A𝐱=𝐛
+allora l'approccio usuale è noto come metodo dei minimi quadrati lineari e consiste nel minimizzare lo scarto:
+
+‖A𝐱−𝐛‖2
+dove ‖⋅‖ è la norma euclidea. Tuttavia, in generale, il sistema può essere sottodeterminato o sovradeterminato (A può essere mal condizionata o singolare) e la soluzione, sempre che esista, può non essere univoca. Allo scopo di preferire una particolare soluzione con proprietà desiderate, il termine di regolarizzazione viene incluso nella minimizzazione:
+
+‖A𝐱−𝐛‖2+‖Γ𝐱‖2
+per qualche opportuna scelta della matrice di Tichonov, Γ. In molti casi, la scelta cade sulla matrice identità Γ=I, preferendo soluzioni con norma più piccola. In altri casi,  operatori passa alto (es. un operatore differenza oppure un operatore discreto di Fourier opportunamente pesato) possono essere impiegati per rafforzare il carattere liscio dell'operatore soggiacente quando è creduto essere principalmente continuo.
+Questa regolarizzazione migliora il condizionamento del problema, rendendo possibile una soluzione di tipo numerico. Una soluzione esplicita, denotata come x̂, è data da:
+
+x̂=(ATA+ΓTΓ)−1AT𝐛
+L'effetto di regolarizzazione può essere variato scalando la matrice Γ. Per cui se Γ=αI, quando α = 0 si ottiene una soluzione che coincide con quella de-regolarizzata fornita dai minimi quadrati, sempre che (ATA)−1 esista.

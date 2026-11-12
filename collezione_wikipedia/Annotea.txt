@@ -1,0 +1,3 @@
+Annotea è un Resource Description Framework standard per la creazione e la pubblicazione di annotazioni condivise su documenti web. L'idea consiste nella condivisione di metadati agganciati a qualsiasi documento web senza toccare il documento originale. Annotazioni, appunti, approfondimenti e spiegazioni possono essere condivisi come per gli shared bookmarks.
+Il progetto è definito e promosso dal W3C.
+Sfrutta un insieme di tecnologie come HTTP, XML.

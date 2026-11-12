@@ -1,0 +1,2 @@
+Un modello semiparametrico è un tipo di modello statistico, spesso usato nell'apprendimento automatico, che combina componenti parametriche (con numero finito e fisso di parametri) e componenti non parametriche (con numero di parametri potenzialmente infinito dipendente dalla dimensione del campione). 
+Questo approccio si colloca come compromesso ideale tra la rigidità strutturale e semplicità (interpretabilità) dei modelli parametrici e la flessibilità, in mancanza di assunzioni forti sulle distribuzioni, dei modelli non parametrici.

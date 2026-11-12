@@ -1,0 +1,9 @@
+Nel riconoscimento di pattern e nell'elaborazione delle immagini la selezione delle caratteristiche  (in inglese feature selection) è una forma speciale di riduzione della dimensionalità di un determinato dataset.
+La selezione delle caratteristiche è il processo di riduzione degli ingressi per l'elaborazione e l'analisi o l'individuazione delle caratteristiche maggiormente significative rispetto alle altre. Similmente esiste l'estrazione di caratteristiche (in inglese: feature extraction), dove si applica il processo di estrazione di informazioni utili dai dati esistenti.
+La selezione delle caratteristiche risulta necessaria per creare un modello funzionale, ossia una riduzione della cardinalità, imponendo un limite superiore al numero di caratteristiche che devono essere considerate durante la creazione di questo. Solitamente i dati contengono informazioni ridondanti, ovvero più di quelle necessarie (oppure possono contenere anche informazioni errate).
+La selezione delle caratteristiche rende più efficiente il processo di creazione di un modello, andando ad esempio a diminuire l'attività della CPU e la quantità di memoria necessarie per l'addestramento (training), anche se vi siano casi in cui le risorse non sono un problema.
+La selezione delle caratteristiche viene utilizzata per tre ragioni:
+
+semplificazione dei modelli per renderli più facili da interpretare da ricercatori / utenti;
+tempi di addestramento (training) minori;
+miglioramento generalizzato nella riduzione del problema di overfitting, ovvero una riduzione della varianza.

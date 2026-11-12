@@ -1,0 +1,4 @@
+Jakarta Transactions (JTA), precedentemente nota come Java Transaction API), è una delle API offerte dalla Jakarta EE (Java Enterprise Edition), ed ha lo scopo di abilitare delle transazioni distribuite, eseguite attraverso risorse X/Open XA multiple in un ambiente Java. JTA è una specifica sviluppata sotto le direttive del Java Community Process come JSR 907. La JTA mette a disposizione:
+
+una demarcazione dei confini delle transazioni.
+delle X/Open XA API che permettono alle risorse di partecipare alle transazioni.

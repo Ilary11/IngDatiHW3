@@ -1,0 +1,6 @@
+Il cognitrone è una rete neurale artificiale non supervisionata multistrato di tipo gerarchico finalizzata al riconoscimento di pattern. Esso fu pubblicato dallo scienziato Kunihiko Fukushima nel 1975. I neuroni del cognitrone si distinguono in inibitori ed eccitatori, e i collegamenti sinaptici tra essi hanno la caratteristica di auto organizzarsi allo scopo di reagire in maniera selettiva al presentarsi di un pattern sul primo degli strati.
+Nel modello proposto da Fukushima, sono presenti quattro strati, denominati U0, U1, U2 e U3. Lo strato U0 corrisponde ai neuroni della retina, mentre lo strato U3, si può pensare come lo strato dei neuroni della corteccia cerebrale.
+
+Il modello del cognitrone tiene conto delle limitazioni biologiche, in particolare del numero finito di dendriti presente nei neuroni biologici e della lunghezza che può essere microscopica dell'assone. Tali limitazioni danno luogo nel modello al concetto di area di connessione che si contrappone alle reti completamente connesse, cioè reti in cui ogni neurone di un livello è connesso a tutti i neuroni del livello successivo.
+
+Dal cognitrone fu successivamente sviluppato il neocognitrone, che rispetto al primo ha la caratteristica di poter riconoscere le immagini anche quando queste vengono trasformate in seguito a roto-traslazioni e variazioni di scala, oltre che a piccole deformazioni.

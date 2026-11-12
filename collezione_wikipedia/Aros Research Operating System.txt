@@ -1,0 +1,2 @@
+AROS (acronimo ricorsivo di AROS Research Operating System, modificato dal precedente Amiga Research Operating System per evitare questioni legali legate all'uso del nome "Amiga") è un sistema operativo multitasking nato con lo scopo di sostituire l'AmigaOS versione 3.1 con un progetto open source, e poi estesosi fino a divenire un sistema completamente a sé stante.
+Nacque nel 1995, ad opera di un gruppo di appassionati di Amiga che decise di realizzare una versione portabile e libera di AmigaOS, capace di girare anche sull'architettura Intel.

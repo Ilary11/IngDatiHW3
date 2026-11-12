@@ -1,0 +1,2 @@
+AGRICOLA (AGRICultural OnLine Access) è un database su internet creato e gestito dalla United States National Agricultural Library del Dipartimento dell'Agricoltura degli Stati Uniti d'America.
+Il database funge da catalogo e indice per le raccolte della National Agricultural Library degli Stati Uniti, ma fornisce anche l'accesso pubblico alle informazioni sull'agricoltura e sui campi affini.

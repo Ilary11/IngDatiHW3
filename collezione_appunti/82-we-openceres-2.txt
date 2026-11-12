@@ -1,8 +1,0 @@
-Nell'esempio, il KG sa che il budget di Avatar è 237 milioni, e lo si ritrova nella pagina come "$237,000,000".
-Non si estrae nulla di nuovo, ma si scopre dove stanno i dati interessanti nella pagina.
-Passo 2: per ogni oggetto trovato si raccolgono etichette candidate, cioè i nodi di testo del DOM più vicini: per "$237,000,000" sono "budget", "box office" e "USA see more".
-Non sappiamo quale sia quella giusta.
-Passo 3: l'etichetta nella pagina può essere diversa dal nome della relazione nel KG.
-Come capire che "Budget" nella pagina vuol dire "cost" nel KG?
-È il problema dei sinonimi: in OpenCeres si scrive a mano una lista di sinonimi per ogni predicato del KG.
-Fase 2: estrazione Input: le posizioni nella pagina di alcune coppie etichetta-oggetto corrette (es.

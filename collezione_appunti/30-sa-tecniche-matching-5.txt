@@ -1,6 +1,0 @@
-Base learner e meta-learner.
-Si usa un insieme di base learner, ciascuno bravo a sfruttare un certo tipo di informazione.
-Per fare matching su un elemento di una nuova sorgente si applicano i base learner e si combinano le predizioni con un meta-learner, che usa le sorgenti di training per misurare l'accuratezza di ogni base learner e lo pesa di conseguenza.
-Ogni base learner lavora in due fasi: Training: esamina esempi (coppie colonna-etichetta) e costruisce un modello di classificazione; Matching: dato un oggetto (nome di schema o valore), applica il modello e produce etichette pesate dalla confidenza.
-Esempi di base learner: Name Learner (livello schema): training con ("location", address), ("contact name", name); matching: "agent-name" → (name, 0,7), (phone, 0,3).
-Naive Bayes Learner (livello istanza): training con ("Seattle, WA", address), ("250K", price); matching: "Kent, WA" → (address, 0,8), (name, 0,2).

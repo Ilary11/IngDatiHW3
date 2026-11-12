@@ -1,0 +1,5 @@
+Un algoritmo di rasterizzazione di linea è un algoritmo grafico che si occupa di approssimare una linea o un segmento in una rappresentazione grafica discreta. Esempi di rappresentazioni grafiche discrete possono essere il monitor, composto da migliaia di pixel, o una stampa, con migliaia di punti. La rappresentazione su queste "superfici" richiede un'approssimazione, naturalmente in casi non banali.
+In rappresentazioni non discrete, e quindi continue, questo lavoro non si presenta. Esempi di rappresentazioni grafiche continue sono gli oscilloscopi a tubo catodico.
+Un esempio del problema si può vedere nella figura 0:
+
+Nello sfondo si vede una griglia, che rappresenta i pixel di un'immagine. Il segmento rosso (dal punto p1 al punto p2) è il segmento che noi vorremmo rasterizzare. Nel lato destro vediamo un esempio di rasterizzazione. Abbiamo evidenziato in nero i pixel che si dovrebbero illuminare per visualizzare il segmento dal punto p1 al punto p2.

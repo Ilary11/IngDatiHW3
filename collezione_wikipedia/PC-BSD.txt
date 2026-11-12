@@ -1,0 +1,2 @@
+PC-BSD (in seguito divenuto TrueOS) era una distribuzione di tipo Unix-like, orientata verso il desktop, basata su FreeBSD, inizialmente con lo scopo di rendere più facili per l'utente alcuni processi come l'installazione utilizzando un'interfaccia grafica, come KDE, LXDE, GNOME e Xfce.
+Era quindi un sistema operativo più semplice ed user friendly rispetto al genitore e non, piuttosto, un fork del progetto originario. PC-BSD supportava le architetture a 32 e a 64 bit (rispettivamente x86 e x86-64).

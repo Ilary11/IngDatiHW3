@@ -1,0 +1,4 @@
+L'Index Fungorum è un progetto internazionale per indicizzare tutti i nomi formali, cioè i nomi scientifici del regno dei funghi, in maniera simile all'IPNI, ma con un numero maggiore di istituzioni che partecipano e sostengono il progetto.
+Un'altra differenza risiede nel fatto che l'IPNI non indica i nomi corretti, mentre l'Index Fungorum indica anche lo stato di un nome.
+Nelle risposte alle pagine di ricerca il nome attualmente corretto è indicato in verde, mentre gli altri sono in blu (solo alcuni utilizzi erronei dei nomi sono indicati in rosso).
+Tutti i nomi sono collegati a pagine che forniscono il nome corretto, con una lista dei sinonimi.

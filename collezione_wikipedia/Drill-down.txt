@@ -1,0 +1,3 @@
+Il drill-down (termine inglese traducibile come "scavare a fondo") è una delle funzionalità di base dell'OLAP (On-Line Analytical Processing) e consiste nell'operazione di "esplosione" del dato nelle sue determinanti.
+L'operazione di drill-down può essere eseguita seguendo due diversi percorsi: la gerarchia costruita sulla dimensione di analisi (p. es.: passaggio dalla famiglia di prodotti all'insieme dei prodotti che ne fanno parte) oppure la relazione matematica che lega un dato calcolato alle sue determinanti (p. es.: passaggio dal margine al ricavo e costo che lo generano). 
+È comprensibile l'importanza di tale operazione ai fini analitici in termini di comprensione delle determinanti di un dato.

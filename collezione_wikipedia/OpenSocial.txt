@@ -1,0 +1,3 @@
+OpenSocial è una serie di API per applicazioni per reti sociali, sviluppate da Google insieme MySpace e ad altre reti sociali.
+È stato pubblicato il 1º novembre 2007.
+Le applicazioni che implementano OpenSocial saranno interoperabili con qualsiasi rete sociale che li supporta, inclusi siti come Bebo, Engage.com, Friendster, hi5, Hyves, imeem, LinkedIn, mixi, MySpace, Ning, Oracle, Plaxo, Salesforce.com, Six Apart, Tianji, Viadeo e XING.

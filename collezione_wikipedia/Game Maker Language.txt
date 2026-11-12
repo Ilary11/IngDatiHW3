@@ -1,0 +1,8 @@
+Game Maker Language (GML) è un linguaggio di scripting sviluppato per la creazione di videogiochi con Game Maker. Il GML possiede una sintassi che ricorda molto quella del C o del JavaScript.
+È stato creato da Mark Overmars inizialmente per aiutare a completare il sistema di drag and drop del suo programma. Da quando YoYo Games ha acquistato i diritti sul software, il GML è divenuto il linguaggio di programmazione utilizzabile nello sviluppo di videogiochi con Game Maker. L'implementazione di questo linguaggio nell'IDE ha reso ai programmatori molta più flessibilità e controllo rispetto alla programmazione tramite l'interfaccia Drag'n'Drop disponibile fino ad allora.
+I modi in cui è possibile interagire con gli oggetti nel gioco tramite GML possono essere riassunti come segue:
+
+Attraverso script per la creazione di funzioni personalizzate;
+Interagendo con gli eventi è possibile controllare il comportamento di tali oggetti;
+Nella creazione di una stanza associandovi dello specifico codice;
+Nelle singole istanze di ogni oggetto;

@@ -1,0 +1,2 @@
+SKOS è l'acronimo di Simple Knowledge Organization System ed è una famiglia di linguaggi formali creata per rappresentare glossari, classificazioni, tassonomie e qualsiasi tipo di vocabolario strutturato. SKOS si basa su RDF e RDFS e il suo obiettivo principale è di consentire una facile pubblicazione di vocabolari strutturati per il web semantico.
+SKOS è progettato come una famiglia di linguaggi modulari ed estensibili. Il suo uso e la sua implementazione dovrebbe essere il più semplice possibile.

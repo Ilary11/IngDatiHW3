@@ -1,0 +1,1 @@
+HQ9++ è un linguaggio di programmazione esoterico, creato da David Morgan-Mar con lo scopo di creare un'estensione di HQ9+ che supportasse la programmazione ad oggetti. Il suo nome è una parodia di C++, l'estensione di C che implementa la programmazione ad oggetti.

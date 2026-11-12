@@ -1,0 +1,1 @@
+AUTOEXEC.BAT è un file di avvio del sistema operativo MS-DOS; è un file batch collocato nella root directory della partizione logica attiva del disco fisso primario. Il suo nome può essere tradotto come "esecuzione automatica". Le sue funzioni sono quelle di eseguire dei comandi all'avvio del sistema operativo.

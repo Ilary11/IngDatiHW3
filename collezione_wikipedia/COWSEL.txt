@@ -1,0 +1,3 @@
+COWSEL (COntrolled Working SpacE Language) è un linguaggio di programmazione sviluppato tra il 1964 e il 1966 da Robin Popplestone. Era basato su una forma di RPN del Lisp unita a elementi del CPL.
+COWSEL fu implementato all'inizio su un Ferranti Pegasus dell'Università di Leeds e su uno Stantec Zebra del Bradford Institute of Technology; successivamente, Rod Burstall implementò COWSEL su un Elliot 4120 dell'Università di Edimburgo. 
+COWSEL venne rinominato POP-1 nell'estate del 1966 e il suo sviluppo proseguì con questo nome.

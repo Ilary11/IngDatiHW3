@@ -1,0 +1,5 @@
+Teoma era un motore di ricerca Internet fondato nel 2000 dal professor Apostolos Gerasoulis e dai suoi colleghi della Rutgers University nel New Jersey, in collaborazione con Il professor Tao Yang dall'Università della California. La loro ricerca venne fuori nel progetto DiscoWeb del 1998. La loro ricerca originale fu pubblicata nella relazione "DiscoWeb: Analisi dei collegamenti di ricerca Web".
+Teoma era unico per via del suo algoritmo di popolarità dei siti web. Diversamente dal PageRank di Google, la tecnologia di Teoma analizzava i siti nel contesto per classificare l'importanza di una pagina web nel suo argomento specifico. Per esempio, una pagina web sul "baseball" verrebbe classificata più in alto se altre pagine sul "baseball" colleghino ad essa.
+Molte parti importanti dell'algoritmo Teoma si basano sulla metodologia che l'IBM sviluppò per il suo progetto.
+Teoma fu acquisito da Ask Jeeves l'11 settembre 2001. Il 26 febbraio 2006, Teoma fu rinominato e reindirizzato su Ask.com
+L'algoritmo di Teoma ora è chiamato su Ask.com algoritmo ExpertRank.

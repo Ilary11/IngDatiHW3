@@ -1,1 +1,0 @@
-Esempio: bord = {bo, or, rd}; border = {bo, or, rd, de, er}; abord = {ab, bo, or, rd}; boardroom = {bo, oa, ar, rd, dr, ro, oo, om}. J(bord, border) = 3/5 = 0,6 J(bord, abord) = 3/4 = 0,75 J(bord, boardroom) = 2/9 = 0,22, quindi boardroom viene scartata.

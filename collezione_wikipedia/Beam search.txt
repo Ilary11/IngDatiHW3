@@ -1,0 +1,3 @@
+In informatica, la beam search è un algoritmo di ricerca basato su euristiche che esplora un grafo espandendo il nodo più promettente in un insieme limitato di nodi.
+La beam search è un caso particolare di best-first search che mira a ridurre i requisiti di memoria. Best-first search è una ricerca su grafi che ordina tutte le soluzioni parziali (stati) in base ad una certa euristica. Nella beam search è tenuto in considerazione solo un numero predefinito di migliori soluzioni parziali. Di conseguenza, è considerato un algoritmo greedy.
+Il nome "beam search" venne introdotto da Raj Reddy dell'Università Carnegie Mellon, nel 1977.

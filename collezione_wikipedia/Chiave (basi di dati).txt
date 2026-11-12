@@ -1,0 +1,3 @@
+In un database è definita chiave un vincolo che interessa una sola tabella (anche detto intrarelazionale), che nel modello relazionale viene detta relazione.
+Può essere una chiave primaria (primary key) che serve a identificare univocamente le righe della tabella ove essa è definita. Può essere specificato una sola volta per tabella, dichiarando uno o più attributi come chiave primaria. Due righe distinte non possono avere lo stesso valore sui campi scelti come primary key.
+Può essere chiave univoca (unique key) che implementa una caratteristica simile alla chiave primaria, con la particolarità che gli attributi coinvolti possono assumere il valore nullo. Si può definire il vincolo su uno o più attributi della tabella.

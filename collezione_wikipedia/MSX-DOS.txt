@@ -1,0 +1,1 @@
+L'MSX-DOS è un sistema operativo su disco sviluppato da Microsoft per gli home computer ad 8 bit compatibili con lo standard MSX. L'MSX DOS è ispirato al CP/M anche se deriva dall'MS-DOS, di cui riprende non solo molti dei comandi ma anche il file system FAT12.

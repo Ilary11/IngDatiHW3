@@ -1,0 +1,7 @@
+La classificazione statistica è quell'attività che si serve di un algoritmo statistico al fine di individuare una rappresentazione di alcune caratteristiche di un'entità da classificare (oggetto o nozione), associandole una etichetta classificatoria. Tale attività può essere svolta mediante algoritmi di apprendimento automatico supervisionato o non supervisionato. Esempi di questi algoritmi sono:
+
+classificatore bayesiano ingenuo (Naïve Bayes)
+reti neurali
+macchine a vettori di supporto
+regressione logistica
+I programmi che effettuano l'attività di classificazione sono detti classificatori. Talora si usa l'aggettivo statistica anche per classificazioni utilizzate per costruire indicazioni statistiche sulle entità assegnate ai diversi contenitori di una classificazione, soprattutto nel caso delle tassonomie, mentre nella definizione della classificazione non si sono utilizzati precisi metodi statistici.

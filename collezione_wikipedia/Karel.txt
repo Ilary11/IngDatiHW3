@@ -1,0 +1,2 @@
+Karel è un linguaggio di programmazione concepito per rispondere a esigenze didattiche ed educative, quale strumento introduttivo alla programmazione rivolto a principianti.
+Il linguaggio è stato creato nel 1981 da Richard E. Pattis che ne definì le caratteristiche nel suo libro Karel The Robot: A Gentle Introduction to the Art of Programming e ne fece uso nei suoi corsi introduttivi alla Stanford University. Prende il nome da Karel Čapek, lo scrittore ceco che introdusse il termine robot.

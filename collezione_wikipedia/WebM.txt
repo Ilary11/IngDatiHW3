@@ -1,0 +1,2 @@
+WebM Project è un progetto sponsorizzato da Google dedicato a creare un formato video libero e royalty-free che abbia un'alta qualità nella compressione video per l'uso con HTML5.
+È un progetto open source distribuito sotto una licenza BSD-style. Consiste nel codec video VP8, sviluppato da On2 Technologies, e dal codec audio Vorbis, in un contenitore basato su Matroska.

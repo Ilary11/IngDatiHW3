@@ -1,0 +1,3 @@
+Il metodo di fattorizzazione di Eulero è un algoritmo ideato da Eulero per fattorizzare dei numeri naturali in numeri primi.
+Si basa sulla rappresentazione del numero n (da fattorizzare) come somma di due quadrati in due modi distinti, e per questo non è applicabile né a numeri nella forma 4k+3, né a quelli in cui un numero primo di questa forma è presente ad un esponente dispari nella fattorizzazione di n. Questo ne riduce grandemente il campo di applicabilità, perché anche molti semiprimi nella forma 4k+1 sono prodotto di due primi del tipo 4k+3.
+Per questo motivo non è spesso usato come metodo di fattorizzazione, perché non è possibile sapere a priori se un dato numero sia o meno fattorizzabile con quest'algoritmo.

@@ -1,6 +1,0 @@
-13. Metriche: come si valuta un motore di ricerca Per misurare la rilevanza servono tre elementi: 1. una collezione di documenti di riferimento (benchmark); 2. un insieme di query di riferimento; 3. un giudizio Rilevante / Non rilevante per ogni coppia query-documento.
-Giudizi di rilevanza: nel caso più semplice sono binari, ma si usano anche livelli più sfumati (0, 1, 2, 3…).
-Il problema è il costo: con 5 milioni di documenti e 50.000 query servirebbero circa un quarto di trilione di giudizi.
-Anche con 2,5 secondi a giudizio servirebbero circa 1011 secondi, quasi 300 milioni di dollari pagando i valutatori 10 dollari l'ora.
-Crowdsourcing?
-Si possono presentare coppie query-documento a lavoratori a basso costo su piattaforme online, sperando che costi meno di valutatori qualificati.

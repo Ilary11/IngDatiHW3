@@ -1,0 +1,3 @@
+La Boost Software License è una licenza open source usata dalle librerie Boost. È utilizzata anche da un numero significativo di altri progetti C++ open source. È considerata una licenza permissiva, nello stile delle popolari licenze BSD e MIT.
+La licenza è approvata dall'OSI dal febbraio 2008.
+Secondo la Free Software Foundation, questa licenza è compatibile con la GNU General Public License.

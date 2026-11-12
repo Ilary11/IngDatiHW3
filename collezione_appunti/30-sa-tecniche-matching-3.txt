@@ -1,8 +1,0 @@
-I k valori di ogni coppia di attributi vengono aggregati (media, somma pesata, max, min), e ogni coppia ottiene un punteggio.
-Selezione degli allineamenti.
-Si scelgono le coppie in base al punteggio più alto.
-Poiché la similarità può essere asimmetrica, si considerano più direzioni: large2small, small2large, both.
-Lungo una direzione ci sono tre modi di selezionare: Top-h: i candidati con i primi h punteggi (con h = 1 si ottiene l'allineamento uno-a-uno); Max Delta: i candidati con punteggio > Max − delta (il più simile e quelli vicini); Threshold: tutti gli elementi con punteggio sopra una soglia.
-Tool.
-Aggregazione e selettore sono personalizzabili dall'interfaccia.
-L'utente può accettare i match (e in quel caso fa da "matcher perfetto") oppure regolare il processo.

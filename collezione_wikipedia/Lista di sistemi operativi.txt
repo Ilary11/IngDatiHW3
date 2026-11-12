@@ -1,0 +1,7 @@
+Nel business dell'informatica, tutti i sistemi operativi sono categorizzati principalmente per:
+
+tecnologia del supporto hardware, soprattutto in merito al microprocessore (e tipicamente distinti per Unix-like o per Windows)
+licenze (software proprietario, come ad esempio Windows che è di proprietà della Microsoft, o open source, che non richiede una licenza o codice product key per essere attivato o utilizzato).
+tipologia di funzionamento e gestione dello stesso (es. Linux o Windows).
+applicazioni (anche questi generalmente tipo Linux, Windows) distinti solo per uso desktop (DOS, Apple), oppure solo mainframe (AIX), solo sistema real-time o embedded (QNX), per PDA, per smartphone e tablet, o ancora per dispositivi altri dedicati (produzione, ricerca, hobby).
+Naturalmente, molte categorie si sovrappongono parzialmente.

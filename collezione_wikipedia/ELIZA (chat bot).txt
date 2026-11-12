@@ -1,0 +1,2 @@
+ELIZA è un chatterbot scritto nel 1966 da Joseph Weizenbaum. Il bot consiste in un analizzatore lessicale e un insieme di regole (script) che permettono al chatterbot di simulare una conversazione in inglese, gallese o tedesco. Lo script più noto, spesso erroneamente identificato con ELIZA, è DOCTOR, che imita un terapeuta rogersiano.
+Il nome ELIZA trae spunto da Eliza Doolittle, protagonista della commedia di George Bernard Shaw Pigmalione.

@@ -1,0 +1,5 @@
+Google Domains è un servizio di registrazione di nomi di dominio Internet offerto da Google.
+Google Domains offre la registrazione del dominio (inclusa la registrazione del dominio privato), l'hosting DNS, DNSSEC, DNS dinamico, l'inoltro di dominio e inoltro di email. Offre anche una configurazione DNS permette di collegare i domini con Blogger, Google Sites, Squarespace, Wix.com, Weebly e Shopify. Il servizio è accreditato da ICANN.
+Google Domains è stato lanciato pubblicamente in modalità beta test il 13 gennaio 2015. A marzo 2020 era ancora in versione beta.
+Google annuncia ufficialmente che Google Domains esce dalla fase beta il 15 marzo 2022, per passare alla fase stabile e fruibile a tutti gli utenti. Al 4 febbraio 2022 sono supportati oltre 300 domini di primo livello.
+Il giorno 7 settembre 2023 Squarespace ha annunciato l'intenzione di acquistare da Google Domains le registrazioni dei domini e gli account cliente correlati.

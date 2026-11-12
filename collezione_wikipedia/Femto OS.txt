@@ -1,0 +1,1 @@
+Femto OS è un sistema operativo real-time del tipo con prelazione per microcontrollori ad 8 bit della famiglia Atmel AVR sviluppato da Ruud Vlaming. Femto OS è open source e disponibile sia con licenza GPLv3 sia con una licenza di tipo commerciale.

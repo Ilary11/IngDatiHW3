@@ -1,0 +1,3 @@
+In teoria delle probabilità un processo gaussiano è un processo stocastico f(x), ossia una collezione di variabili aleatorie indicizzate (in base al tempo o allo spazio), tale che ogni insieme finito di tali variabili abbia una distribuzione di probabilità gaussiana multivariata.
+La distribuzione del processo gaussiano è la distribuzione congiunta di tutte le sue (infinite) variabili e, come tale, è una distribuzione su funzioni dal dominio continuo (ad es. il tempo o lo spazio).
+Quindi un processo gaussiano può essere considerato la generalizzazione a dimensioni infinite della distribuzione normale multivariata.

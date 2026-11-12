@@ -1,0 +1,9 @@
+Un albero quadramentale, spesso indicato con il termine inglese "quadtree", è una struttura dati ad albero non bilanciata nella quale tutti i nodi interni hanno esattamente quattro nodi figli. I quadtree sono spesso usati per partizionare uno spazio bidimensionale suddividendolo ricorsivamente in quattro quadranti, comunemente denotati come Nord-Est, Nord-Ovest, Sud-Est, Sud-Ovest.
+Utilizzi comuni di questo tipo di strutture sono i seguenti:
+
+Rappresentazione di immagini;
+Indicizzazione spaziale;
+determinazione di collisioni in due dimensioni;
+Memorizzazione di dati sparsi, come la memorizzazione di informazioni di formattazione per un foglio elettronico o per calcoli su matrici.
+I alberi quadramentali sono i corrispondenti in due dimensione degli alberi ottali (chiamati anche "octree") .
+I quadtree sono strutture dati ad albero in cui l'immagine è divisa in 4 quadranti; procedendo in senso orario e  partendo da quello in alto a sinistra, per ogni quadrante si controlla se è uniforme: se non lo è si ripete il procedimento per quel quadrante fino al raggiungimento di zone uniformi (al massimo si arriva al singolo pixel).

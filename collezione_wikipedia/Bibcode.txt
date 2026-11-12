@@ -1,0 +1,1 @@
+Il bibcode è un codice di identificazione utilizzato da diversi database astronomici per specificare in modo univoco i riferimenti alla letteratura scientifica. Tale sistema identificativo è stato sviluppato, all'inizio, per i database SIMBAD e NASA/IPAC Extragalactic Database (NED), ma ha trovato anche un impiego più ampio, ad esempio, nell'Astrophysics Data System della NASA.

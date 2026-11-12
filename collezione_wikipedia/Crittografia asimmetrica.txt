@@ -1,0 +1,4 @@
+La crittografia asimmetrica, conosciuta anche come crittografia a chiave pubblica, è un tipo di crittografia nel quale ad ogni attore coinvolto nella comunicazione è associata una coppia di chiavi:
+
+La chiave pubblica, che deve essere distribuita;
+La chiave privata, appunto personale e segreta.

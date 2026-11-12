@@ -1,0 +1,10 @@
+In semantica e linguistica computazionale, un frame semantico o cornice concettuale è una schematizzazione di una situazione, di uno stato o di un evento. 
+Un frame schematizza tale conoscenza con l'ausilio di unità lessicali che richiamano la situazione o l'evento (ad esempio, per il frame compravendita, le parole comprare, vendere, costo, ecc.) e di ruoli semantici (ad esempio, compratore, venditore, denaro, bene, ecc.). I frame vengono generalmente "evocati" da un verbo all'interno di una frase, permettendo di annotare (manualmente o automaticamente) la frase con i ruoli semantici corrispondenti. Ad esempio, data la frase:
+
+Mario ha acquistato dal negoziante un tappeto per 1000 euro. 
+
+è possibile associare i ruoli del frame compravendita (compratore, venditore, bene, prezzo) a ciascun sintagma della frase:
+
+Mario ha acquistato dal negoziante un tappeto per 1000 euro.
+
+La più diffusa risorsa computazionale che codifica i frame in termini di unità lessicali, ruoli semantici e frasi di esempio nella lingua inglese è FrameNet (Baker et al., 1998), un progetto svolto presso l'International Computer Science Institute a Berkeley, California. Risorse in altre lingue sono state sviluppate negli ultimi anni (ad esempio, per il giapponese, il tedesco, lo spagnolo).

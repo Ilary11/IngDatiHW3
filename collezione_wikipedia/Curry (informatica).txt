@@ -1,0 +1,3 @@
+Curry è un linguaggio di programmazione logico-funzionale derivato da Haskell e tuttora in fase di standardizzazione. Il linguaggio fu chiamato così in onore del logico statunitense Haskell Curry.
+Esso eredita la sintassi e le caratteristiche funzionali del padre, integrando alcuni componenti logiche che ne aumentano le potenzialità espressive.
+Nel seguito si riportano solo le differenze rispetto ad Haskell.

@@ -1,0 +1,6 @@
+Yahoo! Slurp è un crawler sviluppato da Yahoo! ed utilizzato dal motore di ricerca Yahoo! Search.
+Yahoo! Slurp deriva dal codice originario di Slurp, il crawler per l'indicizzazione del web sviluppato da Inktomi, società acquisita da Yahoo! nel 2001. I risultati generati da Yahoo! Slurp sono stati utilizzati anche da AltaVista ed Alltheweb, due motori di ricerca di proprietà della stessa Yahoo!.
+Yahoo! Slurp si identifica attraverso i seguenti User agent:
+
+ * Mozilla/5.0 (compatible; Yahoo! Slurp; https://help.yahoo.com/help/us/ysearch/slurp)
+ * Mozilla/5.0 (compatible; Yahoo! Slurp China; https://web.archive.org/web/20060409064958/http://misc.yahoo.com.cn/help.html)

@@ -1,0 +1,3 @@
+In crittografia l'attacco a boomerang è un metodo o tipo di attacco per la crittanalisi dei cifrari a blocchi basato sulla crittanalisi differenziale. L'attacco è stato pubblicato nel 1999 da David Wagner, che lo ha utilizzato per violare il cifrario COCONUT98.
+L'attacco a boomerang ha permesso nuove modalità di attacco a molti cifrari precedentemente indicati come resistenti alla crittanalisi differenziale.
+Sono anche state pubblicate versioni migliorate dell'attacco denominate attacco a boomerang amplificato ed attacco a rettangolo.

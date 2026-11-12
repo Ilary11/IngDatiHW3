@@ -1,0 +1,9 @@
+In crittografia la pseudo-trasformata di Hadamard è una trasformata invertibile operante su stringhe di bit utilizzata per generare diffusione crittografica.
+La stringa di bit deve essere di lunghezza pari così che possa essere divisa in 2 stringhe a e b di uguale lunghezza, ognuna composta da n bit. Per calcolare la trasformata ed ottenere a' e b', si usano le seguenti equazioni:
+
+a′=a+b(mod2n)
+b′=a+2b(mod2n)
+L'inverso della trasformata si ottiene con le seguenti equazioni:
+
+b=b′−a′(mod2n)
+a=2a′−b′(mod2n)

@@ -1,0 +1,3 @@
+Nell'ambito della visione artificiale, lo scale-invariant feature transform (o SIFT) è un algoritmo che permette di rilevare e descrivere caratteristiche locali in immagini. L'algoritmo è stato pubblicato da David G. Lowe nel 1999.
+Applicazioni includono: riconoscimento di oggetti, robotic mapping e navigation, image stitching, modellazione 3D, riconoscimento dei gesti, video tracking, e match moving.
+L'algoritmo è brevettato negli Stati Uniti; il proprietario è la University of British Columbia.

@@ -11,10 +11,10 @@ Autrice: Ilaria Puliani – ila.puliani1@stud.uniroma3.it
 ## Contenuto del repository
 | Percorso | Cosa contiene |
 |---|---|
-| `src/main/java/it/uniroma3/idd/` | `Analizzatori`, `Indicizzatore`, `Ricerca`, `Valutazione` |
+| `src/main/java/it/uniroma3/idd/` | `Analizzatori`, `Indicizzatore`, `Ricerca` (i due programmi richiesti), `Valutazione`, `Pooling`, `Configurazioni` |
 | `dati_di_prova/` | 12 file scritti a mano, per provare le funzionalità |
-| `collezione_appunti/` | 200 file di testo reale (appunti del corso), per la valutazione |
-| `valutazione/` | query, giudizi di rilevanza, script di costruzione della collezione, risultati |
+| `collezione_wikipedia/` | 2.667 introduzioni di voci di Wikipedia in italiano, per la valutazione |
+| `valutazione/` | script di download, query, pool, campione, giudizi di rilevanza, risultati |
 | `genera_corpus.py` | generatore di corpus sintetici, per misurare i tempi su 100–10.000 file |
 
 ## 1. Indicizzare
@@ -37,23 +37,34 @@ query> esci
 ```
 
 ## 3. Valutare
-```
-mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Valutazione
-```
-Indicizza `collezione_appunti` in memoria due volte (analyzer del progetto e, come baseline, `StandardAnalyzer`
-sul contenuto), esegue le 10 query di `valutazione/query.tsv` e calcola per ognuna precision, recall, F1, P@10
-e average precision, più le medie (MAP). Elenca anche i documenti rilevanti non trovati.
-I risultati vengono salvati in `valutazione/risultati.txt`.
+La valutazione segue il metodo visto a lezione (collezione, query, giudizi di rilevanza) con il **pooling** di TREC.
 
-### Come è costruita la collezione di valutazione
-`valutazione/costruisci_collezione.py` prende il testo degli appunti del corso (esportato dal PDF con `pdftotext`),
-lo divide in 83 sezioni riconoscendone i titoli e spezza ogni sezione in file da circa 120–250 parole.
-`valutazione/sezioni.tsv` dice da quale sezione viene ogni file.
-Per ogni query è definito un bisogno informativo e le sezioni che lo soddisfano: tutti i file di quelle sezioni
-sono rilevanti (`valutazione/qrels.tsv`), gli altri no.
-```
-python valutazione/costruisci_collezione.py appunti.txt collezione_appunti valutazione
-```
+1. **Collezione** – `valutazione/scarica_wikipedia.py` scarica le introduzioni di voci di Wikipedia in italiano
+   (alcune categorie tematiche più voci casuali) e le salva in `collezione_wikipedia/`; l'elenco è in `valutazione/elenco_voci.tsv`.
+   ```
+   python valutazione/scarica_wikipedia.py collezione_wikipedia
+   ```
+2. **Query** – `valutazione/query.tsv`: 10 query, ognuna con il suo bisogno informativo.
+3. **Pool** – `Pooling` prende i primi 10 risultati di tre configurazioni (sistema, baseline con `StandardAnalyzer`,
+   ricerca su nome+contenuto) e scrive l'unione in `valutazione/pool.tsv` (139 coppie da giudicare).
+   ```
+   mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Pooling
+   ```
+4. **Campione fuori dal pool** – `valutazione/campione.tsv`: per ogni query, 10 documenti estratti a caso dalla categoria
+   tematica e non presenti nel pool, per stimare quanti rilevanti il pool non vede.
+   ```
+   python valutazione/estrai_campione.py
+   ```
+5. **Giudizi** – `valutazione/qrels.tsv`: 239 giudizi manuali (1 = rilevante, 0 = no), dati leggendo il testo del documento
+   rispetto al bisogno informativo.
+6. **Metriche** – `Valutazione` calcola P@5, P@10, AP e MAP, recall rispetto ai rilevanti noti, recall@10 stimata e recall
+   stimata, per le tre configurazioni, e salva tutto in `valutazione/risultati.txt`.
+   ```
+   mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Valutazione
+   ```
+
+I testi in `collezione_wikipedia/` provengono da [Wikipedia](https://it.wikipedia.org) e sono distribuiti con licenza
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.it); il titolo di ogni voce è il nome del file.
 
 ## Misurare i tempi su collezioni più grandi
 Lo script `genera_corpus.py` genera un corpus sintetico riproducibile (seed fisso), usando il vocabolario di `dati_di_prova`:

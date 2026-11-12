@@ -1,0 +1,2 @@
+DeepL Translator è un servizio di traduzione gratuito multilingue, alimentato dalla base di conoscenza di Linguee, servizio creato dalla stessa azienda, DeepL GmbH (in precedenza chiamata Linguee). Al 2026, il portale supporta 114 lingue per un totale di 14000 accoppiamenti.
+Secondo test eseguiti con l'algoritmo BLEU (bilingual evaluation understudy), la qualità di DeepL Translator è risultata almeno di pari livello ai più noti servizi concorrenti (Google Traduttore, Microsoft Translator e Facebook).

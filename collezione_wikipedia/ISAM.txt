@@ -1,0 +1,1 @@
+ISAM è l'acronimo di Indexed Sequential Access Method (metodo di accesso sequenziale indicizzato), ed è un modo per immagazzinare dati da estrarre rapidamente. Sviluppato originariamente da IBM, costituisce oggi la base per l'immagazzinamento dei dati in molti database, relazionali e non.

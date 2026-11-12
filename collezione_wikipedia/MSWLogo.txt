@@ -1,0 +1,1 @@
+MSWLogo (il cui progetto di sviluppo prosegue ora con FMSLogo)  è un linguaggio interpretato basato sul Logo, ma dispone in più di un ambiente di sviluppo con interfaccia grafica. Il linguaggio è stato progettato e sviluppato al Massachusetts Institute of Technology negli anni novanta da Brian Harvey e George Mills .

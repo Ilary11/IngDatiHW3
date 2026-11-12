@@ -1,0 +1,1 @@
+Elixir è un linguaggio di programmazione funzionale, concorrente, il cui codice compilato viene interpretato dalla macchina virtuale Erlang (BEAM). Utilizza quest'ultima proprio per fornire applicazioni distribuite, fault-tolerant e (near) real-time, ma anche per estenderla verso il supporto della meta-programmazione attraverso macro, polimorfismo e protocolli.

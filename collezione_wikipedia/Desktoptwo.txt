@@ -1,0 +1,14 @@
+Desktoptwo è stato un Web operating system sviluppato dalla Sapotek Inc. Per funzionare correttamente, necessitava di un browser con installati Adobe Flash Player, Java e Adobe Acrobat inoltre doveva essere disabilitato il blocco dei Pop-up.
+Le principali applicazioni presenti erano:
+
+Hard Drive da 5 GB
+Client e-mail
+Rubrica
+Editor di siti web
+Gestione di blog
+Client per la chat tra utenti e sulla rete MSN
+MP3 player
+OpenOffice.org
+Adobe Acrobat
+RSS reader
+Inoltre era possibile creare una rete privata, con tanto di sharing dei files, tra utenti dello stesso servizio.

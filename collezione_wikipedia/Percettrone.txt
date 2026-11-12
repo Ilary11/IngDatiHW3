@@ -1,0 +1,3 @@
+Il percettrone (in inglese perceptron) è un algoritmo di apprendimento supervisionato per classificatori binari introdotto nel 1958 da Frank Rosenblatt fra i primi modelli di reti neurali artificiali. 
+Si tratta di un classificatore lineare che combina i vettori delle variabili di input con i propri coefficienti.
+Tali pesi vengono appresi attraverso aggiornamenti successivi, causati dalla misclassificazione di esempi di addestramento da parte della funzione lineare corrente.

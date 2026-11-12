@@ -1,0 +1,8 @@
+In informatica, un k-d tree o albero k-d (abbreviazione di albero k-dimensionale) è una struttura dati utilizzata per il partizionamento dello spazio e finalizzata all’organizzazione dei punti in uno spazio k-dimensionale, ossia definito esattamente da k assi ortogonali, un dato numero finito di dimensioni.
+Introdotto nel 1975 da Jon Louis Bentley, l'albero k-d è una struttura dati utile in diverse applicazioni, quali:
+
+Ricerche che coinvolgono una chiave di ricerca multidimensionale
+ad esempio, ricerche per intervallo e ricerche del vicino più prossimo per l'algoritmo k-NN;
+ricerca di punti di interesse vicini a una coordinata GPS (ad es. "trova il ristorante più vicino") nei Sistemi Informativi Geografici (GIS)
+Creazione di nuvole di punti:
+in computer grafica e visione artificiale, viene utilizzato per il ray tracing e per la ricostruzione di nuvole di punti 3D (ad es. dati LiDAR).

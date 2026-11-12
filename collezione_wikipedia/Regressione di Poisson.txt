@@ -1,0 +1,4 @@
+In statistica, la regressione di Poisson è una forma di modello lineare generalizzato di analisi di regressione usato per modellare il conteggio dei dati in tabelle di contingenza.
+La regressione di Poisson assume che la variabile di risposta Y ha una distribuzione di Poisson, e assume che il logaritmo del suo valore aspettato possa essere modellato da una combinazione lineare di parametri sconosciuti. La regressione di Poisson è talvolta conosciuta anche come modello log-lineare, specialmente quando viene usato per modellare tabelle di contingenza.
+La regressione binomiale negativa (NB2) è una famosa generalizzazione della regressione di Poisson perché allenta il presupposto altamente restrittivo che la varianza è uguale alla media come nel modello di Poisson
+La NB2 si basa sulla distribuzione mista Poisson-Gamma. Questo modello è molto usato perché modella l'eterogeneità della Poisson con la distribuzione Gamma.

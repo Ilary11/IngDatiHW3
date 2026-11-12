@@ -1,0 +1,2 @@
+Il CCMP, sigla di  Counter-Mode/CBC-Mac Protocol, è  un metodo di cifratura utilizzato dallo standard IEEE 802.11i per la gestione delle chiavi e dell'integrità dei messaggi. Il CCMP fa parte del programma di certificazione WPA2, che sostituisce l'insicuro WEP e rappresenta un'alternativa più sicura del metodo crittografico TKIP implementato nella prima versione del WPA.
+Il CCMP è basato sul cifrario a blocchi AES.

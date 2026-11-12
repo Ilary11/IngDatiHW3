@@ -1,0 +1,7 @@
+L'ispessimento o addensamento è in genere la prima fase a cui vengono sottoposti i fanghi provenienti dai cicli di depurazione o potabilizzazione delle acque, che ha lo scopo di ridurre l'umidità presente nei fanghi stessi.
+Con l'ispessimento si ha una riduzione dell'umidità modesta: infatti dopo il trattamento il fango possiede ancora un contenuto di acqua di circa il 95%. In tali condizioni il fango si comporta come un liquido ed è ancora pompabile con apparecchiature convenzionali. La riduzione di umidità, anche se piccola, comporta una sensibile riduzione del volume di materiale da trattare e pertanto un consistente risparmio nel dimensionamento nelle fasi successive, e di conseguenza un abbassamento significativo dei costi di investimento e di esercizio degli impianti di trattamento e smaltimento dei fanghi. Questo trattamento sfrutta le differenze di peso specifico dei materiali costituenti i fanghi.
+La differenza di peso specifico può essere naturale o indotta: nel primo caso si parla di "ispessimento per gravità", mentre nel secondo caso di parla di "ispessimento per flottazione". I surnatanti prodotti dall'ispessimento spesso vengono ripompati al trattamento primario, mentre i fanghi ispessiti vengono pompati a monte del sedimentatore primario della linea acque per essere ulteriormente trattati.
+A seconda della posizione rispetto al trattamento di stabilizzazione dei fanghi, si può avere:
+
+un pre-ispessimento;
+un post-ispessimento.

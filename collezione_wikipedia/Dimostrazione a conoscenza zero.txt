@@ -1,0 +1,1 @@
+In crittografia una dimostrazione a conoscenza zero o  protocollo a conoscenza zero è un metodo utilizzato da un soggetto per dimostrare ad un altro soggetto che una affermazione (solitamente matematica) è vera, senza rivelare nient'altro oltre alla veridicità della stessa.

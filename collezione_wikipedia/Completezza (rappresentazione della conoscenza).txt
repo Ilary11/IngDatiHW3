@@ -1,0 +1,13 @@
+Nell'ambito della rappresentazione della conoscenza, una base di conoscenza KB si dice completa se non esiste alcuna formula α tale che KB⊭α∧KB⊭¬α.
+Un esempio di knowledge base con conoscenza incompleta può essere
+
+KB:={A∨B}
+per cui abbiamo che KB non implica né A né ¬A.
+Dato un KB coerente, per renderlo completo si può assumere la cosiddetta ipotesi del mondo chiuso, che consiste nel considerare falsi tutti i letterali non implicati dalla base di conoscenza. Nell'esempio sopra, tuttavia, questo non funzionerebbe, in quanto renderebbe la base di conoscenza incoerente. Infatti, per
+
+KB′:={A∨B,¬A,¬B}
+non esiste alcun modello.
+Data, invece, la base di conoscenza:
+
+KB:={A∨B,B}
+e sfruttando l'ipotesi del mondo chiuso, si ha che KB⊭A∧KB⊨B, per cui, oltre ad essere completo, è anche coerente.

@@ -1,0 +1,4 @@
+PubChem è un database di molecole chimiche, gestito dal centro nazionale per l'Informazione biotecnologica statunitense (NCBI), parte della biblioteca nazionale di medicina (NLM) dell'istituto nazionale della sanità americano (NIH).
+L'accesso al database PubChem può essere eseguito liberamente attraverso un sito web e possono essere scaricati dati riguardanti milioni di strutture di composti e dati descrittivi tramite il protocollo  FTP.
+PubChem possiede descrizioni di molecole con meno di 1000 atomi e 1000 legami.
+La Società americana di chimica ha chiesto al Congresso degli Stati Uniti d'America di limitare l'uso di PubChem perché concorrerrebbe con il loro Chemical Abstracts Service (CAS). Peraltro più di 80 gestori di database contribuiscono alla crescita di PubChem.

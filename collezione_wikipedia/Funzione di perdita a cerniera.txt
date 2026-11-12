@@ -1,0 +1,7 @@
+Nell'apprendimento automatico, la funzione di perdita a cerniera (o hinge loss) è una funzione obiettivo utilizzata per l'addestramento di classificatori. Tale funzione è utilizzata nella classificazione "di massimo margine", in particolare con le macchine a vettori di supporto (SVM). 
+Per un output atteso t=±1 e un punteggio del classificatore y, la perdita a cerniera della previsione y è definita come segue
+
+ℓ(y)=max⁡(0,1−t⋅y)
+Notare che y dovrebbe essere l'output "grezzo" della funzione di decisione del classificatore, non l'etichetta di classe prevista. Ad esempio, nelle SVM lineari, y=𝐰⋅𝐱+b, dove (𝐰,b) sono i parametri del iperpiano e 𝐱 è il vettore delle variabili di input.
+Quando t e y hanno lo stesso segno (il che significa che y predice la classe corretta) e |y|≥1, la perdita a cerniera è ℓ(y)=0. Quando hanno segni opposti, ℓ(y) aumenta linearmente con y, e similmente se |y|<1, anche se ha lo stesso segno (previsione corretta, ma non con un margine sufficiente).
+La funzione di perdita a cerniera non costituisce una vera e propria regola di assegnazione di punteggi (scoring rule).

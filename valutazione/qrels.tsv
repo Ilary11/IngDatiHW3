@@ -1,62 +1,240 @@
-query	file
-Q01	38-rl-meta-blocking-1.txt
-Q01	38-rl-meta-blocking-2.txt
-Q01	38-rl-meta-blocking-3.txt
-Q01	38-rl-meta-blocking-4.txt
-Q01	38-rl-meta-blocking-5.txt
-Q01	38-rl-meta-blocking-6.txt
-Q01	38-rl-meta-blocking-7.txt
-Q01	38-rl-meta-blocking-8.txt
-Q02	52-ir-indice-invertito-1.txt
-Q02	52-ir-indice-invertito-2.txt
-Q02	52-ir-indice-invertito-3.txt
-Q02	52-ir-indice-invertito-4.txt
-Q02	53-ir-query-booleane-1.txt
-Q02	53-ir-query-booleane-2.txt
-Q02	53-ir-query-booleane-3.txt
-Q02	55-ir-skip-pointer-1.txt
-Q03	29-sa-schema-mapping-1.txt
-Q04	61-ir-metriche-1.txt
-Q04	61-ir-metriche-2.txt
-Q04	61-ir-metriche-3.txt
-Q04	61-ir-metriche-4.txt
-Q04	61-ir-metriche-5.txt
-Q05	08-etica-dei-dati-1.txt
-Q05	09-etica-ranking-1.txt
-Q05	09-etica-ranking-2.txt
-Q05	10-etica-classificazione-1.txt
-Q05	10-etica-classificazione-2.txt
-Q05	10-etica-classificazione-3.txt
-Q06	76-we-wrapper-1.txt
-Q06	77-we-xpath-1.txt
-Q06	77-we-xpath-2.txt
-Q06	77-we-xpath-3.txt
-Q06	77-we-xpath-4.txt
-Q06	77-we-xpath-5.txt
-Q06	77-we-xpath-6.txt
-Q06	78-we-wrapper-manuale-1.txt
-Q07	66-lucene-analisi-testo-1.txt
-Q07	66-lucene-analisi-testo-2.txt
-Q07	66-lucene-analisi-testo-3.txt
-Q08	43-seminario-few-label-1.txt
-Q08	45-seminario-data-augmentation-1.txt
-Q08	45-seminario-data-augmentation-2.txt
-Q08	45-seminario-data-augmentation-3.txt
-Q08	45-seminario-data-augmentation-4.txt
-Q08	46-seminario-active-learning-1.txt
-Q08	46-seminario-active-learning-2.txt
-Q08	46-seminario-active-learning-3.txt
-Q08	46-seminario-active-learning-4.txt
-Q08	46-seminario-active-learning-5.txt
-Q09	60-ir-ranked-retrieval-1.txt
-Q09	60-ir-ranked-retrieval-2.txt
-Q09	60-ir-ranked-retrieval-3.txt
-Q09	60-ir-ranked-retrieval-4.txt
-Q09	60-ir-ranked-retrieval-5.txt
-Q09	60-ir-ranked-retrieval-6.txt
-Q09	60-ir-ranked-retrieval-7.txt
-Q09	60-ir-ranked-retrieval-8.txt
-Q10	70-elasticsearch-distribuito-1.txt
-Q10	70-elasticsearch-distribuito-2.txt
-Q10	70-elasticsearch-distribuito-3.txt
-Q10	70-elasticsearch-distribuito-4.txt
+query	file	rilevante	origine
+Q01	AltaVista.txt	1	pool
+Q01	Contenuto duplicato.txt	0	campione
+Q01	Cuil.txt	1	campione
+Q01	Differenziazione nei motori di ricerca.txt	0	pool
+Q01	FilesTube.txt	1	pool
+Q01	Google Cina.txt	1	pool
+Q01	Google Code.txt	0	campione
+Q01	Google Segui Babbo Natale.txt	0	campione
+Q01	IsoHunt.txt	1	pool
+Q01	Metamotore.txt	0	campione
+Q01	Microsoft Bing.txt	1	campione
+Q01	Motore di ricerca distribuito.txt	0	pool
+Q01	OpenIndexer.txt	0	pool
+Q01	Ottimizzazione per i motori di ricerca.txt	0	pool
+Q01	Pagina dei risultati del motore di ricerca.txt	0	pool
+Q01	Picsearch.txt	1	pool
+Q01	SPDY.txt	0	campione
+Q01	Search engine marketing.txt	0	campione
+Q01	Skyscanner.txt	1	pool
+Q01	Spamdexing.txt	0	pool
+Q01	Teoma.txt	1	campione
+Q01	Yandex.txt	1	campione
+Q01	You.com.txt	1	pool
+Q01	Zuula.txt	1	pool
+Q02	Certificate Signing Request.txt	1	pool
+Q02	Chiave di sessione.txt	1	pool
+Q02	Crittografia asimmetrica.txt	1	pool
+Q02	Crittografia funzionale.txt	1	pool
+Q02	Crittografia quantistica.txt	0	pool
+Q02	Crittografia su base identità.txt	1	pool
+Q02	Encrypting File System.txt	0	campione
+Q02	Esportazione della crittografia.txt	0	pool
+Q02	John Tiltman.txt	0	campione
+Q02	Key server.txt	1	pool
+Q02	Network Security Services.txt	0	campione
+Q02	Olvid.txt	0	campione
+Q02	Operazione Primrose.txt	0	campione
+Q02	PKCS.txt	1	pool
+Q02	Pre-Shared Key.txt	0	pool
+Q02	Principio di Kerckhoffs.txt	0	pool
+Q02	Protocollo Signal.txt	0	pool
+Q02	Rafforzamento della chiave.txt	0	pool
+Q02	S_MIME.txt	1	pool
+Q02	Secure Electronic Transaction.txt	1	campione
+Q02	Simple Authentication and Security Layer.txt	0	campione
+Q02	Steganografia di stampa.txt	0	campione
+Q02	Storia della crittografia.txt	0	campione
+Q02	Vettore di inizializzazione.txt	0	campione
+Q02	X.509.txt	1	pool
+Q03	ANPA-1312.txt	0	campione
+Q03	Assunzione del mondo aperto.txt	0	campione
+Q03	Automa cellulare neurale.txt	1	pool
+Q03	BERT.txt	1	campione
+Q03	Belief propagation.txt	0	campione
+Q03	Deep Dream.txt	0	pool
+Q03	DenseNet121.txt	1	pool
+Q03	Der Herr der Welt.txt	0	campione
+Q03	Funzione obiettivo.txt	0	campione
+Q03	Funzioni di attivazione.txt	1	pool
+Q03	Micromouse.txt	0	campione
+Q03	Misura di similarità.txt	0	campione
+Q03	Regolarizzazione (matematica).txt	0	campione
+Q03	Rete di Hopfield.txt	1	pool
+Q03	Rete neurale a funzioni base radiali.txt	1	pool
+Q03	Rete neurale artificiale.txt	1	pool
+Q03	Rete neurale convoluzionale.txt	1	pool
+Q03	Rete neurale feed-forward.txt	1	pool
+Q03	Rete neurale grafica.txt	1	pool
+Q03	Rete neurale spiking.txt	1	pool
+Q03	Retrieval augmented generation.txt	0	campione
+Q04	Affidabilità (basi di dati).txt	0	campione
+Q04	Caché.txt	1	pool
+Q04	Calcolo relazionale.txt	1	pool
+Q04	Data Access Object.txt	1	campione
+Q04	Dialnet.txt	0	campione
+Q04	Fauna Europaea.txt	0	campione
+Q04	GeneReviews.txt	0	campione
+Q04	Hong Kong Movie Database.txt	0	campione
+Q04	In-memory database.txt	0	pool
+Q04	J-STAGE.txt	0	campione
+Q04	Modello probabilistico relazionale.txt	0	pool
+Q04	Modello relazionale.txt	1	pool
+Q04	MultiDimensional eXpressions.txt	0	pool
+Q04	NoSQL.txt	0	pool
+Q04	Open Database Connectivity.txt	1	pool
+Q04	PL_SQL.txt	1	pool
+Q04	PicoSQL.txt	1	pool
+Q04	Protein Data Bank.txt	0	campione
+Q04	Protocollo di aggiornamento a due fasi.txt	0	campione
+Q04	Schema di database.txt	1	pool
+Q04	System R.txt	1	pool
+Q04	Teorema di Codd.txt	1	pool
+Q04	Trigger (basi di dati).txt	1	campione
+Q05	Bitto (formaggio).txt	0	pool
+Q05	Caci figurati.txt	0	campione
+Q05	Caciocavallo di Agnone.txt	0	campione
+Q05	Canestrato di Moliterno.txt	1	pool
+Q05	Canestrato vacchino.txt	1	campione
+Q05	Fiordilatte.txt	0	campione
+Q05	Formaggio di capra siciliana.txt	0	pool
+Q05	Formaggio di fossa di Sogliano.txt	1	pool
+Q05	Graukäse.txt	0	campione
+Q05	Maiorchino.txt	1	pool
+Q05	Murazzano (formaggio).txt	1	campione
+Q05	Ortler (formaggio).txt	0	campione
+Q05	Panerone.txt	0	campione
+Q05	Pecorino di Carmasciano.txt	1	pool
+Q05	Pecorino di Norcia del pastore.txt	1	pool
+Q05	Pecorino rosso.txt	1	pool
+Q05	Pecorino sardo.txt	1	pool
+Q05	Pecorino.txt	1	pool
+Q05	Piacentinu ennese.txt	1	pool
+Q05	Piddiato.txt	1	pool
+Q05	Ricotta di pecora.txt	0	pool
+Q05	Stracciatella (formaggio).txt	0	pool
+Q05	Tomino canavesano.txt	0	campione
+Q05	Tosella.txt	0	campione
+Q05	Tuma.txt	1	pool
+Q06	Arco Eoliano.txt	0	pool
+Q06	Bradisismo flegreo.txt	0	campione
+Q06	Campi Flegrei del Mar di Sicilia.txt	1	pool
+Q06	Colli Albani.txt	1	pool
+Q06	Collina dei Camaldoli.txt	0	campione
+Q06	Febbre maculosa delle Montagne Rocciose.txt	0	pool
+Q06	Isola Ferdinandea.txt	1	pool
+Q06	Isola di Vulcano.txt	0	pool
+Q06	Lago d'Averno.txt	0	pool
+Q06	Magnaghi (vulcano).txt	0	pool
+Q06	Marsili.txt	1	pool
+Q06	Montagna Spaccata.txt	0	campione
+Q06	Monte Bonvei.txt	0	campione
+Q06	Monte Cujaru.txt	0	campione
+Q06	Monte Gauro.txt	1	pool
+Q06	Monte Lauro.txt	0	campione
+Q06	Monte Nuovo.txt	1	pool
+Q06	Monte Percia.txt	0	campione
+Q06	Riserva naturale Cratere degli Astroni.txt	0	campione
+Q06	Roccamonfina (vulcano).txt	0	pool
+Q06	Solfatara di Pozzuoli.txt	1	campione
+Q06	Stromboli (vulcano).txt	1	pool
+Q06	Trifoglietto.txt	0	pool
+Q06	Vallericcia.txt	0	campione
+Q06	Vulcanello.txt	1	pool
+Q06	Vulcanismo di Lipari.txt	1	pool
+Q06	Vulcano (vulcano).txt	1	pool
+Q06	Vulcano Sabatino.txt	1	pool
+Q07	Areografia.txt	1	pool
+Q07	Astronomia su Marte.txt	0	pool
+Q07	Atmosfera di Marte.txt	1	pool
+Q07	Atmosfera terrestre.txt	0	pool
+Q07	Bandiera di Marte.txt	0	pool
+Q07	Cambiamento climatico.txt	0	pool
+Q07	Clima di Marte.txt	1	pool
+Q07	Discontinuità di Lehmann.txt	0	campione
+Q07	Marte (astronomia).txt	1	pool
+Q07	Osservazione di Nettuno.txt	0	campione
+Q07	Parametri orbitali di Marte.txt	0	campione
+Q07	Parametri orbitali di Mercurio.txt	0	campione
+Q07	Precessione anomalistica.txt	0	campione
+Q07	Principio di mediocrità.txt	0	campione
+Q07	Struttura interna di Marte.txt	1	pool
+Q07	Superficie di Venere.txt	0	campione
+Q07	Teoria dell'oceano su Marte.txt	1	pool
+Q07	Terraformazione di Marte.txt	0	pool
+Q07	Transito di Giove dai pianeti esterni.txt	0	campione
+Q07	Transito di Marte da Giove.txt	0	pool
+Q07	Transito di Mercurio da Marte.txt	0	pool
+Q07	Transito di Venere da Marte.txt	0	pool
+Q07	Tropico del Capricorno.txt	0	campione
+Q07	Venere nella fantascienza.txt	0	campione
+Q08	Dengue.txt	1	pool
+Q08	Encefalite trasmessa da zecche.txt	1	pool
+Q08	Epidemia di dengue del 2019-2020.txt	1	pool
+Q08	Febbre da zecca del Colorado.txt	1	pool
+Q08	Febbre dell'Oropouche.txt	1	pool
+Q08	Febbre gialla.txt	1	pool
+Q08	Febbre ricorrente.txt	1	campione
+Q08	Malaria.txt	1	pool
+Q08	Malattia di Chagas.txt	1	campione
+Q08	Malattia infettiva.txt	0	pool
+Q08	Malattia sessualmente trasmissibile.txt	0	pool
+Q08	Malattia tropicale.txt	0	pool
+Q08	Malattie trasmesse da zanzare.txt	1	pool
+Q08	Meningite asettica.txt	0	campione
+Q08	Neurolue.txt	0	campione
+Q08	Oncocercosi.txt	0	campione
+Q08	Parassitosi.txt	0	pool
+Q08	Parodontite.txt	0	campione
+Q08	Pertosse.txt	0	campione
+Q08	Peste antonina.txt	0	campione
+Q08	Rabbia (malattia).txt	0	pool
+Q08	Revisione prioritaria (FDA).txt	0	campione
+Q08	Sindrome da artrite-dermatite.txt	0	campione
+Q08	Tularemia.txt	1	pool
+Q08	Zoonosi.txt	0	pool
+Q09	Agnolo Bronzino.txt	0	campione
+Q09	Andrea De Litio.txt	0	pool
+Q09	Andrea del Castagno.txt	1	pool
+Q09	Andrea del Sarto.txt	0	pool
+Q09	Andrea del Verrocchio.txt	1	pool
+Q09	Antonello da Messina.txt	0	pool
+Q09	Bramante.txt	0	campione
+Q09	Bramantino.txt	0	campione
+Q09	Chianti fiorentino.txt	0	pool
+Q09	Città ideale (dipinti).txt	0	pool
+Q09	Filippo Lippi.txt	1	pool
+Q09	Francesco Morone.txt	0	campione
+Q09	Giovanni Antonio Amato.txt	0	campione
+Q09	Leda col cigno (Galleria Borghese).txt	0	campione
+Q09	Leda col cigno (Uffizi).txt	0	campione
+Q09	Paolo Uccello.txt	1	pool
+Q09	Per sempre Alfredo 2024.txt	0	pool
+Q09	Pinturicchio.txt	0	pool
+Q09	Polittico di Santa Maria Annunziata.txt	0	campione
+Q09	Ritratto di Luca Pacioli.txt	0	campione
+Q09	Sagrestia Vecchia di Santa Maria della Scala.txt	0	pool
+Q09	Vittore Carpaccio.txt	0	campione
+Q10	Acido folinico.txt	0	campione
+Q10	Ascorbato di sodio.txt	0	campione
+Q10	Biotina.txt	0	pool
+Q10	Carenza della vitamina D.txt	1	pool
+Q10	Cobamamide.txt	0	campione
+Q10	Diidrotachisterolo.txt	0	campione
+Q10	Ergocalciferolo.txt	0	pool
+Q10	Ergosterolo.txt	0	campione
+Q10	Fitomenadione.txt	1	pool
+Q10	Menachinone-7.txt	0	pool
+Q10	Menadione.txt	0	campione
+Q10	Naftochinone.txt	0	campione
+Q10	Niacina.txt	0	campione
+Q10	Parco giochi.txt	0	pool
+Q10	Retinolo.txt	0	pool
+Q10	Riboflavina.txt	0	pool
+Q10	Tocoferolo.txt	0	campione
+Q10	Tocoli.txt	0	campione
+Q10	Vitamina B6.txt	0	pool
+Q10	Vitamina D.txt	0	pool
+Q10	Vitamina D5.txt	0	pool
+Q10	Vitamina K.txt	1	pool

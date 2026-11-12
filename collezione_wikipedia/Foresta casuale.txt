@@ -1,0 +1,5 @@
+Una foresta casuale (in inglese random forest) è un classificatore d'insieme ottenuto dall'aggregazione tramite bagging di alberi di decisione.
+L'algoritmo per la creazione di foreste casuali fu sviluppato originariamente da Leo Breiman e Adele Cutler. Le foreste casuali sono state proposte come soluzione atta a ridurre il sovradattamento del training set negli alberi di decisione. 
+Il nome viene dalle foreste di decisione casuali che furono proposte per la prima volta da Tin Kam Ho dei Bell Labs nel 1995.
+Il metodo combina l'idea del bagging di Breiman con la selezione casuale delle caratteristiche, introdotta indipendentemente da Ho e Amit Geman al fine di costruire una collezione di alberi di decisione a varianza controllata.
+La selezione di un sottoinsieme di caratteristiche è un esempio del metodo del sottoinsieme casuale che, nella formulazione di Ho, è un modo di implementare la discriminazione stocastica proposta da Eugene Kleinberg.

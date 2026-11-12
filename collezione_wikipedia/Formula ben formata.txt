@@ -1,0 +1,2 @@
+Nella logica matematica si chiama formula ben formata o - brevemente - FBF di un sistema formale una stringa di simboli che, intuitivamente, rappresenti un'espressione sintatticamente corretta e che viene definita mediante le regole della grammatica del sistema formale stesso.
+Definizioni specifiche di formula ben formata vengono date nell'ambito della logica proposizionale e dei linguaggi del primo ordine.

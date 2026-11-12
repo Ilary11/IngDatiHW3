@@ -1,0 +1,3 @@
+Questa pagina è un sommario dei servizi e degli strumenti forniti da Google.
+Questa lista dei prodotti Google elenca tutti i servizi autonomi e gli strumenti importanti, creati o acquistati da Google. Vi sono tutti quelli stabili, quelli in fase di sviluppo (beta), o parte di Google Labs, ma anche quelli fusi o scartati.
+Molti di questi prodotti, tra cui Google News, Google Suggest, AdSense e Orkut, sono stati sviluppati individualmente o da piccoli gruppi di dipendenti di Google: tutti i dipendenti di Google possono usare il 20% del loro tempo lavorativo per occuparsi in piena libertà di progetti di loro interesse.

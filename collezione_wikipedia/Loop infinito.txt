@@ -1,0 +1,4 @@
+In informatica, un ciclo infinito o loop infinito è una qualsiasi sequenza di istruzioni le cui condizioni implicano che si ripeta indefinitamente (infiniti cicli iterativi). 
+Questo tipo di algoritmo è utilizzato più comunemente nei linguaggi di programmazione a basso livello, nei linguaggi procedurali, dove il ciclo infinito permette al programma di ritornare ad una data istruzione una volta terminato il codice che lo compone.
+L'utilizzo di un algoritmo che crei un loop infinito a questo scopo è però universalmente ritenuto scorretto, ritenendo che l'algoritmo possa essere sostituito e possa funzionare in maniera più efficiente grazie a dei cicli di iterazione.
+Nella maggior parte dei casi infatti il loop infinito è dovuto ad un errore di programmazione e non a una scelta voluta dallo sviluppatore.

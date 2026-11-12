@@ -6,6 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -14,15 +15,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.miscellaneous.PerFieldAnalyzerWrapper;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
-import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.ByteBuffersDirectory;
 import org.apache.lucene.store.Directory;
 
@@ -31,110 +27,128 @@ import org.apache.lucene.store.Directory;
  *
  * Uso: mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Valutazione
  *          [-Dexec.args="<collezione> <cartella valutazione>"]
- * Senza argomenti usa collezione_appunti e valutazione.
+ * Default: collezione_wikipedia e valutazione.
  *
  * Legge dalla cartella di valutazione:
- *  - query.tsv : id, query (stessa sintassi di Ricerca), bisogno informativo
- *  - qrels.tsv : per ogni query, i file rilevanti (giudizi di rilevanza)
+ *  - query.tsv : id, query (stessa sintassi di Ricerca), bisogno informativo;
+ *  - qrels.tsv : query, file, giudizio (1 = rilevante, 0 = non rilevante), origine del giudizio
+ *                ("pool" = documento del pool, "campione" = documento estratto a caso fuori dal pool);
+ *  - campione.tsv: per ogni documento del campione, quanti documenti c'erano fuori dal pool
+ *                nella categoria da cui e' stato estratto (serve per la stima della recall).
  *
- * Indicizza la collezione due volte, in memoria:
- *  - SISTEMA:  gli analyzer del progetto (ItalianAnalyzer sul contenuto)
- *  - BASELINE: StandardAnalyzer sul contenuto (nessuno stemming, nessuna stopword)
- * e per ogni query calcola le metriche viste a lezione:
- *  - precision e recall sull'insieme dei documenti restituiti, e F1;
- *  - P@10 (precision sui primi 10 risultati);
- *  - average precision (AP); la media delle AP sulle query è la MAP.
- * Alla fine elenca, per il sistema, i documenti rilevanti NON trovati (falsi negativi),
- * utili per capire i problemi di recall. I risultati sono salvati in risultati.txt.
+ * I giudizi esistono solo per una piccola parte delle coppie query-documento: come in TREC, un
+ * documento non giudicato viene considerato non rilevante. Per ogni configurazione
+ * (Configurazioni.tutte()) e per ogni query calcola le metriche viste a lezione:
+ *  - P@5 e P@10: precision sui primi 5 e 10 risultati (esatte: i primi 10 sono tutti giudicati);
+ *  - R: recall rispetto ai rilevanti NOTI (pool + campione): sovrastima la recall vera,
+ *       perche' i rilevanti mai giudicati non si conoscono;
+ *  - R stim.: recall stimata. Il campione dice quale frazione dei documenti fuori dal pool e'
+ *       rilevante; la si estende a tutti i documenti della categoria fuori dal pool, e si stima
+ *       anche quanti di quei rilevanti il sistema trova (stessa frazione osservata nel campione);
+ *  - R@10 stim.: frazione dei rilevanti stimati che compare nei primi 10 risultati;
+ *  - AP: average precision, dividendo per il numero di rilevanti noti; la media e' la MAP.
+ * I risultati sono salvati in risultati.txt.
  */
 public class Valutazione {
 
-    private static final int K = 10;
     private static final StringBuilder out = new StringBuilder();
+    /** origine.get(query).get(file) = "pool" oppure "campione" */
+    private static final Map<String, Map<String, String>> origine = new HashMap<>();
+    /** per ogni query: [documenti nel campione, documenti della categoria fuori dal pool] */
+    private static final Map<String, int[]> campione = new HashMap<>();
 
     public static void main(String[] args) throws IOException, ParseException {
-        Path collezione = Paths.get(args.length > 0 ? args[0] : "collezione_appunti");
+        Path collezione = Paths.get(args.length > 0 ? args[0] : "collezione_wikipedia");
         Path cartellaVal = Paths.get(args.length > 1 ? args[1] : "valutazione");
 
-        Map<String, String> query = new LinkedHashMap<>();
-        for (String r : righe(cartellaVal.resolve("query.tsv"))) {
-            String[] c = r.split("\t");
-            query.put(c[0], c[1]);
-        }
-        Map<String, Set<String>> rilevanti = new LinkedHashMap<>();
+        Map<String, String> query = leggiQuery(cartellaVal.resolve("query.tsv"));
+        Map<String, Map<String, Boolean>> giudizi = new HashMap<>();
         for (String r : righe(cartellaVal.resolve("qrels.tsv"))) {
             String[] c = r.split("\t");
-            rilevanti.computeIfAbsent(c[0], k -> new HashSet<>()).add(c[1]);
+            giudizi.computeIfAbsent(c[0], x -> new HashMap<>()).put(c[1], c[2].trim().equals("1"));
+            origine.computeIfAbsent(c[0], x -> new HashMap<>()).put(c[1], c.length > 3 ? c[3].trim() : "pool");
+        }
+        Path fileCampione = cartellaVal.resolve("campione.tsv");
+        if (Files.exists(fileCampione)) {
+            for (String r : righe(fileCampione)) {
+                String[] c = r.split("\t");
+                int[] v = campione.computeIfAbsent(c[0], x -> new int[2]);
+                v[0]++;
+                v[1] = Integer.parseInt(c[2].trim());
+            }
         }
 
         List<Path> files = Indicizzatore.trovaFileTxt(collezione);
-        stampa("Collezione: %s (%d file), %d query%n", collezione, files.size(), query.size());
+        int nGiudizi = giudizi.values().stream().mapToInt(Map::size).sum();
+        stampa("Collezione: %s (%d file), %d query, %d giudizi di rilevanza (%.1f%% delle %d coppie)%n",
+                collezione, files.size(), query.size(), nGiudizi,
+                100.0 * nGiudizi / ((double) files.size() * query.size()), files.size() * query.size());
 
-        Analyzer baseline = new PerFieldAnalyzerWrapper(new StandardAnalyzer(),
-                Map.of(Analizzatori.CAMPO_NOME, Analizzatori.analyzerNome(),
-                       Analizzatori.CAMPO_CONTENUTO, new StandardAnalyzer()));
+        Map<String, Set<String>> mancatiSistema = null;
+        for (Configurazioni.Configurazione conf : Configurazioni.tutte()) {
+            Map<String, Set<String>> mancati = valuta(conf, files, query, giudizi);
+            if (mancatiSistema == null) mancatiSistema = mancati;
+        }
 
-        Map<String, Set<String>> mancatiSistema =
-                valuta("SISTEMA (ItalianAnalyzer)", Analizzatori.perCampo(), files, query, rilevanti);
-        valuta("BASELINE (StandardAnalyzer)", baseline, files, query, rilevanti);
-
-        stampa("%nDocumenti rilevanti NON restituiti dal SISTEMA (falsi negativi):%n");
+        stampa("%nRilevanti noti NON restituiti dal SISTEMA (falsi negativi):%n");
         for (Map.Entry<String, Set<String>> e : mancatiSistema.entrySet()) {
             if (!e.getValue().isEmpty()) {
                 stampa("  %s: %s%n", e.getKey(), String.join(", ", new TreeSet<>(e.getValue())));
             }
         }
-        Files.writeString(cartellaVal.resolve("risultati.txt"), out.toString(), StandardCharsets.UTF_8);
+        Files.write(cartellaVal.resolve("risultati.txt"), out.toString().getBytes(StandardCharsets.UTF_8));
         System.out.println("\nRisultati salvati in " + cartellaVal.resolve("risultati.txt"));
     }
 
-    /** Indicizza la collezione con l'analyzer dato, esegue tutte le query e stampa le metriche. */
-    private static Map<String, Set<String>> valuta(String nome, Analyzer analyzer, List<Path> files,
-            Map<String, String> query, Map<String, Set<String>> rilevanti) throws IOException, ParseException {
+    private static Map<String, Set<String>> valuta(Configurazioni.Configurazione conf, List<Path> files,
+            Map<String, String> query, Map<String, Map<String, Boolean>> giudizi) throws IOException, ParseException {
         Map<String, Set<String>> mancati = new LinkedHashMap<>();
         try (Directory dir = new ByteBuffersDirectory()) {
             long inizio = System.nanoTime();
-            Indicizzatore.indicizza(files, dir, analyzer);
+            Indicizzatore.indicizza(files, dir, conf.analyzer);
             long ms = (System.nanoTime() - inizio) / 1_000_000;
 
-            stampa("%n=== %s: indicizzazione di %d file in %d ms%n", nome, files.size(), ms);
-            stampa("%-4s %5s %5s %4s %7s %7s %7s %7s %7s%n",
-                    "id", "rel", "rest", "tp", "P", "R", "F1", "P@10", "AP");
+            stampa("%n=== %s: indicizzazione di %d file in %d ms%n", conf.nome, files.size(), ms);
+            stampa("%-5s %5s %6s %6s %6s %6s %7s %6s %10s %8s%n", "id", "rel", "stima", "rest", "P@5", "P@10", "AP", "R", "R@10 stim.", "R stim.");
 
-            double sommaP = 0, sommaR = 0, sommaF1 = 0, sommaPK = 0, sommaAP = 0;
+            double sP5 = 0, sP10 = 0, sR = 0, sRs = 0, sR10 = 0, sAP = 0;
             try (DirectoryReader reader = DirectoryReader.open(dir)) {
                 IndexSearcher searcher = new IndexSearcher(reader);
                 for (Map.Entry<String, String> q : query.entrySet()) {
-                    Set<String> rel = rilevanti.getOrDefault(q.getKey(), Set.of());
-                    Query lq = Ricerca.costruisciQuery(q.getValue(), analyzer);
+                    Map<String, Boolean> g = giudizi.getOrDefault(q.getKey(), Map.of());
+                    Set<String> rel = new HashSet<>();
+                    g.forEach((f, r) -> { if (r) rel.add(f); });
 
-                    // Chiedo TUTTI i documenti che soddisfano la query, in ordine di punteggio
-                    TopDocs td = searcher.search(lq, Math.max(1, reader.numDocs()));
+                    // Tutti i documenti che soddisfano la query, in ordine di punteggio
+                    ScoreDoc[] hits = searcher.search(conf.query(q.getValue()), Math.max(1, reader.numDocs())).scoreDocs;
                     List<String> ranking = new ArrayList<>();
-                    for (ScoreDoc sd : td.scoreDocs) {
-                        String percorso = searcher.storedFields().document(sd.doc).get(Analizzatori.CAMPO_PERCORSO);
-                        ranking.add(Paths.get(percorso).getFileName().toString());
-                    }
+                    for (ScoreDoc sd : hits) ranking.add(nomeFile(searcher, sd.doc));
 
-                    int tp = 0, tpK = 0;
-                    double sommaPrec = 0;  // somma delle P@k nelle posizioni dei rilevanti
+                    int tp = 0, tp5 = 0, tp10 = 0, giud10 = 0;
+                    double sommaPrec = 0;
                     for (int i = 0; i < ranking.size(); i++) {
-                        if (rel.contains(ranking.get(i))) {
+                        String f = ranking.get(i);
+                        if (i < 10 && g.containsKey(f)) giud10++;
+                        if (rel.contains(f)) {
                             tp++;
                             sommaPrec += (double) tp / (i + 1);
-                            if (i < K) tpK++;
+                            if (i < 5) tp5++;
+                            if (i < 10) tp10++;
                         }
                     }
-                    double p = ranking.isEmpty() ? 0 : (double) tp / ranking.size();
+                    double p5 = tp5 / 5.0, p10 = tp10 / 10.0;
                     double r = rel.isEmpty() ? 0 : (double) tp / rel.size();
-                    double f1 = (p + r) == 0 ? 0 : 2 * p * r / (p + r);
-                    double pK = (double) tpK / K;
-                    // I rilevanti mai restituiti contano con precision 0: si divide per |rilevanti|
                     double ap = rel.isEmpty() ? 0 : sommaPrec / rel.size();
+                    double rStim = recallStimata(q.getKey(), rel, new HashSet<>(ranking));
+                    double stima = rilevantiStimati(q.getKey(), rel);
+                    double r10 = stima == 0 ? 0 : tp10 / stima;
+                    if (giud10 < Math.min(10, ranking.size())) {
+                        stampa("  attenzione: %s ha %d documenti non giudicati nei primi 10%n", q.getKey(), Math.min(10, ranking.size()) - giud10);
+                    }
 
-                    stampa("%-4s %5d %5d %4d %7.3f %7.3f %7.3f %7.3f %7.3f%n",
-                            q.getKey(), rel.size(), ranking.size(), tp, p, r, f1, pK, ap);
-                    sommaP += p; sommaR += r; sommaF1 += f1; sommaPK += pK; sommaAP += ap;
+                    stampa("%-5s %5d %6.1f %6d %6.3f %6.3f %7.3f %6.3f %10.3f %8.3f%n", q.getKey(), rel.size(), stima,
+                            ranking.size(), p5, p10, ap, r, r10, rStim);
+                    sP5 += p5; sP10 += p10; sR += r; sRs += rStim; sR10 += r10; sAP += ap;
 
                     Set<String> fn = new HashSet<>(rel);
                     fn.removeAll(ranking);
@@ -142,10 +156,56 @@ public class Valutazione {
                 }
             }
             int n = query.size();
-            stampa("%-4s %5s %5s %4s %7.3f %7.3f %7.3f %7.3f %7.3f   <- medie (la media delle AP e' la MAP)%n",
-                    "media", "", "", "", sommaP / n, sommaR / n, sommaF1 / n, sommaPK / n, sommaAP / n);
+            stampa("%-5s %5s %6s %6s %6.3f %6.3f %7.3f %6.3f %10.3f %8.3f   <- medie (media AP = MAP)%n",
+                    "media", "", "", "", sP5 / n, sP10 / n, sAP / n, sR / n, sR10 / n, sRs / n);
         }
         return mancati;
+    }
+
+    /**
+     * Recall stimata con il campione fuori dal pool.
+     * rilevanti stimati = rilevanti del pool + (rilevanti nel campione / dimensione campione) * documenti fuori dal pool;
+     * rilevanti trovati stimati = rilevanti del pool trovati + (frazione dei rilevanti del campione trovati) * stima fuori dal pool.
+     */
+    /** Numero stimato di documenti rilevanti: rilevanti del pool + stima di quelli fuori dal pool. */
+    private static double rilevantiStimati(String q, Set<String> rel) {
+        int relPool = 0, relCamp = 0;
+        for (String f : rel) {
+            if ("campione".equals(origine.get(q).get(f))) relCamp++; else relPool++;
+        }
+        int[] c = campione.get(q);
+        return relPool + ((c == null || c[0] == 0) ? 0 : (double) relCamp / c[0] * c[1]);
+    }
+
+    private static double recallStimata(String q, Set<String> rel, Set<String> restituiti) {
+        int relPool = 0, trovatiPool = 0, relCamp = 0, trovatiCamp = 0;
+        for (String f : rel) {
+            boolean trovato = restituiti.contains(f);
+            if ("campione".equals(origine.get(q).get(f))) { relCamp++; if (trovato) trovatiCamp++; }
+            else { relPool++; if (trovato) trovatiPool++; }
+        }
+        int[] c = campione.get(q);
+        double fuori = (c == null || c[0] == 0) ? 0 : (double) relCamp / c[0] * c[1];
+        double trovatiFuori = relCamp == 0 ? 0 : fuori * trovatiCamp / relCamp;
+        double totale = relPool + fuori;
+        return totale == 0 ? 0 : (trovatiPool + trovatiFuori) / totale;
+    }
+
+    /** Legge query.tsv: id -> query. */
+    public static Map<String, String> leggiQuery(Path file) throws IOException {
+        Map<String, String> query = new LinkedHashMap<>();
+        for (String r : righe(file)) {
+            String[] c = r.split("\t");
+            query.put(c[0], c[1]);
+        }
+        return query;
+    }
+
+    /** Nome del file (senza cartella) del documento con l'id interno dato. */
+    public static String nomeFile(IndexSearcher searcher, int doc) throws IOException {
+        String percorso = searcher.storedFields().document(doc).get(Analizzatori.CAMPO_PERCORSO);
+        // Taglio dopo l'ultimo separatore senza usare Paths: funziona con / e \ e con qualsiasi carattere
+        return percorso.substring(Math.max(percorso.lastIndexOf('/'), percorso.lastIndexOf('\\')) + 1);
     }
 
     /** Righe di un file .tsv, senza l'intestazione e senza righe vuote. */

@@ -1,0 +1,6 @@
+PROMELA (Process/Protocol Meta Language, metalinguaggio per processi/protocolli) è un linguaggio di modellazione di verifica. Questo linguaggio consente la creazione dinamica di processi concorrenti del modello, ad esempio di sistemi distribuiti.
+PROMELA consiste in una serie di processi che interagiscono per mezzo di:
+
+Variabili condivise;
+Canali di comunicazione: sincroni (con canali di rendez vous); asincroni (buffer).
+I modelli di PROMELA possono essere analizzati con lo SPIN model checker, per verificare che il sistema modellato produca i risultati desiderati.

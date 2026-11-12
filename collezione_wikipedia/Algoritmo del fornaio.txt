@@ -1,0 +1,2 @@
+L'algoritmo del fornaio è uno dei metodi di mutua esclusione che trovano applicazione pratica nella programmazione parallela per serializzare l'esecuzione delle sezioni critiche da parte di più processi o thread concorrenti.
+L'algoritmo deve il nome al suo inventore Leslie Lamport, che propose l'analogia con il modello reale di una frequentata panetteria, dove i clienti strappano un numero prima di mettersi in fila ad aspettare il proprio turno. I clienti del fornaio rappresentano i task in attesa del proprio turno per eseguire la sezione critica.

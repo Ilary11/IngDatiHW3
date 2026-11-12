@@ -1,0 +1,7 @@
+Il programma Human Protein Atlas (in italiano: Atlante delle proteine umane) è un programma di ricerca scientifica con l'obiettivo di esplorare l'intero proteoma umano con un approccio a base di anticorpi.
+Il programma nacque presso il Istituto Reale di Tecnologia in Svezia nel 2003 e finanziato dall'organizzazione non profit Knut and Alice Wallenberg Foundation (KAW).
+Il progetto ha un approccio gene-centrico con lo sforzo di mappare e caratterizzare una proteina rappresentativa per ogni gene umano codificante una proteina (approssimativamente 20.000 geni). Gli anticorpi, sia quelli prodotti dal corpo umano che esterni (commerciali) vengono convalidati nel flusso Human Protein Atlas e sono usati per la caratterizzazione delle proteine.
+I dati vengono rilasciati ogni anno in un portale con base di dati disponibile pubblicamente..
+Il database include profili di espressione di proteine di 44 cancri ai tessuti, 56 linee cellulari, localizzazione subcellulare e livelli di espressione trascrizione.
+Il database è consultabile per uno specifico gene o proteina.
+Le ultime funzionalità agigunte permettono anche ricerche combinate per trovare tutte le proteine espresse in un certo organo o tessuto o le differenti proteine espresse per uno specifico tipo di tumore.

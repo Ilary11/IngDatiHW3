@@ -1,0 +1,6 @@
+Elsevier BIOBASE è un database bibliografico che copre tutte le discipline della ricerca biologica in tutto il mondo. È stato creato negli anni '50 in formato cartaceo col nome di Current Awareness in Biological Sciences. La copertura temporale va dal 1994 ad oggi. Al dicembre 2008, il database contava oltre 4,1 milioni di record. Ogni anno vengono aggiunti più di 300.000 record e l'84% di essi contiene un abstract. Viene aggiornato settimanalmente.
+Il database è in inglese e, al 2025, è riservato agli utenti in abbonamento. Esso continua alcune precedenti pubblicazioni:
+
+International Abstracts of Biological Sciences (ISSN 0020-5818);
+Current Advances in Neuroscience (ISSN 0741-1677, parzialmente);
+Current Advances in Cell & Developmental Biology (ISSN 0741-1626, parzialmente).

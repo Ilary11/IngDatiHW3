@@ -1,0 +1,101 @@
+query	file	documenti_categoria_fuori_pool
+Q01	Cuil.txt	112
+Q01	Google Segui Babbo Natale.txt	112
+Q01	Metamotore.txt	112
+Q01	Microsoft Bing.txt	112
+Q01	Teoma.txt	112
+Q01	Yandex.txt	112
+Q01	Contenuto duplicato.txt	112
+Q01	Google Code.txt	112
+Q01	SPDY.txt	112
+Q01	Search engine marketing.txt	112
+Q02	Olvid.txt	109
+Q02	Encrypting File System.txt	109
+Q02	Storia della crittografia.txt	109
+Q02	Operazione Primrose.txt	109
+Q02	Network Security Services.txt	109
+Q02	Vettore di inizializzazione.txt	109
+Q02	Secure Electronic Transaction.txt	109
+Q02	Steganografia di stampa.txt	109
+Q02	Simple Authentication and Security Layer.txt	109
+Q02	John Tiltman.txt	109
+Q03	Regolarizzazione (matematica).txt	192
+Q03	Micromouse.txt	192
+Q03	Der Herr der Welt.txt	192
+Q03	ANPA-1312.txt	192
+Q03	Retrieval augmented generation.txt	192
+Q03	Assunzione del mondo aperto.txt	192
+Q03	Belief propagation.txt	192
+Q03	Funzione obiettivo.txt	192
+Q03	BERT.txt	192
+Q03	Misura di similarità.txt	192
+Q04	Affidabilità (basi di dati).txt	114
+Q04	Trigger (basi di dati).txt	114
+Q04	Protocollo di aggiornamento a due fasi.txt	114
+Q04	J-STAGE.txt	114
+Q04	Protein Data Bank.txt	114
+Q04	Fauna Europaea.txt	114
+Q04	Data Access Object.txt	114
+Q04	Hong Kong Movie Database.txt	114
+Q04	Dialnet.txt	114
+Q04	GeneReviews.txt	114
+Q05	Ortler (formaggio).txt	70
+Q05	Panerone.txt	70
+Q05	Tomino canavesano.txt	70
+Q05	Caci figurati.txt	70
+Q05	Murazzano (formaggio).txt	70
+Q05	Caciocavallo di Agnone.txt	70
+Q05	Graukäse.txt	70
+Q05	Canestrato vacchino.txt	70
+Q05	Fiordilatte.txt	70
+Q05	Tosella.txt	70
+Q06	Vallericcia.txt	44
+Q06	Riserva naturale Cratere degli Astroni.txt	44
+Q06	Montagna Spaccata.txt	44
+Q06	Bradisismo flegreo.txt	44
+Q06	Monte Bonvei.txt	44
+Q06	Solfatara di Pozzuoli.txt	44
+Q06	Monte Percia.txt	44
+Q06	Monte Lauro.txt	44
+Q06	Collina dei Camaldoli.txt	44
+Q06	Monte Cujaru.txt	44
+Q07	Venere nella fantascienza.txt	118
+Q07	Principio di mediocrità.txt	118
+Q07	Precessione anomalistica.txt	118
+Q07	Parametri orbitali di Marte.txt	118
+Q07	Tropico del Capricorno.txt	118
+Q07	Discontinuità di Lehmann.txt	118
+Q07	Osservazione di Nettuno.txt	118
+Q07	Parametri orbitali di Mercurio.txt	118
+Q07	Transito di Giove dai pianeti esterni.txt	118
+Q07	Superficie di Venere.txt	118
+Q08	Sindrome da artrite-dermatite.txt	94
+Q08	Oncocercosi.txt	94
+Q08	Malattia di Chagas.txt	94
+Q08	Peste antonina.txt	94
+Q08	Febbre ricorrente.txt	94
+Q08	Meningite asettica.txt	94
+Q08	Revisione prioritaria (FDA).txt	94
+Q08	Neurolue.txt	94
+Q08	Parodontite.txt	94
+Q08	Pertosse.txt	94
+Q09	Agnolo Bronzino.txt	38
+Q09	Vittore Carpaccio.txt	38
+Q09	Leda col cigno (Galleria Borghese).txt	38
+Q09	Giovanni Antonio Amato.txt	38
+Q09	Bramante.txt	38
+Q09	Francesco Morone.txt	38
+Q09	Polittico di Santa Maria Annunziata.txt	38
+Q09	Leda col cigno (Uffizi).txt	38
+Q09	Bramantino.txt	38
+Q09	Ritratto di Luca Pacioli.txt	38
+Q10	Tocoli.txt	31
+Q10	Ascorbato di sodio.txt	31
+Q10	Tocoferolo.txt	31
+Q10	Acido folinico.txt	31
+Q10	Menadione.txt	31
+Q10	Niacina.txt	31
+Q10	Cobamamide.txt	31
+Q10	Naftochinone.txt	31
+Q10	Diidrotachisterolo.txt	31
+Q10	Ergosterolo.txt	31

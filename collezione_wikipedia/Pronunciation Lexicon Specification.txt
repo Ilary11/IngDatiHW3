@@ -1,0 +1,2 @@
+Pronunciation Lexicon Specification o PLS (Specifica del lessico di pronuncia) è una raccomandazione del World Wide Web Consortium (W3C) indirizzata alle applicazioni di sintesi vocale.
+La raccomandazione, attualmente alla versione 1.0, ha raggiunto il suo stato finale con la pubblicazione ufficiale il 14 ottobre 2008.

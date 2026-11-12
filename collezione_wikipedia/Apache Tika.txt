@@ -1,0 +1,1 @@
+Apache Tika è un software per l'estrazione di dati e analisi dei contenuti, scritto in Java, gestito dalla Apache Software Foundation. È in grado di trovare ed estrarre testo e metadati da oltre un migliaio di formati di file. È disponibile come libreria Java, in versione server e command line, pronto per essere richiamato da altri linguaggi di programmazione.

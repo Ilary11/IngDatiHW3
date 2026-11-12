@@ -1,0 +1,2 @@
+In informatica, un gestore di transazioni, o transaction manager, è un modulo del DBMS che garantisce che le transazioni godano delle proprietà ACID.
+Il gestore di transazioni svolge il proprio compito coordinando gli altri gestori risorse, ossia il lock manager, lo scheduler, il recovery manager, il buffer manager e il log manager.

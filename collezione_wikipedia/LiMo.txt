@@ -1,0 +1,3 @@
+La Fondazione LiMo (Linux Mobile) è un'alleanza fondata da Motorola, NEC, NTT DoCoMo, Panasonic Mobile Communications, Samsung Electronics, e Vodafone nel gennaio 2007, per sviluppare una piattaforma LiMo, una piattaforma per sistemi operativi per piccoli dispositivi basati su Linux.
+Si sono aggiunti alla fondazione altre società tra cui Mozilla.
+A febbraio 2009 viene annunciata la disponibilità con i primi telefoni cellulari con sistema operativo Linux per fine 2009. Nella seconda metà del 2009 Motorola annuncia il suo ritiro da LiMo e Windows Mobile per concentrarsi su Android. Dal 2012 gli sviluppatori di LiMo e MeeGo collaborano e realizzano il sistema Tizen.

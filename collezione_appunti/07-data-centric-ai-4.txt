@@ -1,6 +1,0 @@
-Per i dati, la creazione spetta agli ML engineer e qualità/infrastruttura all'MLOps.
-8.
-Traditional software vs AI software.
-Il software tradizionale ha tre fasi: scope project → develop code → deploy in production.
-Il software AI ha: scope project → collect data → train model → deploy in production, con cicli di ritorno.
-Letture (1): l'articolo di IEEE Spectrum su Andrew Ng e la data-centric AI, e un video su YouTube.

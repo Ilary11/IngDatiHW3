@@ -1,0 +1,9 @@
+XMind,  è un software open source per il brainstorming e la gestione delle mappe mentali o concettuali sviluppato da XMind Ltd. Questo strumento è utile per acquisire idee, organizzarle sotto forma di grafici di natura diversa, condividerle con altre persone e svilupparle in modo collaborativo. XMind supporta le mappe mentali, le mappe concettuali, i diagrammi a lisca di pesce (diagrammi di Ishikawa), diagrammi ad albero, organigrammi, tabelle logiche e fogli di calcolo. Viene utilizzato spesso per la gestione della conoscenza, i verbali di riunione, la gestione delle attività e il cosiddetto Getting Things Done (GTD). XMind è inoltre compatibile con FreeMind e Freeplane.
+XMind viene rilasciato sotto una duplice licenza open source:
+la Eclipse Public License v1.0 (EPL) e la GNU Lesser General Public License v3 (LGPL).
+La versione Pro di XMIND può esportare le mappe mentali in formato Microsoft Word, PowerPoint, PDF e come documenti Mindjet MindManager.
+In XMind, una mappa mentale o un grafico a spina di pesce vengono creati semplicemente premendo Tab, mentre premendo Invio  si possono creare nuovi argomenti (topic) principali e secondari. Ad una mappa mentale (o ad un diagramma a lisca di pesce) possono essere aggiunti poi ulteriori aspetti come confini, relazioni, marcatori, etichette, note, appunti audio, allegati, collegamenti ipertestuali e grafici.
+Per poter scaricare il software è necessario prima registrarsi con OpenID sul sito xmind.net.
+XMIND 2008 ha vinto il premio "Best Commercial RCP Application" durante l'evento EclipseCon 2008.
+XMind 3 ha vinto il premio "The Best Project for Academia" al SourceForge.net Community Choice Awards.
+Con la versione web esiste la possibilità di eseguire XMind direttamente dentro il browser, previa registrazione

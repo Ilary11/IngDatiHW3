@@ -1,0 +1,1 @@
+In informatica per lookup table si intende una struttura dati, generalmente un array, usata per sostituire operazioni di calcolo a runtime con una più semplice operazione di consultazione. Il guadagno di velocità può essere significativo, poiché recuperare un valore dalla memoria è spesso più veloce che sottoporsi a calcoli con tempi di esecuzione dispendiosi.

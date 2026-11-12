@@ -1,0 +1,3 @@
+Il Triangulated Irregular Network, o TIN è una struttura dati vettoriale basata su triangoli con maglia irregolare, capace di fornire elevata risoluzione solo dove questa è necessaria.
+I triangoli vengono generati unendo i punti rilevati in una rete di maglie triangolari che soddisfano il criterio di Delaunay: un cerchio disegnato per i tre punti di un triangolo non deve contenere altri punti.
+Ogni punto è connesso con i due più vicini per formare un triangolo.

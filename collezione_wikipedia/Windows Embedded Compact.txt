@@ -1,0 +1,2 @@
+Windows Embedded Compact (conosciuto anche come Windows CE o EC e precedentemente noto come Windows Embedded CE) è stato un sistema operativo real time sviluppato da Microsoft, a partire dal 1996, per dispositivi portatili (PDA, Palmari, Pocket PC), smartphone e sistemi embedded:
+come si intuisce dal nome, è un derivato della famiglia di sistemi operativi Windows, ma ha un kernel differente e non è quindi una semplice "riduzione"; le API e l'aspetto grafico sono comunque molto simili. Dal 2003 è stato Sostituito da Windows Mobile.

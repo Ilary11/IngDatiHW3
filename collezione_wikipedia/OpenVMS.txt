@@ -1,0 +1,1 @@
+OpenVMS (Open Virtual Memory System o originariamente solo VMS) è un sistema operativo sviluppato per server e computer basati su architetture VAX o Alpha sviluppate da Digital Equipment Corporation di Maynard, nel Massachusetts. Dopo lo sviluppo iniziale, è stato portato anche su macchine basate sull'architettura Intel Itanium e x86-64.

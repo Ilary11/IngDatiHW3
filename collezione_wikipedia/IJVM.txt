@@ -1,0 +1,2 @@
+IJVM è un linguaggio assembly creato (a scopo didattico) da Andrew Stuart Tanenbaum implementato sulla microarchitettura MIC-1 (anch'essa ideata da quest'ultimo). Tale linguaggio è adottato per l'insegnamento base nel suo libro 'Architettura dei calcolatori'.
+IJVM è una semplificazione del linguaggio JVM (Integer JVM) usato nella Java platform. Il linguaggio è semplificato a tal punto da rendere molto difficile la scrittura di programmi molto complessi (per esempio, non sono previste operazioni di shift o in virgola mobile).

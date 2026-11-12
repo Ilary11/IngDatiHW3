@@ -1,0 +1,4 @@
+HTTP Strict Transport Security o HSTS (in italiano sicurezza rigida per il trasporto di HTTP) è una procedura che implementa una politica di sicurezza per le comunicazioni web, necessaria a proteggere il canale HTTPS da attacchi di degrado della sicurezza (downgrade) e assai utile per la protezione dai dirottamenti di sessione.
+HSTS permette al server web di dichiarare che i browser e ogni altro tipo di client debbano comunicare con esso esclusivamente attraverso connessioni sicure su protocollo HTTPS e non sul semplice HTTP.
+La procedura è uno standard di Internet della IETF, normato dal RFC 6797.
+La politica HSTS è indicata dal server allo user agent specificando una particolare intestazione nei messaggi di risposta HTTP, denominata «Strict-Transport-Security» che specifica il periodo di tempo durante il quale il client dovrà accedere al server in modalità necessariamente sicura.

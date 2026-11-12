@@ -1,0 +1,5 @@
+Carbon è un linguaggio di programmazione di "basso livello" general-purpose creato per essere un "successore sperimentale di C++ ". L'ingegnere di Alphabet Chandler Carruth ha presentato per la prima volta Carbon alla conferenza CppNorth nel luglio del 2022. Allo stato attuale, Carbon è un "progetto sperimentale", dal momento che non ne esiste un compilatore funzionante o una toolchain ad hoc.
+Il linguaggio intende correggere diverse carenze percepite dalla community di C++, continuando a fornire un insieme di funzionalità simili. Gli obiettivi principali del linguaggio sono la leggibilità e l'"interoperabilità bidirezionale", in contrapposizione all'utilizzo di un nuovo linguaggio come Rust. Le modifiche alla lingua saranno decise dai lead di Carbon.
+I documenti, la progettazione, l'implementazione e gli strumenti correlati di Carbon sono condivisi su GitHub con la licenza Apache versione 2 con LLVM Exception.
+
+Quanto segue mostra come un programma "Hello, World!" scritto in Carbon:

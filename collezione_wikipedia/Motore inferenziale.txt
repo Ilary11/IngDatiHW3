@@ -1,0 +1,9 @@
+In informatica, un motore inferenziale è un algoritmo che simula le modalità con cui la mente umana trae delle conclusioni logiche attraverso il ragionamento. Fa parte dei software detti "sistemi esperti".
+Analogamente al comportamento logico, il motore inferenziale può trarre delle conclusioni di tipo deduttivo (o forward chaining, quando da un principio di carattere generale ne estrae uno o più di carattere particolare) oppure di tipo induttivo (o backward chaining, quando accade il contrario).
+Il meccanismo del motore inferenziale è basato su delle "regole" di soluzione del problema che vengono scelte ed attuate a seconda del problema in oggetto.
+Un motore inferenziale è costituito dai seguenti elementi:
+
+interprete: decide la regola da applicare;
+schedulatore: decide l'ordine di esecuzione delle regole;
+memoria di lavoro: in essa viene memorizzato un elenco delle operazioni svolte e da svolgere;
+rafforzatore di consistenza: ha il compito di testare la veridicità delle ipotesi fatte.

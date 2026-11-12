@@ -1,0 +1,6 @@
+Il Distributed Component Object Model (in acronimo DCOM, inglese per "Modello ad oggetti per componenti distribuiti") è una tecnologia informatica presentata nel 1996 da Microsoft per contrastare CORBA. DCOM è basato sul Component Object Model, sempre di Microsoft, e come questa, fa parte di quelle tecnologie che Microsoft stessa intende soppiantare con il framework Microsoft .NET.
+DCOM permette di effettuare chiamate di procedure remote attraverso una rete, occupandosi di tutte le mediazioni necessarie, in maniera indipendente dal linguaggio. La composizione delle classi e dei relativi metodi è esplicitata in un linguaggio di definizione d'interfaccia, IDL (Interface Description Language).
+In particolare, DCOM aggiunge queste importanti funzionalità al COM:
+
+Serializzazione (marshalling): codifica e decodifica in sequenze di byte dei parametri e dei valori di ritorno delle chiamate a metodo remote, per consentirne la trasmissione via rete.
+Garbage collection distribuita (distributed garbage collection): assicura il rilascio di riferimenti mantenuti dai client delle interfacce quando, per esempio, un processo client va in crash, o quando viene meno la connessione di rete.

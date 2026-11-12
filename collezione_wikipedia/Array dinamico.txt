@@ -1,0 +1,3 @@
+In informatica, un vettore dinamico, vettore allargabile,
+vettore ridimensionabile, tabella dinamica, o lista di array è una struttura dati array che può essere ridimensionata e consente di aggiungere o rimuovere elementi. È fornita con la libreria standard in molti moderni linguaggi di programmazione principali.
+Un array dinamico non è la stessa cosa di un array allocato dinamicamente: quest'ultimo è un array di dimensione fissata all'atto dell'allocazione o instanziazione dell'array stesso; per maggiori informazioni su questo tipo di array, vedere array.

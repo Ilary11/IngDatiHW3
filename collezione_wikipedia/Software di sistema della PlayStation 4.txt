@@ -1,0 +1,4 @@
+Il software di sistema di PlayStation 4 costituisce il firmware e il sistema operativo di PlayStation 4.
+Il sistema operativo è derivato dalla versione 9.0 del sistema operativo Unix-like FreeBSD. Il processo di aggiornamento è identico a quello di PlayStation 3: il software può essere aggiornato direttamente da PlayStation 4, oppure scaricato dal sito ufficiale su un computer e poi caricato su una penna USB e trasferito su PS4, altrimenti è possibile installarlo tramite l'aggiornamento contenuto in un gioco.
+La PlayStation 4 usa PlayStation Dynamic Menu come interfaccia grafica.
+L'attuale versione del software di sistema è la 14.02 pubblicata il 4 novembre 2026.

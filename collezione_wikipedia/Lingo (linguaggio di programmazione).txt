@@ -1,0 +1,2 @@
+Il nome Lingo è stato utilizzato da diversi linguaggi di programmazione non correlati ad Adobe Director (Macromedia Director).
+Quello più conosciuto è un linguaggio di scripting sviluppato da John H. Thompson, utilizzato per applicazioni desktop, CD-ROMs e per applicazioni internet che utilizzano Adobe Shockwave.

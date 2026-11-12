@@ -1,0 +1,6 @@
+Sleep sort (in italiano: ordinamento assonnato) è un algoritmo di ordinamento basato sul tempo.
+Sleep sort lavora associando un contatore ad ogni elemento da ordinare.
+Ogni contatore è inizialmente impostato con il valore dell'elemento che deve essere ordinato.
+I contatori sono poi decrementati alla stessa velocità.
+Quando un dato contatore finisce, l'elemento associato viene aggiunto alla fine della lista. Poiché i contatori si fermano a seconda della grandezza degli elementi, la lista sarà ordinata una volta che tutti i contatori sono fermi.
+Può essere implementato utilizzando i timer del sistema operativo, per esempio facendo un fork di un processo separato per ogni elemento, o più semplicemente utilizzano un vettore di contatori.

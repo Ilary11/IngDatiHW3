@@ -1,0 +1,1 @@
+Il Tiny (o TINY) è un linguaggio di programmazione utilizzato da Kenneth C. Louden nel libro Compiler Construction: Principles and Practice. Il linguaggio permette di effettuare semplici operazioni aritmetiche tra interi. Include inoltre gli operatori di confronto minore ed uguale.

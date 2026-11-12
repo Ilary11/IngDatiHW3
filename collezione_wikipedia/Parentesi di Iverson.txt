@@ -1,0 +1,13 @@
+In matematica e in programmazione le parentesi di Iverson riguardano una notazione che consente di associare ad una proposizione un valore binario. È definita nel modo seguente:
+
+[P]={1se P è vero0altrimenti
+dove P rappresenta una proposizione o una relazione.
+Ad esempio queste parentesi consentono di definire la delta di Kronecker come
+
+δij=[i=j]  per i,j interi arbitrari .
+Anzi, le parentesi di Iverson possono considerarsi una notazione che generalizza la delta di Kronecker.
+Questa notazione è stata introdotta da Kenneth Iverson nel linguaggio APL e di essa fanno largo uso testi sugli algoritmi come "Matematica Discreta" (Concrete Mathematics) di Graham, Donald Knuth e Patashnik.
+Le parentesi di Iverson risultano particolarmente utili per semplificare alcune somme e alcuni integrali specifici; ad esempio 
+
+∑0≤i≤10i2=∑ii2⋅[0≤i≤10] ;
+infatti se i è strettamente minore di 0 o strettamente maggiore di 10, il sommando del secondo membro vale 0 e non porta contributo alla somma complessiva. Le parentesi di Iverson consentono di formalizzare in modo preciso molte considerazioni su calcoli nel discreto e facilitano la manipolazione di varie espressioni che si incontrano nello studio di procedimenti di calcolo.

@@ -1,0 +1,5 @@
+Wear OS, precedentemente noto come Android Wear, è una versione del sistema operativo Android di Google progettata per smartwatch. Tramite l'accoppiamento con dispositivi mobili a partire da Android 4.3 o iOS 8.2 e versioni superiori, Wear OS integra le funzionalità dell'Assistente Google, le notifiche del proprio dispositivo e l'uso delle app compatibili sullo smartwatch.
+Aziende tra cui Motorola, Samsung, LG, HTC e Asus sono partner del progetto. Motorola e LG hanno annunciato dispositivi sulla data di lancio. 
+Il 25 giugno 2014, al Google I/O, erano presenti il Samsung Gear Live e l'LG G Watch, insieme ad altre informazioni riguardo a Wear OS. Il Motorola Moto 360 è stato messo in commercio nell'estate del 2014.
+Wear OS è compatibile con orologi con schermo circolare, quadrato e rettangolare.
+Il 15 marzo 2018, tramite il proprio blog, Google annuncia il cambio di nome da Android Wear a Wear OS, per sottolineare la compatibilità con entrambi i sistemi operativi mobili più diffusi.

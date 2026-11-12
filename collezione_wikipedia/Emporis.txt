@@ -1,0 +1,4 @@
+Emporis è una società di data mining fondata da Michael Wutze, con sede ad Amburgo. Raccoglie dati su edifici di tutto il mondo, in particolare grattacieli ed altre strutture di grande altezza, con i quali ha costruito un database consultabile pubblicamente sul sito web Emporis.com.
+Il database comprende oltre 400 000 edifici distribuiti in 190 paesi, e 160 000 imprese di costruzione e urbanistica.
+Nel 2005 Emporis ha formato un partenariato con il Council on Tall Buildings and Urban Habitat (CTBUH) di Chicago. Da allora le due società collaborano per stabilire l'altezza e altri dati sui grattacieli.
+Il sito Emporis.com è in genere considerato attendibile ed è citato spesso nelle statistiche sui grattacieli, ma si ritiene che per alcuni paesi asiatici, tra cui la Cina, la Corea del Sud, il Giappone e Taiwan, non sia del tutto aggiornato per i grattacieli di recente costruzione.

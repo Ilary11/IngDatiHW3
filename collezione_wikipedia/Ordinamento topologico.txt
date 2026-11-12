@@ -1,0 +1,3 @@
+In teoria dei grafi un ordinamento topologico (in inglese topological sort) è un ordinamento lineare di tutti i vertici di un grafo diretto. I nodi di un grafo si definiscono ordinati topologicamente se i nodi sono disposti in modo tale che ogni nodo viene prima di tutti i nodi collegati ai suoi archi uscenti.
+L'ordinamento topologico non è un ordinamento totale, poiché la soluzione può non essere unica. Nel caso peggiore infatti si possono avere n! ordinamenti topologici diversi che corrispondono a tutte le possibili permutazioni degli n nodi. 
+È possibile ordinare topologicamente un grafo se e solo se non contiene cicli (cioè solo se è un grafo aciclico diretto), e sono noti algoritmi per determinare un ordinamento topologico in tempo lineare.

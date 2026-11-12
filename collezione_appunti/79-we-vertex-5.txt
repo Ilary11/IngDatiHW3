@@ -1,9 +1,0 @@
-Pagine campionate
-Attributi coperti (su 69)
-Random
-276,2
-Greedy
-24,1
-Smart
-28,2
-Lo schema smart, con circa un decimo delle pagine della baseline, copre quasi tutti gli attributi. Apprendimento delle XPath Per ogni nodo annotato nel DOM si generano diverse espressioni XPath che partono da tag "robusti" antenati o precedenti (es. <div> , <h1> , tag con attributi id o class), e le si combinano per ottenere recall 1 e precision massima. Esempio: x1 = //div/*/*/node() , x2 = //*[preceding-sibling::node()[position()=2][@class="c1" or @class="c2"]] , x3 = //* [@id="i1"]/node() vengono combinate in x4 = //div[preceding-sibling::node() [position()=2][@class="c1" or @class="c2"]]/*/*[@id="i1"]/node() . Risultati e lezioni 200 siti (prodotti e business), 250M estrazioni (65M da pagine di shopping, 85M da profili di persone, 50M da pagine business, 50M da forum); precision vicina al 100% su un campione casuale, con in media 2,3 pagine annotate per cluster.

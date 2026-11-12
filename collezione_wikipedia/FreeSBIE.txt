@@ -1,0 +1,3 @@
+FreeSBIE è stata la prima distribuzione Live CD di BSD. È basata sul sistema operativo FreeBSD. La versione 1.0.1 utilizzava Xfce e Fluxbox.
+L'ultima versione è FreeSBIE 2.0.1, che contiene una completa riscrittura del toolkit. La prima versione di FreeSBIE 2 è stata sviluppata durante l'estate 2005, grazie al Google Summer of Code.
+Risulta non più distribuita dal 2008.

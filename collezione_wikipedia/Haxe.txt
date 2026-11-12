@@ -1,0 +1,1 @@
+Haxe è un linguaggio di programmazione open source sviluppato nel 2005 da Nicolas Cannasse. Tra le sue caratteristiche principali troviamo la possibilità di produrre codice sorgenti in vari linguaggi di programmazione tra cui C++, C#, JavaScript e ActionScript, ciò conferisce ad Haxe la definizione di multipiattaforma.

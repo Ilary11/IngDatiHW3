@@ -1,0 +1,4 @@
+Environment for DeveLoping KDD-Applications Supported by Index-Structures (in italiano: Ambiente per lo sviluppo di applicazioni KDD per strutture ad indice) in sigla ELKI è un programma-framework di Data mining usato per la ricerca e l'insegnamento dall'unità di ricerca in sistemi di basi di dati dell'Università di Monaco in Germania.
+Ha lo scopo di permettere lo sviluppo e la valutazione di algoritmi avanzati di data mining e la loro interazione con le basi di dati con indice.
+La prima versione, la 0.1 è uscita nel luglio 2008.
+L'ultima ad aprile 2012, la versione 0.5.

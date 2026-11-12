@@ -1,0 +1,6 @@
+L'analisi grammaticale è il procedimento per identificare la categoria lessicale (e le relative sottocategorie) di ogni parola nel contesto nel quale è usata. Ogni parola può appartenere a una delle nove categorie lessicali dell'italiano:
+
+cinque variabili:
+articolo, aggettivo, sostantivo o nome, pronome, verbo;
+quattro invariabili:
+avverbio, preposizione, congiunzione, interiezione o esclamazione.

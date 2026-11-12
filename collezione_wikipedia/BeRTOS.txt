@@ -1,0 +1,9 @@
+BeRTOS è un sistema operativo real-time progettato per piattaforme embedded.
+Ha una licenza di tipo GPL con una particolare eccezione che permette al codice applicativo proprietario di rimanere closed source mentre mantiene open source BeRTOS stesso.
+Possiede un design modulare che gli permette di funzionare su diverse architetture, da piccoli microcontrollori a 8 bit come gli Atmel AVR, passando per l'architettura ARM, fino ad arrivare ad essere emulato su Linux o Windows (per scopi di debug).
+Il kernel multitasking implementa primitive di comunicazione tra processi, tra cui:
+
+Segnali
+Semafori
+Messaggi
+Oltre al kernel, BeRTOS dispone di diversi driver generici per il controllo di periferiche hardware (timer, seriali, ADC, motori, display LCD, sensori NTC, tastiere, buzzer, memorie), algoritmi (tabelle di hash, CRC, MD2, pool di entropia, RLE), protocolli di comunicazione e di un sottosistema grafico per semplici display.

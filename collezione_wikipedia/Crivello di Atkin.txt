@@ -1,0 +1,1 @@
+Il crivello di Atkin è un algoritmo matematico veloce e moderno per trovare tutti i numeri primi fino a uno specifico valore intero. È una versione ottimizzata dell'antico crivello di Eratostene: il crivello di Atkin compie del lavoro preliminare, poi segna non tutti i multipli dei primi, ma i multipli dei quadrati dei primi. Fu creato da A. O. L. Atkin e Daniel J. Bernstein.

@@ -1,0 +1,3 @@
+RTCP o Real-time Transport Control Protocol è un protocollo che raccoglie statistiche sulla qualità del servizio del protocollo RTP e trasporta le informazioni riguardo ai partecipanti ad una sessione. RTCP è sufficiente per sessioni loosely controlled, in cui cioè non c'è un reale controllo dei partecipanti e set-up della sessione, e non è necessario che tutti i requisiti di controllo siano soddisfatti. Per questo RTP può essere coadiuvato da un protocollo apposito per la gestione delle sessioni (come SIP o H.323)
+È definito nell'RFC 3550.
+RTP Control Protocol Extended Reports (RTCP XR) è un'estensione di RTCP che contiene dati e misure di specifico interesse per la valutazione della qualità di una chiamata VoIP. È definito nell'RFC 3611.

@@ -1,0 +1,13 @@
+Dr. Sbaitso è un programma basato sull'intelligenza artificiale per personal computer con sistema operativo MS-DOS, distribuito nei primi anni novanta dalla Creative Labs con vari modelli di scheda audio (il nome deriva dall'acronimo per Sound Blaster Acting Intelligent Text to Speech Operator). Il programma "conversava" con l'utilizzatore come uno psicologo, la maggior parte delle domande erano del tipo "WHY DO YOU FEEL THAT WAY?" piuttosto che complicate interazioni (quando era messo a confronto con una frase che non era in grado di capire, di solito rispondeva con "THAT'S NOT MY PROBLEM"). Dr. Sbaitso ripeteva ad alta voce il testo scritto dopo la parola "SAY". Ripetuti insulti o comportamenti non accettabili da parte dell'utente causavano un "PARITY ERR" al Dr. Sbaitso che in seguito si riavviava.
+Il programma, appena lanciato, si annunciava con il seguente testo:
+
+HELLO [nome utente], MY NAME IS DOCTOR SBAITSO.
+
+I AM HERE TO HELP YOU.
+SAY WHATEVER IS IN YOUR MIND FREELY,
+OUR CONVERSATION WILL BE KEPT IN STRICT CONFIDENCE.
+MEMORY CONTENTS WILL BE WIPED OFF AFTER YOU LEAVE,
+
+SO, TELL ME ABOUT YOUR PROBLEMS.
+
+Il programma fu creato per dare dimostrazione della capacità delle schede audio di generare una voce sintetizzata anche se la qualità era ben lontana da quella della voce naturale. L'intelligenza artificiale era simile a quella del programma ELIZA. Il vocabolario era limitato ed orientato ad argomenti legati al sesso e se veniva menzionato qualcosa di inerente, anche in seguito tendeva a ritornare sull'argomento. Questo era legato al fatto che questo era uno degli argomenti più richiamati dagli utilizzatori di Dr. Sbaitso.

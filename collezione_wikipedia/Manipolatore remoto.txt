@@ -1,0 +1,6 @@
+Un manipolatore remoto (o waldo) è un meccanismo utilizzato per operare a distanza e quindi in condizioni di sicurezza su oggetti posti in ambienti pericolosi.
+Sono citati per la prima volta nel racconto di fantascienza di Robert Anson Heinlein del 1942 intitolato Waldo, o dell'impossibile nel quale vengono utilizzati dal protagonista, affetto da miastenia gravis, per manipolare oggetti da remoto. I primi dispositivi furono sviluppati nel corso della seconda guerra mondiale per manipolare le sostanze radioattive.
+Sono composti da un'unità master che viene controllata dall'operatore, da un sistema di trasmissione intermedio ed un'unità slave che opera nell'ambiente remoto.
+Il manipolatore controllato dall'operatore fornisce un'opportuna retroazione per simulare la sensazione di operare direttamente sull'ambiente remoto.
+Il sistema di trasmissione può essere meccanico, nei casi più semplici, o elettronico, con attuatori elettrici o idraulici, nei casi in cui le distanze o le forze in gioco lo richiedano.
+Il manipolatore remoto viene progettato in funzione delle operazioni da svolgere. Deve essere adatto all'ambiente in cui si trova ad operare, che potrebbe essere estremamente ostile. Può variare nelle dimensioni, che possono essere anche microscopiche.

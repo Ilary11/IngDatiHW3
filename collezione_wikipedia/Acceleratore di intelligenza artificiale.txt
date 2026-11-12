@@ -1,0 +1,2 @@
+Un acceleratore di intelligenza artificiale (o anche Artificial Intelligence Accelerator e NPU, Neural Processing Unit) è una classe di microprocessori progettati per fornire accelerazione hardware a reti neurali artificiali, visione artificiale e algoritmi di apprendimento automatico per la robotica, l'Internet delle cose e altre applicazioni basate sull'uso dei dati.
+Le possibili applicazioni di tali dispositivi includono le auto a guida autonoma, gli aeromobili a pilotaggio remoto, la diagnostica medica, l'elaborazione del linguaggio naturale e la traduzione automatica.

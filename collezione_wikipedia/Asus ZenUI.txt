@@ -1,0 +1,3 @@
+L'ASUS ZenUI è un'interfaccia utente sviluppata da ASUS. Ha esordito sulla serie ASUS ZenFone, su ASUS MeMoPad 7 e ASUS PadFone Mini.
+ZenUI è utilizzata da ASUS per i propri smartphone e tablet con Android e non è disponibile per le licenze di soggetti esterni. La ZenUI viene fornita anche con applicazioni sviluppate da ASUS precaricate come ZenLink (PC Link, Share Link, Party Link e Remote Link)
+La versione più recente è la ZenUI 7.

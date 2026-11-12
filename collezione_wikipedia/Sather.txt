@@ -1,0 +1,3 @@
+Sather è un linguaggio di programmazione orientato agli oggetti. Nacque all'incirca nel 1990 all'International Computer Science Institute dell'Università della California, sviluppato da un gruppo internazionale guidato da Steve Omohundro.
+Supporta la garbage collection e la programmazione generica dei sottotipi.
+In origine si basava su Eiffel ma ora include anche caratteristiche di programmazione funzionale.

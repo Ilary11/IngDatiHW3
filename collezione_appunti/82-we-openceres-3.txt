@@ -1,8 +1,0 @@
-budget – 237 mln).
-Output: nuove coppie etichetta-oggetto, che espandono il KG.
-Passo 1: si costruisce un grafo con archi pesati, dove il peso misura la somiglianza visiva fra i nodi.
-Esempio: "release – 15 January" è simile a "budget – 2,37 ml", perché le etichette "release" e "budget" hanno stessa dimensione, font, allineamento e colore, e lo stesso vale per gli oggetti "15 January" e "2,37 ml".
-Passo 2: un algoritmo di label propagation (random walk) trova i nodi corretti, cercando comunità di nodi simili fra loro e diversi dai nodi delle altre comunità.
-Le coppie che finiscono nella comunità di quelle già note (budget) sono nuovi fatti (release date).
-Risultati sperimentali (precision P e recall R): Sistema
-Movie P

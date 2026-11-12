@@ -1,0 +1,2 @@
+GKrellM (GNU Krell Monitors) è un programma di system monitor basato sul toolkit GTK+. Può essere usato per monitorare lo stato della CPU, della memoria, l'hard disk, le interfacce di rete, lo stato di caselle di posta elettronica locali e remote, e molte altre cose. Sono disponibili plugin per molte funzioni, ad esempio per controllare XMMS o un client SETI@home. GKrellM è molto diffuso fra utenti Linux e sistemi operativi Unix-like in generale.
+GKrellM è software libero distribuito sotto licenza GNU General Public License.

@@ -1,0 +1,2 @@
+Nella fisica delle particelle, uno sfermione è il superpartner a spin-0 di un fermione ordinario che appare nelle estensioni supersimmetriche del modello standard (MS). Dunque, gli sfermioni includono gli squark e gli sleptoni. Dato che tutti i fermioni del Modello Standard hanno spin 1/2, gli sfermioni hanno spin 0 (bosoni scalari). 
+L'"opposto" di uno sfermione è un bosino, il quale è il superpartner di un comune bosone. Perciò, i bosini sono fermioni.

@@ -1,0 +1,3 @@
+La crittanalisi differenziale impossibile è una particolare forma della crittanalisi differenziale operata su cifrari a blocchi. La crittanalisi differenziale si basa sull'analisi delle differenze che si trovano nel codice cifrato con probabilità maggiore di quella standard. Contrariamente, la crittanalisi differenziale impossibile considera principalmente le differenze che sono impossibili da ottenere (in termini probabilistici dette "con probabilità 0"). Sfruttando tale tecnica, sono stati proposti svariati attacchi ai più diffusi sistemi di cifratura a blocchi come AES,
+cifrari SPN e
+Rijndael.

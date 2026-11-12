@@ -1,0 +1,140 @@
+query	file	pos_sistema	pos_baseline	pos_nome_contenuto
+Q01	AltaVista.txt	4	3	5
+Q01	Differenziazione nei motori di ricerca.txt	9	-	9
+Q01	FilesTube.txt	-	8	-
+Q01	Google Cina.txt	-	7	-
+Q01	IsoHunt.txt	-	6	-
+Q01	Motore di ricerca distribuito.txt	5	2	1
+Q01	OpenIndexer.txt	-	9	-
+Q01	Ottimizzazione per i motori di ricerca.txt	8	-	8
+Q01	Pagina dei risultati del motore di ricerca.txt	3	4	2
+Q01	Picsearch.txt	7	-	7
+Q01	Skyscanner.txt	10	5	10
+Q01	Spamdexing.txt	6	-	6
+Q01	You.com.txt	2	1	4
+Q01	Zuula.txt	1	10	3
+Q02	Certificate Signing Request.txt	-	9	-
+Q02	Chiave di sessione.txt	7	5	4
+Q02	Crittografia asimmetrica.txt	1	1	1
+Q02	Crittografia funzionale.txt	3	3	2
+Q02	Crittografia quantistica.txt	9	8	5
+Q02	Crittografia su base identità.txt	2	2	3
+Q02	Esportazione della crittografia.txt	-	-	8
+Q02	Key server.txt	4	4	6
+Q02	PKCS.txt	5	-	9
+Q02	Pre-Shared Key.txt	-	10	-
+Q02	Principio di Kerckhoffs.txt	6	-	10
+Q02	Protocollo Signal.txt	10	-	-
+Q02	Rafforzamento della chiave.txt	-	-	7
+Q02	S_MIME.txt	8	6	-
+Q02	X.509.txt	-	7	-
+Q03	Automa cellulare neurale.txt	7	8	8
+Q03	Deep Dream.txt	6	6	7
+Q03	DenseNet121.txt	8	7	9
+Q03	Funzioni di attivazione.txt	10	10	-
+Q03	Rete di Hopfield.txt	9	9	10
+Q03	Rete neurale a funzioni base radiali.txt	2	2	5
+Q03	Rete neurale artificiale.txt	3	3	2
+Q03	Rete neurale convoluzionale.txt	4	4	3
+Q03	Rete neurale feed-forward.txt	1	1	1
+Q03	Rete neurale grafica.txt	-	-	6
+Q03	Rete neurale spiking.txt	5	5	4
+Q04	Caché.txt	7	-	-
+Q04	Calcolo relazionale.txt	1	1	1
+Q04	In-memory database.txt	-	10	10
+Q04	Modello probabilistico relazionale.txt	8	6	4
+Q04	Modello relazionale.txt	10	7	3
+Q04	MultiDimensional eXpressions.txt	6	-	-
+Q04	NoSQL.txt	3	3	7
+Q04	Open Database Connectivity.txt	9	-	6
+Q04	PL_SQL.txt	5	4	2
+Q04	PicoSQL.txt	4	5	9
+Q04	Schema di database.txt	-	8	8
+Q04	System R.txt	-	9	-
+Q04	Teorema di Codd.txt	2	2	5
+Q05	Bitto (formaggio).txt	-	-	4
+Q05	Canestrato di Moliterno.txt	2	-	3
+Q05	Formaggio di capra siciliana.txt	-	-	8
+Q05	Formaggio di fossa di Sogliano.txt	6	5	1
+Q05	Maiorchino.txt	10	7	-
+Q05	Pecorino di Carmasciano.txt	9	-	-
+Q05	Pecorino di Norcia del pastore.txt	5	4	7
+Q05	Pecorino rosso.txt	7	8	-
+Q05	Pecorino sardo.txt	8	6	-
+Q05	Pecorino.txt	1	2	5
+Q05	Piacentinu ennese.txt	-	9	-
+Q05	Piddiato.txt	4	3	9
+Q05	Ricotta di pecora.txt	-	10	2
+Q05	Stracciatella (formaggio).txt	-	-	10
+Q05	Tuma.txt	3	1	6
+Q06	Arco Eoliano.txt	5	-	-
+Q06	Campi Flegrei del Mar di Sicilia.txt	8	-	-
+Q06	Colli Albani.txt	3	-	9
+Q06	Febbre maculosa delle Montagne Rocciose.txt	-	7	-
+Q06	Isola Ferdinandea.txt	4	-	10
+Q06	Isola di Vulcano.txt	10	5	5
+Q06	Lago d'Averno.txt	-	9	-
+Q06	Magnaghi (vulcano).txt	7	3	2
+Q06	Marsili.txt	-	8	-
+Q06	Monte Gauro.txt	-	10	-
+Q06	Monte Nuovo.txt	2	-	8
+Q06	Roccamonfina (vulcano).txt	-	-	7
+Q06	Stromboli (vulcano).txt	-	-	6
+Q06	Trifoglietto.txt	-	4	-
+Q06	Vulcanello.txt	9	-	-
+Q06	Vulcanismo di Lipari.txt	1	1	3
+Q06	Vulcano (vulcano).txt	6	2	1
+Q06	Vulcano Sabatino.txt	-	6	4
+Q07	Areografia.txt	2	2	4
+Q07	Astronomia su Marte.txt	6	4	6
+Q07	Atmosfera di Marte.txt	4	-	2
+Q07	Atmosfera terrestre.txt	-	-	9
+Q07	Bandiera di Marte.txt	-	8	10
+Q07	Cambiamento climatico.txt	7	-	-
+Q07	Clima di Marte.txt	1	1	1
+Q07	Marte (astronomia).txt	8	-	5
+Q07	Struttura interna di Marte.txt	5	3	7
+Q07	Teoria dell'oceano su Marte.txt	3	5	3
+Q07	Terraformazione di Marte.txt	9	6	8
+Q07	Transito di Marte da Giove.txt	-	9	-
+Q07	Transito di Mercurio da Marte.txt	-	10	-
+Q07	Transito di Venere da Marte.txt	10	7	-
+Q08	Dengue.txt	6	4	8
+Q08	Encefalite trasmessa da zecche.txt	-	9	3
+Q08	Epidemia di dengue del 2019-2020.txt	2	2	4
+Q08	Febbre da zecca del Colorado.txt	10	-	-
+Q08	Febbre dell'Oropouche.txt	4	6	6
+Q08	Febbre gialla.txt	5	7	7
+Q08	Malaria.txt	-	10	-
+Q08	Malattia infettiva.txt	-	-	10
+Q08	Malattia sessualmente trasmissibile.txt	-	8	5
+Q08	Malattia tropicale.txt	3	3	2
+Q08	Malattie trasmesse da zanzare.txt	1	1	1
+Q08	Parassitosi.txt	9	-	-
+Q08	Rabbia (malattia).txt	-	-	9
+Q08	Tularemia.txt	7	5	-
+Q08	Zoonosi.txt	8	-	-
+Q09	Andrea De Litio.txt	5	1	6
+Q09	Andrea del Castagno.txt	8	-	9
+Q09	Andrea del Sarto.txt	3	2	4
+Q09	Andrea del Verrocchio.txt	1	5	2
+Q09	Antonello da Messina.txt	4	4	5
+Q09	Chianti fiorentino.txt	9	8	1
+Q09	Città ideale (dipinti).txt	-	10	-
+Q09	Filippo Lippi.txt	7	-	8
+Q09	Paolo Uccello.txt	2	7	3
+Q09	Per sempre Alfredo 2024.txt	10	6	10
+Q09	Pinturicchio.txt	6	3	7
+Q09	Sagrestia Vecchia di Santa Maria della Scala.txt	-	9	-
+Q10	Biotina.txt	6	6	8
+Q10	Carenza della vitamina D.txt	1	1	1
+Q10	Ergocalciferolo.txt	9	8	10
+Q10	Fitomenadione.txt	2	2	6
+Q10	Menachinone-7.txt	5	5	7
+Q10	Parco giochi.txt	-	9	-
+Q10	Retinolo.txt	7	7	9
+Q10	Riboflavina.txt	10	-	-
+Q10	Vitamina B6.txt	-	-	5
+Q10	Vitamina D.txt	4	4	3
+Q10	Vitamina D5.txt	3	3	2
+Q10	Vitamina K.txt	8	10	4

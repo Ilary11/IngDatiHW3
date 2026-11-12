@@ -1,0 +1,2 @@
+Il Whitespace è un linguaggio di programmazione esoterico e minimalista, creato nel 2003 da Edwin Brady e Chris Morris. Il nome deriva dal fatto che il linguaggio utilizza solo spazi bianchi, tabulazioni e ritorni a capo come elementi sintattici. Ogni carattere diverso da questi tre viene ignorato e considerato come un commento.
+Whitespace divenne famoso quando il suo inventore lo descrisse su Slashdot il primo di Aprile 2003; in questo modo gli utenti pensarono erroneamente a un Pesce d'aprile.

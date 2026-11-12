@@ -1,0 +1,10 @@
+KNIME (pronunciato /naɪm/) o Konstanz Information Miner è una piattaforma open source con licenza GPLv3 di analisi dati, reportistica e integrazione. Ha anche al suo interno componenti di machine learning e data mining.
+La sua interfaccia grafica permette di assemblare i nodi per la preprocessazione dei dati (ETL: Extraction, Transformation, Loading), per la modellazione, l'analisi dei dati e la visualizzazione. Fin dal 2006 viene usato in campo farmaceutico.
+Lo sviluppo è iniziato nel 2004 all'Università di Costanza in Germania come prodotto proprietario.
+Tra i vari moduli che integra:
+
+Chemistry Development Kit
+R (software)
+ImageJ
+JFreeChart
+LIBSVM

@@ -1,0 +1,2 @@
+In informatica la ricerca sequenziale (o ricerca lineare) è un algoritmo utilizzabile per trovare un elemento in un insieme non ordinato.
+L'algoritmo controlla in sequenza gli elementi dell'insieme, arrestandosi quando ne trova uno che soddisfa il criterio di ricerca; non potendosi avvalere di alcun ordinamento tra gli elementi, l'algoritmo può concludere con certezza che l'insieme non contiene alcun elemento corrispondente solo dopo averli verificati tutti, richiedendo pertanto un numero di controlli, nel caso peggiore, pari alla cardinalità dell'intero insieme.

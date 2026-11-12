@@ -1,0 +1,3 @@
+Neo4j è un software per basi di dati a grafo open source sviluppato interamente in Java.
+È un database totalmente transazionale, che viene integrato nelle applicazioni permettendone il funzionamento stand alone e memorizza tutti i dati in una cartella.
+È stato sviluppato dalla Neo Technology, una startup di Malmö, Svezia e della San Francisco Bay Area.

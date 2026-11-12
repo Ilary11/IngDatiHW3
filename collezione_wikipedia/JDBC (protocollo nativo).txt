@@ -1,0 +1,3 @@
+Il driver JDBC di tipo 4, chiamato anche driver del protocollo nativo, è un'implementazione di driver per database che converte le chiamate ai metodi JDBC nel protocollo nativo del database.
+Il tipo 4 è scritto interamente in Java, perciò è indipendente dalla piattaforma. Fornisce prestazioni migliori rispetto ai tipi 1 e 2 perché non subisce il sovraccarico dovuto alle chiamate a ODBC o all'API nativa del database. Diversamente dai tipi 1 e 2, non ha bisogno che un certo software sia installato per poter funzionare.
+Siccome ogni protocollo nativo è diverso, vi sono driver differenti (di solito forniti dal produttore) per ogni tipo di database.

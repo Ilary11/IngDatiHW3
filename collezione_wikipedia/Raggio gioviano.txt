@@ -1,0 +1,8 @@
+Il raggio gioviano è la distanza del centro di Giove dagli strati superiori della sua atmosfera.
+Per effetto della rotazione Giove non è una sfera perfetta ma risulta schiacciato ai poli per cui il suo raggio varia tra i 66854±10 km del raggio polare e i 71492±4 km del raggio equatoriale.
+Il raggio gioviano è sovente usato come unità di misura in astronomia per esprimere le dimensioni degli esopianeti; in questo caso il suo simbolo e il suo valore convenzionale sono:
+
+Un raggio gioviano corrisponde approssimativamente a:
+
+11,2 raggi terrestri (R⊕);
+0,1026 raggi solari (R⊙).

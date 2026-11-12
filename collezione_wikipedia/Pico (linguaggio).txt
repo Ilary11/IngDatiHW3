@@ -1,0 +1,3 @@
+Pico è un linguaggio di programmazione sviluppato a fini scolastici al PROG lab della Vrije Universiteit di Bruxelles. Il linguaggio è stato creato per insegnare i fondamenti della programmazione a studenti non informatici.
+Pico può essere visto come uno sforzo per generare un linguaggio appetibile a persone che non vogliono studiare in modo approfondito i concetti della programmazione classica. L'obiettivo è stato ottenuto adattando la semantica del linguaggio Scheme. 
+La progettazione di Pico è stata inoltre ispirata dal testo di Abelson e Sussman "Structure and Interpretation of Computer Programs" e dall'insegnamento della programmazione alle scuole superiori e all'università.

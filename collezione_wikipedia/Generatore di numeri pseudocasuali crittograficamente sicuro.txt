@@ -1,0 +1,9 @@
+Nella sicurezza informatica un generatore di numeri pseudocasuali crittograficamente sicuro (detto in genere CSPRNG da Cryptographically Secure Pseudo-random Number Generator) è un generatore di numeri pseudo-casuali le cui proprietà lo rendono adatto all'uso in crittografia.
+Molti aspetti della crittografia richiedono numeri casuali, ad esempio:
+
+Generazione di chiavi
+Generazione di chiavi di sessione (detti nonce)
+salt casuali richiesti da alcuni schemi di firma, come ECDSA, RSASSA-PSS
+One-time pad
+La "qualità" della casualità per queste applicazioni è varia. Per la generazione di un nonce può essere richiesta solo l'unicità del numero generato. Per la creazione di una chiave è richiesta una qualità maggiore. Nel caso di one-time pad, la garanzia che il testo crittografato non sia violabile dipende unicamente dal fatto che la sorgente casuale utilizzata sia totalmente impredicibile.
+Idealmente la generazione di numeri casuali utilizza l'entropia ottenuta da un'altra sorgente, come un generatore di numeri casuali hardware o qualche processo impredicibile, anche se sono state trovate correlazioni inaspettate in processi di questo tipo. Da un punto di vista teorico la quantità di casualità — l'entropia — che può essere generata da un sistema è uguale all'entropia che è entrata nel sistema. Nella pratica però spesso sono necessari più numeri casuali di quelli che possono essere recuperati da una fonte di entropia. In questi casi vengono utilizzati i CSPRNG, che "spalmano" l'entropia su più bit.

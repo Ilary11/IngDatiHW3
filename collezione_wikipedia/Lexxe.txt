@@ -1,0 +1,1 @@
+Lexxe è un progetto di motore di ricerca fondato nel 2005 a Sydney dal linguista computazionale Hong Liang Qiao. Nel tempo ha sperimentato diverse tecnologie di ricerca semantica, fino a concentrarsi sull’analisi del sentiment applicata alle notizie con il progetto News & Moods.

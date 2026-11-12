@@ -1,0 +1,3 @@
+Brotli è una libreria di compressione dati open source sviluppata da Jyrki Alakuijala e Zoltán Szabadka.
+Brotli è basato su una variante moderna dell'algoritmo LZ77, il codice di Huffman e il modello di contesto del secondo ordine.
+Può essere usato per comprimere i contenuti e velocizzare la trasmissione dei dati su internet in tutti i browser attuali. Come l'algoritmo di compressione di Google zopfli, anche questo prende il nome da un prodotto di panetteria svizzero.

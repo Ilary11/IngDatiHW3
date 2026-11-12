@@ -1,0 +1,4 @@
+Google One è un servizio offerto da Google che offre spazio di archiviazione online.
+Ogni account Google ha gratuitamente a disposizione uno spazio di 15 GB di archiviazione condiviso tra Drive, Gmail e Foto. Gli spazi a pagamento di One partono da 100 GB per arrivare ad un massimo di 30 TB.
+Google One ha rimpiazzato i piani a pagamento di Google Drive per sottolineare che lo spazio d'archiviazione è utilizzato da tutti i servizi Google e non solo da Drive. In pratica, Google One è il servizio che unifica e integra lo storage Google condiviso tra le diverse applicazioni Google, semplificandone l'utilizzo e monitoraggio.
+Oltre all'accesso al servizio via web esiste anche l'omonima app disponibile su Google Play.

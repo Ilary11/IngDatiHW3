@@ -1,0 +1,2 @@
+Il sistema Mizar costituisce l'oggetto principale del progetto Mizar. Consiste di un linguaggio per la scrittura formalizzata di definizione e dimostrazioni matematiche, un programma per computer capace di verificare dimostrazioni scritte in questo linguaggio e una libreria di definizioni e teoremi già dimostrati.
+Il progetto Mizar ha preso vita nel 1973. È portato avanti da Andrzej Trybulec (fondatore) e dalle università di Białystok (Polonia), Alberta (Canada) e Shinshu (Giappone). I suoi obiettivi sono simili a quelli del Progetto QED, proposto da Bob Boyer nel 1993.

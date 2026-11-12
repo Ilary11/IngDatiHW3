@@ -1,0 +1,4 @@
+Palimpsest è un progetto di Google a supporto della ricerca scientifica. Il nome deriva dal più antico manoscritto di matematica ad oggi rinvenuto, il Palimpsest di Archimede del X secolo.
+Secondo alcune fonti, Google offrirà un terabyte di spazio nel quale un utente iscritto potrà inserire ricerche, articoli e documentazione tecnico-scientifica di ogni tipo.
+Il motore di ricerca provvederà poi a indicizzare il materiale pubblicato.
+Gli utenti potranno pubblicare, consultare, citare il materiale gratuitamente, e inserire commenti. È richiesto a questo scopo che il materiale sia interamente pubblicato sotto licenza creative commons.

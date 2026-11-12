@@ -1,0 +1,1 @@
+Brainfuck (lett. "fottere il cervello") è un linguaggio di programmazione esoterico per computer, creato da Urban Müller intorno al 1993. Il linguaggio viene in taluni casi denominato Brainf*ck, Brainf*** o anche soltanto BF per evitare di offendere la sensibilità altrui.

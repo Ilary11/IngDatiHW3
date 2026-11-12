@@ -1,0 +1,4 @@
+Vertical search è un tipo di ricerca che il browser compie in rete dedicata ad un unico tema principale. Il percorso di ricerca e la visualizzazione dei risultati presenta una suddivisione in categorie.
+Nel caso delle vertical search si fa riferimento quindi ad un focus che rende la ricerca più specifica e nella maggior parte dei casi più efficiente e orientata al risultato. 
+I motori di ricerca verticali quindi, grazie ai crawler presenti nei loro database, riescono a indicizzare una grande quantità di informazioni e contenuti riferiti ad un tema principale, così che questo si esaurisca totalmente nelle ricerche che si effettuano. 
+Esistono per esempio motori di ricerca dedicati solo ed esclusivamente alla medicina, ai viaggi, al lavoro, fino ai metamotori.

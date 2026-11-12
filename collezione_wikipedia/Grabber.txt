@@ -1,0 +1,3 @@
+Un grabber è un crawler con funzioni avanzate.
+Il suo scopo è quello di raccogliere informazioni dai siti web, per renderle disponibili in un archivio od un'interfaccia utente.
+Esistono software che effettuano le funzioni più svariate come scaricare interi siti, ricercare sottotitoli di film, scaricare video da YouTube o recuperare tutte le favicon dei siti web.

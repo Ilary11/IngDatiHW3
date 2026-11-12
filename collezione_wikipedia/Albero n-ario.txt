@@ -1,0 +1,8 @@
+In informatica un albero n-ario è un albero i cui nodi hanno, al più, grado n; per albero si intende un grafo non orientato, connesso ed aciclico.
+È una struttura dati ampiamente utilizzata in campo informatico.
+Come da caratteri comuni degli alberi, esso ha un nodo chiamato radice (o root), che può avere un numero di figli in numero pari o inferiore all'arietà dell'albero. I nodi senza figli vengono detti foglie e tutti gli altri sono chiamati nodi interni. Gli n nodi figli dello stesso genitore vengono chiamati fratelli.
+Una sequenza di nodi e rami tali che ciascun nodo (tranne l'ultimo) sia padre del successivo si chiama cammino.
+Il numero di archi (o rami) coinvolti in un cammino è detta lunghezza del cammino.
+In generale, un cammino con K nodi ha K-1 archi, ossia ha lunghezza K-1.
+La lunghezza del più lungo cammino da un nodo ad una foglia si chiama altezza del nodo; tutte le foglie hanno infatti altezza 0, e i genitori delle foglie, altezza 1.
+Se T è un albero e X è un suo nodo, l'insieme dei nodi di T contenente X e tutti i suoi discendenti si chiama sotto-albero di T. X è detta radice del sotto-albero.

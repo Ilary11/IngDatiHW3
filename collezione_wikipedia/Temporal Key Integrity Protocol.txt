@@ -1,0 +1,1 @@
+Nella sicurezza informatica TKIP (acronimo di Temporal Key Integrity Protocol) è un protocollo di cifratura che garantisce confidenzialità dei dati e, accoppiato ad un protocollo MIC noto come "Michael", anche la loro integrità. Fa parte dello standard IEEE 802.11i. La sua versione commerciale è conosciuta con il nome WPA.

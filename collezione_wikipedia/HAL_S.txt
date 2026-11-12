@@ -1,0 +1,6 @@
+HAL/S è un linguaggio real-time per applicazioni aerospaziali, conosciuto per il suo utilizzo nello Space Shuttle. È stato sviluppato negli anni settanta dalla Intermetrics per la NASA.
+HAL/S è stato scritto utilizzando XPL, un dialetto del PL/I.
+I tre fattori chiave presi in considerazione nella stesura del linguaggio sono stati: affidabilità, efficienza e indipendenza dall'hardware.
+Il linguaggio è stato concepito in modo da poter rendere compiti, quali il calcolo vettoriale associato alle operazioni aerospaziali, facilmente comprensibili alle persone che possiedono nozioni in materia.
+Alcune funzionalità come i salti incondizionati (come i GOTO del BASIC) sono stati implementati principalmente per facilitare le traduzioni meccaniche da altri linguaggi, le parole chiave sono tutte riservate (non è possibile definire variabili con lo stesso nome), tutte funzionalità pensate per ridurre i possibili errori di codifica e rendere i programmi facilmente comprensibili.
+"HAL" è stato suggerito come nome del linguaggio da Ed Copps, un fondatore di Intermetrics, in onore di Hal Laning, un suo collega del MIT.

@@ -1,0 +1,5 @@
+La ricerca per intervalli (in inglese range searching) è uno dei problemi geometrici fondamentali della geometria computazionale e delle basi di dati. Data una collezione di oggetti (solitamente punti nello spazio d-dimensionale) e una regione di query (l'intervallo), l'obiettivo è identificare o contare in modo efficiente gli oggetti che si trovano all'interno della regione.
+Si distinguono principalmente in due varianti del problema:
+
+Range Reporting Query: elencare tutti i punti che cadono all'interno dell'intervallo.
+Range Counting Query: restituire solo il numero totale di punti nell'intervallo.

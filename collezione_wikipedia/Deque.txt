@@ -1,0 +1,1 @@
+In informatica, una deque (solitamente pronunciato come deck, è l'abbreviazione di double-ended queue, cioè coda doppia) è una struttura dati astratta simile a una lista, anche chiamata lista concatenata testa-coda in quanto gli elementi possono essere aggiunti o rimossi solamente dalla testa o dalla coda.

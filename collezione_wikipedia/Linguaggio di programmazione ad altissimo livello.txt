@@ -1,0 +1,2 @@
+Un linguaggio di programmazione ad altissimo livello, in informatica, è un linguaggio di programmazione con un altissimo livello di astrazione, usato principalmente come strumento per i programmatori professionisti.
+L'espressione fu usata a partire dal 1990 per linguaggi che attualmente vengono definiti linguaggi ad alto livello come il Perl, il Python, e il Visual Basic.

@@ -1,0 +1,11 @@
+IO.SYS è un importante file di sistema dei sistemi operativi MS-DOS e Windows 9x. Contiene le informazioni sui driver delle periferiche e il programma di inizializzazione di DOS.
+Durante la sequenza di avvio del PC, il primo settore del disco di boot (MBR) viene caricato in memoria ed eseguito. Se esso è il settore di avvio DOS, allora vengono caricati i primi tre settori di IO.SYS nella memoria e viene trasferito il controllo ad esso. IO.SYS, poi, esegue i seguenti passi:
+
+Carica il resto delle sue informazioni in memoria.
+Inizializza tutti i driver di periferica di default (console, disco, porta seriale, etc.). A questo punto, i dispositivi di default sono disponibili.
+Carica il kernel DOS e richiede la sua routine di inizializzazione. Il kernel è memorizzato in MSDOS.SYS se il sistema operativo è MS-DOS e in IO.SYS se è Windows 9x. A questo punto, l'accesso ai file non è ancora disponibile.
+Processa il file MSDOS.SYS se il sistema operativo è Windows 9x.
+Processa il file CONFIG.SYS se il sistema operativo è MS-DOS 2.0 o superiore o Windows 9x.
+Carica command.com.
+Visualizza il bootsplash in Windows 9x. Se LOGO.SYS è presente, viene utilizzato come bootsplash. In caso contrario, viene utilizzato il bootsplash in IO.SYS.
+Nella prima versione italiana di Windows 95 OSR2.5, questo file conteneva un grave bug: il file HIMEM.SYS, occupando 45 kilobyte di memoria base in più del previsto, impediva che il file IO.SYS si eseguisse correttamente, bloccando l'avvio di alcuni programmi, e in alcuni casi dello stesso sistema operativo.

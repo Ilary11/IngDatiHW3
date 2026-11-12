@@ -1,0 +1,5 @@
+Prune and search (in italiano "sfoltisci e cerca") è un metodo per risolvere problemi di ottimizzazione ideato da Nimrod Megiddo nel 1983.
+L'idea alla base del metodo è una procedura ricorsiva, ad ogni passo della quale la taglia dell'input è ridotta (prune) di un fattore costante 0<p<1. Esso è dunque un algoritmo del tipo divide et impera. Sia n la taglia dell'input, T(n) sarà la complessità temporale di tutto l'algoritmo e S(n) la complessità temporale dell'operazione di sfoltimento, allora T(n) obbedirà alla seguente relazione di ricorrenza:
+
+T(n)=S(n)+T(n(1−p)),
+che si può provare, col metodo di Akra-Bazzi, avere soluzione T(n)=O(1+∫1xS(u)udu), se |S′(n)|=O(xc), dove c è una costante.

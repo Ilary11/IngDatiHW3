@@ -1,0 +1,15 @@
+In informatica, si definisce algoritmo ricorsivo, o ricorsione, un algoritmo espresso in termini di se stesso, in cui l'esecuzione su un insieme di dati trae vantaggio dalla loro semplificazione o suddivisione e dall'applicazione dello stesso algoritmo alle partizioni così ottenute.
+Risulta particolarmente utile per risolvere problemi complessi quando è possibile suddividerli in problemi più semplici dello stesso tipo. In tal caso, l'algoritmo richiama se stesso, generando una sequenza di chiamate che termina quando si verifica una particolare condizione, detta condizione di terminazione (o caso base), generalmente associata a specifici valori di input.
+La tecnica ricorsiva permette di scrivere algoritmi eleganti e sintetici per molti tipi di problemi comuni, anche se le soluzioni ricorsive non sono sempre le più efficienti. Questo è dovuto al fatto che la ricorsione viene generalmente implementata attraverso le funzioni, la cui invocazione comporta un certo costo computazionale. Per questo motivo, in alcuni casi, gli algoritmi iterativi risultano più efficienti di quelli ricorsivi.
+In base all'efficienza e all'utilizzo della memoria, è possibile distinguere due tipologie di ricorsione:
+Ricorsione di coda: si verifica quando la chiamata ricorsiva è l'ultima operazione eseguita dall'algoritmo. Una volta effettuata la chiamata, non è necessario eseguire altre operazioni. La soluzione viene costruita passo dopo passo, attraverso una serie di risultati parziali. Al termine di ogni passo, una parte del problema è stata risolta e si passa a un problema più piccolo.
+Ricorsione non di coda: si verifica quando, dopo una chiamata ricorsiva, è necessario eseguire altre operazioni per arrivare al risultato finale. In questo caso, l'algoritmo deve aspettare che terminino le chiamate ricorsive successive, perché ha bisogno dei loro risultati per completare il calcolo.
+Esistono anche diverse categorie di ricorsione, classificate in base alla loro struttura e al modo in cui avvengono le chiamate ricorsive:
+
+Ricorsione multipla (o ad albero): si verifica quando una funzione richiama se stessa più volte all'interno della stessa chiamata.
+Ricorsione mutua (o indiretta): si verifica quando due o più funzioni si richiamano a vicenda.
+Ricorsione annidata: si verifica quando una chiamata ricorsiva contiene, al suo interno, un'altra chiamata alla stessa funzione.
+La distinzione tra ricorsione strutturale e ricorsione generativa riguarda il modo in cui cambiano i dati a ogni passo della ricorsione.
+Ricorsione strutturale: si lavora sui componenti di una struttura dati che si riduce progressivamente. Ad esempio, si può lavorare su una lista, prendendo di volta in volta il resto della lista, oppure su un albero, passando da un nodo ai suoi nodi figli.
+Ricorsione generativa: a ogni passo viene generato un nuovo dato, ottenuto dal precedente, sul quale viene applicata nuovamente la ricorsione.
+In alcuni casi la ricorsione è altrettanto efficiente di un ciclo iterativo: linguaggi dei paradigmi funzionali o logici tipicamente non hanno il concetto di ciclo ed usano la ricorsione ottimizzando automaticamente (Tail call optimization).

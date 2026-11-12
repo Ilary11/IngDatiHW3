@@ -1,0 +1,2 @@
+Il CFML (ColdFusion Markup Language), è il linguaggio di markup disegnato nel 1995 da Jeremy Allaire e Joseph J. Allaire specificatamente per scrivere applicazioni per il Web e le intranet.
+Il CFML è supportato attualmente da Adobe ColdFusion, Railo, Lucee,  ma anche da molti altri Java EE application server.

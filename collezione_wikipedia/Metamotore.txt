@@ -1,0 +1,7 @@
+Un metamotore è un'interfaccia informatica che svolge la sua interrogazione su più motori di ricerca contemporaneamente.
+L'utente digita il testo da cercare nel metamotore che lancia la ricerca, collegandosi al sito di Google, Yahoo e altri, i quali inviano una risposta che può essere direttamente presentata all'utente, oppure filtrata secondo alcuni criteri, in primis l'eliminazione delle ripetizioni.
+I metamotori usano visualizzare i risultati senza processarli, oppure operano un'analisi e forniscono un'interpretazione personale dei listati forniti dai vari motori, creandone una lista unificata. Il metamotore filtra i risultati forniti da più di un motore di ricerca, per eliminare eventuali ripetizioni.
+
+Una ricerca su un metamotore può coinvolgere più database insieme, tanti quanti sono i database dei motori coinvolti. Questo è il principale vantaggio di questo tipo di motori: raggiungere una quota maggiore di siti della rete, rispetto all'interrogazione di un solo motore.
+Come svantaggio bisogna evidenziare la mancanza di strumenti per la ricerca avanzata, di cui sono invece dotati i singoli motori.
+I metamotori (ad esempio Copernic Agent) possono funzionare anche come "Desktop Search". In assenza di collegamento a Internet operano una ricerca all'interno del computer, che viene lanciata tramite Google Desktop, Yahoo Desktop e altri Desktop Search eventualmente installati in locale.

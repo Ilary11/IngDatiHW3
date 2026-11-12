@@ -1,0 +1,2 @@
+JHTML è la sigla di Java HTML. Questo linguaggio (estensione dell'HTML) permette di inserire istruzioni dinamiche all'interno di pagine HTML, che avviene attraverso il tag <servlet></servlet>, che vengono poi eseguite dal server.
+Questa tecnologia potrebbe essere usata per sostituire le limitazioni di performance dei programmi CGI. È molto efficiente perché, essendo Java, non dipende dalla piattaforma hardware, e può essere installato dovunque.

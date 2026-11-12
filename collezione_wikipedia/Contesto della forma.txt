@@ -1,0 +1,1 @@
+Il contesto della forma (in inglese: Shape Context)  è un descrittore di caratteristica usato nel riconoscimento di oggetti. Serge Belongie e Jitendra Malik proposero il termine nel loro articolo Matching with Shape Contexts (in italiano: "Confronto con i contesti di forma") nel 2000.

@@ -1,0 +1,3 @@
+Il modello probabilistico relazionale (in inglese relational probabilistic model, RPM)  rappresenta una delle principali estensioni dei modelli grafici probabilistici utilizzate nel contesto dell'intelligenza artificiale e, in particolare, dell'apprendimento automatico relazionale.
+
+Sviluppati per superare i limiti delle reti bayesiane tradizionali, che assumono dati strutturati in modo proposizionale (istanze indipendenti e identicamente distribuite), gli RPM integrano la logica dei database relazionali con i modelli grafici probabilistici, consentendo di modellare l'incertezza sulle entità interconnesse e sulle loro relazioni.

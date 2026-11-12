@@ -1,0 +1,8 @@
+Forvo.com è un sito che consente l'accesso alla riproduzione o alla pronuncia di clip audio in molte lingue diverse per facilitarne l'apprendimento fonologico. Fu concepito nel 2007 dal cofondatore Israel Rondón e venne lanciato nel 2008. Forvo.com è di proprietà di Forvo Media SL, con sede a San Sebastián, in Spagna.
+Ѐ entrato nella classifica dei 50 migliori siti web del 2013 secondo Time.
+Tutti i clip audio su Forvo.com sono creati dagli utenti, che hanno anche la possibilità di valutare positivamente o negativamente ciascun clip, in modo da assicurare che le dizioni migliori siano poste in cima agli elenchi del sito. Le pronunce vengono inoltre revisionate e corrette da un team di volontari.
+Forvo.com utilizzava la tecnologia di Adobe Flash per la registrazione e la pronuncia dei clip audio. Attualmente è basata su HTML5. 
+Forvo possiede un'API per condividere le proprie pronunce con altri siti.
+A dicembre 2018 sono presenti oltre 5 milioni di parole pronunciate in 384 lingue al mondo, in aumento rispetto alle 325 del maggio 2015.
+Gli utenti totali, a gennaio 2019, sono oltre 750.000, di cui 331 con la qualifica di editor. 
+Le 10 lingue con più parole pronunciate sono tedesco (564.000+), tataro (482.000+), russo (356.000+), inglese (285.000+), giapponese (225.000+), francese (222.000+), spagnolo (208.000+), portoghese (168.000+), polacco (154.000+) e olandese (151.000+).

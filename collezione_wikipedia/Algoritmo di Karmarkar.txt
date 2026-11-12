@@ -1,0 +1,3 @@
+L'algoritmo di Karmarkar (1984) è un algoritmo polinomiale per risolvere un problema di programmazione lineare.
+L'algoritmo di Karmakar utilizza un metodo a punto interno evitando accuratamente i vertici e ogni punto della frontiera della regione ammissibile nella ricerca del valore ottimo.
+L'algoritmo genera una successione di punti strettamente ammissibili che convergono verso il punto ottimale, il quale invece può essere un vertice. L'algoritmo ha un tempo polinomiale nella grandezza del problema anche nel caso che il problema sia illimitato: in questo caso si accorge della non esistenza di un punto ottimale e termina, restituendo una garanzia della non limitazione del problema.

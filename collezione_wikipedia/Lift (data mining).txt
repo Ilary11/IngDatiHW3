@@ -1,0 +1,4 @@
+Nel data mining e nell'apprendimento di regole di associazione, il lift è una misura delle prestazioni di una regola di associazione (modello di targeting) nel predire o classificare casi con risposta migliorata (rispetto alla popolazione nel suo complesso), misurata rispetto a un modello a scelta casuale. Una regola funziona bene se la risposta all'interno del target T è molto migliore della base di confronto B mediata sull'intera popolazione. Il lift è semplicemente il rapporto tra questi valori: risposta target divisa per risposta media. Matematicamente,
+
+lift⁡=P(T∣B)P(T)=P(T∧B)P(T)P(B).
+Ad esempio, si supponga che una popolazione abbia un tasso di risposta medio del 5%, ma un certo modello o regola abbia identificato un segmento con un tasso di risposta del 20%. In tal caso, quel segmento avrebbe un incremento di 4,0 (20%/5%).

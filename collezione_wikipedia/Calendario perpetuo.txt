@@ -1,0 +1,3 @@
+Un calendario perpetuo è un metodo che permette di ricavare il giorno della settimana (lunedì, martedì, mercoledì, giovedì, venerdì, sabato, domenica) di una qualsiasi data del calendario.
+
+Sotto  di algoritmo, uno dei più semplici è l'algoritmo creato da F. Berio nel 1924, consistente nel sommare 5 termini, facendo uso dell'operazione di modulo per ridurre il risultato della somma ad un valore inferiore a 7. Tale operazione (indicata dal simbolo "mod") è analoga all'aritmetica dell'orologio (secondo cui ad es. le ore 15 corrispondono alle ore 3 poiché 15 mod 12 = 3) e consiste nel resto della divisione (quindi 18 mod 7 = 4 poiché 18 : 7 = 2 e il resto della divisione è 4; o, equivalentemente, poiché togliendo 7 due volte da 18, il resto vale 4).

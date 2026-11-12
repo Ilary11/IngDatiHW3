@@ -1,0 +1,2 @@
+IBM System R era un database management system sviluppato dall'IBM nel 1974. Il RDBMS prevedeva un interprete scritto in PL/I in grado di eseguire interrogazioni SQL.
+Tra le persone che hanno contribuito allo sviluppo di System R figurano Donald Chamberlin, Ronald Fagin e Jim Gray.

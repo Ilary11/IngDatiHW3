@@ -1,0 +1,1 @@
+Confusione e diffusione sono due proprietà della crittografia che un algoritmo di cifratura sicuro deve possedere per essere considerato più o meno robusto, ovvero scarsamente attaccabile da un attacco crittoanalitico. Queste proprietà sono state identificate da  Claude Shannon nel suo lavoro La teoria della comunicazione nei sistemi crittografici pubblicato nel 1949.

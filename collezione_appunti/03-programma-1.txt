@@ -1,1 +1,0 @@
-3. Programma 1. Introduzione: il ciclo di vita del dato. 2. Data and information extraction: web scraping, information extraction. 3. Data discovery: ricerca di tabelle nei data lake, source discovery sul Web, crowdsourcing. 4. Data integration: schema alignment, entity resolution, data fusion. 5. Etica dei dati: explainability e fairness.

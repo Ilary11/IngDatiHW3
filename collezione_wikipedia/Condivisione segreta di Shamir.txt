@@ -1,0 +1,4 @@
+La condivisione segreta di Shamir (Shamir's secret sharing - SSS) è un efficiente algoritmo di condivisione segreta per la distribuzione di informazioni private (il "segreto") tra un gruppo, sviluppato per la prima volta da Adi Shamir nel 1979.
+Il segreto non può essere rivelato a meno che un numero minimo di membri del gruppo non agisca insieme per mettere in comune le loro conoscenze. Per raggiungere questo obiettivo, il segreto è matematicamente diviso in parti (le "quote") da cui il segreto può essere ricomposto solo quando viene combinato un numero sufficiente di quote.
+SSS ha la proprietà della sicurezza teorica delle informazioni, il che significa che anche se un malintenzionato rubass alcune quote, gli sarebbe impossibile ricostruire il segreto a meno che non ne abbia rubate un numero sufficiente.
+Il metodo di condivisione dei segreti di Shamir viene utilizzato in alcune applicazioni per condividere le chiavi di accesso a un segreto principale.

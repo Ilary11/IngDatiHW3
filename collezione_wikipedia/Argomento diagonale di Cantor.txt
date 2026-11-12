@@ -1,0 +1,1 @@
+L'argomento diagonale di Cantor è una tecnica dimostrativa con cui Georg Cantor ha dimostrato la non numerabilità dei numeri reali. La tecnica di Cantor è stata usata in numerose varianti per ottenere risultati nell'ambito della logica matematica e della teoria della calcolabilità.

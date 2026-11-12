@@ -1,0 +1,5 @@
+Argon2 è una derivazione di una chiave crittografica che fu selezionata come vincitrice della competizione sul Password Hashing nel luglio 2015. Fu progettata da Alex Biryukov, Daniel Dinu, e Dmitry Khovratovich dall'Università del Lussemburgo. Argon2 è stata rilasciata con licenza Creative Commons CC0 (i.e. pubblico dominio), e fornita in 3 diverse versioni:
+
+Argon2d
+Argon2i
+Argon2id

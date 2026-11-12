@@ -1,8 +1,0 @@
-Training dei base learner.
-Con schema mediato (address, price, agent-name, agent-phone, office-phone, description) e la sorgente realestate.com (location, price, contact-name, contact-phone, office, comments), il Name Learner riceve coppie (nome colonna, etichetta) come ("location", address); il Naive Bayes Learner riceve coppie (valore, etichetta) come ("Miami, FL", address), ("$250K", price), ("James Smith", agent-name).
-Meta-learner.
-In training apprende un peso per ogni coppia (base learner, elemento dello schema mediato): ad esempio weight(Name Learner, address) = 0,2 e weight(Naive Bayes, address) = 0,8.
-In matching calcola la media pesata delle confidenze.
-Esempio: per la colonna "area" (valori Seattle, Kent, Bend) il Name Learner dà (address, 0,4) e Naive Bayes (address, 0,9): 0,4 × 0,2 + 0,9 × 0,8 = 0,8.
-Fase di matching.
-I base learner si applicano a ogni istanza, il meta-learner combina le loro predizioni, e per ogni colonna ci sono più predizioni (una per valore).

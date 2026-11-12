@@ -1,0 +1,2 @@
+INTERCAL (sigla per Compiler Language With No Pronounceable Acronym) è stato il primo linguaggio di programmazione esoterico, sviluppato nel 1972 da Don Woods e James Lyon come parodia degli altri linguaggi di programmazione dell'epoca come FORTRAN, BASIC e ALGOL.
+Tra gli elementi esoterici di questo linguaggio vi sono degli errori che occorrono se il programmatore non è abbastanza o è troppo gentile e la presenza in alcune sue varianti dell'istruzione COMEFROM, inverso della deprecata GOTO.

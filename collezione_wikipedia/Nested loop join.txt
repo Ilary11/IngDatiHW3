@@ -1,0 +1,9 @@
+Il nested loop join (NLJ), o simple nested loop join, è un algoritmo di join che unisce due set usando due cicli nidificati. Una delle due relazioni viene designata come esterna e l'altra interna.
+Questo algoritmo legge righe dalla prima tabella una per volta in un ciclo, passando ogni riga al ciclo nidificato che elabora la tabella successiva nel join. Questo processo viene ripetuto per ogni tabella coinvolta nel join.
+Supponendo R esterna e S interna l'algoritmo per ogni tupla di R, che verifica le eventuali altre condizioni su R, accede a S ricercando tutte le tuple di S che soddisfano tutte le eventuali altre condizioni su S e che possono concatenarsi con le tuple di R.
+Possiamo schematizzare questo comportamento con
+
+ For each tuple r in R do
+    For each tuple s in S do
+       If r and s satisfy the join condition
+          Then output the tuple <r,s>

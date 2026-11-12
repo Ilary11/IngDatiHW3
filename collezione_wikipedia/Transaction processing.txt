@@ -1,0 +1,1 @@
+In informatica il transaction processing (lett. "elaborazione delle transazioni") è un paradigma di elaborazione in cui ogni operazione viene svolta nell'ambito di una transazione, ovvero una sequenza indivisibile di operazioni che in caso di fallimento (anche parziale) viene annullata nella sua interezza.

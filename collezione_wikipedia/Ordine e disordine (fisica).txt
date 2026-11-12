@@ -1,0 +1,7 @@
+In fisica, i termini ordine e disordine designano la presenza o l'assenza di simmetria o correlazione in un sistema a molte particelle.
+Nella fisica della materia condensata, i sistemi sono tipicamente ordinati a basse temperature; con il riscaldamento, essi subiscono una o più transizioni di fase in stati meno ordinati. Esempi di tale transizione da ordine a disordine includono:
+
+la fusione del ghiaccio: transizione solido-liquido, perdita dell'ordine cristallino;
+la smagnetizzazione del ferro tramite riscaldamento oltre la temperatura di Curie: transizione ferromagnetica-paramagnetica, perdita dell'ordine magnetico.
+L'ordine può consistere o in una simmetria di gruppo spaziale cristallino completo o in una correlazione. A seconda di come la funzione di correlazione decade con la distanza, si parlerà di ordine a lungo raggio o di ordine a corto raggio.
+Se uno stato disordinato non è in equilibrio termodinamico, si parlerà di "disordine quenched". In alcuni contesti invece si potrà definire l'opposto del disordine quenched: il "disordine annealed"

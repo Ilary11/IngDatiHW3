@@ -1,39 +1,46 @@
-Collezione: collezione_appunti (200 file), 10 query
+Collezione: collezione_wikipedia (2667 file), 10 query, 239 giudizi di rilevanza (0,9% delle 26670 coppie)
 
-=== SISTEMA (ItalianAnalyzer): indicizzazione di 200 file in 552 ms
-id     rel  rest   tp       P       R      F1    P@10      AP
-Q01      8    11    5   0,455   0,625   0,526   0,400   0,258
-Q02      8     7    3   0,429   0,375   0,400   0,300   0,135
-Q03      1     1    1   1,000   1,000   1,000   0,100   1,000
-Q04      5    53    4   0,075   0,800   0,138   0,300   0,377
-Q05      6     5    4   0,800   0,667   0,727   0,400   0,633
-Q06      8    19    5   0,263   0,625   0,370   0,400   0,197
-Q07      3     4    2   0,500   0,667   0,571   0,200   0,667
-Q08     10    10    5   0,500   0,500   0,500   0,500   0,256
-Q09      8    12    5   0,417   0,625   0,500   0,500   0,420
-Q10      4     5    4   0,800   1,000   0,889   0,400   1,000
-media                    0,524   0,688   0,562   0,350   0,494   <- medie (la media delle AP e' la MAP)
+=== SISTEMA (ItalianAnalyzer): indicizzazione di 2667 file in 1006 ms
+id      rel  stima   rest    P@5   P@10      AP      R R@10 stim.  R stim.
+Q01      12   52,8     78  0,600  0,500   0,513  1,000      0,095    1,000
+Q02      10   19,9    205  1,000  0,700   0,815  1,000      0,352    1,000
+Q03      11   29,2     23  1,000  0,900   0,818  0,909      0,308    0,342
+Q04      11   31,8    113  0,800  0,700   0,699  1,000      0,220    1,000
+Q05      13   25,0    124  1,000  1,000   0,928  1,000      0,400    1,000
+Q06      12   15,4     37  0,800  0,700   0,767  1,000      0,455    1,000
+Q07       6    6,0     74  1,000  0,600   0,958  1,000      1,000    1,000
+Q08      11   27,8    124  0,800  0,700   0,719  1,000      0,252    1,000
+Q09       4    4,0     48  0,400  0,400   0,732  1,000      1,000    1,000
+Q10       3    3,0     41  0,400  0,300   0,792  1,000      1,000    1,000
+media                      0,780  0,650   0,774  0,991      0,508    0,934   <- medie (media AP = MAP)
 
-=== BASELINE (StandardAnalyzer): indicizzazione di 200 file in 57 ms
-id     rel  rest   tp       P       R      F1    P@10      AP
-Q01      8    11    5   0,455   0,625   0,526   0,400   0,279
-Q02      8     4    1   0,250   0,125   0,167   0,100   0,031
-Q03      1     1    1   1,000   1,000   1,000   0,100   1,000
-Q04      5    53    4   0,075   0,800   0,138   0,300   0,382
-Q05      6     4    4   1,000   0,667   0,800   0,400   0,667
-Q06      8    19    5   0,263   0,625   0,370   0,400   0,197
-Q07      3     3    2   0,667   0,667   0,667   0,200   0,667
-Q08     10     9    4   0,444   0,400   0,421   0,400   0,183
-Q09      8    10    5   0,500   0,625   0,556   0,500   0,420
-Q10      4     5    4   0,800   1,000   0,889   0,400   1,000
-media                    0,545   0,653   0,553   0,320   0,482   <- medie (la media delle AP e' la MAP)
+=== BASELINE (StandardAnalyzer): indicizzazione di 2667 file in 360 ms
+id      rel  stima   rest    P@5   P@10      AP      R R@10 stim.  R stim.
+Q01      12   52,8     59  0,600  0,700   0,557  1,000      0,133    1,000
+Q02      10   19,9    140  1,000  0,800   0,886  1,000      0,402    1,000
+Q03      11   29,2     23  1,000  0,900   0,818  0,909      0,308    0,342
+Q04      11   31,8    109  0,800  0,700   0,707  1,000      0,220    1,000
+Q05      13   25,0   2553  1,000  0,900   0,920  1,000      0,360    1,000
+Q06      12   15,4     25  0,400  0,500   0,491  0,750      0,325    0,584
+Q07       6    6,0     51  0,800  0,400   0,701  1,000      0,667    1,000
+Q08      11   27,8    104  0,800  0,800   0,714  1,000      0,288    1,000
+Q09       4    4,0     47  0,200  0,200   0,177  1,000      0,500    1,000
+Q10       3    3,0     38  0,400  0,300   0,767  1,000      1,000    1,000
+media                      0,700  0,620   0,674  0,966      0,420    0,893   <- medie (media AP = MAP)
 
-Documenti rilevanti NON restituiti dal SISTEMA (falsi negativi):
-  Q01: 38-rl-meta-blocking-4.txt, 38-rl-meta-blocking-5.txt, 38-rl-meta-blocking-6.txt
-  Q02: 52-ir-indice-invertito-3.txt, 52-ir-indice-invertito-4.txt, 53-ir-query-booleane-1.txt, 53-ir-query-booleane-2.txt, 55-ir-skip-pointer-1.txt
-  Q04: 61-ir-metriche-2.txt
-  Q05: 10-etica-classificazione-1.txt, 10-etica-classificazione-3.txt
-  Q06: 77-we-xpath-2.txt, 77-we-xpath-3.txt, 77-we-xpath-5.txt
-  Q07: 66-lucene-analisi-testo-3.txt
-  Q08: 45-seminario-data-augmentation-2.txt, 45-seminario-data-augmentation-3.txt, 45-seminario-data-augmentation-4.txt, 46-seminario-active-learning-2.txt, 46-seminario-active-learning-3.txt
-  Q09: 60-ir-ranked-retrieval-1.txt, 60-ir-ranked-retrieval-2.txt, 60-ir-ranked-retrieval-7.txt
+=== NOME+CONTENUTO: indicizzazione di 2667 file in 166 ms
+id      rel  stima   rest    P@5   P@10      AP      R R@10 stim.  R stim.
+Q01      12   52,8     78  0,600  0,500   0,404  1,000      0,095    1,000
+Q02      10   19,9    206  0,800  0,600   0,695  1,000      0,302    1,000
+Q03      11   29,2     23  1,000  0,900   0,870  0,909      0,308    0,342
+Q04      11   31,8    114  0,800  0,700   0,712  1,000      0,220    1,000
+Q05      13   25,0    535  0,600  0,600   0,650  1,000      0,240    1,000
+Q06      12   15,4     37  0,600  0,700   0,673  1,000      0,455    1,000
+Q07       6    6,0     75  1,000  0,600   0,976  1,000      1,000    1,000
+Q08      11   27,8    124  0,600  0,600   0,642  1,000      0,216    1,000
+Q09       4    4,0     48  0,400  0,400   0,497  1,000      1,000    1,000
+Q10       3    3,0     41  0,400  0,300   0,667  1,000      1,000    1,000
+media                      0,680  0,590   0,679  0,991      0,483    0,934   <- medie (media AP = MAP)
+
+Rilevanti noti NON restituiti dal SISTEMA (falsi negativi):
+  Q03: BERT.txt

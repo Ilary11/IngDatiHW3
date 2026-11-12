@@ -1,0 +1,3 @@
+L'algoritmo Hilltop è un algoritmo utilizzato per trovare documenti e risultati di ricerca rilevanti, basandosi sulle parole chiave di un particolare argomento e sulla base dell'autorevolezza delle risorse.
+È stato creato da Krishna Bharat mentre era al Compaq Systems Research Center e da George A. Mihăilă dell'Università di Toronto.
+L'algoritmo è stato acquisito da Google nel febbraio 2003: inserendo una query o una parola chiave nel motore di ricerca di Google, l'algoritmo Hilltop aiuta a trovare parole chiave pertinenti i cui risultati sono più informativi rispetto alla ricerca originaria.

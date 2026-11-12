@@ -1,0 +1,1 @@
+Scala (crasi di scalable language, "linguaggio scalabile") è un linguaggio di programmazione ad uso generale multi-paradigma studiato per integrare le caratteristiche e funzionalità dei linguaggi orientati agli oggetti e dei linguaggi funzionali. La compilazione di codice sorgente Scala produce bytecode Java per l'esecuzione su una macchina virtuale Java (JVM).

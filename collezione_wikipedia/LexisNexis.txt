@@ -1,0 +1,3 @@
+LexisNexis è una banca dati full-text in ambito giuridico e finanziario.
+La banca dati è strutturata come una biblioteca suddivisa in sezioni via via più specifiche. Il materiale disponibile spazia dalle news alla giurisprudenza e alla legislazione di Stati Uniti, Regno Unito, paesi del Commonwealth, Unione europea, Francia comprendendo al contempo periodici, prevalentemente statunitensi, a testo pieno.
+Da gennaio 2000 Lexis-nexis fornisce accesso a riviste finanziarie internazionali.

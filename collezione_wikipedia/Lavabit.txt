@@ -1,0 +1,3 @@
+Lavabit è un servizio di posta elettronica criptato fondato nel 2004, che ha sospeso le sue attività l'8 agosto 2013, dopo che gli è stato ordinato di aprire la sua chiave privata Secure Sockets Layer (SSL) al Governo statunitense. Ha ripreso le attività nel 2017 fornendo un servizio di protezione totale (crittografia end-to-end) ai propri utenti. Lavabit è di proprietà e gestito da Lader Levison.
+In seguito a documenti rilasciati nel Marzo 2016, è stato possibile ricostruire che l'obiettivo del Governo statunitense era l'accesso alle email criptate di Edward Snowden sui server di Lavabit.
+Il 20 gennaio 2017, lo stesso fondatore, Ladar Levison, annuncia la prossima riapertura e promette di "rendere la cifratura end-to-end una realtà automatica, ubiqua e open source".

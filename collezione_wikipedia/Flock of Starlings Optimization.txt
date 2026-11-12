@@ -1,0 +1,143 @@
+La Flock of Starlings Optimization ("FSO") è una metaeuristica ispirata la volo degli uccelli; essa fa parte della macroclassi di algoritmi cosiddetti della Swarm Intelligence.
+Tale algoritmo prende le origini da un lavoro di Ballerini et al., nel quale viene proposta una "social behavior", che sembra essere alla base del volo degli uccelli.
+Tale regola semplicemente suggerisce il fatto che gli uccelli in volo mediano la propria velocità rispetto ad altri 7 individui scelti a caso nello stormo. 
+Nell'FSO sono presenti un gruppo di individui, detti particelle, che si muovono attraverso due formule, la prima riguarda l'aggiornamento della velocità di ogni individuo, e la seconda il semplice aggiornamento della posizione come riportato di seguito:
+(1) 
+  
+    
+      
+        
+          v
+          
+            n
+            e
+            w
+          
+        
+        =
+        w
+        ∗
+        
+          v
+          
+            o
+            l
+            d
+          
+        
+        +
+        
+          Λ
+          
+            1
+          
+        
+        ∗
+        (
+        p
+        −
+        
+          x
+          
+            o
+            l
+            d
+          
+        
+        )
+        +
+        
+          Λ
+          
+            2
+          
+        
+        ∗
+        (
+        g
+        −
+        
+          x
+          
+            o
+            l
+            d
+          
+        
+        )
+        +
+        
+          (
+          
+            
+              1
+              N
+            
+          
+          )
+        
+        
+          ∑
+          
+            k
+            =
+            1
+          
+          
+            N
+          
+        
+        
+          v
+          
+            k
+          
+        
+      
+    
+    {\displaystyle v_{new}=w*v_{old}+\Lambda _{1}*(p-x_{old})+\Lambda _{2}*(g-x_{old})+\left({\frac {1}{N}}\right)\sum _{k=1}^{N}v_{k}}
+  
+
+(2) 
+  
+    
+      
+        
+          x
+          
+            n
+            e
+            w
+          
+        
+        =
+        
+          x
+          
+            o
+            l
+            d
+          
+        
+        +
+        
+          Λ
+          
+            3
+          
+        
+        ∗
+        
+          v
+          
+            n
+            e
+            w
+          
+        
+      
+    
+    {\displaystyle x_{new}=x_{old}+\Lambda _{3}*v_{new}}
+  
+
+Come si può notare la (1) è identica alla regola di aggiornamento della velocità del PSO (Particle Swarm Optimization). Con esso condivide quindi il kernel di tutti gli algoritmi di Swarm Optimization, ma ha in più il termine della sommatoria. Tale sommatoria rappresenta l'implementazione di quella che viene chiamata regola topologica e conferisce all'algoritmo, qualora vengano visualizzate le traiettorie dei singoli individui, proprio una dinamica simile a quella di uno stormo di uccelli.

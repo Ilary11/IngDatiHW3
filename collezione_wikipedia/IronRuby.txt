@@ -1,0 +1,2 @@
+IronRuby è un'implementazione del linguaggio di programmazione Ruby per la piattaforma Microsoft .NET.
+È implementato sulla base del Dynamic Language Runtime, che fornisce supporto, in termini di tipizzazione ed altro, ai linguaggi dinamici permettendo anche a questi di poter usufruire dei servizi della piattaforma sottostante.

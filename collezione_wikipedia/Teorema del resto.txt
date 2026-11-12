@@ -1,0 +1,11 @@
+Nell'algebra, il teorema del resto fornisce un metodo per calcolare il resto di un polinomio intero P(x) quando viene diviso per un binomio della forma (x−a), senza dover eseguire la divisione. Il teorema afferma che il resto di tale divisione è uguale al valore che il polinomio assume per x=a.
+Dividendo un polinomio P(x) per un polinomio D(x), si ottiene una relazione del tipo:
+
+P(x)=D(x)⋅Q(x)+R(x),
+dove R(x) è un polinomio di grado minore di quello di D(x). In particolare, se D(x)=x−a, la relazione diventa:
+
+P(x)=(x−a)⋅Q(x)+r,
+dove r è una costante numerica. Sostituendo x=a si ottiene:
+
+P(a)=(a−a)⋅Q(a)+r=r.
+Quindi P(a)=r ossia ciò che vogliamo dimostrare.

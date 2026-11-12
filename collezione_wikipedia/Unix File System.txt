@@ -1,0 +1,2 @@
+UFS (Unix File System) è un file system usato principalmente in sistemi operativi Unix e Unix-like. È un derivato del Berkeley Fast File System, che fu a sua volta sviluppato a partire dal FS usato dalla prima versione di Unix realizzata presso i Bell Labs.
+Pressoché tutti i derivati di BSD, inclusi FreeBSD, NetBSD, OpenBSD, NEXTSTEP e Solaris, usano una variante di UFS. In macOS è disponibile come alternativa a HFS+. In Linux è disponibile un supporto parziale a UFS, mentre il primo file system usato per solo linux, ext2, è anch'esso derivato da UFS.

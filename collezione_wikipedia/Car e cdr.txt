@@ -1,0 +1,3 @@
+Introdotte nel linguaggio di programmazione Lisp, car e cdr (pronunciato /ˈkʌdər/ o /ˈkʊdər/) sono operazioni primitive che operano su liste concatenate composte da celle cons. Una cella cons è composta da due puntatori; l'operazione car estrae il primo puntatore e l'operazione cdr ne estrae il secondo.
+Così, l'espressione (car (cons x y)) restituisce x e (cdr (cons x y)) restituisce y.
+Quando le celle cons vengono usate per implementare liste singolarmente concatenate (piuttosto che alberi o altre strutture più complesse), l'operazione car restituisce il primo elemento della lista mentre cdr ne restituisce il resto. Per questo motivo queste operazioni vengono a volte chiamate first (primo) e rest (resto) o head (testa) e tail (coda).

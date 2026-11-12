@@ -1,0 +1,2 @@
+Tru64 UNIX è un sistema operativo UNIX a 64-bit attualmente di proprietà della HP per la piattaforma DEC Alpha AXP. 
+Precedentemente era proprietà della Compaq e ancora prima della  DEC, noto, però, con il nome di DEC OSF/1 AXP e poi di Digital UNIX.

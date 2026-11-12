@@ -1,0 +1,1 @@
+La crittografia funzionale è un tipo di crittografia a chiave pubblica, dove chi è in possesso della chiave segreta può imparare una funzione di ciò che è cifrato nel testo. La crittografia funzionale generalizza molte primitive crittografiche, come ad esempio la crittografia su base identità (IBE) e la crittografia su base attributi (ABE).

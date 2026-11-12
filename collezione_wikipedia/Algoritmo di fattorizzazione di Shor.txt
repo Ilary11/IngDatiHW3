@@ -1,0 +1,2 @@
+L'algoritmo di fattorizzazione di Shor è un algoritmo ideato da Peter Williston Shor nel 1994 per risolvere il problema della fattorizzazione dei numeri interi in numeri primi.
+Su un computer quantistico questo algoritmo ha una complessità computazionale BQP (Bounded error Quantum Polynomial time): i fattori primi vengono trovati con un margine d'errore arbitrariamente piccolo in un "tempo polinomiale" legato alla lunghezza del numero intero da fattorizzare.

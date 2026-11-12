@@ -1,0 +1,9 @@
+Exchangeable image file format (spesso abbreviato ufficiosamente EXIF) è una specifica per il formato di file immagine utilizzato dalle fotocamere digitali. La specifica utilizza i formati esistenti JPEG, TIFF Rev. 6.0, e RIFF, PNG 1.2 con l'aggiunta di specifiche etichette (tag) di metadati. Non è supportato in JPEG 2000 e GIF.
+Exif è stato creato dalla Japan Electronic Industries Development Association (JEIDA). La versione 2.1 delle specifiche è datata 12 giugno 1998, e la versione 2.2 è dell'aprile 2002 ed è anche conosciuta come Exif Print. Exif ad oggi non è supportata da aziende od organizzazioni che seguono gli standard, tuttavia è il formato utilizzato da tutti i produttori di fotocamere.
+La struttura dei tag Exif è ripresa da quella dei file TIFF. C'è una ampia sovrapposizione fra i tags definiti negli standard TIFF, Exif, TIFF/EP e DCF.
+I tag di metadati definiti nello standard Exif coprono un vasto spettro includendo:
+
+Informazioni di date ed ora. Le fotocamere digitali registrano la date e l'orario corrente in questi metadati.
+Impostazioni della fotocamera. Queste includono informazioni statiche come il modello ed il produttore della fotocamera, ed informazioni varie per ciascuna immagine come l'orientamento, l'apertura, la velocità dello scatto, la lunghezza focale, il bilanciamento del bianco, e le informazioni di velocità ISO impostate.
+Una miniatura per visualizzare un'anteprima sul display LCD della fotocamera, nei file manager, oppure nei software di fotoritocco.
+Descrizioni ed informazioni di copyright.

@@ -1,0 +1,3 @@
+Diceware è un metodo basato sul lancio manuale di dadi il cui scopo è quello di creare password, passphrase e altre variabili crittografiche (in inglese, dice significa dado).
+Uno degli obiettivi del metodo Diceware è quello di creare una password che sia un buon compromesso fra sicurezza offerta e semplicità di memorizzazione.
+Un buon esempio di password sicura può essere "kT6.as67?!mFfp%ncV49.,2of6dm7pe0" ma certamente non è facile da ricordare; analogamente una passphrase come "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura ché la diritta via era smarrita" è facile da ricordare ma non è molto sicura.

@@ -1,0 +1,2 @@
+A.L.I.C.E. (Artificial Linguistic Internet Computer Entity) è un chat bot realizzato come software open source e con approccio minimalista. 
+A.L.I.C.E. è programmato con il linguaggio A.I.M.L. (Artificial Intelligence Markup Language) che utilizza la stessa struttura sintattica dell'XML, permettendo ad A.L.I.C.E. di avere una conoscenza di base sufficiente a sostenere una conversazione.

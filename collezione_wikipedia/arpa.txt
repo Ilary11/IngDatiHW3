@@ -1,0 +1,3 @@
+.arpa è un dominio di primo livello generico. È stato introdotto nel 1985 in seguito alla transizione della rete ARPANET al Domain Name System.
+Il nome del dominio è un acronimo di Address and Routing Parameter Area, nonostante derivi originariamente da Advanced Research Projects Agency.
+Nonostante il suo carattere temporaneo, ha mantenuto alcune funzionalità di infrastruttura che originariamente avrebbero dovuto essere trasferite sotto il dominio .int.

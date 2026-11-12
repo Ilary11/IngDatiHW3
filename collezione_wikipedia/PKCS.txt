@@ -1,0 +1,2 @@
+PKCS (acronimo di Public-Key Cryptography Standards) sono delle specifiche utilizzate nella crittografia informatica prodotte dai laboratori della RSA inc., in collaborazione con sviluppatori sparsi in tutto il mondo, al fine di incrementare l'uso della tecnica di cifratura a chiave asimmetrica. 
+Pubblicate nel 1991, sono diventate grazie alle vasta documentazione e alle molte implementazioni, un vero e proprio standard usato in molti applicativi quali S/MIME e SSL. Lo scopo di questi standard è di facilitare e promuovere l'uso delle chiavi pubbliche.

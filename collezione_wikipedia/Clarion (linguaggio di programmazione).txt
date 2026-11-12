@@ -1,0 +1,5 @@
+Clarion è un linguaggio di programmazione appartenente ai linguaggi 4GL e un  ambiente di sviluppo integrato prodotto da SoftVelocity e principalmente usato per realizzare applicazioni database.
+L'architettura del linguaggio e del sistema di sviluppo rendono Clarion capace di leggere e scrivere moltissimi formati di file dati e interagire con diversi database tra cui SQL (tutti), ADO, e XML; può creare output su HTML, XML, plaintext, e PDF, e molti altri.
+Il codice generato dal compilatore è particolarmente compatto ed efficiente, pressoché simile a quello ottenuto scrivendo con linguaggi come il C o il Modula-2, ma la sintassi è molto orientata alla risoluzione di problematiche gestionali in modo rapido ed efficiente.
+La programmazione può avvenire utilizzando la programmazione ad oggetti tramite una serie di classi denominate ABC (Application Builder Classes) ma anche in modo procedurale con una sintassi molto simile a quella C e Pascal.
+Nel dicembre 2010, Clarion era giunto alla versione 7.3 e la versione .NET era in fase di beta test. Un esempio di verticale e orizzontale programmi di integrazione di sistema per Windows e. Net Framework.

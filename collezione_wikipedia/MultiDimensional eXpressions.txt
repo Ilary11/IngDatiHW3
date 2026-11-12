@@ -1,0 +1,4 @@
+MultiDimensional eXpressions è un linguaggio informatico usato nelle interrogazioni di tipo OLAP - On-Line Analytical Processing per scorrere dimensionalmente il Cubo OLAP del Data Mart in un Data Warehouse.
+Sintatticamente somiglia al linguaggio SQL(linguaggio adottato per le interrogazioni in database relazionali), ma ha una semantica diversa.
+In alcuni aspetti risulta essere verboso e ridondante, tuttavia è possibile omettere nelle espressioni regolari alcune parti significative, la cui interpretazione è basata su regole di default.
+MDX non è un linguaggio di interrogazione in senso stretto: permette di calcolare, a partire da un cubo, un dataset che ha una struttura simile a un cubo.

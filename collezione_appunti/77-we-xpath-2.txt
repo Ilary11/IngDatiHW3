@@ -1,9 +1,0 @@
-della library; section sono le section figlie dell'elemento corrente; .
-è l'elemento corrente, ..
-il padre; /library/book/chapter/* sono tutti gli elementi figli di quei chapter.
-Un percorso che inizia con / è assoluto (parte dalla cima del documento) e può comunque selezionare più elementi; senza / iniziale è relativo all'elemento corrente; con // può iniziare ovunque nel documento (es.
-//chapter/section : ogni section figlia di un chapter), ma può essere costoso perché esplora tutto il documento.
-Parentesi quadre: un numero seleziona il figlio in quella posizione, contando da 1.
-/library/book[1] è il primo book; //chapter/section[2] la seconda section di ogni chapter.
-Si contano solo gli elementi che corrispondono (le exercise non contano fra le section).
-last() seleziona l'ultimo, e si può fare aritmetica: chapter[last()-1] è il penultimo.

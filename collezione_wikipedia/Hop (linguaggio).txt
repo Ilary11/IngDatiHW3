@@ -1,0 +1,1 @@
+Hop è un linguaggio di programmazione per il web 2.0 derivato da Scheme. Esso permette di sviluppare simultaneamente la pagina sia dal lato client che dal lato server e il web broker (ovvero un server che può agire indifferentemente come server HTTP classico o come proxy) utilizzato come piattaforma d'esecuzione.

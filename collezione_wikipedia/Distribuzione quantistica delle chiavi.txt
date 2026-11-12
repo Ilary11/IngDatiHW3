@@ -1,0 +1,9 @@
+La distribuzione quantistica delle chiavi (in sigla QKD, dall'inglese: quantum key distribution) è un sistema della meccanica quantistica per garantire comunicazioni sicure.
+Abilita due parti a produrre e condividere una chiave segreta casuale solamente tra di loro che potranno usare per cifrare e decifrare i loro messaggi.
+Spesso, è chiamata impropriamente crittografia quantistica, poiché è l'esempio meglio conosciuto tra le operazioni di crittografia quantistica.
+Un'importante e unica proprietà della distribuzione quantistica è la capacità dei due utenti in comunicazione di rilevare la presenza di una terza parte che tenta di ottenere informazioni sulla chiave, dovuto al fatto che un processo di misura in un sistema quantistico in generale disturba il sistema.
+La sicurezza della distribuzione a chiave quantistica si affida sui fondamenti della meccanica quantistica rispetto al tradizionale protocollo di distribuzione a chiave che si affida sulla difficoltà computazionale di certe funzioni matematiche, e non può fornire alcuna indicazioni al riguardo di possibili intercettazioni.
+La distribuzione a chiave quantistica è usata solo per produrre e distribuire la chiave, non per trasmettere qualsivoglia messaggio.
+La chiave può essere usata con qualsiasi algoritmo di cifrazione e decifrazione, che trasmetterà poi il messaggio su un canale di comunicazione standard.
+L'algoritmo più comunemente associato a questa chiave è il cifrario di Vernam.
+I sistemi commerciali esistenti ad oggi di distribuzione a chiave quantistica sono specificatamente pensati per governi e imprese con alti requisiti di sicurezza.

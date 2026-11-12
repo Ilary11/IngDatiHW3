@@ -1,0 +1,2 @@
+L'apprendimento per contrasto (in inglese contrastive learning) è un paradigma di apprendimento automatico auto-supervisionato in cui un modello impara a rappresentare i dati confrontando campioni/esempi simili (positivi) e diversi (negativi) .
+A differenza dei metodi generativi (come le GAN o i modelli diffusivi), che cercano di ricostruire l'input elemento per elemento, l'apprendimento per contrasto mira a mappare gli input in uno spazio di rappresentazione metrico in cui le istanze correlate risultino vicine tra loro, mentre quelle non correlate siano distanti.

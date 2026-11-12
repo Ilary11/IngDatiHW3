@@ -1,0 +1,4 @@
+L'array associativo è un array i cui elementi sono accessibili mediante nomi, quindi stringhe anziché indici puramente numerici.  Questo non comporta però l'obbligo di utilizzare solo un tipo di indice: alcuni elementi dell'array possono avere un indice numerico, altri un indice di tipo stringa.
+Segue un esempio in linguaggio PHP:
+
+L'indice, racchiuso tra le parentesi quadre è l'elemento attraverso il quale è possibile accedere al valore corrispondente dell'array.  In PHP poi, come con altri linguaggi interpretati, gli array possono avere valori di tipo diverso.  Nell'esempio abbiamo valori di tipo stringa, intero, booleano.

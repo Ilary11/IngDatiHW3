@@ -1,0 +1,1 @@
+La Boston Dynamics è una società di ingegneria e robotica meglio conosciuta per lo sviluppo di BigDog, un robot quadrupede progettato per l'esercito statunitense, con il finanziamento del DARPA, e per il DI-Guy, un software molto realistico per la simulazione umana.

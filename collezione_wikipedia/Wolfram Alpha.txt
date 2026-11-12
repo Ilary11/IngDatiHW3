@@ -1,0 +1,2 @@
+Wolfram Alpha, spesso stilizzato graficamente in Wolfram|Alpha, è un motore computazionale di conoscenza che interpreta le parole chiave inserite dall'utente e propone direttamente una risposta invece che offrire una lista di collegamenti ad altri siti web.
+L'autore di questo strumento, attivato il 18 maggio 2009, è il matematico inglese Stephen Wolfram, conosciuto per aver sviluppato Mathematica nel 1988.

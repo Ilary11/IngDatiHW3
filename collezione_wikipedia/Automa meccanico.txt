@@ -1,0 +1,3 @@
+Un automa è una macchina in grado di operare in modo autonomo. Il termine è talvolta usato per indicare un robot, più precisamente un robot autonomo, ma più spesso descrive una macchina semovente non elettronica (come un automa meccanico), specialmente quelle costruite per assomigliare ad esseri umani o ad animali.
+Il termine automa deriva dal greco αὐτόματος, automatos, “che agisce di propria volontà”.
+Nell'uso colloquiale, comportarsi come un "automa" significa agire in modo meccanico, senza pensare.

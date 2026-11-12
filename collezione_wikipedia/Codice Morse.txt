@@ -1,0 +1,5 @@
+Il codice Morse, detto anche alfabeto Morse, è un sistema per trasmettere lettere, numeri e segni di punteggiatura per mezzo di un segnale in codice a intermittenza e fu uno dei primi metodi di comunicazione a distanza. Un altro metodo per usare il codice Morse è con le dita seguendo questa legenda: per esprimere il punto si può usare l’indice, per il trattino si può usare l’indice e il medio.
+Fu oggetto di studio di Samuel Morse dal 1835, ma venne realizzato dal tecnico Alfred Vail, suo collaboratore dal settembre 1837. Fu da entrambi sperimentato per la prima volta l'8 gennaio 1848 allorché, in presenza di una Commissione del Franklin Institute di Filadelfia, venne impiegato il telegrafo scrivente register.
+Il codice Morse è una forma ante litteram di comunicazione digitale. Tuttavia, a differenza dei moderni codici binari che usano solo due simboli (comunemente rappresentati con 0 e 1), il Morse ne usa quattro: punto seguito da un intervallo intersimbolo (•), linea seguita da un intervallo intersimbolo (—), intervallo corto (tra lettere) e intervallo lungo (tra parole).
+
+-....----.-..--..

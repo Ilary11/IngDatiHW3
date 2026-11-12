@@ -1,0 +1,4 @@
+Il 68K/OS è un sistema operativo sviluppato da GST Computer Systems per il personal computer Sinclair QL. Nonostante fosse stato commissionato direttamente da Sinclair Research agli inizi del 1983 e fosse stato annunciato come presente nel computer al momento del lancio, quando il QL comparve sul mercato, nel gennaio del 1984, il 68K/OS era stato sostituito da un nuovo sistema operativo sviluppato direttamente da Sinclair, il Qdos.
+GST pubblicò poi il 68K/OS come alternativa al Qdos sotto forma di scheda di espansione, prevedendo di usarlo anche come sistema su un computer basato sull'hardware del QL.
+Il 68K/OS è un sistema operativo multitasking e multi-finestra: non integra un interprete BASIC né un'interfaccia a riga di comando, bensì una shell testuale con menù e finestre denominata "ADAM".
+Le schede ROM che furono prodotte sono oggi ricercate dai collezionisti: il 4 febbraio 2010 una di esse è stata venduta su eBay per 376€.

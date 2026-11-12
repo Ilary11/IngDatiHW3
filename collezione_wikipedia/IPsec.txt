@@ -1,0 +1,2 @@
+In telecomunicazioni e informatica IPsec, abbreviazione di IP Security, è uno standard per reti a pacchetto che si prefigge di ottenere connessioni sicure su reti IP.
+Tale sicurezza viene raggiunta attraverso l'aggiunta di funzionalità di autenticazione, cifratura e controllo di integrità dei pacchetti IP (datagrammi). La capacità di fornire protezione o sicurezza viene dunque fornita a livello di rete (diversamente da HTTPS, SSL/TLS), fatto che rende questo protocollo trasparente al livello delle applicazioni che quindi non devono essere modificate.

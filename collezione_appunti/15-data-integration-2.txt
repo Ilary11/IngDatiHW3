@@ -1,4 +1,0 @@
-✅ Pro: le query sono veloci, perché i dati sono già tutti in un posto. ❌ Contro: i dati possono essere non aggiornati, perché si aggiornano solo a ogni nuovo caricamento.
-2) Integrazione virtuale (mediatore). I dati restano nelle sorgenti originali. L'utente interroga uno schema mediato, globale e virtuale. Il sistema riformula la query online, al momento della richiesta, la traduce in sotto-query per ciascuna sorgente e poi combina i risultati. Pro: i dati sono sempre aggiornati. Contro: le query sono più lente e dipendono dalla disponibilità delle sorgenti. Esempio: skyscanner.com, che non possiede i voli ma interroga in tempo reale i siti delle compagnie aeree e delle agenzie e mostra i risultati in un'unica interfaccia.
-✅ ❌ 💡
-Sono entrambi business da miliardi di dollari.

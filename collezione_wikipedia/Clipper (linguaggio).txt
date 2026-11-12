@@ -1,0 +1,1 @@
+Clipper è un versatile linguaggio di programmazione di alto livello. È stato ed è usato prevalentemente per creare programmi gestionali integrati basati su database relazionali in ambiente DOS, ma la sua potenza e flessibilità (unita alla caratteristica architettura aperta) sono quelle tipiche dei linguaggi general-purpose.

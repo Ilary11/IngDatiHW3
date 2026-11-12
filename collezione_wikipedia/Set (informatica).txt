@@ -1,0 +1,2 @@
+Il set è, in informatica, un tipo di dato astratto consistente in una collezione di valori disposti in ordine casuale e senza valori ripetuti. 
+Corrisponde al concetto matematico di insieme, ma con la restrizione che deve essere finito. Eccezion fatta per la sequenza e per il fatto che non ci sono valori ripetuti, il set è uguale alla lista. Il set può essere concepito come un vettore associativo (mappatura parziale) in cui il valore di ogni coppia di valori chiave viene ignorato.

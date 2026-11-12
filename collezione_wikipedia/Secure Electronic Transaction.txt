@@ -1,0 +1,8 @@
+Secure Electronic Transaction (SET) è un protocollo standard per rendere sicure le transazioni con carta di credito su reti insicure e, in particolare, Internet. SET è stato sviluppato da Visa e MasterCard (con il coinvolgimento di altre aziende come GTE, IBM, Microsoft e Netscape) a partire dal 1996.
+SET si basa sui certificati X.509, con alcune estensioni. Il protocollo impiega un algoritmo di oscuramento che, in effetti, sostituisce con un certificato il numero di carta di credito dell'utente durante le transazioni commerciali. Ciò consente agli imprenditori di accreditare i fondi dalle carte di credito degli utenti senza avere la necessità di conoscere il numero della carta.
+SET fa uso di tecniche crittografiche come i certificati digitali e la crittografia a chiave pubblica per consentire alle parti di identificarsi reciprocamente e scambiare informazioni con sicurezza.
+SET fu ampiamente pubblicizzato alla fine degli anni novanta come lo standard approvato dalle carte di credito ma non riuscì a conquistare quote di mercato. Tra i motivi di ciò, vanno annoverati:
+
+la necessità di installare un software client (un eWallet) da parte dell'utente;
+il costo e la complessità per gli imprenditori di offrire supporto tecnico agli utenti, se comparato al basso costo e alla semplicità dell'alternativa esistente, adeguata e basata su SSL;
+la difficoltà logistica della distribuzione dei certificati sul lato client.

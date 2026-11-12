@@ -1,0 +1,10 @@
+In astronomia, la massa gioviana è un'unità di misura comunemente usata per esprimere la massa dei giganti gassosi e delle nane brune. Equivale alla massa stimata del pianeta Giove. Il suo simbolo e il suo valore convenzionale sono:
+
+MJ=1,89819×1027 kg
+La massa gioviana è pari a circa un millesimo della massa del Sole.
+Le incertezze da cui è affetta la stima della costante di gravitazione universale si ripercuotono sulla precisione della massa gioviana.
+Una massa gioviana corrisponde approssimativamente a:
+
+25 839 masse lunari (ML);
+317,83 masse terrestri (M⊕);
+0,0009546 masse solari (M⊙).

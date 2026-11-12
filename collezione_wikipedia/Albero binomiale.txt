@@ -1,0 +1,10 @@
+Un albero binomiale è un albero ordinato definito ricorsivamente nel seguente modo:
+
+l'albero binomiale B0 è costituito da un singolo nodo,
+l'albero binomiale Bk è costituito da due alberi binomiali Bk−1 collegati assieme in modo che la radice di uno dei due alberi binomiali sia figlio sinistro della radice dell'altro.
+Un generico albero binomiale Bk è caratterizzato da alcune proprietà:
+
+i suoi nodi sono esattamente 2k,
+la sua altezza è esattamente k,
+i suoi nodi a profondità i sono esattamente (ki), con i=0,1,...,k
+la sua radice ha grado k ed inoltre tale grado è maggiore del grado di ogni altro nodo.

@@ -1,0 +1,2 @@
+Si chiama lista concatenata tramite XOR un procedimento che permette di percorrere una lista concatenata in un senso come nell'altro utilizzando in ciascun blocco solo un puntatore invece di due.
+La contropartita è dovuta al fatto che non si può percorrere la lista che partendo da una delle due estremità, restrizione che non esiste nelle liste a doppio puntatore.

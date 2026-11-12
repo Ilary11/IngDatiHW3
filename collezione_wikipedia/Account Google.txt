@@ -1,0 +1,1 @@
+Un Account Google è un account privato o parte della suite Google Workspace di un utente necessario per l'accesso, l'autenticazione e l'autorizzazione a determinati servizi Google online. Viene spesso utilizzato anche come account single sign-on per servizi di terze parti.

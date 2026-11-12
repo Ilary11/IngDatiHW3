@@ -1,0 +1,3 @@
+Trivago è un metamotore di ricerca online tedesca che confronta prezzi di hotel, B&B, ostelli e altri tipi di strutture.
+Nato in Germania, appartiene al gruppo Expedia e confronta le tariffe alberghiere di hotel analizzando le fonti web, in particolare le OTA (online travel agencies).
+Il sistema fornisce anche informazioni in tempo reale sulla disponibilità delle camere consentendone la prenotazione sui siti esterni collegati. Il portale, disponibile anche in versione tablet e mobile, raccoglie inoltre le opinioni dei clienti su alberghi e attrazioni turistiche.

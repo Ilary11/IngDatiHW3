@@ -1,0 +1,1 @@
+NonStop OS è un sistema operativo sviluppato da HP per la sua serie di server NonStop. Supporta principalmente la fault tolerance (tollerranza agli errori) e l'integrità dei dati, sfruttando tecnologie di error detection e fault detection and isolation sia per l'hardware che per il software.

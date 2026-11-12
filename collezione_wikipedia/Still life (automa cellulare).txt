@@ -1,0 +1,2 @@
+Negli automi cellulari, si definisce still life (in inglese "natura morta", letteralmente "vita ferma") una configurazione di celle che non modifica il proprio aspetto nel corso delle generazioni. Per questo motivo, una still life può equivalentemente essere definita come un oscillatore di periodo uno (in gergo, "p1").
+Un nome equivalente per una still life è configurazione stabile (stable pattern).

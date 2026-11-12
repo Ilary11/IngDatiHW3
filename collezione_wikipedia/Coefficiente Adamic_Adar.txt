@@ -1,0 +1,3 @@
+Il coefficiente Adamic/Adar è una formula proposta da Lada Adamic e Eytan Adar per la predizione di collegamenti in una rete sociale, basata sulla quantità di elementi in comune tra due utenti. È definito come la somma della frequenza logaritmica inversa degli elementi in comune, ovvero in un generico grafo come l'inverso del logaritmo del grado di centralità dei vicini comuni tra due nodi
+A(x,y)=∑u∈N(x)∩N(y)1log⁡|N(u)|
+dove N(x) indica l'insieme dei nodi adiacenti a x. Tale definizione sfrutta il fatto che elementi comuni di grande diffusione hanno minor significato nella predizione di un collegamento rispetto ad elementi condivisi da un numero limitato di utenti.

@@ -1,0 +1,1 @@
+Gli algoritmi per il calcolo della varianza giocano un ruolo molto importante nella statistica computazionale. Una difficoltà chiave nel progetto di un buon algoritmo per questo problema è che le formule per la varianza possono includere somme di quadrati, che possono condurre a instabilità numerica così come overflow aritmetico quando vengono trattati grandi valori.

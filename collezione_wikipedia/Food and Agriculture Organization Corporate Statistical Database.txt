@@ -1,0 +1,3 @@
+La Food and Agriculture Organization Corporate Statistical Database (Base di dati statistica dell'organizzazione FAO) in sigla FAOSTAT
+è un sito internet che raccoglie e gestisce i dati della Food and Agriculture Organization (Organizzazione del cibo e dell'agricoltura).
+I dati di FAOSTAT sono forniti come serie temporali dal 1961 nella gran parte delle aree FAO per 245 paesi in lingua inglese, spagnolo e francese.

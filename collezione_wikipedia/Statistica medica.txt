@@ -1,0 +1,9 @@
+La statistica medica è una disciplina che utilizza gli strumenti della statistica al fine di verificare l'efficacia o meno di terapie o scoprire se un qualche problema medico o affine, possa dipendere da fattori particolari.
+Il più noto e semplice esempio dell'uso della statistica medica è il lavoro del medico ungherese Semmelweis, che riuscì a comprendere quali fossero le cause della febbre puerperale in una clinica di Vienna. Oggi la statistica è utile ovunque sia necessaria una delle seguenti condizioni:
+
+procedere ad una raccolta ordinata, ad una stesura comprensibile e ad una elaborazione dei dati più svariati;
+scoprire eventuali leggi che regolano i dati spesso solo in apparenza disordinati ed operarne un confronto;
+definire un dato variabile di riferimento che assuma diversi valori definibili in un certo intervallo di variazione.
+La statistica sanitaria si occupa di statistica medica, di programmazione socio-sanitaria e di modellistica matematica applicata alla medicina.
+Per statistica applicata alle ricerche cliniche si intende essenzialmente quella metodologia che permette di concepire ricerche stese su piccole casistiche (campioni) come evidenziatrici di dati che possano servire a definire fenomeni non definiti prima, coinvolgenti casistiche illimitate (universi).
+La statistica entra nella ricerca in due momenti fondamentali: quello dell'impostazione del lavoro e quello della elaborazione dei dati. Se la statistica si inserisce bene in questi due momenti, sarà possibile sfruttare la cosiddetta inferenza, ossia il potere induttivo, per cui i risultati della ricerca su un campione possono essere ritenuti validi per tutta una popolazione.

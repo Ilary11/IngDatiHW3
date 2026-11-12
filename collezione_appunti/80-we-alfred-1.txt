@@ -1,9 +1,0 @@
-9. Caso di studio 2: Alfred Crescenzi, Merialdo, Qiu, "A framework for learning web wrappers from the crowd", WWW 2013. Osservazione: etichettare le pagine può essere un compito facile. Opportunità: l'etichettatura si può affidare a lavoratori reclutati su una piattaforma di crowdsourcing come Amazon Mechanical Turk. Sfida
-Soluzione
-Lavoratori non esperti
-Membership query (domande sì/no), un'interazione semplice
-Qualità
-Modello bayesiano per stimare la qualità attesa del wrapper; task ridondanti per compensare gli errori dei lavoratori
-Costi
-Active learning per ridurre il numero di domande; reclutamento dinamico per ridurre il numero di task
-Come funziona: da una pagina annotata (page0, titolo "Spirited Away") l'algoritmo genera più regole candidate, es. r1 = /html/table/tr[1]/td/text() , r2 basata su "Ratings:", r3 basata su "Director:". Su page0 danno tutte lo stesso valore, ma su altre pagine possono dare risultati in conflitto: su page1 r1 e r3 danno "City of God" e r2 nulla; su page2 r1 dà "Howls Moving Castle", r2 "9.3", r3 null. Per scegliere la regola migliore Alfred coinvolge la folla con una domanda sì/no: "City of God è il titolo di questo film?". Risposta: sì. Allora r2 diventa improbabile: le probabilità delle tre regole passano da 0,33 ciascuna a 0,45 / 0,1 / 0,45.

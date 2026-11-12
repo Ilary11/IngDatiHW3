@@ -1,0 +1,8 @@
+Un transito di Venere da Giove avviene quando il pianeta Venere passa davanti al Sole e oscura una piccola parte del disco solare ad un ipotetico osservatore su Giove. Durante il transito Venere può essere visto come un piccolo punto nero che si muove sulla faccia del Sole.
+Nessuno ha mai osservato un transito di Venere da Giove ed è improbabile che ciò avvenga in un vicino futuro, tuttavia il prossimo transito avverrà il 26 maggio 2024. Dato che Giove non ha una superficie solida è più probabile osservare un transito da uno dei satelliti naturali del pianeta, in questo caso gli orari dei transiti sarebbero leggermente differenti.
+Il periodo sinodico Venere-Giove è di 236,992 giorni. Può essere calcolato usando la formula
+
+11P−1Q,
+dove P è il periodo orbitale siderale di Venere (224,695434 giorni) e Q il periodo orbitale di Giove (4330,595 giorni).
+L'inclinazione di Venere sul piano orbitale di Giove è 2,26°, che è meno dell'inclinazione che Venere ha rispetto all'eclittica della Terra (3,39°).
+Dato che Giove ha un raggio molto ampio, la parallasse di Venere misurata tra il polo nord e sud di Giove è di circa 22", cioè 6 volte il diametro angolare di Venere, che è 3,6", ovvero il 5,6% del diametro angolare del Sole, circa 6,5'. Per questa ragione alcuni transiti sfiorati potrebbero essere visti dai poli di Giove.

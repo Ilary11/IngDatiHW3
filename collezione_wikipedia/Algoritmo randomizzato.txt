@@ -1,0 +1,5 @@
+Un algoritmo randomizzato è un algoritmo che include un certo grado di casualità nella sua logica. Tipicamente l'algoritmo utilizza variabili aleatorie come input ausiliario per guidare il suo comportamento con l'obiettivo di ottenere, in media, buone prestazioni. Le prestazioni dell'algoritmo, inclusi il tempo di esecuzione o l'output, saranno a loro volta casuali.
+In base all'utilizzo che viene fatto delle variabili casuali, l'algoritmo può essere progettato per restituire sempre la risposta corretta (algoritmo Las Vegas), a scapito del tempo di calcolo, o per prevedere anche che il risultato calcolato possa essere errato con una certa probabilità (algoritmo Monte Carlo).
+Gli algoritmi randomizzati sono particolarmente utili di fronte a utenti malevoli, e quindi ampiamente utilizzati con applicazioni crittografiche; in questi casi, tuttavia, sono necessari accorgimenti per evitare che i numeri pseudo-casuali vengano predetti, rendendo l'algoritmo sostanzialmente deterministico.
+Un tipico esempio di algoritmo randomizzato è il quicksort.
+In alcuni casi, gli algoritmi probabilistici sono l'unico mezzo pratico per risolvere un problema.

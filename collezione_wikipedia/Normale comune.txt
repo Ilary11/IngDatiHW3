@@ -1,0 +1,4 @@
+In robotica la normale comune fra due assi sghembi di giunti è la retta a cui appartiene il segmento di minima distanza fra punti appartenenti alle due rette.
+
+Può essere utilizzata per caratterizzare i giunti fra i bracci di un manipolatore robotico, utilizzando la distanza fra due assi consecutivi e l'angolo fra essi ed il piano perpendicolare alla normale. Quando due assi consecutivi sono paralleli la normale comune non è univocamente determinata, ma se ne può scegliere una arbitraria, solitamente quella passante per l'origine del sistema di riferimento del giunto stesso.
+La normale comune è ampiamente utilizzata per rappresentare i sistemi di riferimento per i giunti dei manipolatori robotici, e per scegliere una rappresentazione minima mediante i parametri di Denavit-Hartenberg.

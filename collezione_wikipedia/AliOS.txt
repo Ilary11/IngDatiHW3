@@ -1,0 +1,1 @@
+AliOS (precedentemente Yun OS e Aliyun OS) è una distribuzione Linux sviluppata da Alibaba Cloud, una consociata della società cinese Alibaba Group. È progettato per dispositivi intelligenti come smart TV ed è stato utilizzato come sistema operativo per dispositivi mobili. È un sistema operativo basato su Android Open Source Project (AOSP).

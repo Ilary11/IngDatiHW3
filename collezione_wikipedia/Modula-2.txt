@@ -1,0 +1,3 @@
+Modula-2 è un linguaggio di programmazione general purpose creato e presentato nel 1978 da Niklaus Wirth. È un'evoluzione di Modula (1975), che era stato realizzato solo come prototipo. Il suo principale obiettivo era superare alcuni limiti del Pascal, anch'esso sviluppato da Wirth, specialmente in termini di modularità e gestione di programmi complessi.
+Tra le caratteristiche principali vi è il concetto di modulo, ossia di un'unità logica che incapsula al suo interno dati e procedure, limitandone la visibilità all'esterno. Questo permette una migliore organizzazione del programma (programmazione modulare).
+I moduli di Modula-2 sono compilabili individualmente e poi collegabili tra loro per formare un programma completo. Per l'epoca era una caratteristica notevole.

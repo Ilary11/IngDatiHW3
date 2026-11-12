@@ -1,0 +1,3 @@
+Sailfish è un sistema operativo per dispositivi mobili con kernel Linux, distribuito da Jolla e basato sull'unione di MeeGo e Mer.
+Ha un'interfaccia utente proprietaria che Jolla intende usare per differenziare i suoi telefoni cellulari dagli altri e come vantaggio competitivo su Android e iOS.
+Parte del codice non è open source ma è sotto copyright Jolla.

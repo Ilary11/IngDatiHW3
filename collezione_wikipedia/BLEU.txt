@@ -1,0 +1,3 @@
+BLEU (Bilingual Evaluation Understudy, in italiano Valutazione bilingue) è un algoritmo di valutazione della qualità del testo che viene tradotto da una macchina da una lingua naturale ad un'altra.
+La qualità è considerata con la corrispondenza tra quanto prodotto dalla "macchina" e quello che comunicherebbe un essere umano: quanto il prodotto della macchina è più vicino a una traduzione umana professionale.
+BLEU è stata una delle prime metriche a dichiarare una grande correlazione con i giudizi umani di qualità e rimane una delle metriche più famose e poco costose.

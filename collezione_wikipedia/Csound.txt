@@ -1,0 +1,10 @@
+CSound è un linguaggio di programmazione sviluppato tramite il linguaggio C. Esso permette, attraverso l'utilizzo di una grande varietà di opcode (funzioni), di creare sempre nuovi suoni partendo dal basso, dalle "fondamenta" del suono: le oscillazioni.
+È possibile utilizzare in CSound i seguenti tipi di sintesi audio:
+
+sintesi additiva
+sintesi sottrattiva
+sintesi granulare
+sintesi per formanti
+sintesi FM
+sintesi a modelli fisici
+e molti altri tipi di sintesi derivati direttamente o indirettamente da quelle appena citate.

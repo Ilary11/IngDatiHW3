@@ -1,0 +1,5 @@
+Il Costruttore universale di John von Neumann è una macchina auto-replicante in un ambiente di automi cellulari.
+Fu progettata negli anni '40 (XX secolo), senza l'uso di un calcolatore.
+I dettagli fondamentali della macchina furono pubblicati nel libro di von Neumann Teoria dell'auto-riproduzione automatica, completato nel 1966 da Arthur W. Burks dopo la morte di von Neumann.
+Le specifiche definiscono la macchina usando 29 stati, che costituiscono il trasporto del segnale e le operazioni logiche, il segnale è rappresentato come un flusso di bit.
+Un nastro di celle codifica la sequenza di azioni che la macchina deve eseguire. Usando la testina di scrittura la macchina può stampare (costruire) una nuova serie di celle, permettendo la realizzazione di una copia di se stessa, e del nastro.

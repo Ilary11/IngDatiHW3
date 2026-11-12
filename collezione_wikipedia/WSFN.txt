@@ -1,0 +1,7 @@
+Il WSFN la cui sigla sta per "Which Stands for Nothing" è un Linguaggio di programmazione nato per il controllo dei Robot, creato da Li-Chen Wang e pubblicato dal Dr. Dobb's Journal nel settembre del 1977.. È stato successivamente tradotto in giapponese e pubblicato dalla ASCII.
+L'Extended WSFN è una implementazione creata per gli home computer della Famiglia Atari 8-bit da Harry Stewart e pubblicata da Atari Program Exchange nell'anno 1981. L'Extended WSFN è stato progettato come un linguaggio per principianti orientato alla computer grafica.
+È un linguaggio dalla sintassi criptica. Per esempio, questo è un programma per disegnare le Curve di Sierpinski:
+
+DIT(-I2FI5RG5RI2FI+)2R
+DG4F
+DY (HN63F2R61FRC4 (2FI))

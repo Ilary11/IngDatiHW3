@@ -1,0 +1,2 @@
+/e/ (precedentemente eelo) è un sistema operativo per dispositivi mobili. Fork di LineageOS, non è considerato software libero dalla Free Software Foundation.
+Il firmware è sviluppato dalla /e/ Foundation, fondata dall'imprenditore francese Gaël Duval. /e/ viene presentato come un software per la privacy che non contiene app o servizi proprietari di Google e sfida il pubblico a "trovare parti del sistema o applicazioni predefinite che stanno ancora trasmettendo dati a Google".

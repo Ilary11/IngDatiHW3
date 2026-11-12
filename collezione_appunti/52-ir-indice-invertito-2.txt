@@ -1,6 +1,0 @@
-🗣️ APPUNTI LEZIONE 19/10 Già con 1M di documenti da 1000 parole ciascuno la matrice è sparsa, piena di 0, e impraticabile, anche se l'esempio è contenuto.
-Serve una rappresentazione più compatta: a me interessano solo gli 1, cioè dove il termine compare, quindi rappresento solo quello che c'è, con delle liste.
-A ogni termine associo una lista con i documenti in cui compare, identificati da un id (ad esempio un numero progressivo).
-Per esempio la parola Brutus si trova nei documenti 1, 2, 4, 11, 31, 45, … Per ogni termine t ho quindi una lista ordinata per docID dei documenti in cui è presente: la lista dei posting.
-L'insieme di tutti i termini si chiama dizionario.
-Costruzione dell'indice I documenti da indicizzare ("Friends, Romans, countrymen.") passano per un tokenizer, che produce il flusso di token (Friends, Romans, Countrymen); poi per i moduli linguistici, che producono i token modificati (friend, roman, countryman); infine per l'indexer, che costruisce l'indice invertito.

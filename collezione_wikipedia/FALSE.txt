@@ -1,0 +1,2 @@
+FALSE è un linguaggio di programmazione esoterico ideato da Wouter van Oortmerssen nel 1993, chiamato così in onore del valore booleano, il preferito dall'autore. 
+Il linguaggio è simile al Forth ma con una sintassi creata in modo da rendere il codice intrinsecamente offuscato, confuso e illeggibile. È anche noto per avere un compilatore di soli 1024 byte (scritti in 68000 Assembly). Secondo van Oortmerssen, FALSE è stato fonte di ispirazione per vari altri linguaggi esoterici molto noti, come brainfuck e Befunge.

@@ -1,0 +1,3 @@
+Il Sequential Functional Chart (in acronimo SFC, lett. "diagramma funzionale sequenziale" in italiano ) è un linguaggio di programmazione grafico per PLC orientato alla descrizione di algoritmi di controllo logico-sequenziale.
+È uno dei linguaggi di programmazione definiti nello standard internazionale IEC 61131-3.
+Questo linguaggio si basa su Grafcet che a sua volta eredita le principali caratteristiche dal modello matematico di Rete di Petri. L'SFC è utile anche come strumento di modellazione e analisi dell'evoluzione sequenziale di un sistema di automazione poiché permette di decomporre il ciclo macchina in una serie di azioni di controllo sequenziali.

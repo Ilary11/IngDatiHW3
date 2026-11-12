@@ -1,0 +1,2 @@
+La partizione binaria dello spazio (detta anche BSP, dall'inglese Binary Space Partitioning) è un metodo che permette di suddividere, in maniera ricorsiva, uno spazio euclideo in insiemi convessi di iperpiani. Questa suddivisione è rappresentata tramite una struttura dati ad albero, chiamata BSP tree.
+Lo scopo di questo sistema di partizione introdotto nel 1980, utilizzato in particolare nella computer grafica 3D, è quello di suddividere poligoni molto complessi in altri più semplici, velocizzando così le operazioni di rendering.

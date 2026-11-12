@@ -1,0 +1,2 @@
+L'Incunabula Short Title Catalog (ISTC) è un database bibliografico gestito dalla British Library che ha l'obiettivo di censire tutti gli incunaboli noti. L'ISTC riporta le informazioni proprie di un record bibliografico, ampliate con l'indicazione delle singole edizioni e delle copie note, suddivise per luogo di pubblicazione o conservazione.
+Ad agosto del 2016 conteneva più di 30.000 edizioni di cui molte furono riattribuite dal XV al XVI secolo.

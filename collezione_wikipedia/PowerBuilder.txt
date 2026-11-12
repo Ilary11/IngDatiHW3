@@ -1,0 +1,2 @@
+Powerbuilder è un linguaggio di programmazione RAD creato dalla Powersoft, che a metà degli anni novanta è stata acquisita dalla Sybase e dal 2010 è integrata nella multinazionale tedesca SAP AG.
+Dal 5 luglio del 2016, SAP e Appeon hanno siglato un accordo per cui Appeon diventerà responsabile per lo sviluppo, la vendita, e il supporto di PowerBuilder.

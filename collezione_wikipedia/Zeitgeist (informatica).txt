@@ -1,0 +1,4 @@
+Zeitgeist è un software libero che in background registra le attività degli utenti in un computer, dai file aperti ai siti visitati e alle conversazioni in chat: queste informazioni diventano disponibili per altre applicazioni per essere ricercate in ordine temporale, geografico e per generare delle statistiche. È capace di stabilire relazioni tra i vari dati basandosi sulla similarità e su determinati pattern applicando algoritmi di associazione dati come "WINEPI" e "Apriori".
+Utilizzando algoritmi di apprendimento automatico, Zeitgeist può stabilire relazioni tra gli elementi in base alla somiglianza e ai modelli di utilizzo.
+È possibile estrarre i dati registrati dal servizio Zeitgeist via D-Bus.
+Zeitgeist ha la sua implementazione grafica di riferimento GNOME Activity Journal ed è usato anche dalla shell grafica Unity.

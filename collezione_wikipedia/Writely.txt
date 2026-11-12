@@ -1,0 +1,10 @@
+Writely era un word processor basato sul web.
+La interfaccia utente di Writely è un word processor WYSIWYG che appare assieme a un web browser.
+Menu, abbreviazioni di tastiera, e boxes di dialogo appaiono in modo simile a come ci si aspetta da un sistema di word processing orientato a GUI, come Microsoft Word o OpenOffice.org.
+Writely era il prodotto e Upstartle è la compagnia che lo possedeva. Talvolta, Writely è stato usato come riferimento alla compagnia, ed è stato adottato come nome di fatto della compagnia.
+Writely ha sviluppato un modulo Writely per la personalizzazione della homepage del sito Web, Netvibes.
+Un'importante funzione è la capacità di salvare tutti i file creati con Writely in formato Microsoft Word .doc, Postscript, RTF, e ODF.
+I file possono essere aperti, aggiornati, e stampati in varie suite office, rendendo facile la interoperatività.
+Writely usava AJAX e XML. Esso è stato definito come un esempio di sistema "Web 2.0".
+Il 9 marzo 2006, Writely è stato acquistato da Google. Al momento della acquisizione da Google, Upstartle aveva 4 dipendenti.
+L'11 ottobre 2006 Writely è stato integrato in Documenti Google.

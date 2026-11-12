@@ -1,0 +1,12 @@
+Il sistema operativo Möbius è un sistema operativo open source per la piattaforma IA-32 (Intel i386 e compatibili).
+Gli autori hanno concentrato lo sviluppo su alcuni punti molto importanti per un sistema operativo moderno. Gli obiettivi principali di Möbius sono:
+
+Renderlo abbastanza estensibile da rendere facile lo sviluppo di nuovi device drivers e tecnologie
+Mantenere il kernel più piccolo e modulare possibile
+Supportare le applicazioni esistenti quando possibile
+Rimanere semplice da utilizzare abbastanza da far installare e configurare da un utente un sistema Möbius senza dover imparare nulla
+Se rimarrà fedele a questi obiettivi, potrà diventare un reale competitore per Linux che, secondo l'autore di Möbius, "sta lottando per rimanere al passo con le idee moderne riguardo allo sviluppo di sistemi operativi".
+Möbius supporta SMP, multithreading e asincronia delle richieste di I/O a basso livello. Molti sistemi operativi "fatti in casa", cioè non professionali, prendono spunto dalla sua struttura di gestione plug and play dei device drivers per la sua alta modularità, estensibilità e per le sue funzioni tecnologicamente avanzate, anche se vecchie ormai di 4 anni.
+Il formato degli eseguibili e delle librerie condivise (DLL) è lo stesso di Windows (formato PE).
+Si può dire che l'unica cosa che manca a questo sistema operativo davvero pensato per bene, siano i drivers e le applicazioni. Ora come ora sembra un progetto abbandonato, quando sarebbe bastato un piccolo sforzo in più per creare davvero un competitore per Linux e per Windows.
+Uno dei sistemi operativi "fatti in casa" che ha preso spunto dalla gestione delle richieste di Möbius è Jeko, un kernel ancora allo stato embrionale.

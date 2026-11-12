@@ -1,0 +1,6 @@
+Maemo è stata una piattaforma di sviluppo per dispositivi mobili sviluppata da Nokia e distribuita alla Hildon Foundation. Essa è utilizzata dal Nokia 770 Internet Tablet, dal Nokia N800, dal Nokia N810 e dal Nokia N900.
+L'ultima versione è la 5.0 del 1º novembre 2011.
+Maemo è formato dalle seguenti componenti:
+
+Lo sviluppo di applicativi in Maemo è effettuato appoggiandosi a Scratchbox.
+Dopo l'acquisizione da parte di Nokia della Trolltech, Maemo viene sviluppato con le Qt, mentre lo sviluppo sotto GTK+ viene affidato alla comunità.

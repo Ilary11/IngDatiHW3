@@ -1,0 +1,9 @@
+L'affidabilità, insieme alla riservatezza ed alle prestazioni, è caratteristica fondamentale del DBMS.
+Un DBMS affidabile deve essere:
+
+Flessibile: quando continua a fornire un servizio all'utente anche se si verificano problemi interni o esterni.
+Ripristinabile: quando a causa di un problema causato da un utente interno al sistema, il sistema può essere facilmente ripristinato a uno stato precedentemente conosciuto, senza perdita di dati.
+Controllato: quando fornisce un servizio preciso e tempestivo all'occorrenza.
+Ininfluenzabile: quando le modifiche e gli aggiornamenti non influenzano la fornitura del servizio da parte del sistema.
+Pronto per la produzione: il sistema contiene difetti minimi che richiedono un numero limitato di aggiornamenti, comunque previsti.
+Prevedibile: funziona come previsto o promesso e ciò che funzionava in precedenza continua a funzionare.

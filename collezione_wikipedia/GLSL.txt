@@ -1,0 +1,7 @@
+GLSL, acronimo di OpenGL Shading Language, anche conosciuto come GLslang, è un linguaggio di programmazione ad alto livello per la gestione delle unità shader di una Graphics processing unit basato su linguaggio di programmazione C. Lo scopo di questo linguaggio è quello di permettere ai programmatori un controllo più diretto e immediato delle pipeline grafiche, che non richieda l'uso di codice assembly o di codici specifici.
+Introdotto originariamente come estensione per la libreria grafica OpenGL 1.5, GLSL è stato introdotto dall'OpenGL ARB nella OpenGL 2, la maggiore revisione dell'OpenGL a partire dalla sua prima versione. GLSL è in competizione con il linguaggio di shading proprietario di Microsoft, HLSL (High Level Shading Language) integrato nella libreria grafica Direct3D (DirectX).
+I benefici principali del GLSL sono:
+
+Compatibilità con diversi sistemi operativi, come GNU/Linux, macOS e Windows.
+Possibilità di programmare gli shader di qualsiasi scheda video (anche di produttori differenti) che supporti l'OpenGL
+Essendo il compilatore GLSL incluso nei driver della scheda video, i produttori possono creare codice ottimizzato per le proprie soluzioni, migliorando le performance.

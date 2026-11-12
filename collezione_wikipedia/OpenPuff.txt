@@ -1,0 +1,11 @@
+OpenPuff Steganography and Watermarking, qualche volta abbreviato OpenPuff o Puff, è uno strumento steganografico freeware per Microsoft Windows creato da Cosimo Oliboni e tuttora in continuo sviluppo come software indipendente. Il programma si distingue per essere stato il primo strumento steganografico (la versione 1.01 è stata pubblicata nel dicembre 2004) che:
+
+consente di nascondere un flusso di dati nascosto in più di un singolo contenitore. Quando un flusso di dati viene suddiviso fra più contenitori si ottiene una catena, senza nessun limite teorico di dimensione (256MB, 512MB, ... a seconda solo dell'implementazione)
+implementa 3 livelli di offuscamento del flusso di dati (crittografia, whitening e codifica con funzione di copertura non lineare
+estende la crittografia negabile alla steganografia negabile
+L'ultima versione supporta molti formati di contenitore
+
+Immagini Bmp, JPG, Png, TGA
+File audio Aiff, MP3, WAV
+File video 3gp, Mp4, Mpeg I, Mpeg II, VOB
+File Flash-Adobe FLV, Pdf, SWF

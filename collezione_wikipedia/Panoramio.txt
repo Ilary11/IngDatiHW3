@@ -1,0 +1,2 @@
+Panoramio era un sito web di condivisione di fotografie abbinato ad un sistema di localizzazione geografica.
+Le foto caricate sul sito dagli utenti, dopo esser state posizionate sulla mappa di Google Maps, risultavano visibili sullo stesso Google Maps; ogni mese tra queste ne venivano selezionate alcune per Google Earth. Col tempo si era formata una folta comunità di appassionati che si scambiavano commenti ed opinioni.

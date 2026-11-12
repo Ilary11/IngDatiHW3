@@ -1,0 +1,1 @@
+La visita in pre-ordine (o visita pre-order) è un algoritmo usato per l'esplorazione in profondità dei nodi di un albero. L'esplorazione dell'albero parte dalla radice per poi scendere alle foglie, che sono gli ultimi nodi ad essere visitati, al contrario di quanto avviene nella visita post-order dove l'esplorazione parte dalle foglie, per poi arrivare alla radice dell'albero.

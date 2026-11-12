@@ -1,0 +1,2 @@
+L'algoritmo di Cristian - dal nome dell'autore Flaviu Cristian che lo ha pubblicato nel 1989 - è un metodo per la sincronizzazione degli orologi tra dispositivi in rete, particolarmente efficace per le intranet locali.
+Il metodo si basa sulla misurazione del round-trip time (RTT) di uno scambio di messaggi request-response e garantisce un errore di accuratezza minore di RTT/2.

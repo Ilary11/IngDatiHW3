@@ -1,0 +1,4 @@
+In matematica un'equazione è definita numerica quando oltre all'incognita non appaiono altre variabili (parametri). Si tratta quindi di un'equazione contenente esclusivamente l'incognita e numeri espressi.
+Un esempio di equazione numerica è:
+6x3−x2+3x−7=0
+Il contrario di equazione numerica è equazione parametrica.

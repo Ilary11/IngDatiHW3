@@ -1,0 +1,8 @@
+L'Access Linux Platform (ALP), ci si riferisce a volte come la prossima generazione di Palm OS è un sistema operativo con licenza Open Source per telefoni cellulari e commercializzata da Access Co. di Tokyo.
+La piattaforma include ambienti di esecuzione per Java, Palm OS classico, e GTK+ basati su applicazioni native Linux.
+È stato presentato al 3GSM, al LinuxWorld, GUADEC e all'Open Source in Mobile.
+Fu annunciato la prima volta nel febbraio 2006.
+La prima versione della piattaforma e il kit di sviluppo per ALP è stata diffusa ufficialmente nel febbraio 2007.
+Un palmare basato su ALP è stato messo in commercio dall'operatore Orange nella prima metà del 2008, e c'è stato uno sforzo tra Access, NTT DoCoMo, Panasonic, NEC ed Estreemo per usare la piattaforma come base di una piattaforma condivisa che implementi una versione rivisitata delle API di MOAP I-mode conforme alle specifiche della fondazione LiMo.
+Il primo telefono cellulare ad usare ALP stato Edelweiss diEmblaze Mobile che è uscito a metà 2009.
+È stato sviluppato insieme a Sharp Corporation e 7 altri partner addizionali.

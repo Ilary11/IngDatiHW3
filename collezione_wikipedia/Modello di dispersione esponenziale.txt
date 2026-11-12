@@ -1,0 +1,7 @@
+Le famiglie di dispersione esponenziale sono un insieme di modelli parametrici, appartenenti a una classe più ampia, esprimibile tramite una funzione di distribuzione ascrivibile a
+p(y|θ,ϕ)=exp⁡{θy−b(θ)a(ϕ)+c(y,ϕ)}
+in cui y∈𝒮⊆ℝ, θ∈Θ⊆ℝ, ϕ>0, a(ϕ)>0. Il parametro θ è detto "parametro naturale", mentre ϕ è detto "parametro di dispersione". Spesso a(ϕ)=ϕ oppure a(ϕ)=ϕ/w, con w costante nota. Inoltre, per alcuni importanti modelli, come Poisson, esponenziale e Bernoulli, ϕ=1, dunque sono parametrizzate solo da θ.
+Esiste anche una versione vettoriale, che si applica per risposte 𝐲∈ℝk multivariate, ovvero
+p(𝐲|𝜽,ϕ)=exp⁡{𝜽T𝐲−b(𝜽)a(ϕ)+c(𝐲,ϕ)}
+in cui ϕ è ancora una grandezza scalare.
+La trattazione delle famiglie di dispersione esponenziale nella forma sopra specificata risulta particolarmente funzionale alle analisi di regressione e allo studio dei modelli lineari generalizzati.

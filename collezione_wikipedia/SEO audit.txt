@@ -1,0 +1,2 @@
+La SEO (Search engine optimization – ottimizzazione per i motori di ricerca) audit è un'analisi approfondita di un sito web: grazie a questa analisi un sito viene scansionato al fine di avere un quadro il più possibile definito sullo stato di salute di un progetto e di un sito web.
+Grazie a un'analisi SEO audit avanzata si analizzano elementi come la velocità di caricamento delle pagine, l'architettura delle informazioni, la navigabilità del sito, la scansionabilità da parte dei bot, la struttura dei link interni, l'ottimizzazione dei tag e dei contenuti.

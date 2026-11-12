@@ -1,0 +1,5 @@
+Bada (pronunciato /ˈbɑːdɑː/) era una piattaforma sviluppata da Samsung Electronics con un kernel ibrido, che poggia sul kernel di Linux, FreeBSD e un kernel real-time OS, il che rendeva Bada applicabile a una vasta gamma di dispositivi.
+Progettato per smartphone, il suo nome viene dal coreano e significa oceano.
+Il primo dispositivo con sistema operativo Bada è stato il Samsung S8500 Wave, messo in commercio il 1º giugno 2010 su mercato europeo.
+Successivamente è stato aperto un mercato di applicazioni per Bada su internet, chiamato Samsung Apps, in maniera analoga a quanto fatto da Nokia per Symbian (Ovi), Apple per iOS (AppStore), Google per Android (Play Store e Android Market), Microsoft per Windows Phone (Marketplace) e RIM per BlackBerry (App World).
+Il 25 febbraio 2013 Samsung ha annunciato che interromperà lo sviluppo di Bada per concentrarsi su Tizen.

@@ -1,0 +1,4 @@
+HBase è una base di dati distribuita open source modellata su BigTable di Google e scritta in Java.
+Fu sviluppato come parte del progetto Hadoop dell'Apache Software Foundation ed eseguito su HDFS (Hadoop Distributed File System), fornendo capacità simili a quelle di BigTable per Hadoop.
+HBase non è un diretto rimpiazzamento di classiche basi di dati SQL, sebbene successivamente le sue prestazioni sono migliorate e serve diversi siti internet.
+HBase inizialmente era un progetto della società Powerset, poi acquisita da Microsoft nel 2008.

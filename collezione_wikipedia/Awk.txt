@@ -1,0 +1,1 @@
+AWK (dalle iniziali dei cognomi dei suoi autori, Alfred Aho, Peter Weinberger e Brian Kernighan) è un linguaggio di programmazione interpretato orientato alla manipolazione di dati di tipo testuale, sia in forma di file che di flusso di dati provenienti dallo standard input.

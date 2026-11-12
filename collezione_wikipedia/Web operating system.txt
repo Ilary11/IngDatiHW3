@@ -1,0 +1,5 @@
+In informatica e nel marketing, un web operating system è un termine improprio per riferirsi ad un sito web progettato per fornire i servizi che offrirebbe un comune sistema operativo per computer desktop (software as a service).
+Generalmente se ne identificano di due tipi:
+
+complessi siti web che forniscono una - variabilmente completa - metafora della scrivania
+virtualizzazioni di comuni sistemi operativi accessibili da browser web (grazie a qualche wrapper)

@@ -1,0 +1,7 @@
+In una infrastruttura a chiave pubblica (PKI), una certificate signing request (in italiano: richiesta di firma del certificato, sigla inglese CSR) è una comunicazione inviata dal richiedente ad una Certificate Authority (CA; in italiano: "Autorità di certificazione") al fine di ottenere un certificato di identità digitale.
+Tale richiesta è di solito comprensiva di:
+
+chiave pubblica associata al certificato finale
+dati identificativi del richiedente (es. il nome del dominio)
+protezione dell'integrità (es. firma digitale)
+Il formato più comune per questa tipologia di richieste (CSRs) sono le specifiche PKCS #10; altri tipi sono il formato Signed Public Key e il Challenge SPKAC, generati da alcuni browser web.

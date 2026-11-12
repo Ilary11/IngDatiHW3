@@ -1,0 +1,20 @@
+Ulrich's Periodicals Directory è un database bibliografico che fornisce informazioni su riviste scientifiche e divulgative, giornali e altri periodici.
+La sua versione a stampa fu fondata da Carolyn Ulrich, capo della sezione periodici della New York Public Library, e viene pubblicata dal 1932. Il nome originale era Periodicals Directory: A Classified Guide to a Selected List of Current Periodicals Foreign and Domestic.
+Viene ora pubblicata anche online come Ulrichsweb, che fornisce collegamenti web e Z39.50 ai cataloghi bibliografici. La versione online contiene oltre 300 000 periodici attivi.
+La copertura è internazionale, con maggiore attenzione per le pubblicazioni in lingua inglese. L'informazione viene sottomessa direttamente dagli editori e verificata dalla redazione. Fra i metadati utilizzati, vi sono:
+
+ISSN
+titolo e titoli precedenti
+Editore
+Paese
+Stato	della rivista
+Anno di inizio
+Frequenza
+Lingua del testo
+Peer review
+Accesso aperto
+Tipo di periodico
+Tipo contenuto
+Descrizione
+Fu inizialmente pubblicata da R.R. Bowker, ma nel 2006 poi venne trasferita a CSA, facente parte del Cambridge Information Group.
+Dopo la fusione di CSA e ProQuest, Ulrich's venne trasferita ulteriormente sotto la ProQuest Serials Solutions.

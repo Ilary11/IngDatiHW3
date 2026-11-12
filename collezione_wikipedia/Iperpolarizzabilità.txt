@@ -1,0 +1,12 @@
+L'iperpolarizzabilità è una proprietà ottica non lineare di una molecola.
+In un sistema macroscopico la polarizzazione indotta P è una funzione della suscettività elettrica χ e del  campo elettrico E:
+
+P=χEϵ0
+nel caso di un forte campo elettrico, come quello prodotto da un laser, la polarizzazione indotta deve essere scritta come una serie di potenze:
+
+P=χ(1)F+χ(2)FF+χ(3)FFF+…
+in cui χ(2) e χ(3) descrivono gli effetti non lineari del secondo e del terzo ordine. Se una struttura cristallina è centrosimmetrica, il termine del secondo ordine è uguale a zero.
+Se questo concetto macroscopico viene trasferito al livello microscopico (molecolare), allora si ottiene un insieme simile di potenze per la polarizzabilità:
+
+pi=∑jαijFj+∑j≤kβijkFjFk+∑j≤k≤lγijklFjFkFl+…
+dove gli indici i,j,k,l sono riferiti alle coordinate spaziali x,y,z della molecola. β è l'iperpolarizzabilità del secondo ordine che non è nulla solo se la molecola non è centrosimetrica. Sia la polarizzazione lineare α che le iperpolarizzabilità β e γ sono tensori dipendenti dalla frequenza della radiazione incidente.

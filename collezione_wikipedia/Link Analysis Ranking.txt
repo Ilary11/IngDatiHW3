@@ -1,0 +1,2 @@
+L'obiettivo di un algoritmo di link analysis ranking (LAR) consiste nell'inferire l'importanza di una pagina web basandosi sulla struttura topologica del grafo del World Wide Web (WWW).
+Gli algoritmi di link analysis ranking sono molto utilizzati dai motori di ricerca per effettuare l'ordinamento (o ranking) delle pagine web.

@@ -1,0 +1,2 @@
+L'attacco differenziale-lineare è un tipo di attacco crittanalitico che combina la crittanalisi differenziale con la crittanalisi lineare. È stato introdotto da Martin Hellman e Susan K. Langford nel 1994 per violare il DES.
+L'attacco differenziale serve a produrre un'approssimazione lineare dell'algoritmo: questa stima ha una probabilità di successo di 1 ma solo su una piccola parte del cifrario (pochi passaggi), mentre la probabilità di riuscità è molto interiore se si considera l'intero cifrario.

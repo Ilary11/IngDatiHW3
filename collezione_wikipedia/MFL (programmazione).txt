@@ -1,0 +1,2 @@
+MFL, sigla per Message Format Language, è un linguaggio di programmazione utilizzato in Oracle Service Bus per la trasformazione dei messaggi nella pipeline della componente Proxy Service.
+MFL può essere utilizzato per la creazione di strutture dati, attraverso i contenuti di un messaggio transitato sul BUS, trasformandoli da formato binario a XML o viceversa.

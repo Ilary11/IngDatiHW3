@@ -1,0 +1,6 @@
+Un algoritmo di ordinamento comparativo è un tipo di algoritmo di ordinamento che esamina semplicemente gli elementi di una lista mediante una singola operazione di comparazione astratta (spesso un operatore "minore di" o "uguale a") per determinare di una coppia di elementi quale deve venir posizionato prima nella lista finale ordinata. L'unico requisito è che l'operatore soddisfi due delle proprietà di un ordine totale:
+
+se a ≤ b e b ≤ c allora a ≤ c (transitività)
+per ogni a e b, si ha che a ≤ b oppure b ≤ a (totalità o tricotomia).
+È possibile che si verifichi sia che a ≤ b sia che b ≤ a (nel caso di a = b) : in questo caso ognuno dei due elementi può essere posizionato prima dell'altro. In un ordinamento stabile l'ordine di input degli elementi determina l'ordine degli elementi ordinati.
+Per capire come funziona un algoritmo di ordinamento comparativo si può pensare al modo in cui ordinare un insieme di pesi da bilancia che non hanno indicazione del loro peso avendo a disposizione solo una bilancia. Lo scopo è quello di allineare i pesi secondo il loro peso potendo solo posizionare 2 pesi sui piatti della bilancia per vedere quale pesa di più (o se hanno lo stesso peso).

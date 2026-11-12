@@ -1,0 +1,2 @@
+GNU Guile è un interprete per il linguaggio Scheme distribuito nella forma di libreria, con lo scopo di facilitare l'embedding di questo linguaggio nelle applicazioni GNOME.
+Guile gode di una ricca serie di estensioni e librerie per accedere oltre che a GNOME/GTK+ anche a TCP/IP, database SQL, e molte altre componenti fondamentali e non.

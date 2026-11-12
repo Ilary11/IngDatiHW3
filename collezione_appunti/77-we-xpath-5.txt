@@ -1,8 +1,0 @@
-Abbreviazioni: niente = child:: ; @ = attribute:: ; .
-= self::node() ; ..
-= parent::node() ; // = /descendant-or-self::node()/ ; .//X = self::node()/descendant-orself::node()/child::X .
-Espressioni, test e funzioni Aritmetica: + , - , * , div (non /), mod .
-Uguaglianza: = (non ==) e != .
-Attenzione: valore = insieme di nodi è vero se almeno un nodo ha quel valore, e valore != insieme di nodi è vero se almeno un nodo ha un valore diverso: quindi possono essere veri entrambi nello stesso momento.
-Booleani: and , or , not() ; per i confronti numerici < , <= , > , >= (in alcuni contesti vanno scritti come &lt; ecc.).
-Funzioni: text() restituisce il testo dell'elemento ( //*[text()='Introduction'] ); count() conta gli elementi selezionati; starts-with(a, b) e contains(a, b) controllano se la stringa a inizia con, o contiene, b.

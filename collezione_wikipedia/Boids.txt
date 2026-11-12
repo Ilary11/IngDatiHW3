@@ -1,0 +1,8 @@
+Boids è un software di intelligenza artificiale realizzato nel 1986 da Craig Reynolds allo scopo di simulare il comportamento degli stormi di uccelli in volo.
+Il software si basa sull'interazione tra forme di vita artificiale, dette boid, che si muovono in un contesto tridimensionale. Nello scenario più semplice, le intelligenze artificiali decidono di modificare le proprie traiettorie sulla base di tre regole:
+
+separazione: il boid sterza al fine di evitare il sovraffollamento locale (dunque si allontana dai boid vicini)
+allineamento: il boid sterza al fine di allinearsi alle traiettorie di volo dei boid vicini
+coesione: il boid sterza al fine di muoversi verso la posizione media (baricentro) dei boid vicini
+In scenari più complessi sono state introdotte altre regole, finalizzate ad esempio ad evitare ostacoli o raggiungere obiettivi.
+Il moto dei boid può essere caotico o ordinato.

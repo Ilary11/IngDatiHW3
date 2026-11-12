@@ -1,0 +1,8 @@
+In informatica, una regola di produzione (o semplicemente regola) è un formalismo per la rappresentazione della conoscenza e per la trasformazione di strutture simboliche. Originariamente introdotte dal matematico Emil Post per descrivere sistemi formali di manipolazione di stringhe, le regole di produzione sono successivamente divenute l'elemento centrale dei sistemi a regole e dei sistemi esperti nell'intelligenza artificiale, oltre che delle grammatiche formali descritte da Noam Chomsky.
+In termini generali, una regola formalizza una relazione d'inferenza o una trasformazione condizionata nella forma:
+
+SE A ALLORA B
+oppure anche
+
+A⟹B
+dove A rappresenta la condizione (o antecedente) e B rappresenta l'azione o la nuova informazione prodotta (o conseguente).

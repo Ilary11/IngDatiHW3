@@ -1,7 +1,0 @@
-Attenzione a un errore nella slide 60: //chapter[count(section)=1] seleziona i chapter con esattamente una section figlia, non due come scritto.
-Negli esempi di starts-with e contains manca anche la parentesi di chiusura: la forma corretta è //*[starts-with(name(), 'sec')] .
-XPath nel browser ed esercizi In Chrome: Ispeziona → Console.
-$x("espressione") restituisce un array di nodi; per il testo di una foglia si usa $x("espressione/text()")[0].nodeValue oppure $x(string("espressione")) .
-C'è anche un sito di esercizi (topswagcode.com/xpath).
-Esercizi proposti:
-da una pagina prodotto Amazon, scrivere un'espressione XPath che estrae il valore dell'attributo "Colore", poi provarla su un'altra pagina della stessa categoria (attenzione: in molte pagine simili i valori di questi attributi sono sbagliati); scegliere 5 pagine Amazon della stessa categoria e scrivere due espressioni per estrarre descrizione e prezzo; scegliere un tipo di entità di un dominio (giocatori di basket, quotazioni di borsa...), trovare 5 sorgenti web con pagine per quel tipo, 5 pagine per sorgente, e scrivere espressioni XPath per estrarre almeno 5 attributi.

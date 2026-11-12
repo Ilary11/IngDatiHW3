@@ -1,0 +1,2 @@
+In informatica con il termine dirty read, o uncommitted dependency, si intende un errore nella gestione della concorrenza tra transazioni dovuta ad una dipendenza write → read.
+Il dirty read è una perdita di modifiche in una base di dati causato da una dipendenza di una transazione da un'altra non completata con successo con conseguente lettura di dati incoerenti.

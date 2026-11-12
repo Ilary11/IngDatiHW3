@@ -1,9 +1,0 @@
-Budget.
-id (numerico, TMDB), title , release_date (ISO aaaa-mm-gg), duration , genres (lista Python), imdb_id , budget , box_office , production (case di produzione in un'unica stringa).
-I valori sono sporchi: "Incéption", "Matrix (The)", budget come "$6-7M".
-Companies.
-Company Name , Full Legal Name , Headquarters (City, Country) , Notes .
-Contiene Syncopy, Legendary, Warner Bros., Village Roadshow, Groucho II, Silver Pictures, Paramount, Alfran, The Steve Tisch Company, Wendy Finerman Productions, Bull's Eye, Bob Yari, DEJ, Harris Company, Alliance Communications, The Movie Network, Téléfilm Canada.
-Alcune note sono curiose: Alfran deriva da Al Ruddy + Francis Ford Coppola, Steve Tisch è coproprietario dei New York Giants, Harris Company è poco documentata.
-Artists (attori e registi).
-person_id , birth_first_name , birth_last_name , known_as , birth_date , birth_place .

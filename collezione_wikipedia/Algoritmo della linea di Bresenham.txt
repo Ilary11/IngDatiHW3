@@ -1,0 +1,2 @@
+L'algoritmo della linea di Bresenham (da alcuni chiamato algoritmo del punto medio o anche Cerchi di Bresenham) è un algoritmo di rasterizzazione di linea.
+Allo stato attuale è l'algoritmo più usato per la rasterizzazione di linee, soprattutto per la sua bassa richiesta di risorse computazionali.

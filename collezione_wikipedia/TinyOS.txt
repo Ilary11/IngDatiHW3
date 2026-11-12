@@ -1,0 +1,1 @@
+TinyOS è un sistema operativo per i mote, i nodi delle reti wireless di sensori (wireless sensor network). È sotto sviluppo da parte di un consorzio guidato dall'Università della California - Berkeley, in collaborazione con Intel Research e nasce per far parte della tecnologia Smart Dust. TinyOS è scritto nel linguaggio di programmazione NesC con il quale si evolve in simbiosi.

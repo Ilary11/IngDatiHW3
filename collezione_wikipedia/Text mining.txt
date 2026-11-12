@@ -1,0 +1,4 @@
+Il text mining è una tecnica che utilizza l'elaborazione del linguaggio naturale per trasformare il testo libero, non strutturato, di documenti/database in dati strutturati e normalizzati.
+Lo scopo è quello di estrarre significato, classificare gli argomenti e assegnare agli stessi una polarità, che può essere positiva, negativa o neutra (ovvero, si parla di un determinato argomento in che modo?).
+Tanti gli strumenti di analisi utilizzabili, da quelli full AI (completamente automatizzati) a quelli ibridi, dove la componente umana aiuta nei procedimenti di interpretazione del big data testuale.
+Le informazioni estratte, distillate e classificate possono essere espresse graficamente (istogrammi, tabelle, mappe mentali ecc), sintetizzati in report testuali, oppure possono essere integrate in database, data warehouse o dashboard di business intelligence e utilizzati per analisi descrittive, predittive e prescrittive.

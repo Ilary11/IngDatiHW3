@@ -1,0 +1,2 @@
+Project Loon è un progetto di ricerca e sviluppo di Google X con l'obiettivo di fornire l'accesso a internet nelle aree rurali e remote delle Terra.
+Il progetto usa palloni aerostatici ad altezze elevate, posizionati nella stratosfera ad un'altezza circa di 32 km per creare una rete senza fili aerea, inizialmente con una velocità simile al 3G ma successivamente aumentata all'LTE.

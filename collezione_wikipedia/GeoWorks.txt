@@ -1,0 +1,4 @@
+GeoWorks è il nome con il quale era conosciuto il sistema operativo PC/GEOS (Personal Computer Graphic Envroinment Operating System). Questo sistema fu uno dei primi ambienti grafici per computer degli anni novanta, esso derivava dalla versione precedente per Commodore 64 che era a 8-bit, al contrario della versione per IBM compatibile che funzionava a 16-bit.
+GeoWorks 1.0 fu distribuito nel novembre 1990 dalla ditta Ensemble.
+Il programma fu scritto interamente nel linguaggio di programmazione Assembly, grazie a ciò questo sistema era molto veloce.
+GeoWorks era per certi aspetti tecnicamente migliore di Windows 3.0, ma Microsoft grazie a una migliore campagna commerciale riuscì a prevalere sul concorrente.

@@ -1,0 +1,12 @@
+ChibiOS/RT è un sistema operativo real-time molto compatto ed efficiente progettato per applicazioni embedded. Il sistema supporta diverse architetture ed è distribuito sotto la licenza GPL3.
+Il Kernel supporta una varietà di meccanismi come: multithreading, timer software, semafori, mutex, variabili condizionali, messaggi, sorgenti di evento, code, I/O sincrono o asincrono con possibilità di timeout.
+Le architetture supportate includono:
+
+Intel 80386
+ARM7
+ARM Cortex-M0/M3/M4
+PowerPC
+STM8
+Atmel AVR
+Texas Instruments MSP430
+Il kernel include applicazioni dimostrative per processori LPC11xx, LPC13xx, LPC214x, AT91SAM7X, STM32F103x, MSP430F1611, MegaAVR e molti altri. È anche possibile far funzionare il kernel in un processo Win32 o Linux in una modalità di emulazione I/O, questo consente di sviluppare applicazioni senza dover utilizzare alcun hardware.

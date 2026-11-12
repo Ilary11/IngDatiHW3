@@ -1,8 +1,0 @@
-12.
-Ranked retrieval Finora le query erano booleane: un documento corrisponde o no.
-Va bene per utenti esperti, che conoscono bene i propri bisogni e la collezione, e per le applicazioni, che possono consumare migliaia di risultati.
-Non va bene per la maggior parte degli utenti, che non sanno (o non vogliono) scrivere query booleane e non vogliono scorrere migliaia di risultati, soprattutto nella ricerca sul web.
-Feast or famine ("abbondanza o carestia"): le query booleane danno spesso o troppo pochi risultati (zero) o troppi (migliaia).
-Esempio storico: "standard user dlink 650" → 200.000 risultati; "standard user dlink 650 no card found" → 0.
-L'AND dà troppo poco, l'OR troppo.
-Nel ranked retrieval il sistema restituisce invece un ordinamento dei documenti (i migliori) per la query, e di solito si usano query in testo libero, cioè una o più parole in linguaggio naturale invece di un linguaggio di operatori.

@@ -1,0 +1,1 @@
+In informatica, si chiama rappresentazione succinta di una struttura di dati un particolare schema di memorizzazione della stessa tale che lo spazio occupato sia simile al limite inferiore teorico e ciononostante sia possibile effettuare le operazioni tipiche della struttura (o perlomeno le operazioni di codifica e decodifica della forma succinta) in modo efficiente.

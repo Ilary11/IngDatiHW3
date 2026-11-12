@@ -1,0 +1,2 @@
+In informatica VBScript (abbreviazione di Microsoft's Visual Basic Scripting Edition) è un sottoinsieme di Visual Basic utilizzato nelle Active Server Pages e in Windows Script Host come linguaggio di scripting general-purpose. È anche usato come sostituto, integrazione o appoggio per i file batch di MS-DOS o per meglio dire, della interfaccia da linea di comando di Windows.
+Ad ottobre 2023 Microsoft ha deprecato VBScript. Nelle versioni future di Windows, VBScript sarà disponibile come funzionalità su richiesta prima della sua rimozione dal sistema operativo.

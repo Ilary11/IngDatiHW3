@@ -1,6 +1,0 @@
-Così la dimensione del risultato non è più un problema: si mostrano i primi k (es.
-10) risultati senza sommergere l'utente, a patto che l'algoritmo di ranking funzioni.
-Il punteggio come base del ranking Si assegna a ogni coppia query-documento un punteggio, ad esempio in [0, 1], che misura quanto documento e query "corrispondono".
-Per una query di un solo termine: se il termine non compare nel documento il punteggio deve essere 0; più il termine è frequente nel documento, più alto deve essere il punteggio.
-Primo tentativo: Jaccard fra l'insieme di parole della query e quello del documento.
-Problemi: non considera la frequenza del termine (quante volte compare nel documento); non considera che i termini rari nella collezione sono più informativi di quelli frequenti; e serve un modo migliore per normalizzare rispetto alla lunghezza.

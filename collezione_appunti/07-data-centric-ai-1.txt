@@ -1,4 +1,0 @@
-7. "Data is food for AI" (Andrew Ng) AI System = Code + Data. La domanda è: miglioriamo il modello o i dati? Ci sono due approcci: model-centric: i dati si tengono fissi e si migliora iterativamente il codice/modello; si raccoglie quello che si può e si sviluppa un modello abbastanza buono da gestire il rumore nei dati; data-centric: il codice si tiene fisso e si migliorano iterativamente i dati; la consistenza dei dati è fondamentale, si usano strumenti per migliorarne la qualità e così più modelli possono funzionare bene.
-Andrew Ng: preparare dati di alta qualità è la parte centrale del lavoro di un ML engineer.
-Le slide 22–31 sono estratti di una sua presentazione: 1.
-Improving the code vs.

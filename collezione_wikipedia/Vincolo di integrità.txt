@@ -1,0 +1,5 @@
+In informatica i vincoli di integrità rappresentano una classe di proprietà che dovrebbero essere sempre soddisfatte dalle istanze delle basi di dati, pena la perdita dei dati conservati o la comparsa di errori di elaborazione.
+La verifica e la preservazione di questi vincoli rientra nei compiti dei sistemi di gestione delle basi di dati.
+Dal punto di vista formale un vincolo è un predicato sulla base di dati o di un suo elemento. Valutando il predicato è possibile rilevare se la base di dati soddisfa o meno un dato vincolo.
+In generale a uno schema di base di dati si associa un insieme di vincoli e si considerano corrette solo le istanze che soddisfano tutti i vincoli specificati.
+Esistono due grandi tipologie di vincoli: quelli intra-relazionali che interessano una sola relazione e quelli inter-relazionali o extra-relazionali che definiscono legami tra relazioni differenti.

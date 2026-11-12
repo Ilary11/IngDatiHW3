@@ -1,0 +1,4 @@
+Xsens Technologies BV (o Xsens) è un fornitore di prodotti per la rilevazione dei movimenti in 3D e di sensori inerziali basati sulla tecnologia dei sensori inerziali MEMS in miniatura.
+L'azienda è proprietaria di diversi brevetti nel campo degli algoritmi di fusione dei dati multisensore,  unendo le informazioni di diverse tecnologie come GPS, Motion Capture e quelli relativi alla modellazione biomeccanica.
+Xsens fa parte di Mcube, il fornitore di sensori di movimento MEMS più piccoli e di bassa potenza al mondo, fattore abilitante chiave per l'Internet of Moving Things.
+Xsens ha uffici a Enschede (sede centrale), Paesi Bassi, Los Angeles, Bangalore, Shanghai e Hong Kong.

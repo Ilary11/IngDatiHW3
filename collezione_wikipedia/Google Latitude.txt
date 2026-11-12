@@ -1,0 +1,5 @@
+Google Latitude era un servizio web di geolocalizzazione sviluppato da Google, che nel 2005 aveva comprato Dodgeball, servizio successivamente sostituito da Google Latitude.
+Latitude permetteva a qualsiasi utente in possesso di telefono cellulare (smartphone) di essere localizzato e tracciato da altre persone. A seguito dell'iscrizione a Google, il luogo dell'utente viene individuato e mappato su Google Maps.
+L'utente poteva impostare la sua visibilità secondo i criteri di privacy che preferisce, in modo che gli altri utenti possano visualizzare l'esatta posizione o solamente il nome della città in cui si trova.
+Google Latitude era compatibile con la maggior parte dei dispositivi che montano Android, BlackBerry OS, Windows Mobile, Symbian S60 e iOS.
+Il servizio è stato disattivato il 9 agosto 2013. Alcune funzioni di geolocalizzazione sono state integrate in Google+.

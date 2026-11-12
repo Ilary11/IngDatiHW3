@@ -1,0 +1,6 @@
+Il sistema di gestione di basi di dati orientato alle colonne (in inglese: Column-oriented DBMS) è un sistema di gestione di basi di dati che memorizza i dati delle tabelle come sezioni di colonne di dati piuttosto che righe di dati.
+In confronto, la maggior parte delle basi di dati relazionali memorizza i dati in righe.
+Ciò porta vantaggi nelle data warehouse, nei sistemi customer relationship management (CRM) nei cataloghi di schede bibliografiche e altri sistemi ad hoc, dove gli aggregati sono calcolati su un grande numero di dati simili tra loro.
+Si possono raggiungere alcuni benefici di organizzazione orientata alla colonna o orientata alla riga con qualsiasi DBMS.
+Denotandolo come orientato alla colonna, ci si riferisce sia a una struttura orientata alla colonna sia a una focalizzazione sull'ottimizzazione per i carichi di lavoro orientati alla colonna.
+Questo approccio è in contrasto con le basi di dati orientati alle righe o le basi di dati memorizzate per righe e con le basi di dati correlate, che usano una struttura di memorizzazione basata sul valore.

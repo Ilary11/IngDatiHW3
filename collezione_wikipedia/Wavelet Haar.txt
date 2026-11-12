@@ -1,0 +1,9 @@
+La wavelet Haar è stata la prima wavelet ad essere proposta nel 1909 da Alfréd Haar. Haar usò queste funzioni per dare un esempio di un sistema ortonormale numerabile per lo spazio delle funzioni L2 sulla retta reale.
+La wavelet Haar è anche la wavelet più semplice. Lo svantaggio della wavelet di Haar è che non è una funzione continua e quindi non è derivabile.
+
+La wavelet madre di Haar è la funzione
+
+ψ(t)={10≤t<1/2,−11/2≤t<1,0altrimenti.
+e la sua funzione padre
+
+ϕ(t)={10≤t<1,0altrimenti.

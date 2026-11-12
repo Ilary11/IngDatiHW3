@@ -1,5 +1,0 @@
-Average Precision di due ranking con 6 documenti rilevanti: 0,78 e 0,52.
-MAP: è la media delle Average Precision su più query (o più ranking).
-Query 1: AP = 0,62; query 2: AP = 0,44; MAP = (0,62 + 0,44)/2 = 0,53.
-Se un documento rilevante non viene mai restituito, la sua precision si considera 0. La MAP è una macro-media: ogni query conta allo stesso modo. È oggi forse la misura più usata negli articoli di ricerca.
-Va bene per la ricerca sul web? La MAP presuppone che l'utente voglia trovare molti documenti rilevanti per ogni query, e richiede molti giudizi di rilevanza sulla collezione.

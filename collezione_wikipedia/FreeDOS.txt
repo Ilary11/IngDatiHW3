@@ -1,0 +1,1 @@
+FreeDOS (originariamente Free-DOS e PD-DOS) è un sistema operativo per computer IBM PC compatibili, che costituisce un'alternativa open source a MS-DOS. Scopo del progetto è anche la rivitalizzazione di vecchi computer che potrebbero ancora funzionare egregiamente con un sistema operativo molto leggero e dinamico.

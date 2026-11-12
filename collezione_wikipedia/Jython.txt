@@ -1,0 +1,6 @@
+Jython, successore di JPython, è un'implementazione del linguaggio di programmazione Python scritto in Java.
+I programmi Jython possono importare e usare qualsiasi classe Java. Eccetto alcuni moduli standard, i programmi Jython usano le classi Java anziché i moduli Python.
+Jython include quasi tutti i moduli presenti nella distribuzione standard di Python, tralasciando solo alcuni moduli implementati originariamente in C.
+Jim Hugunin creò Jython alla fine del 1997, all'inizio con la possibilità che rimpiazzasse C con Java.Dalla versione 2.2 Jython (con le librerie standard) è sotto licenza Python Software Foundation License (v2).
+La penultima versione è Jython 2.7.1, disponibile dal 30 giugno 2017. 
+La versione più recente invece è Jython 2.7.2. È stato rilasciato il 21 marzo 2020 ed è compatibile con Python 2.7. Sebbene Jython implementi le specifiche del linguaggio Python, presenta alcune differenze e incompatibilità con CPython, che è l'implementazione di riferimento di Python.

@@ -1,0 +1,5 @@
+Il Minerva era un sistema operativo sviluppato da Stuart McKnight, Jonathan Oakley e Laurence Reeves di QView (Regno Unito) come alternativa al Sinclair QDOS installato nei computer Sinclair QL. Il Minerva correggeva numerosi bug del QDOS ed era talmente differente da quest'ultimo a livello di codice che alcuni lo considerano un sistema operativo differente piuttosto che una reimplementazione del QDOS.
+Il sistema è stato in seguito commercializzato da Tony Firshman di TF Services fino alla versione 1.89, a partire dalla quale è stato reso di pubblico dominio. Attualmente Minerva è alla versione 1.97 ed è disponibile in 2 differenti versioni (su ROM):
+
+Minerva MKI: alternativa al QDOS (su ROM da 48 KB);
+Minerva KMII RTC: oltre al nuovo sistema operativo, integra un orologio di sistema con batteria, una piccola RAM ed un chip I2C che pilota l'hardware aggiuntivo.

@@ -1,0 +1,1 @@
+YandexGPT è un chat bot basato sull'intelligenza artificiale e sull'apprendimento automatico sviluppato dalla società russa Yandex. È in grado di generare testi, eseguire traduzioni automatiche, elaborare il linguaggio naturale ed eseguire altri compiti legati alla comprensione e all'elaborazione di testi.

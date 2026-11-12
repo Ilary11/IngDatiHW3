@@ -1,0 +1,17 @@
+A9.com è stato un motore di ricerca lanciato il 14 aprile 2004 da Amazon.com. A9 ottiene i risultati di ricerca da Live Search e da Alexa, Amazon.com ed altri motori di ricerca..
+A9 è dotato di alcune caratteristiche assenti da altri motori di ricerca. Oltre alle ricerche nel testo delle pagine web, A9 compie ricerche sui testi disponibili in consultazione gratuita presso Amazon, a condizione che l'utente abbia un account su Amazon. La sua interfaccia consente agli utenti di combinare più risultati di ricerca, e di confrontarli.
+Il lancio di A9 è stato controverso, poiché il motore di ricerca registra ogni ricerca compiuta dagli utenti e la ricollega all'account posseduto dall'utente su Amazon. La dichiarazione sulla privacy di A9 recita:
+
+Nel gennaio 2005 A9.com ha aggiunto la funzione "BlockView" alle ricerche su pagine gialle e su cartine geografiche. La funzione consentiva agli utenti di visualizzare le foto delle imprese presenti sulla maggior parte del territorio di 24 delle principali città americane. Gli utenti possono inoltre far scorrere l'immagine della strada sia verso destra che verso sinistra, per ottenere immagini di imprese vicine a quella che interessa. Inizialmente A9.com aveva previsto di aggiungere sempre nuove immagini ed aziende al proprio motore di ricerca, però attualmente questo servizio non è più disponibile.
+Il 29 settembre 2006 Amazon ha interrotto alcuni dei servizi offerti da A9.com, quali lo Instant Reward, la barra degli strumenti, le pagine gialle, le mappe e BlockView, oltre ad altri elementi personalizzabili quali l'agenda, i segnalibri e la cronologia delle proprie ricerche.
+A9.com usa vari motori di ricerca:
+
+Live Search effettua ricerche generali e per notizie (questa funzione è stata effettuata da Google dal 14 aprile 2004 al 30 aprile 2006);
+Alexa Internet fornisce informazioni di massima sui siti internet;
+Amazon.com offre la funzione "cerca nel libro";
+Answers.com per riferimenti bibliografici;
+Wikipedia (tramite Answers.com) per la ricerca di articoli enciclopedici;
+Zoominfo per la ricerca di persone;
+IceRocket per la ricerca nei blog;
+Internet Movie Database per la ricerca di film:
+400 ulteriori servizi di ricerca.

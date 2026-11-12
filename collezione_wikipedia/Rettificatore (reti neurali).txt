@@ -1,0 +1,5 @@
+Nel contesto delle reti neurali artificiali, il rettificatore è una funzione di attivazione definita come la parte positiva del suo argomento:
+
+f(x)=x+=max⁡(0,x),
+dove x è l'input a un neurone. È anche annoverata tra le funzioni rampa ed è l'analogo di un raddrizzatore in elettronica. Questa funzione di attivazione fu introdotta per la prima volta in una rete dinamica da Hahnloser et al. in 2000 adducendo motivazioni fortemente biologiche. Nel 2011 è stato dimostrato per la prima volta che la funzione rettificatore permette di ottenere un allenamento migliore per le reti neurali profonde (Deep Neural Network). Questo risultato è ottenuto comparando il rettificatore con le funzioni di attivazione più diffusamente usate fino al 2011: sigmoide logistica e la tangente iperbolica. Nel 2018, la funzione rettificatore è stata riconosciuta come la funzione di attivazione più largamente utilizzata nelle Deep Neural Network.
+Un'unità che impieghi il rettificatore è anche chiamata unità lineare rettificata (ReLU, dall'inglese rectified linear unit).

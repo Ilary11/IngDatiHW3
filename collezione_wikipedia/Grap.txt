@@ -1,0 +1,2 @@
+Grap è un linguaggio di programmazione ideato da Jon Bentley e Brian Kernighan per la creazione di diagrammi. Può essere utilizzato in combinazione con pic, troff e TeX.
+Una implementazione libera di grap, realizzata da Ted Faber, è inclusa in FreeBSD, Linux e Solaris. Holger Meyer ha invece sviluppato prag, una variante di grap scritta in awk.

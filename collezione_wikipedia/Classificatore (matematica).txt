@@ -1,0 +1,2 @@
+In matematica e nell'apprendimento automatico, un classificatore è una mappatura da uno spazio (discreto o continuo) di feature X a un insieme di etichette Y. Un classificatore può essere prefissato o basato su apprendimento automatico. Questi ultimi tipi di classificatori si dividono in supervisionati e non supervisionati, secondo se fanno uso o meno di un insieme di addestramento per apprendere il modello di classificazione.
+Esempi di classificatori basati sull'apprendimento automatico sono le reti neurali, i classificatori bayesiani e gli alberi di decisione.

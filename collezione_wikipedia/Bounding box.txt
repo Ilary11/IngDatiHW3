@@ -1,0 +1,2 @@
+In geometria, una bounding box (scatola di delimitazione) per un insieme di punti (S) in N dimensioni, è la scatola con la misura più piccola (di area, volume, o ipervolume in dimensioni maggiori) entro cui sono contenuti tutti i punti. Quando sono impiegati altri tipi di misure, la bounding box è spesso chiamata, per esempio "minimum-perimeter bounding box".
+La bounding box di un insieme di punti è uguale alla bounding box del proprio inviluppo convesso, un fatto che può essere usato euristicamente per velocizzare il calcolo.

@@ -1,0 +1,3 @@
+One UI è un software sviluppato da Samsung Electronics per i suoi dispositivi Android e Tizen. 
+Sull'esperienza di Samsung Experience e TouchWiz, è stato progettato con ulteriore ottimizzazione, con modifiche specifiche per facilitare l'uso con una sola mano sugli smartphone con schermi di grandi dimensioni. 
+Venne presentato alla conferenza degli sviluppatori di Samsung nel 2018 e introdotto per la prima volta come parte degli aggiornamenti del firmware Samsung ad Android 9.0 "Pie".

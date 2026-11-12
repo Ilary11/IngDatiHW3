@@ -1,6 +1,0 @@
-🗣️ Il nome dell'attributo da solo non basta: bisogna confrontare sia i nomi delle feature sia i valori degli attributi negli oggetti.
-Reality check: la realtà è molto più sporca Gli attributi sono estremamente eterogenei tra le sorgenti, ma anche dentro la stessa sorgente: in molti scenari l'ipotesi di omogeneità locale non regge. Le specifiche sono strutturate, ma pensate per essere lette da persone, non da macchine. Il gruppo di ricerca del professore ha costruito il dataset di fotocamere dell'Alaska Benchmark (un benchmark per valutare soluzioni di data integration):
-24 sorgenti web reali, 30.000 specifiche di prodotto, 528.000 coppie attributo-valore.
-Distribuzione sparsa degli attributi.
-Ci sono 4.631 nomi di attributo distinti.
-Ogni sorgente ha in media 273 nomi di attributo, ma ogni specifica ne usa in media solo 18.

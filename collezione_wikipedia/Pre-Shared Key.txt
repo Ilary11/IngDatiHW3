@@ -1,0 +1,2 @@
+Pre Shared Key (PSK):  utilizza una chiave segreta condivisa che è stata scambiata precedentemente tra due utenti utilizzando un canale di comunicazione sicuro.
+Questo sistema utilizza quasi sempre un algoritmo di crittografia a chiave simmetrica. PSK è un metodo molto efficace, ma se utilizzato per un gruppo di utenti molto vasto può generare dei problemi di scalabilità poiché la chiave individuale dev'essere condivisa con ogni singolo utente.

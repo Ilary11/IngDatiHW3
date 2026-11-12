@@ -1,0 +1,2 @@
+Google Code Search è stato un motore di ricerca per codice sorgente di Google. È comparso su Google Labs il 5 ottobre 2006, ed è stato chiuso ufficialmente il 15 gennaio 2012.
+Permetteva di filtrare la ricerca per licenza, linguaggio, file, pacchetto, classe o funzione.

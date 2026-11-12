@@ -1,0 +1,5 @@
+In informatica, quickselect è un algoritmo randomizzato ricorsivo che trova il k-esimo elemento di un array disordinato di grandezza n eseguendo O(n2) confronti nel caso peggiore e O(n) nel caso atteso. Si basa sull'algoritmo Quicksort e sfrutta la metodologia prune and search.
+L'algoritmo quicksort ha diverse relazioni di ricorrenza, dovute al tipo di problema di minore entità che si viene a creare ogni volta che l'algoritmo viene eseguito. Se ogni chiamata ricorsiva dimezza il problema, si ha:
+T(n)=𝒪(n)+T(n2)
+che ha soluzione O(n) in base al teorema master.
+Se invece si è nel caso peggiore, si ottiene: T(n)=𝒪(n)+T(n−1) che ha soluzione O(n2) in base al teorema master.

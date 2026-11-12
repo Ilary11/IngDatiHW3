@@ -1,0 +1,1 @@
+Theano è una libreria open source di computazione numerica per il linguaggio di programmazione Python sviluppata da un gruppo di machine learning della Università di Montréal. In Theano i calcoli sono espressi usando una sintassi simile a NumPy e compilato per eseguire efficientemente  sia su architetture CPU che GPU.

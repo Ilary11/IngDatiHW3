@@ -1,0 +1,2 @@
+xv6 è un sistema operativo Unix-like basato su Unix V6. Creato nel 2006 a scopo educativo, nel 2020 ne è stata realizzata una conversione per RISC-V.
+Il codice segue la struttura e lo stile del sistema operativo sviluppato da Dennis Ritchie e Ken Thompson, tuttavia riscritto in ANSI C. Parte del codice della non più mantenuta versione per x86 è ricavato da JOS (un precedente sistema operativo Unix-like), Plan 9, FreeBSD e NetBSD.

@@ -1,0 +1,7 @@
+Nyquist è un linguaggio di programmazione per l'analisi e la sintetizzazione di suoni. Si basa sul Lisp. È una estensione di XLISP
+Con Nyquist, il programmatore progetta strumenti musicali combinazione di funzioni, e può contare su questi strumenti e generare un suono semplicemente digitando una semplice espressione. Il programmatore può combinare espressioni semplici in quelli complessi per creare un dell'intera composizione, e può anche generare vari altri tipi di suoni musicali e non musicali.
+L'interprete Nyquist può leggere e scrivere file Audio, MIDI e file Adagio. Su alcune piattaforme può anche riprodurre i suoni in tempo reale.
+Questo linguaggio può essere usato per scrivere estensioni del programma Open-Source Audacity.
+Il linguaggio non distingue tra scoring e sintesi.
+Nyquist è usabile sotto Linux e altri Unix, Mac OS, e Microsoft Windows.
+Nyquist fu scritto da Roger Dannenberg al Carnegie Mellon University, con supporto di Yamaha Corporation e IBM

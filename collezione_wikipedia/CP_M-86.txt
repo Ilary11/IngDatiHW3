@@ -1,0 +1,2 @@
+Il CP/M-86 è una versione del sistema operativo CP/M di Digital Research inizialmente sviluppata per gli Intel 8086/8088 e poi estesa per supportare altri processori x86. I comandi sono identici a quelli del CP/M-80, la prima versione del sistema distribuita per il processore Intel 8080. I file eseguibili del CP/M-86 usano l'estensione ".CMD".
+Il CP/M-86 è stato successivamente reso compatibile con l'MS-DOS e commercializzato come DR-DOS.

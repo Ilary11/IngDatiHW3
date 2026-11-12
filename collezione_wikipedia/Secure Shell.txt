@@ -1,0 +1,1 @@
+In informatica e telecomunicazioni Il Secure Shell Protocol (SSH) è un protocollo di rete crittografico che permette di stabilire una sessione remota cifrata tramite interfaccia a riga di comando con un altro host di una rete informatica. È il protocollo che ha sostituito l'analogo, ma non sicuro, Telnet.

@@ -1,0 +1,1 @@
+DenseNet121 è un'architettura avanzata di rete neurale convoluzionale (CNN) sviluppata dalla Cornell University, progettata per l'apprendimento automatico e particolarmente adatta alle attività di classificazione delle immagini. Questa rete fa parte della famiglia DenseNet, una serie di architetture neurali notevoli per la loro struttura densamente connessa.

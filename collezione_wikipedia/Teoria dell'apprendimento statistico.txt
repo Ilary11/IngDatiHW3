@@ -1,0 +1,2 @@
+La teoria dell'apprendimento statistico è il fondamento teorico su cui si basa l'apprendimento automatico. 
+Attingendo ai campi della statistica e dell'analisi funzionale, la teoria dell'apprendimento statistico cerca di risolvere il generico problema di trovare una funzione capace di effettuare previsioni basandosi sui dati. Questo campo di studio ha portato ad applicazioni pratiche in campi come la visione artificiale, il riconoscimento vocale e la bioinformatica.

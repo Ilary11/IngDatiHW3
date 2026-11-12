@@ -1,0 +1,4 @@
+VRTX - Versatile Real-Time Executive è un sistema operativo real-time orientato ai sistemi embedded e SoC e sviluppato perciò per poter essere eseguito su hardware minimi: gli unici requisiti indispensabili perché possa essere eseguito sono un microprocessore e della RAM.
+È un sistema operativo proprietario in grado di fornire prestazioni hard real-time con il pieno supporto al multitasking.
+Il core del sistema operativo è costituito da un nanokernel, cioè un kernel minimo che fornisce le capacità di base per il multitasking e per i servizi di sincronizzazione tra processi.
+Questo sistema operativo supporta diverse architetture, tra cui ARM, MIPS, PowerPC e altri microprocessori RISC.

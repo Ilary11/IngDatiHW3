@@ -1,0 +1,3 @@
+La pressione nominale (simbolo PN) è una scala di valore nominale nata nella normativa francese e estesa alla normativa europea che si riferisce alla pressione interna ammissibile (espressa in bar) di un componente meccanico per una temperatura di 20 °C. Essa fornisce un'informazione sulle dimensioni di componenti meccanici come bulloni, elementi tubazione (tubi, flange, valvole, pezzi speciali ecc.), e apparecchiature (serbatoi), una volta noto il diametro nominale. La serie PN segue approssimativamente la serie di Rénard con ragione 5 (serie R5):
+PNi+1=PNi×105
+I valori della serie non corrispondono alla massima pressione ammissibile: piuttosto tendono ai valori espressi in kg/cm2 della pressione effettiva.

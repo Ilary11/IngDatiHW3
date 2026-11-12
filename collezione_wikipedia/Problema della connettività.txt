@@ -1,0 +1,2 @@
+Il problema della connettività è un cardine dell'informatica nello studio degli algoritmi. In via informale tale problema viene definito come problema delle connettività. 
+Si supponga di avere a disposizione una sequenza di coppie di numeri interi, dove ogni intero rappresenta un oggetto di qualche tipo. La coppia p-q è da interpretare come l'oggetto p è connesso con l'oggetto q. Si assuma che la relazione 'è connesso con' sia transitiva: cioè se p è connesso con q e q è connesso con r allora anche p è connesso con r.

@@ -1,0 +1,1 @@
+La crittografia su base identità è un tipo di crittografia a chiave pubblica in cui una stringa che rappresenta un individuo o un'organizzazione, e pubblicamente nota, viene utilizzata come chiave pubblica: tale stringa pubblica corrisponde a un'identità digitale e, a seconda del contesto, potrebbe includere un indirizzo e-mail, un indirizzo IP, un numero di telefono.

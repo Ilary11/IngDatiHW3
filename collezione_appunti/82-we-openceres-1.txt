@@ -1,7 +1,0 @@
-11. Caso di studio 4: OpenCeres Lockard, Shiralkar, Dong, "OpenCeres: When Open Information Extraction Meets the SemiStructured Web", NAACL-HLT 2019 (slide di Andrea Pustina). Obiettivo: popolare un KG con un approccio open-world: l'insieme dei tipi di relazione non è chiuso, quindi il KG può espandersi con nuovi tipi di relazione trovati nei dati. Input: conoscenza pregressa, sotto forma di triple di un KG, e pagine di entità: ogni pagina ha un argomento (un'entità, es. il film Avatar) e le informazioni della pagina si riferiscono a
-quell'argomento.
-Output: il KG espanso con nuove informazioni estratte automaticamente.
-L'algoritmo ha due fasi: 1.
-Annotazione: cercare nella pagina informazioni che sono già nel KG; 2.
-Estrazione: cercare informazioni nuove.
-Fase 1: annotazione Passo 1: si annota la pagina sfruttando la conoscenza del KG.

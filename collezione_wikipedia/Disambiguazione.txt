@@ -1,0 +1,7 @@
+La disambiguazione (in inglese Word Sense Disambiguation o, abbreviato, WSD) è il processo con il quale si precisa il significato di una parola o di un insieme di parole (frase), che denota significati diversi a seconda dei contesti, per evitare che sia ambigua.
+La disambiguazione, mediante appositi algoritmi, riveste particolare importanza nelle ricerche sull'intelligenza artificiale e, in particolare, sull'elaborazione del linguaggio naturale. Specificamente, si prevedono benefici della disambiguazione in programmi di traduzione automatica, recupero dell'informazione, estrazione automatica di informazioni, ecc., che però non danno informazioni esatte riguardo al contesto ambientale in cui ci si trova in quell’istante.
+I due esempi seguenti riguardano significati distinti della parola rombo:
+
+Ho acquistato un rombo fresco al mercato
+Il rombo ha quattro lati della stessa lunghezza
+Sebbene per un essere umano sia ovvio che la prima frase si riferisce al significato di pesce e la seconda a quello di figura geometrica, sviluppare algoritmi per replicare questa capacità umana è tipicamente difficile.

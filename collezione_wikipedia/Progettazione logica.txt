@@ -1,0 +1,2 @@
+La progettazione logica è la fase della progettazione delle basi di dati successiva alla formazione del modello concettuale, quello E-R, e precedente alla formazione del modello logico.
+Partendo dal modello E-R bisogna attuare una serie di perfezionamenti per definire al meglio il modello logico composto da entità e suoi attributi, alcuni dei quai chiavi, altri attributi relazionali.

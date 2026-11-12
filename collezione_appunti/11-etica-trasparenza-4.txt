@@ -1,8 +1,0 @@
-1) Esperimento principale: si spengono (mascherano) le aree verdi.
-Se la spiegazione è corretta, quelle aree sono le feature da cui il modello dipende.
-Nascondendole progressivamente, a partire dalle più importanti (slide 79: la stessa pagina prima e dopo il mascheramento), l'accuracy deve calare drasticamente.
-2) Controllo: si mascherano aree casuali.
-Il primo esperimento da solo non basta.
-L'accuracy potrebbe calare semplicemente perché si tolgono pezzi di pagina in generale, indipendentemente da quali.
-Per escludere questa ipotesi si nascondono regioni a caso, nella stessa quantità: se l'accuracy resta stabile, il calo del primo esperimento non dipende dalla quantità di informazione tolta ma da quali regioni sono state tolte.
-Risultato (grafico: Test Accuracy contro Mask Rate, da 0 a 0,30): Saliency removals (linea blu): l'accuracy parte da circa 0,86 e crolla già con pochi punti di mascheramento (circa 0,70 a 0,04, circa 0,67 a 0,05).

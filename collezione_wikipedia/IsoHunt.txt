@@ -1,0 +1,2 @@
+isoHunt è un motore di ricerca di file torrent, fondato nel gennaio 2003 da Gary Fung, un cittadino canadese. Il nome "isoHunt" deriva dal termine "immagine ISO", usato per descrivere il processo di copia 1:1 di un disco ottico (solitamente un CD o un DVD).
+Oltre al motore di ricerca principale, nel sito era presente anche un forum e la possibilità di registrarsi.

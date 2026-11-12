@@ -1,4 +1,0 @@
-archi tratteggiati = coppie aggiunte da (Screen, SKU). Ora r15 è collegato a r11, r13, r14, e r24 a r21–r23. L'unica coppia vera ancora mancante, (r12, r15), viene recuperata per transitività nel passo di clustering.
-Archi continui: coppie da (Model, Storage). Archi tratteggiati: coppie aggiunte da (Screen, SKU).
-🗣️ APPUNTI LEZIONE 16/10
-Per ovviare al problema considero più funzioni di blocking e ne prendo l'OR: due record vengono confrontati se finiscono nello stesso blocco per almeno una delle funzioni, cioè i blocchi si sovrappongono. Qui uso sia (Model, Storage) sia (Screen, codice SKU del prodotto) e ottengo il grafo in figura. Si fanno più confronti, ma si riducono i falsi negativi: perdo efficienza, guadagno efficacia. Poi, all'interno dei blocchi, faccio pairwise matching e in base al risultato faccio clustering. La scelta delle funzioni di blocking è un trade-off tra efficacia ed efficienza.

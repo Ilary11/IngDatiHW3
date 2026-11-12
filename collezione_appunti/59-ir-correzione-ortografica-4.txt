@@ -1,9 +1,0 @@
-Esempio: query bord → bigrammi bo, or, rd.
-Le liste sono bo → aboard, about, boardroom, border; or → border, lord, morbid, sordid; rd → aboard, ardent, boardroom, border.
-Tenendo i termini con almeno 2 bigrammi in comune restano aboard, boardroom, border.
-Ma boardroom è una correzione poco plausibile: serve una misura normalizzata.
-Con i trigrammi: november → nov, ove, vem, emb, mbe, ber; december → dec, ece, cem, emb, mbe, ber.
-Hanno 3 trigrammi in comune su 6.
-Come trasformarlo in una misura normalizzata?
-Coefficiente di Jaccard Jaccard(X, Y) = |X ∩ Y| / |X ∪ Y|
-Vale 1 quando X e Y hanno gli stessi elementi e 0 quando sono disgiunti; X e Y non devono avere la stessa dimensione; è sempre fra 0 e 1. Poi si fissa una soglia: sopra la soglia si dichiara un match. (Mio calcolo: J(november, december) = 3 / 9 ≈ 0,33.)

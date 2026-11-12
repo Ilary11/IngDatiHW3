@@ -1,0 +1,16 @@
+La costante di Conway è una costante matematica legata a un gioco, il decadimento audioattivo. Essa riguarda il tasso di crescita di una stringa di numeri quando ad essa viene applicata la regola del decadimento audioattivo, detta anche guarda e parla: se si trovano n cifre adiacenti uguali ad x, al loro posto si sostituisce nx.
+Esempio: se si ha una stringa fatta così:
+
+222
+al suo posto si sostituisce 32 (sono tre cifre "due"). Poi il procedimento si può ripetere, e al passo successivo si sostituisce la stringa 1312 (un "tre" e un "due").
+Ad esclusione del caso in cui il numero di partenza sia 22  (che dà luogo alla sequenza degenere 22, 22, 22, ...), il numero di cifre Ln dell'n-esima stringa è una quantità che cresce al crescere di n. Inoltre, la crescita media è di circa il 30% o, più precisamente, si ha che
+
+limn→∞Ln+1Ln=λ,
+dove λ = 1,3035772690342963912570991121525518907307025046594... è chiamata costante di Conway ed è l'unica radice reale positiva dell'equazione
+
+x71−x69−2x68−x67+2x66+2x65+x64−x63−x62−x61−x60−x59+
+2x58+5x57+3x56−2x55−10x54−3x53−2x52+6x51+6x50+x49+9x48−3x47−
+7x46−8x45−8x44+10x43+6x42+8x41−5x40−12x39+7x38−7x37+7x36+x35−
+3x34+10x33+x32−6x31−2x30−10x29−3x28+2x27+9x26−3x25+14x24−8x23−
+7x21+9x20+3x19−4x18−10x17−7x16+12x15+7x14+2x13−12x12−4x11−
+2x10+5x9+x7−7x6+7x5−4x4+12x3−6x2+3x−6=0

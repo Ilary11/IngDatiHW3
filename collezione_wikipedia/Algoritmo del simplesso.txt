@@ -1,0 +1,2 @@
+L'algoritmo del simplesso, ideato dall'americano George Dantzig nel 1947, è un metodo numerico per risolvere problemi di programmazione lineare. È citato dalla rivista statunitense Computing in Science and Engineering come uno dei dieci migliori algoritmi del secolo.
+Questo algoritmo fa uso del concetto di simplesso, cioè un politopo di N+1 vertici in N dimensioni, ossia un segmento di retta in una dimensione, un triangolo in due dimensioni, un tetraedro in tre dimensioni.

@@ -1,0 +1,4 @@
+SPDY, pronunciato "Spidi", è un protocollo a livello applicativo per il trasporto di contenuti web creato da Google.
+Contrariamente a quanto qualcuno pensa, SPDY non è pensato per sostituire il protocollo HTTP, bensì per veicolare HTTP al suo interno in modo da ridurre la latenza delle pagine web senza perdere la compatibilità con le applicazioni preesistenti. Questo risultato è ottenuto garantendo priorità e selezionando diversi file durante il trasferimento, in modo da richiedere una sola connessione TCP per client.
+Le trasmissioni sono criptate con SSL e compresse in gzip (a differenza di HTTP, anche le intestazioni sono compresse). Inoltre il server può suggerire e/o inviare contenuti senza aspettare richieste individuali per ogni risorsa della pagina web.
+SPDY è stato deprecato in favore di HTTP/2 il quale ha integrato la maggior parte delle caratteristiche offerte da SPDY.

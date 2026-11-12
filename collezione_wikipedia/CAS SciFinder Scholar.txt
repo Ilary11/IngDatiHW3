@@ -1,0 +1,4 @@
+CAS SciFinder Scholar è un database della Chemical Abstracts Service di informazioni chimiche e bibliografiche.
+SciFinder è formato da 6 database di interesse chimico: CA Plus (dal 1907), CAS Registry, CAS React, Chemlist, Chemcat e Medline (dal 1958).
+L'accesso è a pagamento e si può fare tramite sito web (dal 2008) o tramite applicazione client/server (versioni per Windows e Mac). La lingua sia del sito che del client è l'inglese. Installando il client si hanno più funzioni per la ricerca.
+Si possono ricercare riferimenti nelle lingue: cinese, inglese, francese, tedesco, italiano, giapponese, polacco, russo e spagnolo, compresi i brevetti di molti paesi; le sostanze chimiche o le reazioni. Per i riferimenti bibliografici il database riporta i dati e il collegamento al testo completo quando disponibile.

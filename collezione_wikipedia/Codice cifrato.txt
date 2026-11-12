@@ -1,0 +1,2 @@
+Il codice cifrato è il risultato dell'utilizzo di un sistema crittografico per generare un codice che non risulta comprensibile se non utilizzando un sistema per decifrarlo.
+Un codice cifrato si caratterizza per l'algoritmo di criptazione utilizzato ed eventualmente dalla chiave di decifrazione.

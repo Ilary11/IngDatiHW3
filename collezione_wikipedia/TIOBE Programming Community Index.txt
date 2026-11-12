@@ -1,0 +1,28 @@
+Il TIOBE Programming Community Index, in breve TPC Index, è un indicatore della popolarità dei linguaggi di programmazione, la classifica è compilata grazie ai dati ricavati dai tre motori di ricerca Google, MSN e Yahoo! valutando la disponibilità mondiale di esperti programmatori, corsi a tema e i fornitori terze parti.
+TIOBE, acronimo di The Importance Of Being Earnest (di Oscar Wilde), è una compagnia olandese fondata nell'anno 2000 che si annuncia come "The coding standard company" e si propone in qualità di consulente per il rispetto degli standard nella programmazione. Gli organizzatori del TPC Index fanno sapere che la loro classifica non può e non vuole indicare il linguaggio di programmazione migliore e neppure il linguaggio con il quale sono scritte il maggior numero di linee di codice.
+La classifica riguarda i primi 50 linguaggi ed è aggiornata mensilmente.
+Ad agosto 2023 la classifica, nelle prime 5 posizioni (con punteggio), vede nell'ordine:
+
+Python - rating 13.33%
+C - rating 11.41%
+C++ - rating 10.63%
+Java - rating 10.33%
+C# - rating 7.04%
+
+A seguire, attualmente (agosto 2023) in questo ordine:
+
+JavaScript
+Visual Basic
+PL/SQL
+Assembly
+PHP
+Scratch
+Go
+MATLAB
+Fortran
+COBOL
+R
+Ruby
+Swift
+Rust
+Julia

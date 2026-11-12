@@ -1,0 +1,13 @@
+Si definisce reagente qualsiasi sostanza che prende parte ad una reazione chimica consumandosi.
+Col procedere della reazione, i reagenti (indicati solitamente nella parte sinistra di un'equazione chimica) si trasformano nei "prodotti di reazione" (indicati solitamente nella parte destra dell'equazione chimica).
+Spesso i prodotti di una reazione chimica a loro volta possono essere reagenti di altre reazioni, anche concomitanti.
+Esempio: nella reazione:
+
+A + B → C + D
+A e B sono i reagenti, C e D sono i prodotti di reazione.
+Affinché la reazione abbia luogo, le molecole dei reagenti devono urtarsi con un'energia, detta energia di attivazione, sufficiente per produrre uno stato di transizione che evolve successivamente nei prodotti di reazione.
+Quando due o più reagenti prendono parte ad una reazione chimica vengono provocati uno o più di questi fenomeni: .
+- Cambiamento di colore
+- Riscaldamento o raffreddamento
+- Comparsa o scomparsa di un solido
+- Formazione di bollicine

@@ -1,0 +1,1 @@
+Encrypting File System (EFS) è il sistema utilizzato dal file system NTFS per criptare trasparentemente i file. Normalmente è utilizzato un cifrario chiamato DESX, una versione potenziata del più noto (e, oramai, assai meno sicuro che in passato) cifrario Data Encryption Standard.

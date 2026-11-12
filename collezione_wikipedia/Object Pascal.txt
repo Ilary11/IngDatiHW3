@@ -1,0 +1,4 @@
+L'Object Pascal è un linguaggio di programmazione, estensione object-oriented del linguaggio Pascal, pubblicato da Apple nel 1986 a corredo di MacApp, un framework per lo sviluppo di applicazioni Macintosh.
+Nello stesso anno viene introdotto da Borland nel suo compilatore Turbo Pascal per Macintosh. Nel 1989 arriva anche su ambiente DOS nella versione 5.5 di Turbo Pascal.
+Borland decide di utilizzare Object Pascal anche nel successore di Turbo Pascal, Delphi, un IDE grafico specializzato nello sviluppo rapido di applicazioni database pubblicato nel 1993 e ancora oggi utilizzato in tutto il mondo.
+Object Pascal viene utilizzato anche nel compilatore open source Free Pascal (FPC) e nell'IDE grafico open source multi-piattaforma Lazarus, basato su FPC.

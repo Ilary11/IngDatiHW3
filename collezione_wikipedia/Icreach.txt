@@ -1,0 +1,1 @@
+Icreach è un motore di ricerca per i dipendenti dell'Agenzia per la Sicurezza nazionale americana (Nsa) che avrebbe accesso a 850 miliardi di metadati ricavati da 30 diversi tipi di servizi (numeri di telefono di rete fissa e mobile, email, chat, messaggi di testo, le posizioni raccolte da telefoni cellulari,...) registrati nel mondo.

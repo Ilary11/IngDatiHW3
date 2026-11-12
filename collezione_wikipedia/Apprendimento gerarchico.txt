@@ -1,0 +1,2 @@
+L'apprendimento gerarchico (in inglese hierarchical learning) è un paradigma dell'apprendimento automatico fondato sulla scomposizione di un problema complesso in una struttura organizzata a più livelli, tipicamente ad albero o a grafo aciclico orientato.
+In questo paradigma, i livelli inferiori elaborano rappresentazioni o sotto-problemi elementari, mentre i livelli superiori integrano tali informazioni per gestire astrazioni temporali a lungo termine o decisioni ad alto livello.

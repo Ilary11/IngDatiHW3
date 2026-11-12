@@ -1,0 +1,2 @@
+Il radix sort è un algoritmo di ordinamento per valori numerici interi con complessità computazionale O(nk), dove n è la lunghezza dell'array e k è la media del numero di cifre degli n numeri.
+Radix sort utilizza un procedimento controintuitivo per l'uomo, ma più facilmente implementabile. Esegue gli ordinamenti per posizione della cifra ma partendo dalla cifra meno significativa. Questo affinché l'algoritmo non si trovi a dovere operare ricorsivamente su sottoproblemi di dimensione non valutabili a priori.

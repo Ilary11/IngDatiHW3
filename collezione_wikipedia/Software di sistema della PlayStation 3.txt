@@ -1,0 +1,4 @@
+Il software di sistema per PlayStation 3 è un aggiornamento software del sistema operativo della PlayStation 3. Il processo di aggiornamento è identico a quello della PSP. Ogni aggiornamento include i precedenti.
+Il software può essere aggiornato direttamente dalla PlayStation 3, oppure scaricato dal sito ufficiale su un PC e poi caricato su una penna USB e trasferito sulla PS3, oppure installato tramite l'aggiornamento contenuto in un gioco. Il software, definito anche come firmware, dalla versione 2.* contiene anche applicazioni di alto livello oltre alla normale base firmware.
+La PlayStation 3 usa XrossMediaBar (XMB) come interfaccia grafica.
+L'attuale versione del firmware è la 4.93, pubblicata il 18 marzo 2026

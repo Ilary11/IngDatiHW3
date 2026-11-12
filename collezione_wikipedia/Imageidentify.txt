@@ -1,0 +1,3 @@
+Imageidentify è un progetto di riconoscimento delle immagini fondato da Stephen Wolfram. Il sito permette di caricare un'immagine e il motore, sviluppato in Wolfram Language si occupa del riconoscimento del soggetto rappresentato.
+Imageidentify è stato lanciato nel maggio 2015 e per addestrare il sistema sono state usate decine di milioni di immagini, incluse alcune ingannevoli come gatti con gli occhiali, bradipi con cappelli o Chewbecca. Al momento del lancio, il sito è in grado di riconoscere 10.000 oggetti comuni.
+Imageidentify si affianca a Google Goggles e Amazon Firefly come strumenti di identificazione immagini.

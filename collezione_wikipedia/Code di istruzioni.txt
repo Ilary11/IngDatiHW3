@@ -1,0 +1,4 @@
+In informatica le code di istruzioni sono dei sistemi che aumentano le prestazioni della CPU o processore riducendo i tempi di estrazione delle istruzioni dalla memoria.
+Normalmente, le code di istruzioni sono interposte tra memoria e processore. Quest'ultimo può effettuare delle operazioni di inserimento, di estrazione e di svuotamento della coda a seconda delle circostanze (in genere lo svuotamento avviene in occasione di un branch).
+È importante sottolineare che l'inserimento di un dato all'interno della coda è effettuabile a patto che questa non sia piena e di conseguenza anche l'estrazione può essere effettuata a patto che la coda non sia vuota.
+Vediamo nel seguito alcuni esempi di tipo di coda.

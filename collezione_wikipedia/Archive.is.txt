@@ -1,0 +1,3 @@
+archive.is (precedentemente archive.today; o archive.vn) è un sito di archiviazione che memorizza screenshot di pagine web. Il suo software recupera una pagina alla volta come fa WebCite, più piccola di 50 MB ciascuna, ma con supporto per siti "moderni" ("Web 2.0") come Google Maps e Twitter.
+archive.is utilizza la navigazione senza header per registrare quali risorse incorporate devono essere acquisite per fornire un'archiviazione di alta qualità e crea un'immagine in formato PNG per fornire una visualizzazione statica e non interattiva della rappresentazione.
+archive.is può acquisire singole pagine in risposta a richieste specifiche di utenti.

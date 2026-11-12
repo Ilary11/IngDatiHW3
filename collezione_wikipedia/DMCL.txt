@@ -1,0 +1,1 @@
+Il DMCL (Device Media Control Language) nell'informatica, è un linguaggio di controllo dei supporti di memorizzazione dei dati, attraverso il quale la struttura fisica del database viene riferita alle specifiche unità di memoria di massa utilizzate dal sistema di elaborazione dati.

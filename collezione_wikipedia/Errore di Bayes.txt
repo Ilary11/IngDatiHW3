@@ -1,0 +1,2 @@
+Nella classificazione statistica l'errore di Bayes rappresenta il limite minimo teorico dell'errore di classificazione per un dato problema ed è analogo all'errore irriducibile che si ottiene anche disponendo del miglior classificatore possibile (detto classificatore di Bayes), a causa della naturale sovrapposizione delle distribuzioni di probabilità delle diverse classi.
+La stima del tasso di errore di Bayes trova importante applicazione nello studio dei modelli e delle tecniche di apprendimento automatico.

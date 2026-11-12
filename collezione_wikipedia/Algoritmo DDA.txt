@@ -1,0 +1,7 @@
+L'algoritmo DDA (digital differential analyzer) è un algoritmo di rasterizzazione di linea.
+L'algoritmo DDA parte dall'osservazione che la pendenza di una retta passante per i punti p1(x1,y1) e p2(x2,y2) è esprimibile come:
+m=y2−y1x2−x1=ΔyΔx
+e che
+Δy=m∗Δx
+Da qui possiamo ricavare che per passare da un punto pi(xi,yi) ad un punto pi+1(xi+1,yi+1) dove xi+1=xi+1, l'aumento di yi+1 rispetto a yi dovrà essere Δy ovvero:
+yi+1=yi+Δy=yi+(m∗Δx)=yi+(m∗1)=yi+m

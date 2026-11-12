@@ -1,0 +1,1 @@
+Questa è una lista di strutture dati. Per una più completa lista dei termini utilizzati vedere lista dei termini relativi agli algoritmi e alle strutture dati. Per una comparazione dei tempi d'esecuzione di un sottoinsieme di questa lista vedere comparazione delle strutture dati.

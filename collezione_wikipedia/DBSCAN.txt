@@ -1,0 +1,1 @@
+Il DBSCAN (Density-Based Spatial Clustering of Applications with Noise) è un metodo di clustering proposto nel 1996 da Martin Ester, Hans-Peter Kriegel, Jörg Sander e Xiaowei Xu . È basato sulla densità perché connette regioni di punti con densità sufficientemente alta. DBSCAN è l'algoritmo più comunemente usato ed è anche il più citato nella letteratura scientifica.

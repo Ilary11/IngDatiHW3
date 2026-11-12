@@ -1,0 +1,2 @@
+DBLP, acronimo inverso di Digital Bibliography & Library Project, precedentemente noto come DataBase systems and Logic Programming, è un sito web che fornisce risorse bibliografiche specialistiche nell'ambito dell'informatica.
+Il sito è noto anche col nome di DBLP Computer Science Bibliography.

@@ -1,0 +1,3 @@
+Pretty Good Privacy (PGP) è una famiglia di software di crittografia per autenticazione e privacy, da cui è derivato lo standard OpenPGP.
+È probabilmente il crittosistema più adottato al mondo, descritto dal crittografo Bruce Schneier come il modo per arrivare «probabilmente il più vicino alla crittografia di livello militare».
+PGP è stato originariamente sviluppato da Phil Zimmermann nel 1991. Il nome gli fu suggerito da una drogheria di Lake Wobegon, l'immaginaria città natale del conduttore radiofonico Garrison Keillor. La drogheria si chiamava "Ralph's Pretty Good Grocery" ("la drogheria piuttosto buona di Ralph") e il suo slogan era "se non lo puoi trovare da Ralph, probabilmente puoi anche farne a meno", chiusa pochi anni dopo l'apertura.

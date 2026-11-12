@@ -1,0 +1,4 @@
+Principal curvature-based region detector in sigla PCBR , in italiano: rilevatore di regione basato sulla curvatura principale è un rilevatore di caratteristica usato nel campo della computer vision e analisi d'immagine.
+Il PCBR è progettato per applicazioni di riconoscimento d'oggetti.
+I rilevatori di regionali locali possono essere classificati in due categorie: rilevatori basati sull'intensità, che dipendono da un'analisi della geometria locale, su pattern di intensità, che ricercano punti o regioni che soddisfano alcuni criteri di unicità, come per esempio: SIFT, Hessian-affine, Harris-Affine e MSER; e rilevatori basati sulla struttura che dipendono da linee, contorni, curve per definire punti di interesse o regioni come gli EBR (regioni basate sui contorni) e i SISF (caratteristiche di forma invarianti alla scala).
+Il rilevatore PCBR è un rilevatore basato sulla struttura affine-invariante.

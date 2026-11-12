@@ -1,0 +1,1 @@
+Mailfence è un servizio di webmail basato sullo standard OpenPGP, che offre cifratura end-to-end e firma digitale. È stato lanciato nel novembre 2013 da ContactOffice Group, che dal 1999 gestisce un software di collaborazione online per professionisti, università e altre organizzazioni.

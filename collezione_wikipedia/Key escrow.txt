@@ -1,0 +1,2 @@
+Il key escrow è una tecnica mediante la quale la chiave necessaria a decriptare dei dati criptati è conservata con un acconto di garanzia da terze parti in modo che, in particolari situazioni, possa essere recuperata per avere accesso a quei dati anche se coloro che hanno cifrato i dati non vogliono renderla disponibile.
+Le terze parti interessate alla conservazione delle chiavi possono essere sia enti privati che governativi e le eventualità in cui la chiave può essere recuperata sono generalmente esplicitate in appositi contratti privati o leggi.

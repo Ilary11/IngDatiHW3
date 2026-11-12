@@ -1,0 +1,5 @@
+Google App Engine (in sigla GAE o GAE/J o semplicemente App Engine) è una piattaforma come servizio (PaaS) di cloud computing per lo sviluppo e l'hosting di applicazioni web gestite dai Google Data Center (Centri gestione dati di Google).
+Le applicazioni sono incapsulate per sicurezza in sandbox ed eseguite su più server.
+App Engine offre una scalabilità automatica per le applicazioni a seconda del numero di richieste d'uso per quella applicazione, ed alloca in automatico più risorse per gestire la domanda addizionale.
+Google App Engine è gratuito fino a un certo numero di risorse consumato, viene richiesto un compenso per spazio addizionale, banda o ore di istanza richieste dall'applicazione.
+Fu pubblicata come versione in "anteprima" nell'aprile 2008 e divenne ufficiale nel settembre 2011.

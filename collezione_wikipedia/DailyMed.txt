@@ -1,0 +1,4 @@
+DailyMed è un sito web in lingua inglese gestito dalla National Library of Medicine statunitense, che vi pubblica bugiardini di farmaci aggiornate e accurati (chiamati anche foglietti illustrativi). Si rivolge agli operatori del settore sanitario e al pubblico in generale. I contenuti di DailyMed sono forniti e aggiornati quotidianamente dalla Food and Drug Administration, che a sua volta raccoglie queste informazioni dall'industria farmaceutica.
+I documenti pubblicati utilizzano lo standard HL7 versione 3 Structured Product Labeling (SPL), che è un formato XML che combina il testo leggibile del foglietto illustrativo del prodotto con elementi di dati strutturati che descrivono in dettaglio la composizione, la forma, la confezione e altre proprietà dei prodotti farmaceutici secondo l'HL7 Reference Information Model (RIM).
+Al 21 agosto 2021, conteneva informazioni su 140.232 farmaci.
+Fornisce anche un servizio di feed RSS per informazioni aggiornate sui farmaci.

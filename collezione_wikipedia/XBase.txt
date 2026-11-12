@@ -1,0 +1,2 @@
+xBase è il termine generico per tutti i linguaggi di programmazione che derivano dal linguaggio di programmazione dBase, un software per la gestione di database (DBMS), archivi dati, tabelle, report in ambiente MS-DOS e Windows, originalmente creato da Ashton-Tate.
+Mentre c'era un predecessore non commerciale per il prodotto Ashton-Tate (Vulcan scritto da Wayne Ratliff), la maggior parte dei cloni si basano sulla release del 1986 dBASE III+ di Ashton-Tate. Gli script scritti nel dialetto dBASE III+ hanno più probabilità di funzionare su tutti i cloni.

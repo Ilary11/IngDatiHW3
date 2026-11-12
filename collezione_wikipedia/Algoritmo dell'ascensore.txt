@@ -1,0 +1,3 @@
+L'algoritmo dell'ascensore (anche detto SCAN) è un algoritmo di disk scheduling per stabilire l'ordine in cui devono essere processate le richieste di lettura e richieste di scrittura su disco rigido.
+L'algoritmo funziona in maniera simile al shortest seek time first (SSTF) ma, a differenza di quest'ultimo, viene scelto il cilindro con il minore seek time solo nella direzione in cui si sta muovendo la testina, la quale si sposta continuamente avanti e indietro attraversando tutte le tracce del disco.
+Il nome dell'algoritmo (in inglese elevator algorithm) deriva proprio da questo movimento bidirezionale.

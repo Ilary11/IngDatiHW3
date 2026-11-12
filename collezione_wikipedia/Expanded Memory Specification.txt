@@ -1,0 +1,1 @@
+Expanded Memory Specification (abbreviato EMS), in informatica, è una specifica per l'utilizzo della memoria espansa nel sistema operativo MS-DOS sviluppata congiuntamente da Lotus, Intel, e Microsoft. Per questo veniva chiamata dagli esperti di settore LIM EMS, dalle iniziali delle società coinvolte).

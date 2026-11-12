@@ -1,0 +1,5 @@
+In matematica, una funzione softmax, o funzione esponenziale normalizzata, è una generalizzazione di una funzione logistica che mappa un vettore K-dimensionale 𝐳 di valori reali arbitrari in un vettore K-dimensionale σ(𝐳) di valori compresi in un intervallo (0,1) la cui somma è 1. La funzione è data da:
+
+σ:ℝK→{z∈ℝK|zi>0, ∑i=1Kzi=1}
+σ(𝐳)j=ezj∑k=1Kezk    per j=1,…,K.
+La funzione softmax è anche il gradiente della funzione LogSumExp. La funzione softmax è usata in vari metodi di classificazione multi-classe, come la regressione logistica multinomiale, analisi discriminante lineare multiclasse, classificatori bayesiani e reti neurali artificiali.

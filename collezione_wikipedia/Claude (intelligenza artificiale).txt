@@ -1,0 +1,2 @@
+Claude è una serie di modelli linguistici di grandi dimensioni sviluppata dall'azienda statunitense Anthropic e rilasciata per la prima volta nel 2023. Prende il nome dal matematico Claude Shannon, pioniere della teoria dell'informazione.
+Claude è utilizzato per lo sviluppo di software tramite Claude Code e utilizza la cosiddetta IA costituzionale, una tecnica di addestramento sviluppata da Anthropic per migliorarne la conformità etica e legale.

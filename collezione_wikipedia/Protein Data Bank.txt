@@ -1,0 +1,2 @@
+Il Protein Data Bank (PDB) è un archivio per dati di struttura in 3-D di proteine e acidi nucleici. 
+Questi dati, ottenuti soprattutto grazie alla cristallografia ai raggi X o alla spettrografia NMR, depositati da biologi e biochimici di tutto il mondo, sono di pubblico dominio e sono accessibili gratuitamente. Il database è il deposito centrale dei dati biologici di struttura.

@@ -1,0 +1,1 @@
+Bitwarden è un software libero di gestione delle password. Ha il compito di preservare informazioni sensibili (come le password) in una cassaforte digitale, cifrata. La piattaforma di Bitwarden offre molte applicazioni client, come un sito internet, applicazioni per PC, smartphone ed estensioni per browser.

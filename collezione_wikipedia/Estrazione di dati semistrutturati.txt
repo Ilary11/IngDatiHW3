@@ -1,0 +1,4 @@
+L'estrazione di dati semistrutturati è il processo di estrazione di informazioni utili da insiemi di dati semistrutturati.
+Con la crescita dell'uso di dati semistrutturati nel campo del data mining e del data warehousing nasce l'esigenza di poter ricavare informazioni anche da questa tipologia di dati; precedentemente quest'area si concentrò nel ricavare informazioni solo in dati in forma tabellare.
+XML è la forma più diffusa per la rappresentazione di dati semistrutturati ed è capace di rappresentare sia dati in forma tabulare che con alberi arbitrari.
+Ogni rappresentazione di dati scambiata tra due applicazioni in XML è normalmente descritta da uno schema spesso scritto in XSD.

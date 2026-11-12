@@ -1,0 +1,2 @@
+MapReduce è un framework software brevettato e introdotto da Google per supportare la computazione distribuita su grandi quantità di dati in cluster di computer. Il framework è ispirato alle funzioni map e reduce usate nella programmazione funzionale, sebbene il loro scopo nel framework MapReduce non sia lo stesso che nella forma originale.
+Le librerie MapReduce sono scritte in C++, C#, Erlang, Java, OCaml, Perl, Python, Ruby, F# e altri linguaggi di programmazione.

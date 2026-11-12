@@ -1,0 +1,5 @@
+MeeGo è un sistema operativo, abbandonato, open source basato su Linux.
+È indicato per l'utilizzo in dispositivi mobili come smartphone, netbook, car pc e tablet computer, ma può anche essere utilizzato in un computer desktop.
+L'annuncio della nascita di MeeGo è stato fatto al Mobile World Congress nel febbraio del 2010 e rappresenta la fusione tra il progetto sviluppato da Nokia, chiamato Maemo e quello sviluppato da Intel con il nome di Moblin.
+La prima versione di questa distribuzione Linux è stata resa disponibile il 25 maggio 2010.
+Il progetto a causa dello staccamento di Nokia è stato abbandonato ed in seguito fatto rinascere in Tizen. Nel luglio 2012 si ha notizia della nascita di una nuova società, Jolla, formata da un gruppo di ingegneri e programmatori che hanno lavorato in passato per Nokia, che si dedicherà allo sviluppo di MeeGo.. Il 7 ottobre 2012 è stata data la conferma dell'esistenza del team Jolla da parte di The Wall Street Journal, secondo cui sarà creata una sede ad Hong Kong ed una in Cina per lo sviluppo di MeeGo. Anche Jolla, in seguito, abbandonerà MeeGo per dedicarsi al suo successore: Sailfish OS.

@@ -1,0 +1,10 @@
+Un record (in italiano anche registrazione), in informatica, è un oggetto o una struttura di dati eterogenei fatta da dati compositi, contenente cioè un insieme di campi o elementi, ciascuno dei quali identificato da un nome univoco e da un tipo di dato, il cui valore è detto attributo (ad esempio: un numero intero, un numero in virgola mobile o una sequenza - stringa - di caratteri alfabetici). Il numero complessivo di caratteri che si possono registrare in un record ("lunghezza del record") è fisso.
+Nella formalizzazione delle basi di dati relazionali l'elemento corrispondente al record è chiamato tupla. In tal senso i record devono molto alle tradizionali schede cartacee delle biblioteche, da cui riprendono gran parte della struttura.
+Solitamente un record è formato nei database (ad esempio Microsoft Access) dalla riga all'interno di una tabella. Si può considerare un insieme di due dati: un puntatore e il dato vero. Il puntatore è l'informazione che richiede il dato. 
+
+In modo più semplice se si ha una tabella:
+
+"Nome" e "Cognome" sono i campi del record: i titoli di ciascuna colonna vengono chiamati «campi», e l'insieme di tutti i campi con in più informazioni sul tipo di dato contenuto in quella colonna vengono chiamati «tracciato del record».
+Ad esempio si dice che nome è un campo della tabella o un «campo del record», mentre le seguenti informazioni
+
+esplicitano il «tracciato del record», cioè la sua struttura.

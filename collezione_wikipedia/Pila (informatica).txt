@@ -1,0 +1,1 @@
+La pila (dall'inglese stack), in informatica, è un tipo di dato astratto che viene usato in diversi contesti per riferirsi a strutture dati, le cui modalità d'accesso ai dati in essa contenuti seguono una modalità LIFO, ovvero tale per cui i dati vengono letti in ordine inverso rispetto a quello in cui sono stati inseriti scritti.

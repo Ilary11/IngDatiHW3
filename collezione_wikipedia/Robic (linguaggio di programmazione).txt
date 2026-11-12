@@ -1,0 +1,2 @@
+Robic (in russo: Робик?) è un linguaggio di programmazione creato in Unione Sovietica per la scuola primaria (quindi per bambini dagli 8 agli 11 anni). Il linguaggio venne sviluppato nel 1975 e dopo alcune modifiche venne implementato nel programma Škol'nica (in russo: Школьница) per il Lemz Agat.
+Il linguaggio utilizza una sintassi basata sul vocabolario russo.

@@ -1,0 +1,2 @@
+L'High Level Shader Language o HLSL è un linguaggio sviluppato da Microsoft per la creazione di shader da usare in DirectX, ed è molto simile al linguaggio Cg di NVIDIA.
+L'HLSL permette di scrivere complessi calcoli grafici che possono essere eseguiti molto velocemente dalla GPU, e rappresenta inoltre il primo passo per una pipeline grafica completamente programmabile. Un linguaggio analogo, il GLSL (OpenGL Shading Language), è presente nelle librerie grafiche OpenGL.

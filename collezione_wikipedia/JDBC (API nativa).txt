@@ -1,0 +1,3 @@
+Il driver JDBC di tipo 2, chiamato anche API nativa, è un'implementazione di driver per database che utilizza librerie di accesso ai dati client side. Il driver converte le chiamate ai metodi JDBC in chiamate all'API nativa del database.
+Un driver di tipo 2 non è scritto interamente in Java, perché si interfaccia con codice scritto in altri linguaggi che esegue le chiamate finali per il database. Esso è compilato per l'uso su un particolare sistema operativo. Per una migliore interoperabilità tra le piattaforme, sono da preferire i driver di tipo 4, che sono realizzati interamente in Java.
+Ad ogni modo, il tipo 2 fornisce più funzionalità e migliori performance rispetto al tipo 1 perché non ha il sovraccarico dovuto alle chiamate alle funzioni ODBC.

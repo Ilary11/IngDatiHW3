@@ -1,0 +1,2 @@
+La semantica computazionale è lo studio di come automatizzare il processo di costruzione e ragionamento con l'ausilio di rappresentazioni del significato di espressioni di una lingua naturale. Essa gioca un ruolo importante nell'elaborazione del linguaggio naturale e nella linguistica computazionale.
+Alcuni argomenti tradizionali di interesse sono: la costruzione di rappresentazioni di significato, l'anafora, la risoluzione di quantificatori, ecc.

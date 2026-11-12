@@ -1,0 +1,3 @@
+Zettair è un motore di ricerca di testo per l'indicizzazione e ricerca di HTML (o TREC). Si tratta di un software open source sviluppato da un gruppo di ricercatori al Royal Melbourne Institute of Technology (RMIT).
+La sua principale caratteristica è la capacità di gestire raccolte di documenti di grandi dimensioni (100 GB e più). Ha un unico eseguibile, che esegue sia indicizzazione che ricerca con un'interfaccia a riga di comando.
+È concesso in licenza sotto i termini della licenza BSD.

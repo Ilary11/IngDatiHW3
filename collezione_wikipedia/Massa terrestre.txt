@@ -1,0 +1,9 @@
+In astronomia, la massa terrestre è un'unità di misura comunemente usata per esprimere la massa dei pianeti rocciosi. Equivale alla massa stimata della Terra, pari a circa sei quadrilioni di chilogrammi. Il suo valore e il suo simbolo convenzionale sono:
+
+M⊕=5,97219×1024 kg
+Incertezze sulla costante gravitazionale rendono similarmente impreciso il calcolo della massa terrestre. 
+Una massa terrestre equivale a:
+
+81,3 masse lunari (ML)
+ 0,00315 masse gioviane (MJ)
+ 0,000003003 masse solari (M☉)

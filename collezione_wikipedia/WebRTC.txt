@@ -1,0 +1,4 @@
+WebRTC è una tecnologia open source nata il 1º giugno 2011 che consente ai browser di effettuare in tempo reale delle videochiamate. È basata su HTML5 e JavaScript.
+La sua inclusione nel World Wide Web Consortium (W3C) standard è supportata da Google, Microsoft, Mozilla e Opera.
+È distribuito sotto la parziale licenza BSD e il codice si basa su prodotti di Global IP Solutions, azienda che Google ha acquisito nel maggio 2010 per 68 milioni di euro. WebRTC utilizza per l'audio il codec Opus e il codec VP8 per il video e si sta lavorando per migrare il plugin di Google Talk video chat per il quadro webRTC.
+Tuttavia Microsoft ha preferito sviluppare ORTC, una propria versione delle stesse API, iniziando a supportare WebRTC solo nel nuovo browser Edge, introdotto nel 2015 con Windows 10.

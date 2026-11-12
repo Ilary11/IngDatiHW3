@@ -1,0 +1,6 @@
+BERT, acronimo di Bidirectional Encoder Representations from Transformers, è un modello di apprendimento automatico basato su trasformatori utilizzato nell'elaborazione del linguaggio naturale (NLP). BERT è stato creato e pubblicato nel 2018 da Jacob Devlin e dai suoi colleghi di Google. Nel 2019, Google annunciò di aver cominciato a utilizzare BERT per il suo motore di ricerca, e verso la fine del 2020 pressoché ogni richiesta in lingua inglese utilizzava BERT. Un'analisi pubblicata nel 2020 in letteratura concluse che BERT diventò il riferimento per gli esperimenti di NLP in poco più di un anno, contando oltre 150 pubblicazioni che provavano a migliorare o ad analizzare il modello.
+Il BERT originale in lingua inglese consisteva in due modelli:
+
+BERTBASE: composto da 12 encoder, ciascuno dei quali prevede 12 teste di auto-attenzione bidirezionale (bidirectional self-attention).
+BERTLARGE: composto da 24 encoder, ciascuno con 16 teste.
+Entrambi i modelli sono pre-addestrati su testo non supervisionato proveniente dagli insiemi di dati di BooksCorpus (un insieme di 11.083 libri non pubblicati, comprendenti un totale di 800 milioni di parole) e Wikipedia in lingua inglese (che comprende, escludendo tabelle e figure, 2500 milioni di parole).

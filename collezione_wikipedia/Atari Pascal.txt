@@ -1,0 +1,4 @@
+L'Atari Pascal è un linguaggio di programmazione Pascal distribuito dalla Atari nel 1982. 
+È stata la prima versione di linguaggio Pascal disponibile per la famiglia Atari 8-bit.
+A causa del fatto che tale software fu distribuito attraverso l'Atari Program Exchange, l'Atari Pascal non fu direttamente supportato dalla Atari. Questo contribuì a limitarne la diffusione.
+L'Atari Pascal è simile all'UCSD Pascal, è inoltre completamente residente nella memoria RAM e per funzionare richiede la presenza di 2 floppy disk drive.

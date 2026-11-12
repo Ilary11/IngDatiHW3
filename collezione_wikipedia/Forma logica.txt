@@ -1,0 +1,6 @@
+Una forma logica è una rappresentazione in logica del prim'ordine di una frase in lingua naturale. Tale rappresentazione è costituita dalla congiunzione logica di predicati concettuali correlati da argomenti comuni. Nomi, verbi, aggettivi, avverbi, pronomi, preposizioni e congiunzioni in una frase danno luogo a un predicato. Le forme logiche possono essere "decorate" con significati per disambiguare la semantica delle parole. Un esempio di forma logica è il seguente:
+
+Frase in lingua naturale:  Luigi mangia la minestra.
+Forma logica corrispondente: Luigi:n_#1(x1) mangia:v_#2(e1, x1, x2) minestra:n_#1(x2)
+
+Le forme logiche sono utilizzate da tecniche di elaborazione del linguaggio naturale quali il question answering, l'inferenza, ecc.

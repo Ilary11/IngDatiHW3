@@ -1,0 +1,3 @@
+In crittografia, SIGSALY (noto anche come X System, Project X, Ciphony I, e Green Hornet) era un sistema vocale sicuro utilizzato nella seconda guerra mondiale per le comunicazioni alleate di livello più alto.
+Ha aperto la strada una serie di concetti di comunicazione digitale, tra cui la prima trasmissione audio in modulazione a impulsi codificati.
+Il nome SIGSALY non era un acronimo, ma un nome di copertura che assomigliava a un acronimo, la parte SIG era comune nei nomi Army Signal Corps (ad esempio, SIGABA). Il prototipo è stato chiamato il Green Hornet, dopo il popolare serial radiofonico The Green Hornet (in italiano Il Calabrone Verde), perché suonava come un ronzio di calabrone a chiunque cercasse di intercettare la conversazione.

@@ -1,0 +1,2 @@
+Weka, acronimo di "Waikato Environment for Knowledge Analysis", è un software per l'apprendimento automatico sviluppato nell'università di Waikato in Nuova Zelanda.  È open source e viene distribuito con licenza GNU General Public License.
+Curiosamente la sigla corrisponde al nome di un simpatico animale simile al Kiwi (vedi foto), presente solo nelle isole della Nuova Zelanda.

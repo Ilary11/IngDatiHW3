@@ -1,6 +1,0 @@
-A.3 Active learning Nell'active learning (AL) è il modello a scegliere quali esempi non etichettati far etichettare a un umano (l'oracolo), così che un budget fisso di etichette dia più accuratezza dell'etichettatura casuale.
-Riferimento classico: la survey di Settles (2009).
-Tre tipi: Pool-based: c'è un grande insieme (pool) di esempi non etichettati, e il modello li ordina e sceglie i migliori b; Stream-based: gli esempi arrivano uno alla volta e per ognuno si decide subito se etichettarlo o scartarlo ("ora o mai più"); Query synthesis: il modello inventa un input e lo fa etichettare.
-Il ciclo dell'active learning Si parte da un piccolo insieme etichettato L e da un grande pool non etichettato U.
-A ogni giro: 1.
-Train: si addestra il matcher E su L; 2.

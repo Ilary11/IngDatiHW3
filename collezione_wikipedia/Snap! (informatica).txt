@@ -1,0 +1,2 @@
+Snap! è un programma educativo basato su browser e che consente di creare applicativi in modo grafico e guidato utilizzando blocchi da far corrispondere tra loro come tasselli.
+Snap! 4.0 non richiede l'installazione locale e lavora in modo nativo via browser.

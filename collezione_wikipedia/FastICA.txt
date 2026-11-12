@@ -1,0 +1,1 @@
+FastICA è un popolare algoritmo per l'analisi delle componenti indipendenti, sviluppato da Aapo Hyvärinen presso la Helsinki University of Technology. L'algoritmo è basato su un punto fisso, schema iterativo per massimizzare la non-gaussianità di una misura statistica di indipendenza. L'algoritmo può anche essere derivato dall'iterazione approssimata di Newton.

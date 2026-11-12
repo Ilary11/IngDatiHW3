@@ -1,0 +1,5 @@
+L'Atari LOGO è una variante del linguaggio di programmazione Logo scritto per gli home computer della famiglia Atari a 8 bit.
+Il linguaggio fu sviluppato dalla canadese Logo Computer Systems, Inc. (LCSI), con sede in Quebec. La medesima azienda aveva scritto l'interprete Logo per gli home computer Apple, ed è per questo motivo che le due versioni mantengono tra di loro una stretta compatibilità.
+L'Atari LOGO comprendeva anche comandi che supportavano le caratteristiche grafiche e sonore degli Atari a 8 bit.
+Tra le sue caratteristiche peculiari si possono ricordare la presenza di quattro "tartarughe" per disegnare, rappresentate sullo schermo come vere tartarughe e non come triangoli; inoltre, la forma della tartarughe era ridisegnabile ed era implementata la gestione delle collisioni tra le tartarughe.
+Il pacchetto software era disponibile su cartuccia da 16 KB di ROM ed includeva il manuale ed un tutorial.

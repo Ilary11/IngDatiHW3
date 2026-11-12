@@ -1,0 +1,4 @@
+Yahoo! Toolbar è una toolbar per i browser. È disponibile per i browser Internet Explorer, Firefox e Google Chrome. Non sono invece supportati Opera e Safari.
+Originariamente era un segnalibro e pop-up blocker, si è evoluto per fornire un'esperienza app come all'interno della barra degli strumenti. Ha applicazioni per i siti leader come Facebook, Yahoo! Mail, Meteo e Notizie. Esso permette inoltre agli utenti di gestire i propri segnalibri. Si continua a sostenere caratteristiche come i collegamenti dei pulsanti a siti internet top come Amazon, Twitter, ecc. Permette inoltre l'accesso a diverse funzioni, tra cui Yahoo! Search.
+Yahoo! Chrome Toolbar ha di recente incluso anche la Yahoo! Toolbar family.
+Ha incorporato algoritmi per evitare i pop-up e spyware.

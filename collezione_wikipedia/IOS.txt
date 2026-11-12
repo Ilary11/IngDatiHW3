@@ -1,0 +1,4 @@
+iOS è un sistema operativo mobile sviluppato da Apple per iPhone. È il secondo sistema operativo mobile più installato al mondo, dopo Android. Presentato nel 2007 per l'iPhone di prima generazione, rilasciato in parte sotto licenza APSL e in parte riservato come software proprietario, e basandosi su macOS, è a sua volta la base per altri tre sistemi operativi realizzati da Apple: iPadOS, tvOS, watchOS.
+A differenza di altri sistemi operativi per dispositivi mobili, iOS non permette di installare applicazioni non verificate.
+Al luglio 2023, l'App Store di Apple conteneva oltre 3,8 milioni di applicazioni e un milione di giochi.
+Le versioni principali di iOS vengono distribuite ogni anno. L'attuale versione, iOS 27, è stata presentata in anteprima il 8 giugno 2026 e successivamente è stata distribuita al pubblico il 14 settembre 2026.

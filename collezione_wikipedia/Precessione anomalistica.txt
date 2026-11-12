@@ -1,0 +1,8 @@
+La precessione anomalistica (o anche, per i pianeti del sistema solare, precessione del perielio) è la variazione, rispetto ad un potenziale osservatore esterno, della linea degli apsidi dell'orbita di un corpo celeste.
+L'aggettivo anomalistica fa riferimento al fatto che, in un sistema di riferimento polare nel piano, la coordinata angolare è chiamata (anche) anomalia. Quando si parla di orbite, si usa distinguere tra anomalia media, anomalia eccentrica e anomalia vera.
+Il tempo necessario al corpo per tornare al medesimo apside si chiama anno anomalistico, nel caso di pianeti, o mese anomalistico, nel caso di lune. L'anno (o il mese) risulta di durata superiore al corrispondente periodo siderale (anno siderale o mese siderale) quando la precessione anomalistica ha lo stesso verso del moto di rivoluzione del corpo, inferiore in caso contrario.
+La precessione anomalistica può avere diverse cause, eventualmente contemporaneamente presenti:
+
+disturbi gravitazionali causati da altri corpi celesti del sistema considerato;
+anomalie nella forma del corpo celeste;
+effetti relativistici previsti dalla teoria della relatività generale di Einstein.

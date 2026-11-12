@@ -1,0 +1,3 @@
+SpiderOak è un software orientato alla sicurezza per la fornitura di servizi di backup online, sincronizzazione automatica, file hosting e condivisione  di file tramite web.
+SpiderOak è un software basato su cloud storage criptato e con supporto multipiattaforma, disponibile per sistemi operativi desktop (Windows, macOS, Linux) e per dispositivi mobili (iOS, N900 Maemo, Android).
+Una caratteristica distintiva di SpiderOak, rispetto ad altri servizi di backup online, è l'utilizzo della criptazione dei dati anche per la loro conservazione nei data center — oltre che durante la trasmissione via web — in modo tale che, nel caso di accesso fisico ai server (ad esempio, da parte dei propri dipendenti), i dati non siano decifrabili.

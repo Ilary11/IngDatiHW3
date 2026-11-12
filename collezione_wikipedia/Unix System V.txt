@@ -1,0 +1,2 @@
+UNIX System V, (pronunciato "system five") è una delle prime versioni commerciali del sistema operativo Unix, sviluppato da AT&T in sei versioni (release). 
+Durante il suo sviluppo, System V è stato pubblicato in diverse versioni, 1-2-3-4, fino ad arrivare alla versione 4, System V Release 4 (SVR4), che ha ottenuto un grande successo commerciale dovuto allo sforzo e alla collaborazione di diversi produttori, unendoli in un'organizzazione definita Unix System Unification, ed è stato la fonte di vari sviluppi commerciali aventi come base le caratteristiche UNIX.

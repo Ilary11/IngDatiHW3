@@ -1,5 +1,0 @@
-Problemi: falsi positivi, esplosione dell'indice per il dizionario più grande, infattibile per sequenze più lunghe di due parole.
-Gli indici di biword non sono la soluzione standard, ma possono far parte di una strategia mista.
-Soluzione 2: indici posizionali Nelle postings si memorizzano, per ogni termine, anche le posizioni in cui compare in ciascun documento: <termine, numero di documenti; doc1: pos1, pos2…; doc2: pos1, pos2… >.
-Esempio: <be: 993427; 1: 7, 18, 33, 72, 86, 231; 2: 3, 149; 4: 17, 191, 291, 430, 434; 5: 363, 367…>.
-Per una query di frase si usa un merge ricorsivo: prima a livello di documento, poi a livello di posizione, dove non basta più l'uguaglianza ma serve controllare che le posizioni siano consecutive.

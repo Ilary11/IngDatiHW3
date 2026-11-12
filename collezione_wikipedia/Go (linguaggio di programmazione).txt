@@ -1,0 +1,7 @@
+Go è un linguaggio di programmazione ad alto livello compilato e tipizzato staticamente, progettato da Robert Griesemer, Rob Pike e Ken Thompson presso Google.
+Sintatticamente simile al C, dispone anche di sicurezza di memoria, garbage collection, tipizzazione strutturale e concorrenza in stile CSP. Spesso ci si riferisce ad esso come a Golang a causa del suo precedente nome di dominio, golang.org, ma il suo nome corretto è Go.
+Esistono due implementazioni principali:
+
+La toolchain del compilatore "gc" di Google, self-hosting, destinata a più sistemi operativi e WebAssembly.
+gofrontend, un frontend per altri compilatori, con la libreria libgo. Con GCC la combinazione è gccgo; con LLVM la combinazione è gollvm.
+Un compilatore in sorgente di terze parti, GopherJS, compila Go in JavaScript per lo sviluppo web front-end.

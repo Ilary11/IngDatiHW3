@@ -1,8 +1,0 @@
-Il Prediction Combiner le fonde con un'euristica semplice: la media delle confidenze.
-Esempio con homes.com: area → (address, 0,7), (description, 0,3); sold-at → (price, 0,9), (agent-phone, 0,1); contact-agent → (agent-phone, 0,9), (description, 0,1); extra-info → (address, 0,6), (description, 0,4).
-Vincoli di dominio.
-Codificano la conoscenza dell'utente sul dominio, specificata una sola volta esaminando lo schema mediato.
-Esempi: al massimo un elemento sorgente può fare match con address ; se un elemento fa match con house-id allora è una chiave; il valore medio di price è maggiore di quello di num-baths .
-Data una combinazione di mapping, si verifica se soddisfa un vincolo.
-Constraint Handler.
-Parte dalle predizioni del Prediction Combiner e dai vincoli, e valuta le combinazioni di mapping moltiplicando le confidenze.

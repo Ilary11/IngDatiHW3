@@ -1,0 +1,2 @@
+Amiga Unix, inizialmente Commodore Amiga Unix, anche conosciuto informalmente come AMIX, è una versione del sistema operativo Unix per computer Amiga.
+Amiga Unix è stato il sistema operativo in dotazione a due workstation di Commodore International, l'Amiga 2500UX e l'Amiga 3000UX, commercializzate tra il 1989 e il 1992, ma all'epoca era acquistabile anche separatamente da tali workstation in modo da poterlo utilizzare con altri modelli di computer Amiga.

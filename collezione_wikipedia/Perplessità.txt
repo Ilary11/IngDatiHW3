@@ -1,0 +1,4 @@
+In teoria dell'informazione, la perplessità è una misura dell'incertezza riguardo al valore di un campione tratto da una distribuzione di probabilità discreta. 
+È una misura di predicibilità legata all'entropia: maggiore la perplessità, meno probabile che un osservatore riesca a predire un valore estratto dalla distribuzione.
+Il termine è stata proposto originariamente nel 1977 in un lavoro di F. Jelinek et al. sul riconoscimento vocale.
+Essa è molto usata nell'apprendimento automatico e nella modellizzazione statistica.

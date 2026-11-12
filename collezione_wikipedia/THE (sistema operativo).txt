@@ -1,0 +1,2 @@
+Il THE fu il primo sistema operativo progettato a strati e venne realizzato alla Technische Hogeschool Eindhoven nei Paesi Bassi da Edsger Dijkstra e dai suoi studenti e pubblicato nel 1968.
+Edsger Dijkstra non gli ha mai dato un nome ufficiale, essendo THE semplicemente un acronimo dal nome dell'università in cui è stato creato.
