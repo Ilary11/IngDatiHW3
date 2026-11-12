@@ -1,0 +1,8 @@
+Asterisco: tutti gli elementi a quel livello.
+//book/* sono tutti i figli di ogni book; /*/*/*/paragraph i paragraph con esattamente tre antenati; //* tutti gli elementi del documento.
+Attributi L'attributo si seleziona con @ : in <chapter num="5"> , @num seleziona l'attributo; //@* tutti gli attributi.
+Gli elementi con un certo attributo si selezionano fra parentesi quadre: //chapter[@num] (con l'attributo num), //chapter[not(@num)] (senza), //chapter[@*] (con almeno un attributo), //chapter[not(@*)] (senza attributi).
+Con un valore: //chapter[@num='3'] .
+La funzione normalize-space() toglie gli spazi iniziali e finali prima del confronto: //chapter[normalize-space(@num)="3"] .
+Assi Un asse è un insieme di nodi relativo al nodo corrente; X::Y vuol dire "scegli Y sull'asse X".
+child:: è l'asse di default ( /child::X = /X ); poi self:: , parent:: , ancestor:: (fino alla radice), descendant:: (mai attributi o namespace), preceding:: (tutto ciò che viene prima nel documento) e following:: (tutto ciò che viene dopo).

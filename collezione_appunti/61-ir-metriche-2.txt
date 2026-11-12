@@ -1,0 +1,6 @@
+C'è molta letteratura in merito: il segnale è abbastanza buono, ma la varianza dei giudizi è alta.
+Query di test: devono essere pertinenti ai documenti disponibili e rappresentative dei bisogni reali degli utenti.
+Termini presi a caso dai documenti non vanno bene; meglio campionare dai log delle query, se ci sono.
+Classicamente (fuori dal web) i log erano pochi e gli esperti scrivevano a mano i "bisogni degli utenti".
+Collezioni di test: le prime collezioni pubbliche del Novecento (ADI, AIT, CACM, CISI, Cranfield, LISA, Medline, NPL, OSHMED, Reuters) andavano da poche centinaia a qualche decina di migliaia di documenti; una tipica collezione TREC ha 740.000 documenti e 200 query.
+I dataset recenti contengono centinaia di milioni di pagine web (GOV, ClueWeb…).

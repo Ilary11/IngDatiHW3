@@ -1,0 +1,34 @@
+Movie R
+NBA P
+NBA R
+University P
+University R
+WEIR
+0,23
+0,17
+0,08
+0,17
+0,13
+0,18
+Colon Baseline
+0,63
+0,21
+0,51
+0,33
+0,46
+0,31
+OpenCeres
+0,77
+0,68
+0,74
+0,48
+0,65
+0,29
+OpenCeres-Gold
+0,99
+0,74
+0,98
+0,80
+0,99
+0,60
+OpenCeres-Gold usa come input della fase 2 la ground truth invece dell'output della fase 1: misura quanto rende la fase 2 se l'annotazione fosse perfetta, e suggerisce che buona parte dell'errore nasce nella fase 1.

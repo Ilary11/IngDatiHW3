@@ -1,0 +1,3 @@
+Recall = tp / (tp + fn)
+F = 2 · P · R / (P + R)
+Sono le stesse metriche viste per il record linkage (sez. 14.7) e per il classificatore (sez. 8.2): cambia solo che cosa si conta come "positivo".

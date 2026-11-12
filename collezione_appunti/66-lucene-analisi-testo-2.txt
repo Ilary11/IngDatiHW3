@@ -1,0 +1,15 @@
+Esempio
+Cosa fa
+WhitespaceAnalyzer
+Neural resta Neural
+Divide sugli spazi, mantiene le maiuscole
+StandardAnalyzer
+Neural diventa neural
+Confini di parola e minuscole
+EnglishAnalyzer
+retrieval diventa retriev
+Stop words inglesi e stemming
+KeywordAnalyzer
+cs.IR resta un unico token
+Tutta la stringa come un solo token
+Ce ne sono altri (ClassicAnalyzer, ItalianAnalyzer, StopAnalyzer...). Esempi: Whitespace: "Neural information retrieval" → Neural, information, retrieval. English: "Neural models improve information retrieval and ranking." → neural, model, improv, inform, retriev, rank ("and" è una stop word e viene tolta; le altre parole vengono ridotte alla radice). Analizzatore personalizzato ( CustomAnalyzer ): tokenizer whitespace + filtro lowercase → [neural] [information] [retrieval]; aggiungendo il filtro wordDelimiterGraph , "informationretrieval" viene spezzato in information e retrieval. Analisi per campo Map<String, Analyzer> byField = Map.of( "title", new StandardAnalyzer(), "abstract", new EnglishAnalyzer()); Analyzer perFieldAnalyzer = new PerFieldAnalyzerWrapper(new StandardAnalyzer(), byField); IndexWriterConfig config = new IndexWriterConfig(perFieldAnalyzer);

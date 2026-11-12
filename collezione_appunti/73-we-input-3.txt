@@ -1,0 +1,7 @@
+Esempio reale: una pagina prodotto di velasca.com.
+Validatori: validator.schema.org e il Rich Results Test di Google.
+Oggi circa metà delle pagine contiene dati strutturati (Common Crawl, ottobre 2023: 50,6% contro il 5,7% del 2010).
+Il formato più usato è JSON-LD (66% dei siti che annotano), poi Microdata (48%), Microformats (17%) e RDFa (5%).
+Ma attenzione: le annotazioni espongono solo ciò che il proprietario del sito sceglie di pubblicare, e il JSON-LD viene usato soprattutto per descrivere il sito, non i suoi contenuti.
+I tipi più frequenti sono strutturali (WebSite 66,6%, ImageObject 62,5%, SearchAction 62,1%, WebPage 59,2%, BreadcrumbList 57,2%, Organization 56,5%...); il primo tipo che descrive un'entità vera è Product, al 20,4%.
+Quindi l'estrazione dal DOM e dal testo serve ancora.

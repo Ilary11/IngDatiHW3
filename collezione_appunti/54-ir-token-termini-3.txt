@@ -1,0 +1,5 @@
+Regola fondamentale: la stessa identica tokenizzazione va applicata sia ai documenti sia alle query.
+Stop words Con una stop list si escludono dal dizionario le parole più comuni (the, a, and, to, be): hanno poco contenuto semantico e sono tantissime (circa il 30% dei posting per le 30 parole più frequenti).
+Ma la tendenza è a non farlo più: le buone tecniche di compressione e di ottimizzazione delle query rendono il costo trascurabile, e le stop words servono per le query di frase ("King of Denmark"), i titoli ("Let it be", "To be or not to be") e le query "relazionali" ("flights to London").
+Normalizzazione Bisogna normalizzare le parole del testo e della query nella stessa forma.
+Il risultato sono i termini: un termine è un tipo di parola normalizzato, cioè una voce del dizionario.

@@ -1,0 +1,6 @@
+8.4 Spiegazioni fedeli: identificazione di scrivani Un secondo caso, tratto da In Codice Ratio: chi ha scritto questa pagina?
+Un modello di deep learning classifica le pagine di un manoscritto medievale in base allo scriba (Scriba 1, 2 o 3), cioè identifica la mano dalla grafia.
+Le slide 74–77 mostrano un insieme di pagine e, per ogni scriba, le pagine che gli appartengono.
+Come si verifica che la spiegazione sia fedele.
+Le mappe di saliency colorano ogni regione della pagina da rosso (contributo negativo, −1,0) a verde (contributo positivo, +1,0) in base a quanto pesa nella predizione.
+Per capire se il classificatore ha davvero individuato pattern validi, e non scorciatoie come nel caso della birra, si fanno due esperimenti, in sequenza.

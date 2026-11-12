@@ -1,0 +1,6 @@
+Vero Negativo (VN)
+h
+Non Affidabile
+Non Affidabile
+VN
+(Nella slide 50 e ed f sono etichettati per errore "(VP)"; la slide 53 corregge in FP.) (Mio calcolo, perché la slide 52 è vuota: VP = 3, FN = 1, FP = 2, VN = 2; accuratezza = (3+2)/8 = 62,5%.) Ma l'accuratezza non è tutto. Per il trattamento etico dei dati contano anche equità e trasparenza. Equità della classificazione: corrisponde alle prestazioni del classificatore su diversi gruppi di individui. Idealmente il classificatore dovrebbe avere le stesse prestazioni indipendentemente dal gruppo. Caso reale: COMPAS (inchiesta di ProPublica, "Machine Bias"). È un software usato nei tribunali per stimare il rischio di recidiva. L'accuratezza è 68%. Ma gli errori sono distribuiti in modo diverso tra due gruppi: Errore

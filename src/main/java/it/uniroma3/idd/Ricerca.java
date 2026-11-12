@@ -50,24 +50,12 @@ public class Ricerca {
                 if (riga.isEmpty()) continue;
                 if (riga.equalsIgnoreCase("esci")) break;
 
-                // Separo la prima parola (il campo) dal resto (i termini)
-                String[] parti = riga.split("\\s+", 2);
-                String campo = parti[0].toLowerCase();
-                if (!campo.equals(Analizzatori.CAMPO_NOME) && !campo.equals(Analizzatori.CAMPO_CONTENUTO)) {
-                    System.out.println("La query deve iniziare con 'nome' o 'contenuto'.");
-                    continue;
-                }
-                if (parti.length < 2) {
-                    System.out.println("Mancano i termini da cercare.");
-                    continue;
-                }
-
-                // Il QueryParser usa lo stesso analyzer dell'indicizzazione e
-                // riconosce da solo le virgolette (phrase query) e AND/OR/NOT.
-                QueryParser parser = new QueryParser(campo, analyzer);
                 Query query;
                 try {
-                    query = parser.parse(parti[1]);
+                    query = costruisciQuery(riga, analyzer);
+                } catch (IllegalArgumentException e) {
+                    System.out.println(e.getMessage());
+                    continue;
                 } catch (ParseException e) {
                     System.out.println("Query non valida: " + e.getMessage());
                     continue;
@@ -87,5 +75,23 @@ public class Ricerca {
             }
         }
         System.out.println("Ciao!");
+    }
+
+    /**
+     * Trasforma una riga come  contenuto "indice invertito"  in un oggetto Query.
+     * La prima parola è il campo, il resto va al QueryParser, che usa lo stesso analyzer
+     * dell'indicizzazione e riconosce da solo le virgolette (phrase query) e AND/OR/NOT/+/-.
+     * È un metodo a parte perché lo usa anche il programma di Valutazione.
+     */
+    public static Query costruisciQuery(String riga, Analyzer analyzer) throws ParseException {
+        String[] parti = riga.trim().split("\\s+", 2);
+        String campo = parti[0].toLowerCase();
+        if (!campo.equals(Analizzatori.CAMPO_NOME) && !campo.equals(Analizzatori.CAMPO_CONTENUTO)) {
+            throw new IllegalArgumentException("La query deve iniziare con 'nome' o 'contenuto'.");
+        }
+        if (parti.length < 2) {
+            throw new IllegalArgumentException("Mancano i termini da cercare.");
+        }
+        return new QueryParser(campo, analyzer).parse(parti[1]);
     }
 }

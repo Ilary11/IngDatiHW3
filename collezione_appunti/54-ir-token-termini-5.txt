@@ -1,0 +1,7 @@
+restituiva "cat" e non Caterpillar Inc.; altri casi ambigui sono aapl, jordan, jaguar.
+Espansione asimmetrica, alternativa alle classi di equivalenza: se l'utente scrive window si cerca window, windows; se scrive windows si cerca Windows, windows, window; se scrive Windows si cerca solo Windows.
+È più potente ma meno efficiente.
+Sinonimi e omonimi: si possono gestire con classi di equivalenza costruite a mano (car = automobile, color = colour), riscrivendo i termini nell'indice oppure espandendo la query.
+Per gli errori di ortografia un approccio è Soundex, che forma classi di equivalenza in base a euristiche fonetiche.
+Collegamento: sono gli stessi problemi di eterogeneità visti nella data integration (Soundex, sinonimi ed edit distance erano anche matcher di COMA, sez.
+11).

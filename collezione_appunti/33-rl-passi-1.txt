@@ -1,0 +1,1 @@
+14. I passi del record linkage La pipeline è blocking → pairwise matching → clustering, e i passi servono a due scopi diversi: Pairwise matching e clustering, per garantire la semantica del record linkage; Blocking, per ottenere la scalabilità.

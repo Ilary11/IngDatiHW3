@@ -1,0 +1,2 @@
+Per "to be or not to be" si estraggono le voci di to, be, or, not e si fa il merge delle liste doc:posizione.
+Dalle liste della slide (to → 4: 8, 16, 190, 429, 433; be → 4: 17, 191, 291, 430, 434) si vede che nel documento 4 ci sono "to be" alle posizioni 429–430 e 433– 434, compatibili con "to be or not to be" alle posizioni 429–434 (mio calcolo).

@@ -1,0 +1,9 @@
+Correzione di parole isolate Premessa: esiste un lessico da cui prendere le grafie corrette.
+Può essere un lessico standard (il dizionario Webster, un lessico di settore mantenuto a mano) oppure il lessico della collezione indicizzata (tutte le parole del web, nomi, acronimi...
+errori compresi).
+Dato il lessico e una sequenza Q, si restituiscono le parole del lessico più vicine a Q.
+Che cosa vuol dire "vicine"?
+Edit distance (Levenshtein): numero minimo di operazioni sui caratteri (inserimento, cancellazione, sostituzione, eventualmente trasposizione) per trasformare una stringa nell'altra.
+dof → dog: 1; cat → act: 2 (1 con la trasposizione); cat → dog: 3.
+Si calcola con la programmazione dinamica.
+Edit distance pesata: il peso di un'operazione dipende dai caratteri coinvolti, per catturare errori di OCR o di tastiera (m viene scambiata per n più facilmente che per q).

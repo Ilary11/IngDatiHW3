@@ -1,0 +1,9 @@
+I punteggi finiscono nel similarity cube, vengono aggregati, poi si selezionano gli allineamenti, con eventuale feedback dell'utente.
+Matcher originali: Affix: cerca prefissi e suffissi comuni fra due nomi.
+n-gram: confronta le stringhe in base ai loro insiemi di n-grammi (sequenze di n caratteri), con varianti come Digram (2) e Trigram (3).
+EditDistance: la similarità deriva dal numero di operazioni di modifica per trasformare una stringa in un'altra (distanza di Levenshtein).
+Soundex: similarità fonetica, dai codici Soundex dei nomi.
+Synonym: stima la similarità guardando le relazioni terminologiche in un dizionario.
+DataType: usa una tabella di compatibilità tra tipi di dato generici (a cui sono mappati i tipi degli elementi di schema).
+Similarity cube.
+Con n = |schema1|, m = |schema2|, k = |matcher|, il cubo memorizza le n × m × k similarità.

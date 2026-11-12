@@ -1,0 +1,9 @@
+Bianchi
+Afroamericani
+FP: etichettati ad alto rischio, ma non hanno recidivato
+23,5%
+44,9%
+FN: etichettati a basso rischio, ma hanno recidivato
+47,7%
+28,0%
+Le due conseguenze sono diverse: un falso positivo è ingiusto per l'individuo, un falso negativo è pericoloso per la società. Qui entrambi gli errori pesano di più su un gruppo o sull'altro, quindi il sistema non è equo anche con un'accuratezza apparentemente accettabile.

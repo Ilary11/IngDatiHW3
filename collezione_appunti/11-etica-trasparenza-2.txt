@@ -1,0 +1,23 @@
+Verità Risposta AI
+Sanibel Red Island Ale / Point Ybel Sanibel Red Island Ale (stile diverso: Amber/Red vs Irish Ale)
+Y
+Y
+Cartel Indiana Nights Imperial American Amber / Crimson Bombshell (birrifici diversi)
+NO
+NO
+Fat Tire Amber Ale / New Belgium Fat Tire
+Y
+Y
+Tongue Buckler – Imperial Red Ale / Ballast Point Tongue Buckler Imperial Red Ale
+Y
+NO ✘
+Vital Infrared Imperial Red / Vital Infrared Imperial Red (stile diverso)
+Y
+NO ✘
+Due descrizioni identiche di Tongue Buckler – Imperial Red Ale
+Y
+NO ✘
+✔
+✔
+✔
+L'ultimo caso è paradossale: persino due record identici vengono dichiarati diversi. La spiegazione è nelle slide 70–71: in presenza delle parole "imperial", "red", "ale" l'AI risponde sempre NO; nei dati di training "imperial", "red", "ale" erano sempre in esempi "NO". Il modello ha imparato una scorciatoia spuria (un'associazione casuale del training set) invece di confrontare davvero i record. Senza una spiegazione di come ha deciso non lo scopriremmo. Ma qui nasce la domanda della slide 72: la spiegazione è fedele? Cioè, la spiegazione che il metodo di explainability dà riflette davvero ciò che il modello usa?

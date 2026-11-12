@@ -1,0 +1,7 @@
+Esempio: /child::people/child::person[1]/surname , che equivale a /people/person[1]/surname , restituisce <surname>Biden</surname> .
+Gli assi XPath rispetto a un nodo: self, parent, child, sibling, preceding, following, ancestor.
+Partendo da un nodo, gli assi self, preceding, following, ancestor e descendant formano una partizione di tutti i nodi (ignorando attributi e namespace). Su //chapter[2]
+nell'esempio: ancestor = library e book[1]; preceding = chapter[1]; descendant = section[1] e i due paragraph; following = chapter[3] e book[2]; self = chapter[2].
+La partizione dei nodi rispetto a chapter[2].
+Altri esempi: //book/descendant::section (le section discendenti di ogni book); //parent::* (ogni elemento che è padre, cioè non è una foglia); //section/parent::* (ogni padre di una section); /library/book[3]/following::* (tutto ciò che viene dopo il terzo book).
+Altri assi: ancestor-or-self:: , descendant-or-self:: , attribute:: , namespace:: , following-sibling:: e preceding-sibling:: (fratelli dopo e prima; non valgono per attributi e namespace).

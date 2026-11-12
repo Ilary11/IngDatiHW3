@@ -1,0 +1,7 @@
+Score: si dà un punteggio a ogni coppia di U; 3.
+Query: si chiede all'oracolo l'etichetta delle prime b coppie; 4.
+Repeat: si aggiungono le nuove etichette a L e si ricomincia, finché non si esaurisce il budget B.
+Tutto dipende da come si misura l'"utilità".
+Una funzione di acquisizione a(x; θ) assegna un punteggio a ogni coppia non etichettata, dato il modello corrente θ, e si scelgono le coppie con punteggio massimo: x* = arg maxx ∈ U a(x; θ), b alla volta fino al budget B.
+Uncertainty sampling Si chiedono le coppie su cui il modello è meno sicuro, perché quelle vicine al confine di decisione portano più informazione.
+Tre misure: Least confidence: la probabilità più bassa per la classe predetta, x* = arg max 1 − P(ŷ | x); Margin: la differenza più piccola fra le due classi più probabili, x* = arg min P(ŷ1 | x) − P(ŷ2 | x); Entropia: la predizione più "sparsa" fra le classi, x* = arg max − Σy P(y | x) log P(y | x).

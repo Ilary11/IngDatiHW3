@@ -1,0 +1,3 @@
+dove qi è il peso tf-idf del termine i nella query e di quello nel documento. È la cosine similarity fra q e d, cioè il coseno dell'angolo fra i due vettori. Per vettori già normalizzati è semplicemente il prodotto scalare: cos(q, d) = q · d = Σi qidi.
+Cosine similarity: conta l'angolo θ fra i vettori, non la loro lunghezza.
+Riassunto: ranking nello spazio vettoriale 1. Rappresentare la query come vettore tf-idf pesato. 2. Rappresentare ogni documento come vettore tf-idf pesato. 3. Calcolare la cosine similarity fra il vettore della query e quello di ogni documento. 4. Ordinare i documenti per punteggio. 5. Restituire all'utente i primi K (es. K = 10).

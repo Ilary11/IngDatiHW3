@@ -1,0 +1,12 @@
+12. Web data extraction con gli LLM Due paradigmi LLM come estrattore
+LLM come generatore di wrapper
+Legge ogni pagina e restituisce i valori
+Legge poche pagine di esempio e scrive un wrapper (XPath, codice)
+Zero-shot: funziona su qualsiasi template
+Il wrapper gira su tutte le pagine a costo trascurabile
+Il costo cresce con il numero di pagine L'output si può ispezionare e testare Rischio: valori allucinati
+Fragile ai cambi di template, come ogni wrapper
+È lo stesso trade-off del meta-blocking: spendere le operazioni costose (le chiamate all'LLM) su pochi elementi.
+Evaporate (Arora et al., VLDB 2024) Genera viste strutturate (tabelle) da documenti semistrutturati, comprese pagine web (SWDE).
+Evaporate-Direct: l'LLM legge ogni documento ed estrae i valori.
+Evaporate-Code+: l'LLM legge circa 10 documenti di esempio e scrive molte funzioni di estrazione candidate; i loro output vengono aggregati con weak supervision.

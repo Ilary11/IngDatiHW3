@@ -1,0 +1,6 @@
+LLM
+Un large language model con prompt zero-shot o few-shot
+Grande capacità di capire la semantica
+Costoso; problemi di privacy (i dati vanno mandati al modello)
+I matcher basati su PLM hanno spostato il collo di bottiglia: da Ditto (2021) in poi, i modelli con fine-tuning raggiungono F1 alte sui benchmark standard, ma con training set completi di migliaia di coppie etichettate. Il grafico sul dataset Walmart–Amazon mostra la F1 che cresce rapidamente nelle prime centinaia di etichette e poi si appiattisce.
+Quality over quantity: la domanda aperta è quanto si può scendere sotto quel budget di etichette. Due risposte complementari Immaginiamo tutte le coppie disponibili come una fila di punti, di cui solo pochi (quelli rossi) sono etichettati. Active learning: l'idea è spendere il budget di etichettatura sulle coppie più utili. Ipotesi: si riesce a stimare l'utilità di una coppia prima di etichettarla. Data augmentation: l'idea è trasformare ogni coppia etichettata in più coppie di training (coppie sintetiche). Ipotesi: le trasformazioni conservano l'etichetta.

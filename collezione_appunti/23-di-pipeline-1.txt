@@ -1,0 +1,15 @@
+6. La pipeline di data integration Per affrontare le tre sfide si usa un'architettura a pipeline in tre fasi:
+Fase
+Sfida affrontata
+Cosa fa
+1. Schema alignment
+ambiguità semantica
+definisce uno schema target aggregato e vi allinea gli schemi delle sorgenti: capisce quali attributi hanno lo stesso significato e quali no
+2. Record linkage
+ambiguità di rappresentazione delle istanze
+identifica i record che, in sorgenti diverse, si riferiscono alla stessa entità
+3. Data fusion
+qualità dei dati / inconsistenza
+individua i dati in conflitto e decide quale valore usare nei dati integrati
+🗣️ In breve: lo schema alignment lavora sulle colonne (attributi), il record linkage sulle righe (record), la data fusion sui valori.
+Schema alignment (panoramica) Dato un insieme di schemi sorgente nello stesso dominio, che descrivono il dominio in modi diversi, produce tre risultati: 1. Uno schema mediato: una vista unificata delle sorgenti, che cattura gli aspetti salienti del dominio. 2. Un attribute matching: collega gli attributi di ogni sorgente agli attributi corrispondenti dello schema mediato. 3. Uno schema mapping fra ogni sorgente e lo schema mediato: specifica le relazioni semantiche tra il contenuto della sorgente e quello dei dati mediati. I mapping servono a riformulare una query dell'utente in un insieme di query sulle sorgenti sottostanti (query answering). Perché non è banale: sorgenti diverse descrivono lo stesso dominio con schemi molto diversi, usano nomi diversi per attributi con lo stesso significato, e applicano significati diversi ad attributi con lo stesso nome. Esempi dai film (richiesti alle slide 38 e 47): Stesso significato, nome diverso: runtime (Platform1, Platform2) contro duration (Budget); primaryTitle / Title / title ; Cast / starring ; from-to / subscription . Stesso nome, significato diverso: release_date / releaseDate , data di uscita nel paese di produzione in una sorgente e in un paese specifico (es. l'Italia) in un'altra. Record linkage (panoramica) Dato un insieme di sorgenti con record su vari attributi, calcola una partizione dei record in cui ogni gruppo identifica un'entità distinta. Le sfide: sorgenti diverse descrivono la stessa entità in modi diversi; usano modi diversi di rappresentare la stessa informazione; confrontare ogni coppia di record è infattibile con miliardi di record.

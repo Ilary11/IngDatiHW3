@@ -1,0 +1,6 @@
+Dalla matrice binaria alla matrice dei conteggi Nella matrice di incidenza ogni documento era un vettore binario in {0,1}|V|.
+Ora si considera il numero di occorrenze di ogni termine: ogni documento diventa un vettore di conteggi in ℕ|V| (es.
+in Julius Caesar: Antony 73, Brutus 157, Caesar 227, Calpurnia 10).
+Questo è il modello bag of words: non conta l'ordine delle parole, quindi "John is quicker than Mary" e "Mary is quicker than John" hanno lo stesso vettore.
+È un passo indietro rispetto all'indice posizionale, ma per semplicità si usa questo modello.
+1. Term frequency (tf) La term frequency tft,d è il numero di volte che il termine t compare nel documento d. Ma la tf grezza non va bene: un documento con 10 occorrenze è più rilevante di uno con 1, ma non 10 volte più rilevante. La rilevanza non cresce in modo proporzionale alla frequenza. Si usa allora il peso logaritmico: wt,d = 1 + log10 tft,d se tft,d > 0, altrimenti 0

@@ -1,0 +1,4 @@
+Testo Molti dati rilevanti stanno nel testo libero, e i pattern funzionano su scala globale: provate a cercare "* was born in *" per trovare luoghi di nascita in pagine diversissime (biografie, articoli di giornale...).
+DOM Le pagine dei siti data-intensive hanno una struttura ripetuta sottostante, sia a livello di sito (molte pagine con lo stesso schema, es.
+tutte le schede immobile di un'agenzia) sia a livello di pagina (una pagina con una struttura ripetuta, es.
+l'elenco dei risultati di ricerca).

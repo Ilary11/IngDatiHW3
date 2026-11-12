@@ -1,0 +1,5 @@
+La regola vale di più con blocchi piccoli: con blocchi grandi aumenta la probabilità di co-occorrenze casuali e fuorvianti, che non sono più un indice di somiglianza fra i due elementi.
+Guardando la cardinalità dei blocchi: r11 e r13 sono più correlati perché co-occorrono anche in blocchi piccoli (|b| = 4); r11 e r21 compaiono insieme in due blocchi, ma sono blocchi grandi (|b| = 8 e 9).
+Si costruisce il blocking graph: un nodo per ogni record e un arco per ogni coppia di nodi che co-occorre in almeno un blocco.
+Poi si pesano gli archi, stimando quanto è probabile che il confronto di quella coppia sia utile.
+Per dare meno peso ai blocchi grossi si conta 1/cardinalità del blocco per ogni blocco in comune (ARCS).

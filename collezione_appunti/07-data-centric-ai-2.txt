@@ -1,0 +1,15 @@
+the data.
+Due casi, rilevamento di difetti nell'acciaio e pannelli solari.
+Baseline: 76,2% e 75,68%.
+Il miglioramento model-centric dà +0% (76,2%) e +0,04% (75,72%).
+Quello data-centric dà +16,9% (93,1%) e +3,06% (78,74%).
+Migliorare i dati rende molto più che migliorare il modello.
+2.
+Data is Food for AI.
+Un'analogia con la cucina: 80% preparazione (procurare ingredienti di alta qualità / preparare dati di alta qualità) e 20% azione (cucinare il pasto / addestrare il modello).
+3.
+Lifecycle of an ML Project.
+Scope project (definire il progetto) → collect data (definire e raccogliere i dati) → train model (training, analisi degli errori, miglioramento iterativo) → deploy in production (rilascio, monitoraggio, manutenzione).
+Ci sono cicli di ritorno fra le fasi.
+4.
+Making it systematic: MLOps.

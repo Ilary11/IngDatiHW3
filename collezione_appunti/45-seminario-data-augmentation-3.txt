@@ -1,0 +1,6 @@
+Per l'augmentation, il GMM stima la distribuzione dei dati originali e genera esempi sintetici campionando dalle sue componenti.
+Interpolazione nello spazio latente Il linguaggio è discreto: non si può fare la "media" di due frasi parola per parola.
+Si passa allora per lo spazio latente: un encoder trasforma il testo in vettori (embedding), dove relazioni di significato diventano relazioni geometriche (es.
+Rome–Italy è parallelo a Berlin– Germany), e un decoder riporta i vettori in linguaggio.
+Con la tecnica Sentence MixUp si combinano in una certa proporzione gli embedding di due frasi ("This movie is amazing!" e "The film is super") e si addestra il classificatore sulla rappresentazione mista.
+L'applicazione all'ER Per ogni dataset di entity resolution si prendono solo le coppie che fanno match.

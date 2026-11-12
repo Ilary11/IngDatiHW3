@@ -1,0 +1,13 @@
+TextField e StringField. Vogliamo trattare il testo dei campi secondo una semantica precisa, e di solito ci aspettiamo che il match avvenga a livello di parola, non dell'intera stringa: chi cerca "retrieval" deve trovare "Neural information retrieval". Campo
+Valore
+Semantica del match
+title – TextField
+Neural information retrieval
+Termini analizzati, es. retrieval
+category – StringField
+cs.IR
+Un unico termine esatto: cs.IR
+id – StringField
+p01
+Un unico identificatore esatto: p01
+Un TextField viene spezzato in token/termini. Uno StringField salta la tokenizzazione: il valore viene indicizzato com'è, quindi per trovarlo valore e maiuscole devono corrispondere esattamente. Scegliere il tipo di campo cambia le domande a cui l'indice sa rispondere. Campi memorizzati (stored). Con Field.Store.YES il valore originale del campo viene salvato nell'indice, collegato all'id interno del documento, e si può rileggere al momento della ricerca ( searcher.storedFields().document(hit.doc).get("title") ). L'abstract dell'esempio è Store.NO : resta ricercabile (i suoi termini sono nei postings), ma il testo originale non si può

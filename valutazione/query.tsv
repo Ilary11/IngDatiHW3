@@ -1,0 +1,11 @@
+id	query	bisogno
+Q01	contenuto "meta-blocking"	Come funziona il meta-blocking: grafo di blocking, pesatura e potatura degli archi
+Q02	contenuto "indice invertito"	Che cos'e' un indice invertito, come si costruisce e come si usa per rispondere alle query
+Q03	contenuto GAV LAV	Gli approcci GAV, LAV e GLAV per definire lo schema mapping
+Q04	contenuto precision recall motore ricerca	Come si valuta la qualita' di un motore di ricerca (precision, recall, P@K, MAP)
+Q05	contenuto equità	Equita' (fairness) dei sistemi decisionali automatici: ranking, selezione, classificazione
+Q06	contenuto wrapper XPath	Come si estraggono dati da pagine web con wrapper basati su XPath
+Q07	contenuto analyzer	Come Lucene analizza il testo: tokenizer, token filter e analyzer
+Q08	contenuto "data augmentation" "active learning"	Come addestrare un matcher di entity resolution con poche etichette
+Q09	contenuto tf-idf cosine	Ranking dei documenti con pesi tf-idf e cosine similarity
+Q10	contenuto shard repliche	Come Elasticsearch distribuisce indice e ricerca su piu' nodi

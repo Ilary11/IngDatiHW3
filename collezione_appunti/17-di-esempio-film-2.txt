@@ -1,0 +1,14 @@
+"oct 10, 2025 – dec 31, 2025").
+Film presenti: Inception, The Matrix, Crash, Forrest Gump.
+Platform2 (streaming 2).
+Attributi: Title , Runtime (minuti, "148 min"), Genre , Director , imdbID , starring , rent , buy , subscription .
+L'identificativo è l'ID IMDb (tt1375666).
+I titoli hanno forme diverse ("Matrix, The", "Crash (2004)").
+C'è anche The Godfather, assente in Platform1.
+Ci sono due prezzi (noleggio e acquisto, in euro) e un periodo di abbonamento in formato mm/dd/yyyy.
+Cast.
+Due tabelle.
+La prima descrive il film: id , title , idType , idValue , year , releaseDate , directedBy , musicBy , writtenBy .
+L'identificativo esterno è la coppia tipo/valore (imdb oppure tmdb).
+La data è in formato gg/mm/aaaa.
+La seconda lega film e attori: id (del film), Name , Character , cioè una relazione molti-a-molti tra Movie e Actor.

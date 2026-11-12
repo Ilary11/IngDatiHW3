@@ -1,0 +1,30 @@
+#pagine
+P
+R
+F
+Tempo
+soccer players
+5.850
+0,90
+0,93
+0,91
+80 s
+stock quotes
+4.703
+0,91
+0,86
+0,88
+67 s
+video games
+12.339
+0,93
+0,90
+0,91
+204 s
+books
+1.318
+0,94
+0,78
+0,84
+15 s
+Approcci simili: SWDE [HCPZ2011], non più su CodePlex (chiuso nel 2017) ma ancora il benchmark di riferimento (usato ad esempio da Evaporate, VLDB 2024, e XPath Agent, 2025); un altro lavoro Yahoo! [GRST2010]; OpenCeres [NAACL 2019]. Lezioni: l'eterogeneità è una sfida (unità di misura: kg, tonnellate, libbre, once, stone; approssimazioni e granularità diverse; rappresentazioni diverse come l × w × p), ma la ridondanza è un'alleata: le entità popolari ("head") stanno al gioco. La scalabilità è un problema: WEIR è O(n³). Collegamento: è lo stesso spirito della data fusion e del record linkage della data integration: sorgenti diverse sulla stessa entità, che qui servono per capire quali regole di estrazione sono giuste.

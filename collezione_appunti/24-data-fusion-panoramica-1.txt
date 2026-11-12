@@ -1,0 +1,1 @@
+Data fusion (panoramica) Dati un insieme di data item e di sorgenti, ciascuna delle quali fornisce valori per un sottoinsieme di item, la data fusion decide il valore (o i valori) vero per ciascun item. I conflitti nascono da errori di battitura, calcoli errati, informazioni obsolete. Nei film (mio esempio): le durate (136/137), il regista del Padrino, l'ID di Inception.

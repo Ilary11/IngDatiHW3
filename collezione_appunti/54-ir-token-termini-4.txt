@@ -1,0 +1,12 @@
+Di solito si definiscono classi di equivalenza implicite, ad esempio cancellando i punti (U.S.A., USA → USA) o i trattini (anti-discriminatory, antidiscriminatory → antidiscriminatory).
+Accenti e dieresi: résumé / resume, Tuebingen / Tübingen / Tubingen.
+Il criterio più importante è come gli utenti scriveranno le query: spesso non mettono gli accenti, quindi conviene normalizzare alla forma senza accenti (→ Tubingen).
+Date e forme diverse (7月30日 vs.
+7/30).
+Tokenizzazione e normalizzazione dipendono dalla lingua, quindi si intrecciano con il riconoscimento della lingua: "Morgen will ich in MIT…" contiene il tedesco "mit" o l'MIT?
+Case folding: ridurre tutto in minuscolo.
+Eccezioni: General Motors, Fed vs.
+fed, SAIL vs.
+sail.
+Di solito conviene comunque abbassare tutto, perché gli utenti scrivono in minuscolo.
+Esempi storici di Google: la query C.A.T.

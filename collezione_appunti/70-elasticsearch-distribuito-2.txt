@@ -1,0 +1,18 @@
+Index
+Una collezione di documenti
+ir-papers
+Shard
+Una partizione dell'indice, implementata come un indice Lucene
+Una partizione di ir-papers
+Segment
+Un'unità ricercabile dentro lo shard
+Un segmento Lucene
+Replica
+Una copia di uno shard primario, per la disponibilità
+Node
+Un'istanza del server Elasticsearch; può ospitare più shard di più indici
+Cluster
+Un insieme di nodi
+(La slide dice che lo shard permette la "vertical scaling": in realtà dividere un indice in shard su più nodi è scalabilità orizzontale, cioè si aggiungono macchine invece di potenziarne una.)
+Shard primari e repliche distribuiti su tre nodi.
+Gli shard vengono distribuiti sui nodi per massimizzare la ridondanza e bilanciare disco e carico: un primario e la sua replica stanno sempre su nodi diversi (nell'esempio: shard 0 primario su A e replica su B; shard 1 primario su C e replica su A), così se un nodo cade i dati sono ancora disponibili. Ricerca distribuita: fase di query e fase di fetch

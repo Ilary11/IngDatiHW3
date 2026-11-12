@@ -1,0 +1,14 @@
+Collegamento: è lo stesso ruolo del golden standard nel record linkage.
+Il giudizio di rilevanza si conosce solo su un campione, e serve per misurare quanto ci si può fidare del sistema sul resto.
+Valutare rispetto al bisogno, non alla query Il bisogno dell'utente viene tradotto in una query, ma la rilevanza si giudica rispetto al bisogno, non alle parole della query.
+Esempio: bisogno "il fondo della mia piscina sta diventando nero e va pulito", query "pool cleaner".
+Bisogna valutare se il documento risponde al bisogno, non se contiene quelle parole.
+Precision e recall (retrieval non ordinato) Rilevante
+Non rilevante
+Restituito
+tp
+fp
+Non restituito
+fn
+tn
+Precision P = tp / (tp + fp): frazione dei documenti restituiti che sono rilevanti, P(rilevante | restituito). Recall R = tp / (tp + fn): frazione dei documenti rilevanti che sono stati restituiti, P(restituito | rilevante). Misure basate sul ranking Con rilevanza binaria: Precision@K, Mean Average Precision (MAP), Mean Reciprocal Rank (MRR). Con più livelli di rilevanza: Normalized Discounted Cumulative Gain (NDCG).

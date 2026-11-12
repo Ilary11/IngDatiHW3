@@ -1,0 +1,7 @@
+8.
+Caso di studio 1: Vertex Gulhane et al., "Web-scale information extraction with Vertex", ICDE 2011.
+Coordinate: input DOM, output tabella, scope sito, supervisione con dati etichettati.
+È un sistema completo sviluppato da Yahoo!
+e usato in produzione, con tre componenti: clustering delle pagine, annotazione delle pagine (manuale) e apprendimento delle XPath.
+Clustering delle pagine Obiettivo: raggruppare le pagine strutturalmente simili (ipotesi: stessa struttura, stesso tipo di contenuto), ad esempio separare le pagine dei film da quelle dei registi.
+Il metodo si basa su una tecnica efficiente per trovare pagine duplicate (Broder et al., 1997): a ogni pagina si associa un insieme di shingle, dove uno shingle è una sequenza continua di l tag, ottenuta con una finestra scorrevole sulla sequenza dei tag.

@@ -1,0 +1,5 @@
+Come in WEIR: tante regole candidate, si tengono quelle che concordano.
+Risultati: Code+ usa 110× meno token di Direct (10.000 documenti per setting) e ha qualità migliore (F1 medio 66,7 contro 56,6); e l'aggregazione conta: con il semplice voto di maggioranza F1 = 56,2, con weak supervision (filtri e astensioni) 66,7.
+Agenti LLM che scrivono wrapper Ciclo: pagine seed e attributo target → l'LLM propone una XPath → la si esegue sulle pagine seed → si controllano valori mancanti, ridondanti o non validi → feedback all'LLM, per qualche iterazione.
+È la procedura manuale per scrivere un wrapper (scrivere regole alternative, testarle sulle pagine, tenere la migliore), automatizzata.
+Esempi: AutoScraper (Huang et al., EMNLP 2024) e XPath Agent (Li et al., 2025); XPath Agent su SWDE (90 siti, 9 domini) ottiene F1 da 0,73 a 0,85 a seconda dell'LLM.

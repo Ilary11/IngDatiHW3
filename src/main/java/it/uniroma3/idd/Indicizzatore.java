@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
@@ -38,24 +39,43 @@ public class Indicizzatore {
         Path cartellaIndice = Paths.get(args.length > 1 ? args[1] : "indice");
 
         // 1. Trovo tutti i .txt (anche nelle sottocartelle)
-        List<Path> files;
-        try (Stream<Path> s = Files.walk(cartellaTxt)) {
-            files = s.filter(Files::isRegularFile)
-                     .filter(p -> p.getFileName().toString().toLowerCase().endsWith(".txt"))
-                     .collect(Collectors.toList());
-        }
+        List<Path> files = trovaFileTxt(cartellaTxt);
         System.out.println("Trovati " + files.size() + " file .txt in " + cartellaTxt.toAbsolutePath());
 
-        // 2. Apro l'indice su disco. CREATE = se esiste già, lo ricrea da zero.
-        IndexWriterConfig config = new IndexWriterConfig(Analizzatori.perCampo());
-        config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-
+        // 2. Indicizzo su disco, misurando il tempo
         long inizio = System.nanoTime();
+        int indicizzati;
+        try (Directory dir = FSDirectory.open(cartellaIndice)) {
+            indicizzati = indicizza(files, dir, Analizzatori.perCampo());
+        }
+        long millis = (System.nanoTime() - inizio) / 1_000_000;
+
+        System.out.println("File indicizzati: " + indicizzati);
+        System.out.println("Tempo di indicizzazione: " + millis + " ms");
+        System.out.println("Indice salvato in: " + cartellaIndice.toAbsolutePath());
+    }
+
+    /** Restituisce tutti i file .txt della cartella, anche nelle sottocartelle, in ordine di nome. */
+    public static List<Path> trovaFileTxt(Path cartella) throws IOException {
+        try (Stream<Path> s = Files.walk(cartella)) {
+            return s.filter(Files::isRegularFile)
+                    .filter(p -> p.getFileName().toString().toLowerCase().endsWith(".txt"))
+                    .sorted()
+                    .collect(Collectors.toList());
+        }
+    }
+
+    /**
+     * Indicizza i file nella Directory indicata usando l'analyzer dato.
+     * CREATE = se l'indice esiste già, lo ricrea da zero. Restituisce il numero di file indicizzati.
+     * È un metodo a parte perché lo usa anche il programma di Valutazione.
+     */
+    public static int indicizza(List<Path> files, Directory dir, Analyzer analyzer) throws IOException {
+        IndexWriterConfig config = new IndexWriterConfig(analyzer);
+        config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
         int indicizzati = 0;
 
-        try (Directory dir = FSDirectory.open(cartellaIndice);
-             IndexWriter writer = new IndexWriter(dir, config)) {
-
+        try (IndexWriter writer = new IndexWriter(dir, config)) {
             for (Path file : files) {
                 // Nome senza estensione: ".txt" non è informativo, è in tutti i file
                 String nomeFile = file.getFileName().toString();
@@ -74,10 +94,6 @@ public class Indicizzatore {
             }
             writer.commit();
         }
-
-        long millis = (System.nanoTime() - inizio) / 1_000_000;
-        System.out.println("File indicizzati: " + indicizzati);
-        System.out.println("Tempo di indicizzazione: " + millis + " ms");
-        System.out.println("Indice salvato in: " + cartellaIndice.toAbsolutePath());
+        return indicizzati;
     }
 }

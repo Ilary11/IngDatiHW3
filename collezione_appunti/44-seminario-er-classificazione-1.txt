@@ -1,0 +1,11 @@
+A.1 Ripasso: l'entity resolution come classificazione L'entity resolution (detta anche entity matching, entity alignment, record linkage) si può vedere come un classificatore binario su coppie di record: uno stimatore E riceve due record (es. "iPhone 16 pro 2025" e "Apple iPhone, 2025 pro model") e risponde "match" oppure "non match". È esattamente il pairwise matching della sez. 14.1. Lo stimatore può essere di tre tipi: Stimatore Che cos'è
+Pro
+Contro
+ML
+Un modello di machine learning semplice su similarità sintattiche (es. edit distance, Jaccard fra i campi)
+Veloce ed economico
+Prestazioni basse: non capisce le differenze di significato
+PLM
+Un modello linguistico pre-addestrato (es. BERT) con fine-tuning per la classificazione: è l'approccio di DITTO
+Scalabile, modello piccolo
+Servono molti dati etichettati, e spesso esperti di dominio per etichettarli

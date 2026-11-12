@@ -1,0 +1,14 @@
+Ogni token è un candidato a diventare una voce dell'indice, dopo ulteriori elaborazioni.
+Ma quali token sono validi?
+Apostrofi e trattini: Finland's capital → Finland?
+Finlands?
+Finland's?
+Hewlett-Packard: uno o due token?
+state-of-the-art va spezzato?
+co-education, lowercase / lower-case / lower case?
+San Francisco: uno o due token?
+Numeri: 3/20/91, Mar.
+12, 1991, 20/3/91, 55 B.C., B-52, una chiave PGP, un numero di telefono (800) 234-2333.
+I vecchi sistemi spesso non indicizzavano i numeri, ma sono utili (si pensi a cercare un codice d'errore sul web).
+I metadati (data di creazione, formato) si indicizzano spesso a parte.
+Lingue: in francese "L'ensemble" (vogliamo che corrisponda a "un ensemble"); in tedesco i nomi composti non sono separati (Lebensversicherungsgesellschaftsangestellter, "impiegato di una compagnia di assicurazioni sulla vita"), e un modulo che spezza i composti può dare il 15% di prestazioni in più; cinese e giapponese non hanno spazi fra le parole, e il giapponese mescola più alfabeti (katakana, hiragana, kanji, romaji); arabo ed ebraico si scrivono da destra a sinistra ma i numeri da sinistra a destra.

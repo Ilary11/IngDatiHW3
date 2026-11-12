@@ -1,0 +1,18 @@
+F
+EU
+a (99)
+b (98)
+c (96)
+d (95)
+UK
+e (91)
+f (91)
+g (90)
+h (89)
+SEE
+i (87)
+l (87)
+m (86)
+n (83)
+La soluzione ottima rispetto ai vincoli ha punteggio totale 373. (Mio calcolo: sono a, b, g, m = 99+98+90+86; i maschi sono i due migliori UE, e le donne coprono UK e SEE.) Domanda etica: questa soluzione è equa? Abbiamo preso i migliori candidati UE maschi (a, b), ma non i migliori UK (e, f), né i migliori SEE (i, l), né le migliori candidate (c, d). Il punto è che i punteggi sono più rappresentativi all'interno di un gruppo che tra gruppi diversi: l'impegno necessario per ottenere un risultato dipende dalle circostanze. Se il nostro obiettivo è premiare l'impegno, il sistema non è equo. Esiste una soluzione alternativa con punteggio 372, appena inferiore, ma più equilibrata (mio esempio: a, c, e, m = 99+96+91+86). La slide la contrappone alla prima con due concetti: equità individuale: individui simili devono essere trattati in modo simile;
+equità di gruppo: i gruppi devono avere un trattamento equo.

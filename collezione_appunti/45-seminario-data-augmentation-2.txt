@@ -1,0 +1,6 @@
+Colonne: aggiungere nuove colonne, di solito con feature engineering.
+Celle: riempire valori mancanti o errati (imputazione: regressione, MICE).
+SMOTE (Synthetic Minority Over-sampling Technique): genera esempi sintetici della classe minoritaria interpolando fra un punto e uno dei suoi vicini più prossimi della stessa classe.
+Serve contro lo sbilanciamento delle classi (frodi, diagnosi mediche e, come vedremo, i match nell'ER).
+La formula è x′ = xi + λ · (xj − xi), con λ casuale in [0, 1]: il nuovo punto sta sul segmento fra xi e xj.
+(Nella slide è scritto |xi − xj| con il valore assoluto: la forma corretta usa la differenza con il segno, altrimenti il punto non cade fra i due.) Gaussian Mixture Model (GMM): rappresenta una distribuzione di probabilità come somma pesata di più gaussiane, p(x) = Σi φi 𝒩(μi, Σi), e si addestra con l'algoritmo ExpectationMaximization.

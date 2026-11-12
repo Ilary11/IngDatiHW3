@@ -1,0 +1,11 @@
+Così la stessa caratteristica può stare in una sola feature per alcune istanze e divisa in più attributi per altre, e metterle insieme è complesso.
+La definizione di "misto" è soggettiva, e il gruppo usa un approccio guidato dai dati.
+2.
+Attributi rumorosi (noisy): i valori contengono testo aggiuntivo, utile a un umano ma non a un processo automatico.
+Ad esempio "Memory: 16 GB (internal)" o la batteria con " (battery and charger supplied)".
+3.
+Sinonimi: nomi diversi con lo stesso significato, anche nella stessa sorgente.
+Ad esempio "Memory: 8 GB" in una specifica e "RAM: 8 GB" in un'altra.
+4.
+Omonimi: stesso nome con significato diverso, anche nella stessa sorgente.
+Ad esempio Battery : in un'istanza indica la chimica ("Ni-mh"), in un'altra la marca ("Duracell").

@@ -1,0 +1,1 @@
+14.6 La nuova pipeline Con il meta-blocking la pipeline del record linkage diventa: blocking → meta-blocking → pairwise matching → clustering.

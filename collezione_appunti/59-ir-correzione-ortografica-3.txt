@@ -1,0 +1,8 @@
+Richiede una matrice dei pesi.
+Sovrapposizione di n-grammi (vedi sotto).
+Uso dell'edit distance: data la query, si enumerano tutte le sequenze entro una certa distanza (es.
+2), si intersecano con la lista di parole corrette e si mostrano all'utente come suggerimenti.
+In alternativa si cercano tutte le correzioni nell'indice (lento) oppure si usa la sola correzione più probabile (il "Showing results for…" di Google): questo toglie scelta all'utente ma risparmia un giro di interazione.
+Calcolare l'edit distance con tutti i termini del dizionario è costoso.
+Per ridurre i candidati si può usare la sovrapposizione di n-grammi, che si può anche usare da sola per la correzione.
+Sovrapposizione di n-grammi Si enumerano gli n-grammi della query e del lessico, si usa l'indice di n-grammi (lo stesso delle wildcard) per trovare i termini che condividono n-grammi con la query, e si tiene chi supera una soglia di n-grammi in comune.

@@ -1,0 +1,13 @@
+Pruning.
+Si eliminano gli archi di peso basso; solo quelli rimasti vanno al pairwise matching.
+Uno schema di pruning combina: un algoritmo: edge-centric (EP) tiene gli archi migliori a livello globale, node-centric (NP) gli archi migliori di ogni nodo; un criterio: weight-based (W) tiene gli archi sopra una soglia, cardinality-based (C) tiene i top-k archi.
+Edge-centric
+Node-centric
+Weight
+WEP
+WNP
+Cardinality
+CEP
+CNP
+🗣️ APPUNTI LEZIONE 19/10
+Poi si "ripulisce" il grafo. Serve un algoritmo, centrato sugli archi (guarda il grafo nel suo insieme) o sui nodi (per ciascun nodo considera quali sono i suoi archi migliori). Serve anche un criterio: basato sul peso (tiene gli archi oltre una certa soglia) oppure sulla cardinalità (tiene i primi k archi). Esempio (slide 132–133). Blocking graph con pesi CBS: 39 archi, 17 "forti" (peso 3 o 4) e 22 "deboli" (peso 1 o 2); peso medio 96/39 = 2,46.

@@ -1,0 +1,8 @@
+L.7 Elasticsearch: andare in distribuito Elasticsearch è un motore distribuito di ricerca e analisi costruito su Lucene: scalabile: da migliaia a miliardi di documenti; flessibile: dati strutturati, semistrutturati e non strutturati; performante: ottimizzato per ricerca full-text, ricerca vettoriale e aggregazioni; analisi in tempo reale su flussi di dati; con diverse licenze e offerte di servizio. Lo usano, fra gli altri, BBC, NVIDIA, Adobe, Workday, The New York Times, Sky, il Jet Propulsion Laboratory della NASA e Stack Overflow. L'idea: una collezione di paper diventa un indice Elasticsearch con più shard. Le entità principali Entità
+Che cos'è
+Nell'esempio
+Document Un documento JSON
+Il JSON di p01, con _id stabile = p01
+Field
+Un campo del documento
+title, abstract, year, category, embedding

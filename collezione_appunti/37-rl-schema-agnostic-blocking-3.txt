@@ -1,0 +1,2 @@
+I blocchi dello schema-agnostic blocking: c1 (Samsung, Apple), c2 (Black, Blue) e le coppie di valori in (c3, c4) o (c6, c7).
+🗣️ APPUNTI LEZIONE 16/10 Con schemi disallineati, l'OR fra due funzioni di blocking su colonne fisse non dà soluzioni ottimali; facendo blocking su tutti i valori, senza sapere in che colonna stanno, ottengo i blocchi in figura.

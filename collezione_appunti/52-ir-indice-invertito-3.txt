@@ -1,0 +1,9 @@
+Le fasi iniziali di elaborazione del testo sono: tokenizzazione: tagliare la sequenza di caratteri in token (come gestire "John's", "stateof-the-art"?); normalizzazione: portare testo e query nella stessa forma (U.S.A.
+e USA devono corrispondere); stemming: far corrispondere forme diverse della stessa radice (authorize, authorization); stop words: eventualmente omettere le parole molto comuni (the, a, to, of).
+I passi dell'indexer: 1.
+Sequenza di token: si produce la sequenza di coppie (token modificato, docID).
+Esempio con due documenti: Doc 1 "I did enact Julius Caesar I was killed i' the Capitol; Brutus killed me." e Doc 2 "So let it be with Caesar.
+The noble Brutus hath told you Caesar was ambitious".
+2.
+Ordinamento: si ordina per termine e poi per docID.
+È il passo centrale dell'indicizzazione.

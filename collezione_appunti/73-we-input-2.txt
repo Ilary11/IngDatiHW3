@@ -1,0 +1,6 @@
+Estrarre i dati è facile; le difficoltà sono tabelle unite o annidate, e soprattutto interpretarle e integrarle.
+Nel crawl della surface web di Google [CHW+08]: 154M tabelle relazionali "buone", 5,4M nomi di attributo, 2,6M schemi.
+Pagine annotate L'estrazione sarebbe banale se le pagine fossero annotate semanticamente.
+Ci sono stati molti tentativi (microformats, microdata); ha vinto schema.org, promosso dai principali motori di ricerca.
+Le annotazioni possono stare dentro l'HTML (microdata: attributi come itemprop="name" , itemprop="address" ) oppure in un blocco JSON-LD separato: nell'esempio della slide, la pagina di una tazza in ceramica ha nell' <head> uno <script type="application/ld+json"> con @type: Product , nome, sku, offerta (prezzo 14,99 EUR, disponibilità) e voto medio (4,8 su 24 recensioni).
+Questi dati sono invisibili all'utente ma leggibili dalle applicazioni; il contenuto visibile sta nel <body> .

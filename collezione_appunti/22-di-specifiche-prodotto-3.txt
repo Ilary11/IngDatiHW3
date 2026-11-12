@@ -1,0 +1,6 @@
+Quindi ogni attributo è usato in media da circa il 10% delle specifiche: pochi attributi compaiono in tutte, la maggior parte è rara.
+Distribuzione in una sorgente.
+Tipica coda lunga: "Brand" è presente nel 98% delle specifiche di una sorgente, "Aperture Range" nello 0,6% delle specifiche.
+(Nelle note: Chris Anderson, giornalista, 2004, la long tail: nelle code lunghe sta gran parte del valore.) Quattro tipi di eterogeneità 1.
+Attributi misti (mixed): un attributo raggruppa valori che in altre specifiche sono attributi atomici, senza uno schema fisso.
+Ad esempio in una specifica eBay ci sono "Color: Black" e "Memory: 16 GB" separati e "Battery: Rechargeable Li-ion Battery NB-4L (battery and charger supplied)" tutto in un campo; in un'altra c'è "Features: Black, 16 GB", e la batteria è divisa in "Battery model: NB-4L" e "Battery chemistry: Li-ion".

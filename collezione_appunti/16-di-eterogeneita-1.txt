@@ -1,0 +1,2 @@
+2. Perché è difficile: l'eterogeneità La difficoltà nasce dal fatto che l'eterogeneità è ovunque, in quattro forme: 1. formati dei dati diversi; 2. modi diversi di esprimere le stesse classi e gli stessi attributi (nomi e strutture diverse per lo stesso concetto); 3. riferimenti diversi alla stessa entità (lo stesso film o la stessa persona scritti in modi diversi);
+4. valori in conflitto (due sorgenti dicono cose diverse sulla stessa proprietà della stessa entità).

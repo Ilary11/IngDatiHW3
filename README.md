@@ -1,17 +1,28 @@
 # Homework 3 – Ingegneria dei Dati
 
-Indicizzazione e ricerca di file `.txt` con Apache Lucene 9.
+Indicizzazione, ricerca e valutazione di file `.txt` con Apache Lucene 9.
+
+Autrice: Ilaria Puliani – ila.puliani1@stud.uniroma3.it
 
 ## Cosa serve sul tuo computer
 - Java 17 o più recente (`java -version`)
-- Maven (`mvn -version`), oppure IntelliJ IDEA, che ha Maven incluso
+- Maven (`mvn -version`), oppure un IDE con Maven incluso (VS Code con Extension Pack for Java, IntelliJ, Eclipse)
+
+## Contenuto del repository
+| Percorso | Cosa contiene |
+|---|---|
+| `src/main/java/it/uniroma3/idd/` | `Analizzatori`, `Indicizzatore`, `Ricerca`, `Valutazione` |
+| `dati_di_prova/` | 12 file scritti a mano, per provare le funzionalità |
+| `collezione_appunti/` | 200 file di testo reale (appunti del corso), per la valutazione |
+| `valutazione/` | query, giudizi di rilevanza, script di costruzione della collezione, risultati |
+| `genera_corpus.py` | generatore di corpus sintetici, per misurare i tempi su 100–10.000 file |
 
 ## 1. Indicizzare
 ```
 mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Indicizzatore -Dexec.args="dati_di_prova"
 ```
 Al posto di `dati_di_prova` puoi mettere qualsiasi cartella del tuo computer che contiene file `.txt`.
-Il programma stampa il numero di file indicizzati e il tempo impiegato, che servono per la relazione.
+Il programma stampa il numero di file indicizzati e il tempo impiegato.
 L'indice viene salvato nella cartella `indice`.
 
 ## 2. Cercare
@@ -25,6 +36,25 @@ query> contenuto "indice invertito"
 query> esci
 ```
 
+## 3. Valutare
+```
+mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Valutazione
+```
+Indicizza `collezione_appunti` in memoria due volte (analyzer del progetto e, come baseline, `StandardAnalyzer`
+sul contenuto), esegue le 10 query di `valutazione/query.tsv` e calcola per ognuna precision, recall, F1, P@10
+e average precision, più le medie (MAP). Elenca anche i documenti rilevanti non trovati.
+I risultati vengono salvati in `valutazione/risultati.txt`.
+
+### Come è costruita la collezione di valutazione
+`valutazione/costruisci_collezione.py` prende il testo degli appunti del corso (esportato dal PDF con `pdftotext`),
+lo divide in 83 sezioni riconoscendone i titoli e spezza ogni sezione in file da circa 120–250 parole.
+`valutazione/sezioni.tsv` dice da quale sezione viene ogni file.
+Per ogni query è definito un bisogno informativo e le sezioni che lo soddisfano: tutti i file di quelle sezioni
+sono rilevanti (`valutazione/qrels.tsv`), gli altri no.
+```
+python valutazione/costruisci_collezione.py appunti.txt collezione_appunti valutazione
+```
+
 ## Misurare i tempi su collezioni più grandi
 Lo script `genera_corpus.py` genera un corpus sintetico riproducibile (seed fisso), usando il vocabolario di `dati_di_prova`:
 ```
@@ -32,7 +62,7 @@ python genera_corpus.py corpus_1000 1000
 mvn compile exec:java -Dexec.mainClass=it.uniroma3.idd.Indicizzatore -Dexec.args="corpus_1000 indice_1000"
 ```
 
-## Query di test (su `dati_di_prova`)
+## Query di prova (su `dati_di_prova`)
 | # | Query | Che cosa verifica |
 |---|-------|-------------------|
 | 1 | `nome blocking` | divisione del nome sul trattino e sullo spazio: trova `record-linkage-blocking` e `Meta Blocking` |
